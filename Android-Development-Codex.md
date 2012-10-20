@@ -6,6 +6,12 @@ Key to this guide is the heavy use of templates to reduce redundancy, device spe
 
 This is a community-created analog to the Official XDA Developers Book, but extended to all devices.
 
+## Sections
+
+* [[Introduction]] - Why should we make a unified guide for development? What's wrong with the status quo? What's the goal of this guide?
+* [[Pre-Install Setup]] - Get all your tools ready before going on the road to modding.
+* [[Device Rooting/Recovery Guides|]] - The core of this guide. Customized guides for every de
+
 ## Q&A
 
 ### Why make a monolithic guide? Just go to the forums.
