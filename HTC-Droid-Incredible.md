@@ -9,7 +9,7 @@ The HTC Droid Incredible lives up to it's name; it has the strong aesthetic desi
 * **Ease of Rooting/Custom ROMs:** Grueling downgrade with ADB, No GUIs
 * **Range:** Verizon Wireless Exclusive, United States
 * **Dev Community Health:** Acceptable, declining
-* **Stock Android Version:** Android 2.3.4 GB with HTC Sense 1.0
+* **Latest Stock Android Version:** Android 2.3.4 GB with HTC Sense 1.0
 * **Optimal Android Version:** Android 4.0 ICS
 
 ## Disclaimer
