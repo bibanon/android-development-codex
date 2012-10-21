@@ -8,6 +8,28 @@ Eventually, they managed to stuff not just each of the newest versions of Androi
 
 As of this writing, even the venerable HD2 is beginning to feel a bit dated, but it's safe to say that it will still be loved for quite a while longer. 
 
+## Issues
+
+* HD2 History may contain some problems... please fix if you see them
+* It's not adequately explained how to flash a new radio...
+* finish up the ClockworkMod recovery guide, how to install to MAGLDR and cLK
+* Make guide to variants and how to identify them
+* Stock is SPL/OSPL, HSPL is the engineering SPL
+* Suck in guide to NativeSD, it's very unclear even at the source
+* Suck in single SDCard guide
+* The Accessories guide sucks
+* Add guide to Debian Linux on HD2
+* Create a "Credits" section with all the names of the people whose work was used in this guide...
+* Finish NativeSD Boot switch app guide
+
+## Glossary
+
+> Should be imported like a Mediawiki Template...
+
+* [[Glossary Windows]]
+* [[Glossary HTC HD2]]
+* [[Glossary Android]]
+
 ## What makes the HD2 so special?
 
 > _This is a long bit of history about why the HTC HD2 became what it is today, and what technologies gave it such abilities. You don't need to know this to use the phone, but it's good to know how things came together_
