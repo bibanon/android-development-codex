@@ -1,5 +1,3 @@
-# HTC HD2
-
 The HTC HD2 is truly the dream phone of the mobile world, and a testament to the golden age of HTC. Upon it's release in late 2009, it had a huge screen of unprecedented size (for it's time), half a gig of memory, and a 1 GHz Qualcomm Snapdragon processor. What's there not to like?
 
 There was only one crippling flaw; it was stuck on the dated and later abandoned Windows Mobile 6.5, in a time where Windows Phone 7 was in the cards, iPhone was king and Android was quickly catching up.
@@ -10,13 +8,27 @@ Eventually, they managed to stuff not just each of the newest versions of Androi
 
 As of this writing, even the venerable HD2 is beginning to feel a bit dated, but it's safe to say that it will still be loved for quite a while longer. 
 
-## Regarding Sources and Credits
+## Issues
 
-Unfortunately, as a result of the HD2's messy evolution, there are a confusing mess of tutorials on the XDA forums that can cause many a brick, and as such I have made one monolithic one to better educate newcomers and keep up with new developments.
+* HD2 History may contain some problems... please fix if you see them
+* It's not adequately explained how to flash a new radio...
+* finish up the ClockworkMod recovery guide, how to install to MAGLDR and cLK
+* Make guide to variants and how to identify them
+* Stock is SPL/OSPL, HSPL is the engineering SPL
+* Suck in guide to NativeSD, it's very unclear even at the source
+* Suck in single SDCard guide
+* The Accessories guide sucks
+* Add guide to Debian Linux on HD2
+* Create a "Credits" section with all the names of the people whose work was used in this guide...
+* Finish NativeSD Boot switch app guide
 
-Nearly all the content in this guide is a consolidation and rewrite of the groundbreaking work of others. I have attempted to find all the people whose contents and guides are a part of this compilation, with the credits and source links below. However, if you feel that your name and guide is not in the credits, contact us and we'll put you in.
+## Glossary
 
-The source forum posts of this guide can be found at the end for your perusal.
+> Should be imported like a Mediawiki Template...
+
+* [[Glossary Windows]]
+* [[Glossary HTC HD2]]
+* [[Glossary Android]]
 
 ## What makes the HD2 so special?
 
@@ -42,31 +54,21 @@ In the space of a year, the HD2 had gained all of it's signature features, quick
 
 The HD2 is a product of unparalleled design, bad luck, and a massive community's fight to turn lemons into lemonade by giving this lost phone a second life. Who knows when such an arrangement will occur again, or if anything can even think of equaling the HD2's abilities?
 
-## Before Jumping In
+## The benefits of modding the HD2
 
-If your HD2 is currently on stock Windows Mobile 6.5, it's well worth taking the jump to a whole new world and a whole new phone experience. That said, you should be wary of the risks, and make sure to avoid them.
+If your HD2 is currently on stock Windows Mobile 6.5, it's well worth taking the jump to a whole new world and a whole new phone experience. Let's look at the many benefits. 
 
-Now let's look at the many benefits. No phone to date has ever matched the versatility of the HD2, and unfortunately, it does not seem like there will be anything like it in the future.
+No phone to date has ever matched the versatility of the HD2, and unfortunately, it does not seem like there will be anything like it in the future.
 
 * Ability to use a multitude of modern, stable phone OSes
   * Android (currently up to 4.1 Jelly Bean as of 9/28/12)
   * Windows Phone 7 (up to 7.8 as of 9/28/12)
   * Linux (Fully featured, no-holds-barred Debian Linux ARM)
-  * Quite a few more (and some others under research, like WebOS and Firefox OS)
+  * Quite a few more (and some others under research, like Tizen and Firefox OS)
 * Ability to dual-boot Android from SDCard and Windows Phone 7 on phone memory with MAGLDR
 * cLK can make the HD2 work like an ordinary Android device with adb and fastboot
 
 Pretty amazing for a 3 year old phone. Not even the greatest of Google's Nexus devices can stand up to the HD2's longevity and versatility.
-
-But of course, you need to be wary of the risks. Some major mistakes could cause:
-
-* Data Loss
-* Soft-Bricking (a bit difficult to get out of)
-* Hard-Bricking (Your phone is completely useless for the time being)
-
-If you follow these instructions correctly, you will be fine. However, we take no responsibility for damaged devices or lost data as a result of following this guide or using any tools outlined in it.
-
-Remember, **If you don't fully understand the implications, don't do it.**
 
 ### HD2 Models
 
@@ -335,7 +337,7 @@ ClockworkMod is the most famous of these.
 
 [NativeSD](http://forum.xda-developers.com/showthread.php?t=1869673) is an exciting new project that fully utilizes the greater space and faster speeds of the microSD cards. Rather than using a chroot image on dated FAT, you will need create a purpose-built ext4 partition on the card.
 
-More info can be found in the link, the project is a bit dynamic and we don't want to end up with outdated info.
+More info can be found in the link, the project is a bit dynamic and we don't want to end up with outdated info. (Actually, we do want to clear up a method. Will write stuff here soon...)
 
 ### Android (SDCard)
 
@@ -397,7 +399,9 @@ I don't like screen protectors at all, and the HD2's Gorilla Glass does a pretty
 
 ### Android
 
-Check out the generic [[Android Modifications]] page for more details. There are just too many to list here.
+#### NativeSD ROM Switcher
+
+One great be
 
 ### WP7
 
@@ -442,10 +446,10 @@ The first method simply saves settings and data, so it will be useful when migra
 
 1. Before flashing new ROM, you can save desired applications settings and game saves.
 1. You can’t backup complete app or game, only settings and saves.
-1. Download [**Windows Phone Device Manager (WPDM) v1.10.0.0**](http://www.touchxperience.com/en/applications/summary/22/33.html), install, run and sync with HTC HD2
+1. Download [**Windows Phone Device Manager (WPDM) v1.10.0.0**](http://www.touchxperience.com/en/applications/summary/22/33.html), install, run and sync with your phone
 1. Go to **Manage applications**, wait to scan for installed apps be done
 1. Select desired apps or game which you want backup, right click an select Backup.
-1. To restore backup, install fresh app or game to device, run **WPDM** and sync HTC HD2, then run backup file on your PC.
+1. To restore backup, install fresh app or game to device, run **WPDM** and sync your phone, then run backup file on your PC.
 
 Another method, introduced in WPDM v.10.0.0, is to make a Complete Zune Backup. This will allow you to restore an older system with all it's data if you don't like the new ROM.
 
