@@ -12,7 +12,7 @@ As of this writing, even the venerable HD2 is beginning to feel a bit dated, but
 
 * HD2 History may contain some problems... please fix if you see them
 * It's not adequately explained how to flash a new radio...
-* finish up the ClockworkMod recovery guide
+* finish up the ClockworkMod recovery guide, how to install to MAGLDR and cLK
 * Make guide to variants and how to identify them
 * Stock is SPL/OSPL, HSPL is the engineering SPL
 * Suck in guide to NativeSD, it's very unclear even at the source
