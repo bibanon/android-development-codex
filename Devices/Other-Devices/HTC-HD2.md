@@ -10,6 +10,7 @@ As of this writing, even the venerable HD2 is beginning to feel a bit dated, but
 
 ## Issues
 
+* HD2 History may contain some problems... please fix if you see them
 * It's not adequately explained how to flash a new radio...
 * finish up the ClockworkMod recovery guide
 * Make guide to variants and how to identify them
