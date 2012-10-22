@@ -17,6 +17,7 @@ As of this writing, even the venerable HD2 is beginning to feel a bit dated, but
 * Stock is SPL/OSPL, HSPL is the engineering SPL
 * Suck in guide to NativeSD, it's very unclear even at the source
 * Suck in single SDCard guide
+* The Accessories guide sucks
 * Create a "Credits" section with all the names of the people whose work was used in this guide...
 * Finish NativeSD Boot switch app guide
 
