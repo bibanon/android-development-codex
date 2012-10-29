@@ -24,7 +24,7 @@ The Android Development Codex is based on six principles:
 * **One customized guide for every device family.** Every device is special in some way. The XDA Developers Book is great, but even the most general of rooting guides cannot tackle the thousands of unique circumstances that exist in every device. Rooting, Unlocking, Downgrading, and other unique things are under this umbrella.
 * **Always provide a manual method.** Automatic "one-click" roots are great, but manufacturers are always out to patch the latest method. If we don't know how to do it by hand, we can't really find much of a solution.
 * **Ensure that all required files are accessible and stay accessible.** Eventually, all good things must come to an end, and when people are no longer around to sweep the grounds, link rot sets in. This is very, very bad; one of the archives could contain a vital rooting program, and there would be no way to recover it. Just remember the fall of Megaupload. Always have multiple mirrors for every file, and perhaps archive everything into the Internet Archive when the community is gone.
-
+* **The ultimate goal is to transform a layman into a developer.** For most people nowadays, modding mobile phones is their gateway into the workings of the computers that control our lives today, just like home computers were in the 80s. The Codex needs to clearly show how anyone can become an XDA-Developer and participate as enlightened individuals, rather than as mere participants.
 
 ## Why make a monolithic guide? Just go to the forums.
 
