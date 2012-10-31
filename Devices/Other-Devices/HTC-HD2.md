@@ -329,6 +329,10 @@ If you are installing Android ROMs, you also need to install a recovery image. T
 
 ClockworkMod is the most famous of these.
 
+(needs fleshing out)
+
+* forum post: http://forum.xda-developers.com/showthread.php?t=898913
+* linx: http://forum.xda-developers.com/showpost.php?p=29167786&postcount=1383
 #### Installing a ROM with ClockworkMod
 
 (use a template for this?)
