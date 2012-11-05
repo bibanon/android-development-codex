@@ -146,27 +146,16 @@ MAGLDR is the first, and best-known bootloader for the HD2. As such, it is the b
 #### Installing MAGLDR 1.13
 
 1. Open the **HD2 Toolkit** previously downloaded.
-
 1. Make sure that your phone's battery is more than 50% charged! MAGLDR cannot charge the battery, only the operating system is able to.
-
 1. Power off phone.
-
 1. Press and hold *volume down + end* until the HSPL (multi-colored) screen appears. Make sure that it says `CotullaHSPL`.
-
 1. Plug in your USB cord to your phone. At the bottom of your Phone it should say `SERIAL` until your USB is connected. Once USB is connected it should say `USB` at the bottom.
-
 1. The bottom of your phone will change from saying `Serial to USB`
-
 1. Click on the bottom right hand button that says `Install Magldr`
-
 1. Install by following on screen directions. (press end key)
-
 1. Remove battery
-
 1. Replace battery and power on the phone.
-
 1. MAGLDR is now installed! 
-
 1. You now need to install Android or Windows Phone 7 to your phone, it does not have an OS at the moment.
 
 ### cLK
@@ -192,47 +181,29 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs, and 
 #### Installing cLK 1.5
 
 1. Download the latest cLK from [this thread.](http://forum.xda-developers.com/showthread.php?t=1114053)
-
 2. Unzip file to someplace convenient.
-
 3. Open HD2 Toolkit.
-
 4. Shutdown phone.
-
 5. Press volume down + end key and hold until tri-colored screen appears.
-
 6. Format with **Wipe (Task 29)** using the HD2 toolkit. The phone will no longer have an OS of any kind, so get to the tri-colored screen again.
-
 7. On bottom left of HD2 toolkit theirs an option to **Install Custom RUU**, click **Browse**.
-
 8. Navigate to the place you previously unzipped `leoimg.nbh` and select that file.
-
 9. Click **Install RUU**. 
-
 10. You're done, now install some new OSes! Jump to the [[next section.|HTC HD2#Installing Operating Systems with cLK]]
 
 #### Installing CLK 1.5 Without USB
 
-> **Note: This method is dangerous, you should only use this method if your USB port is broken.**
+> **Note: This method is slightly more prone to bricking, you should only use this method if your USB port is broken.**
 
 1. Format SD card.
-
 2. Download **cLK v 1.5** (The attached `LEOIMG.zip` file)
-
-3. Extract this file somewhere convenitent
-
+3. Extract this file somewhere convenient
 4. Put `leoimg.nbh` (from the `LEOIMG.zip` file) onto root of SD card.
-
 5. Power off phone.
-
 6. Press *volume down + end* .
-
 7. Install by following on screen directions. (press end key)
-
 8. Remove the battery.
-
 9. Replace battery and power on the phone.
-
 10. Power up phone, and you will have cLK.
 
 ## Installing Operating Systems with MAGLDR
@@ -378,23 +349,26 @@ When menu pops up select **Browse My Computer**.
 
 Select the folder of drivers you previously downloaded, click **Next**, and the drivers will be installed.
 
+### Using cLK after installing Android
+
+* Holding down any key ( except power ) will show text console
+* Holding down the **Home key** will enter Recovery
+* Holding down the **Back Key** will enter fastboot mode
+
+
 ### Flashing ClockworkMod Recovery
 
 1. Open HD2 Toolkit. Make sure your HD2 is plugged in.
-
 2. Select **cLK Install Recovery**.
-
 3. Under **Functions**, click **Install**.
-
 4. A dialog box will pop up. Press **Yes**, since Android has not yet been installed.
-
 5. A Command Prompt will pop up. Follow the directions to flash (press **Enter** twice).
-
 6. Once the flash is complete, press **Enter** to return to the HD2 Toolkit.
-
 7. The device will reboot twice, taking you back to cLK.
 
 ### Flashing ROMs with ClockworkMod
+
+(use a template for this)
 
 ## Full Restore to Stock WM6.5
 
@@ -507,7 +481,7 @@ Before throwing it in the bin, check that the pin connections actually touch the
 
 ### My HD2 won't charge! (just installed MAGLDR)
 
-If MAGLDR was just installed, note that it cannot charge the battery.when fully powered off; your HD2 will only charge once it has booted into an operating system. That's why it is imperative to have your battery more than 50% charged when first installing MAGLDR.
+If MAGLDR was just installed, note that it cannot charge the battery when fully powered off; your HD2 will only charge once it has booted into an operating system. That's why it is imperative to have your battery more than 50% charged when first installing MAGLDR.
 
 Your phone is not dead yet, though. Just buy a cheap external battery charger and your HD2 will work again. It's also advantageous to have two or more batteries so that you can just switch them out and lose the downtime of having to plug in your phone.
 
