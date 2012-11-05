@@ -493,6 +493,10 @@ The solution is to disable headset commands from your music player app. If it ca
 
 If you want to use your normal headphones, you need to get a "audio input/output splitter", which will redirect the headset band to nothing, and also allow you to use conventional microphones with the HD2. This is nice to get, especially now that new laptops are using the same 3 ring jack.
 
+### My HD2's Power Button is broke! (Or I need to remap keys)
+
+See the [[Key Remapping]] guide.
+
 ## Sources
 
 Nearly all the information in this guide comes from these sources. I just rewrote and updated some of it. Kudos to all the developers who made these guides, and those who made the HD2 what it is; we couldn't have done it without you.
