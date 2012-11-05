@@ -2,17 +2,6 @@
 
 The initial list of devices supported in this guidebook is limited by the amount of devices accessible to the writers. If you are able to, please consider helping out and making a guide for your device.
 
-### Stance
-
-The development stance of a device determines how many roadblocks the manufacture has placed against modding on that device. It is not the same as ease of modding, but they do correlate.
-
-Here are the levels in order:
-
-* **Developer Friendly** - The ideal stance for a product. This means unlocked bootloader, easy flashes, all the works.
-
-* **Developer Unfriendly** - Utterly locked down, but there are some workarounds.
-* **Hopeless** - There is no hope for this device working ideally anytime in the future. Give up all hope (and buy a new device).
-
 ### HTC
 
 HTC is a young Taoyuan, Taiwan based smartphone company that started out as a no-name brand designing the first Pocket PCs. HTC later became famous for creating the first and the best Android smartphones, for a while.
@@ -40,4 +29,4 @@ Motorola Mobility is an out-of-touch old-timer company that manages to create fl
   
 ### Other
 
-* [[Nook Color]] = **Status:**
+* [[Nook Color]] - **Status:**
