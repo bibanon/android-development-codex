@@ -170,16 +170,16 @@ MAGLDR is the first, and best-known bootloader for the HD2. As such, it is the b
 
 ### cLK
 
-cLK is a hot new bootloader that is fully open-sourced, still updated to this day, and professes to make your HD2 work similarly to any ordinary Android device. It's a better choice if you only plan to use Android ROMs.
+cLK is a hot new bootloader that is fully open-sourced, still updated to this day, and professes to make the HD2 as close to a normal Android device as possible, with HBOOT and fastboot support. It's a better choice if you only plan to use Android ROMs.
 
-Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. However, it will be good to watch it's progress, since is the most promising bootloader available for the HD2.
+Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs, and has no RMNET support. However, it will be good to watch it's progress, since is the most promising bootloader available for the HD2.
 
 #### Features
 
 * Off-Mode Charging
 * Ability to resize partitions without a computer
-* Connection Type = PPP
-* Better ROM manger support
+* Connection Type = PPP, no RMNET
+* Better ROM manager support
 * Faster bootup
 * Works better in general
 * Never seen after install unless needed
@@ -190,9 +190,7 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. Howe
 
 #### Installing cLK 1.5
 
-Note: This method is based on cLK 1.5, which is currently labeled as a release candidate. A guide for cLK 1.4 can be found [here](http://tech.memoryx2.com/bootLoaderCLKtoolkit).
-
-1. Download the attached Leoimg file.
+1. Download the latest cLK from [this thread.](http://forum.xda-developers.com/showthread.php?t=1114053)
 
 2. Unzip file to someplace convenient.
 
@@ -202,17 +200,19 @@ Note: This method is based on cLK 1.5, which is currently labeled as a release c
 
 5. Press volume down + end key and hold until tri-colored screen appears.
 
-6. Task 29 on HD2 toolkit.
+6. Format with **Wipe (Task 29)** using the HD2 toolkit. The phone will no longer have an OS of any kind, so get to the tri-colored screen again.
 
-7. On bottom left of HD2 toolkit theirs an option to install custom ruu, click browse.
+7. On bottom left of HD2 toolkit theirs an option to **Install Custom RUU**, click **Browse**.
 
-8. Navigate to the place you previously unzipped leoimg and select the .nbh file.
+8. Navigate to the place you previously unzipped `leoimg.nbh` and select that file.
 
-9. Click install ruu. You're done, now install some new OSes!
+9. Click **Install RUU**. 
+
+10. You're done, now install some new OSes! Jump to the [[next section.|HTC HD2#Installing Operating Systems with cLK]]
 
 #### Installing CLK 1.5 Without USB
 
-**Note: This method is dangerous, you should only use this method if your USB is broken.**
+> **Note: This method is dangerous, you should only use this method if your USB port is broken.**
 
 1. Format SD card.
 
@@ -359,6 +359,42 @@ Running full-blown Linux works similarly to the old Android SDCard method; you j
 
 ## Installing Operating Systems with cLK
 
+### Install Generic Google ADB Drivers
+
+In order to install a recovery, you will need to install the drivers to interface with cLK.
+
+* [Uploaded.to - Google ADB Drivers](http://uploaded.net/file/ypksx8zb)
+
+After that, power on phone and it should boot into cLK.  When Windows prompts you to install drivers, select the folder where you extracted them.
+
+Power on phone and it should boot into cLK. Plug up to computer then do this from the start menu:
+
+    Start>Control Panel>Hardware & Sound>Device Manager
+
+An 'unknown device' should be shown. Right click it and select **Update driver software**.
+
+When menu pops up select **Browse My Computer**.
+
+Select the folder of drivers you previously downloaded, click **Next**, and the drivers will be installed.
+
+### Flashing ClockworkMod Recovery
+
+1. Open HD2 Toolkit. Make sure your HD2 is plugged in.
+
+2. Select **cLK Install Recovery**.
+
+3. Under **Functions**, click **Install**.
+
+4. A dialog box will pop up. Press **Yes**, since Android has not yet been installed.
+
+5. A Command Prompt will pop up. Follow the directions to flash (press **Enter** twice).
+
+6. Once the flash is complete, press **Enter** to return to the HD2 Toolkit.
+
+7. The device will reboot twice, taking you back to cLK.
+
+### Flashing ROMs with ClockworkMod
+
 ## Full Restore to Stock WM6.5
 
 If for any reason you need to go back to stock (like for servicing), just follow these steps. Note that you will have to install everything back again, just like a new HD2.
@@ -500,6 +536,7 @@ Nearly all the information in this guide comes from these sources. I just rewrot
 * [XDA-Developers - Install cLK, cLK 1.5, CWM and a NAND rom](http://forum.xda-developers.com/showthread.php?t=1402975)
 * [PDAImateJam ROM Install Tutorial](http://forum.xda-developers.com/attachment.php?attachmentid=954899&d=1332181049)
 * [PDAImateJam ROM Install Video](http://youtu.be/jhuR59UXw_4)
+* [XDA-Developers - Installing Google Android Drivers in Windows](http://forum.xda-developers.com/showpost.php?p=21071699&postcount=73)
 
 ### Dual-Boot WP7 and Android
 
