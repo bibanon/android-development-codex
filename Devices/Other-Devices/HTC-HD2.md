@@ -10,6 +10,7 @@ As of this writing, even the venerable HD2 is beginning to feel a bit dated, but
 
 ## Issues
 
+* Divide HD2 guide up between MAGLDR and cLK
 * HD2 History may contain some problems... please fix if you see them
 * It's not adequately explained how to flash a new radio...
 * finish up the ClockworkMod recovery guide, how to install to MAGLDR and cLK
@@ -145,41 +146,30 @@ MAGLDR is the first, and best-known bootloader for the HD2. As such, it is the b
 #### Installing MAGLDR 1.13
 
 1. Open the **HD2 Toolkit** previously downloaded.
-
 1. Make sure that your phone's battery is more than 50% charged! MAGLDR cannot charge the battery, only the operating system is able to.
-
 1. Power off phone.
-
 1. Press and hold *volume down + end* until the HSPL (multi-colored) screen appears. Make sure that it says `CotullaHSPL`.
-
 1. Plug in your USB cord to your phone. At the bottom of your Phone it should say `SERIAL` until your USB is connected. Once USB is connected it should say `USB` at the bottom.
-
 1. The bottom of your phone will change from saying `Serial to USB`
-
 1. Click on the bottom right hand button that says `Install Magldr`
-
 1. Install by following on screen directions. (press end key)
-
 1. Remove battery
-
 1. Replace battery and power on the phone.
-
 1. MAGLDR is now installed! 
-
 1. You now need to install Android or Windows Phone 7 to your phone, it does not have an OS at the moment.
 
 ### cLK
 
-cLK is a hot new bootloader that is fully open-sourced, still updated to this day, and professes to make your HD2 work similarly to any ordinary Android device. It's a better choice if you only plan to use Android ROMs.
+cLK is a hot new bootloader that is fully open-sourced, still updated to this day, and professes to make the HD2 as close to a normal Android device as possible, with HBOOT and fastboot support. It's a better choice if you only plan to use Android ROMs.
 
-Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. However, it will be good to watch it's progress, since is the most promising bootloader available for the HD2.
+Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs, and has no RMNET support. However, it will be good to watch it's progress, since is the most promising bootloader available for the HD2.
 
 #### Features
 
 * Off-Mode Charging
 * Ability to resize partitions without a computer
-* Connection Type = PPP
-* Better ROM manger support
+* Connection Type = PPP, no RMNET
+* Better ROM manager support
 * Faster bootup
 * Works better in general
 * Never seen after install unless needed
@@ -190,48 +180,30 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. Howe
 
 #### Installing cLK 1.5
 
-Note: This method is based on cLK 1.5, which is currently labeled as a release candidate. A guide for cLK 1.4 can be found [here](http://tech.memoryx2.com/bootLoaderCLKtoolkit).
-
-1. Download the attached Leoimg file.
-
+1. Download the latest cLK from [this thread.](http://forum.xda-developers.com/showthread.php?t=1114053)
 2. Unzip file to someplace convenient.
-
 3. Open HD2 Toolkit.
-
 4. Shutdown phone.
-
 5. Press volume down + end key and hold until tri-colored screen appears.
-
-6. Task 29 on HD2 toolkit.
-
-7. On bottom left of HD2 toolkit theirs an option to install custom ruu, click browse.
-
-8. Navigate to the place you previously unzipped leoimg and select the .nbh file.
-
-9. Click install ruu. You're done, now install some new OSes!
+6. Format with **Wipe (Task 29)** using the HD2 toolkit. The phone will no longer have an OS of any kind, so get to the tri-colored screen again.
+7. On bottom left of HD2 toolkit theirs an option to **Install Custom RUU**, click **Browse**.
+8. Navigate to the place you previously unzipped `leoimg.nbh` and select that file.
+9. Click **Install RUU**. 
+10. You're done, now install some new OSes! Jump to the [[next section.|HTC HD2#Installing Operating Systems with cLK]]
 
 #### Installing CLK 1.5 Without USB
 
-**Note: This method is dangerous, you should only use this method if your USB is broken.**
+> **Note: This method is slightly more prone to bricking, you should only use this method if your USB port is broken.**
 
 1. Format SD card.
-
 2. Download **cLK v 1.5** (The attached `LEOIMG.zip` file)
-
-3. Extract this file somewhere convenitent
-
+3. Extract this file somewhere convenient
 4. Put `leoimg.nbh` (from the `LEOIMG.zip` file) onto root of SD card.
-
 5. Power off phone.
-
 6. Press *volume down + end* .
-
 7. Install by following on screen directions. (press end key)
-
 8. Remove the battery.
-
 9. Replace battery and power on the phone.
-
 10. Power up phone, and you will have cLK.
 
 ## Installing Operating Systems with MAGLDR
@@ -329,6 +301,10 @@ If you are installing Android ROMs, you also need to install a recovery image. T
 
 ClockworkMod is the most famous of these.
 
+(needs fleshing out)
+
+* forum post: http://forum.xda-developers.com/showthread.php?t=898913
+* linx: http://forum.xda-developers.com/showpost.php?p=29167786&postcount=1383
 #### Installing a ROM with ClockworkMod
 
 (use a template for this?)
@@ -354,6 +330,45 @@ Running full-blown Linux works similarly to the old Android SDCard method; you j
 2. Set MAGLDR to use this folder (method?)
 
 ## Installing Operating Systems with cLK
+
+### Install Generic Google ADB Drivers
+
+In order to install a recovery, you will need to install the drivers to interface with cLK.
+
+* [Uploaded.to - Google ADB Drivers](http://uploaded.net/file/ypksx8zb)
+
+After that, power on phone and it should boot into cLK.  When Windows prompts you to install drivers, select the folder where you extracted them.
+
+Power on phone and it should boot into cLK. Plug up to computer then do this from the start menu:
+
+    Start>Control Panel>Hardware & Sound>Device Manager
+
+An 'unknown device' should be shown. Right click it and select **Update driver software**.
+
+When menu pops up select **Browse My Computer**.
+
+Select the folder of drivers you previously downloaded, click **Next**, and the drivers will be installed.
+
+### Using cLK after installing Android
+
+* Holding down any key ( except power ) will show text console
+* Holding down the **Home key** will enter Recovery
+* Holding down the **Back Key** will enter fastboot mode
+
+
+### Flashing ClockworkMod Recovery
+
+1. Open HD2 Toolkit. Make sure your HD2 is plugged in.
+2. Select **cLK Install Recovery**.
+3. Under **Functions**, click **Install**.
+4. A dialog box will pop up. Press **Yes**, since Android has not yet been installed.
+5. A Command Prompt will pop up. Follow the directions to flash (press **Enter** twice).
+6. Once the flash is complete, press **Enter** to return to the HD2 Toolkit.
+7. The device will reboot twice, taking you back to cLK.
+
+### Flashing ROMs with ClockworkMod
+
+(use a template for this)
 
 ## Full Restore to Stock WM6.5
 
@@ -466,7 +481,7 @@ Before throwing it in the bin, check that the pin connections actually touch the
 
 ### My HD2 won't charge! (just installed MAGLDR)
 
-If MAGLDR was just installed, note that it cannot charge the battery.when fully powered off; your HD2 will only charge once it has booted into an operating system. That's why it is imperative to have your battery more than 50% charged when first installing MAGLDR.
+If MAGLDR was just installed, note that it cannot charge the battery when fully powered off; your HD2 will only charge once it has booted into an operating system. That's why it is imperative to have your battery more than 50% charged when first installing MAGLDR.
 
 Your phone is not dead yet, though. Just buy a cheap external battery charger and your HD2 will work again. It's also advantageous to have two or more batteries so that you can just switch them out and lose the downtime of having to plug in your phone.
 
@@ -477,6 +492,10 @@ In most cases, your headphones are being wrongly recognized as a headset, confus
 The solution is to disable headset commands from your music player app. If it cannot be disabled or there are problems elsewhere, the simplest solution is to actually use headphones with 3 ring jacks or buttons (like iPod earphones). 
 
 If you want to use your normal headphones, you need to get a "audio input/output splitter", which will redirect the headset band to nothing, and also allow you to use conventional microphones with the HD2. This is nice to get, especially now that new laptops are using the same 3 ring jack.
+
+### My HD2's Power Button is broke! (Or I need to remap keys)
+
+See the [[Key Remapping]] guide.
 
 ## Sources
 
@@ -496,6 +515,7 @@ Nearly all the information in this guide comes from these sources. I just rewrot
 * [XDA-Developers - Install cLK, cLK 1.5, CWM and a NAND rom](http://forum.xda-developers.com/showthread.php?t=1402975)
 * [PDAImateJam ROM Install Tutorial](http://forum.xda-developers.com/attachment.php?attachmentid=954899&d=1332181049)
 * [PDAImateJam ROM Install Video](http://youtu.be/jhuR59UXw_4)
+* [XDA-Developers - Installing Google Android Drivers in Windows](http://forum.xda-developers.com/showpost.php?p=21071699&postcount=73)
 
 ### Dual-Boot WP7 and Android
 
