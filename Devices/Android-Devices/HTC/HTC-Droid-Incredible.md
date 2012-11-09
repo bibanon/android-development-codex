@@ -1,14 +1,14 @@
-# HTC Droid Incredible
-
 The HTC Droid Incredible lives up to it's name; it has the strong aesthetic design of the Droid series, but because of this droid's unlockable bootloaders and it's development community, it remains incredible to this day when compared to it's predecessor and successors.
 
 ## Development Info
 
-* **Developer Friendliness:** Acceptable
+* **Type:** HTC Sense
+* **Stance:** A Tough Nut to Crack
+* **Ease of Rooting/Custom ROMs:** Manual Method Only, Grueling downgrade with ADB, No GUIs
 * **Bootloader Unlockable?:** Yes, through HTCDev
-* **Ease of Rooting/Custom ROMs:** Grueling downgrade with ADB, No GUIs
-* **Range:** Verizon Wireless Exclusive, United States
 * **Dev Community Health:** Acceptable, declining
+
+* **Range:** CDMA Verizon Wireless, United States
 * **Latest Stock Android Version:** Android 2.3.4 GB with HTC Sense 1.0
 * **Optimal Android Version:** Android 4.0 ICS
 
@@ -28,26 +28,8 @@ You can now use your Android with Wi-Fi as a conventional multimedia device, per
 
 ## Glossary
 
-### General Android Terms
-
-* **Rooting** - Gaining the ability to use the superuser account (root), which can read and make changes to system files.
-* **ROM** - An installable image containing the operating system to be installed to your phone.
-* **Radio** - An installable image containing proprietary firmware for the cell phone chip.
-* **Custom ROMs** - Installable operating system images modified by ROM builders.
-* **Custom Recovery** - Software that allows users to flash ROMs directly from the device without need for RUUs. A livesaver in case of bad ROMs.
-* **Android Version Names** - Android uses a specific and memorable naming convention for it's releases. They will be used interchangeably with version numbers. Here they are in order:
-  * **Froyo** (Android 2.2)
-  * **Gingerbread [GB]** (Android 2.3)
-  * **Honeycomb [HC]** (Android 3.0, tablets only)
-  * **Ice Cream Sandwich [ICS]** (Android 4.0)
-  * **Jelly Bean [JB]** (Android 4.1)
-
-### HTC Android Specific Terms
-
-* **RUU** - ROM Update Utility. The official HTC-sanctioned method to update your phone. 
-* **hboot** - The HTC bootloader for Android devices. Starts up your system and interfaces with `fastboot` and RUU flashes.
-* **S-ON** - Security ON; the default state of the bootloader. This makes it a bit harder to flash custom ROMs along with other security constraints..
-* **S-OFF** - Security OFF; the ideal state of the bootloader. This allows you to flash any custom ROM quite easily without having to jump through hoops.
+* [[Glossary Android]]
+* [[Glossary HTC]]
 
 ## Preperation
 

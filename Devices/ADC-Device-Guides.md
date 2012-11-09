@@ -17,7 +17,7 @@ These are Android devices that Google supported, designed, or otherwise used as 
 
 * [[HTC Dream (T-Mobile G1)]]
 * [[Motorola Droid]] - **Status:** Under Construction
-* [[Asus Nexus 7]]  - **Status:** Under Construction
+* [[Asus Nexus 7]]  - **Status:** Complete
 
 ### Motorola
 
