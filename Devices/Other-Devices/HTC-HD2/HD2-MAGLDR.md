@@ -17,7 +17,7 @@ MAGLDR is the first, and best-known bootloader for the HD2. As such, it is the b
 
 ## Installing MAGLDR 1.13
 
-1. Open the **HD2 Toolkit** previously downloaded.
+1. Open the [HD2 Toolkit](http://forum.xda-developers.com/showthread.php?t=1090783).
 1. Make sure that your phone's battery is more than 50% charged! MAGLDR cannot charge the battery, only the operating system is able to.
 1. Power off phone.
 1. Press and hold *volume down + end* until the HSPL (multi-colored) screen appears. Make sure that it says `CotullaHSPL`.
