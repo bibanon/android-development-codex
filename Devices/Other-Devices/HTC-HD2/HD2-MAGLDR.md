@@ -20,7 +20,7 @@ MAGLDR is the first, and best-known bootloader for the HD2. As such, it is the b
 1. Open the [HD2 Toolkit](http://forum.xda-developers.com/showthread.php?t=1090783).
 1. Make sure that your phone's battery is more than 50% charged! MAGLDR cannot charge the battery, only the operating system is able to.
 1. Power off phone.
-1. Press and hold *volume down + end* until the HSPL (multi-colored) screen appears. Make sure that it says `CotullaHSPL`; if not, [[please install the HSPL|HTC Radios and HSPL]].
+1. Press and hold *volume down + end* until the HSPL (multi-colored) screen appears. Make sure that it says `CotullaHSPL`; if not, [[please install the HSPL|HTC Radio and HSPL]].
 1. Plug in your USB cord to your phone. At the bottom of your Phone it should say `SERIAL` until your USB is connected. Once USB is connected it should say `USB` at the bottom.
 1. The bottom of your phone will change from saying `Serial to USB`
 1. Click on the bottom right hand button that says `Install Magldr`
