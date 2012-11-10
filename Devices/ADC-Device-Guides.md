@@ -1,32 +1,39 @@
-## Android Devices
+From here, find the name of your device, click the appropriate guide, and get it ready for modding!
 
-The initial list of devices supported in this guidebook is limited by the amount of devices accessible to the writers. If you are able to, please consider helping out and making a guide for your device.
+The initial list of devices supported in this guidebook is limited by the amount of devices accessible to the writers. If you are able to, please consider helping out.
 
 ### HTC
 
-HTC is a young Taoyuan, Taiwan based smartphone company that started out as a no-name brand designing the first Pocket PCs. HTC later became famous for creating the first and the best Android smartphones, for a while.
+HTC is a young Taoyuan, Taiwan based smartphone company that started out as a no-name brand designing the first Pocket PCs. HTC later became one of the hottest brands for creating the first and the best Android smartphones, at least for a while.
+
+Policy missteps have dropped HTC from a ROM developer's dream to a whimpering underdog.
 
 Incidentally, the name of XDA-Developers comes from HTC's O2 XDA Windows Mobile smartphones.
 
-* [[HTC HD2]] - **Status:** Nearly Complete
-* [[HTC Droid Incredible]] - **Status:** Complete
+* [[HTC HD2]] (HD2) - **Status:** Nearly Complete
+* [[HTC Droid Incredible]] (DINC) - **Status:** Complete
+* [[HTC Desire Z/T-Mobile G2|HTC Desire Z]] (G2) - **Status:**
 
-### Google
+### Google Experience
 
 These are Android devices that Google supported, designed, or otherwise used as reference devices. They tend to be the fastest to update and the most developer friendly.
 
-* [[HTC Dream (T-Mobile G1)]]
-* [[Motorola Droid]] - **Status:** Under Construction
-* [[Asus Nexus 7]]  - **Status:** Complete
+* [[LG Nexus 4]] (N4) - **Status:** - Awaiting release
+* [[Asus Nexus 7]] (N7) - **Status:** Complete
+
+* [[Motorola Droid]] (OGDR) - **Status:** Under Construction
+* [[HTC Dream/T-Mobile G1|HTC Dream|]] (G1) - **Status:**
 
 ### Motorola
 
-Motorola Mobility is an out-of-touch old-timer company that manages to create fleeting best sellers, with a long period of decline between each one. Currently infamous for clamping down on development on their phones. Was taken over outright by Google, but it remains to be seen whether the golden oldie will get with the times.
+Motorola Mobility is an old company that manages to create fleeting best sellers, with a long period of bad policy between each one. Currently infamous for clamping down on development on their phones. Was taken over outright by Google, but it remains to be seen whether the golden oldie will get with the times.
 
-* [[Motorola Droid 2]]
+* [[Motorola Droid 2]] (D2)
   - **Guide Status:** Under Construction
   - **Stance:** Anti-Developer
+* [[Motorola Droid 2 Global]] (R2D2)
   
 ### Other
 
-* [[Nook Color]] - **Status:**
+* [[Amazon Kindle Fire]] (KF) - **Status:** Under Construction
+* [[Nook Color]] (NC) - **Status:**

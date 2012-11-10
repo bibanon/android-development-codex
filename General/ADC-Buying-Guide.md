@@ -42,15 +42,26 @@ Google sometimes makes it's own flagship phones as reference devices for new edi
 
 They are usually branded as "Nexus" devices.
 
-* **Google/[[ASUS Nexus 7]]** - The super cheap, superpowered 7-inch tablet built by ASUS at $200, replacing the dated Motorola XOOM. It was designed to give a pure Android alternative to the Kindle Fire, and it has done so quite well.
-	* Hardware: **High-end in mid-2012** - dual-core 1.2 GHz Nvidia Tegra 4, 1 GB RAM
+* **Google/[[LG Nexus 4]]** - The best and somehow the cheapest Nexus smartphone ever made, at $299. 
+	* Hardware: **High-end in mid-2012** - quad-core 1.5 GHz Qualcomm Snapdragon S4, 2 GB RAM
   * Stance: **Developer Friendly** - Unlocked bootloader, Large developer community
+  * Community Health: **Frontier**
+  * Latest Stock Version: **4.2 (Jelly Bean)**
+  * Ideal Version: **4.2 (Jelly Bean)**
+
+* **Google/[[ASUS Nexus 7]]** - The super cheap, superpowered 7-inch tablet built by ASUS at $200, replacing the dated Motorola XOOM. It was designed to give a pure Android alternative to the Kindle Fire, and it has done so quite well.
+	* Hardware: **High-end in mid-2012** - quad-core 1.3 GHz Nvidia Tegra 3, 1 GB RAM
+  * Stance: **Moderate** - Unlocked bootloader, Large developer community, dearth of ROMs
   * Community Health: **Vibrant**
+  * Latest Stock Version: **4.1 (Jelly Bean)**
+  * Ideal Version: **4.1 (Jelly Bean)**
 
 * **Google/Samsung Galaxy Nexus** - The phone that catapulted the Nexus line into the masses for the first time. Largely an unremarkable phone released late in the product cycle, but shipped with the groundbreaking Android 4.0 (Ice Cream Sandwich), and would be the only one with it for some time.
   * Hardware: **Mid-Tier in 2012** - dual-core 1 GHz TI OMAP, 1 GB RAM
   * Stance: **Developer Friendly** - Unlocked bootloader, Large developer community
   * Community Health: **Vibrant**
+  * Latest Stock Version: **4.1 (Jelly Bean)**
+  * Ideal Version: **4.1 (Jelly Bean)**
   
 * **Motorola XOOM** - Not a Nexus device, but was a reference model for Android 3.0 (Honeycomb), a full redesign of Android for tablets, to give Android a cool new look to truly compete with the iPad.
   * Hardware: **High-end in 2011**
@@ -82,7 +93,7 @@ They are usually branded as "Nexus" devices.
   
 * **T-Mobile G1/HTC Dream** - The very first Android phone in existence, made by HTC.
   * Hardware: **Low end in 2009**, 526MHz ARMv6, 256MB RAM
-  * Stance: **A Long Journey** - Downgrades are a mess, rooting is difficult.
+  * Stance: **A Tough Nut to Crack** - Downgrades are a mess, rooting is difficult.
   * Community Health: **Ghost Town**
   * Latest Stock Version: **1.6 (Donut)**
   * Ideal Version: **2.2 (Froyo)**
