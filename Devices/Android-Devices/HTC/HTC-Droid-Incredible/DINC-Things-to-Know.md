@@ -1,0 +1,44 @@
+In the guides below, you may be told to do specific things. Refer here for those specific methods.
+
+## Boot to HBoot
+
+Completely turn off your droid (sometimes it is also necessary to replace the battery after powering off). Then, hold the volume and power buttons until you see a screen with three Androids on the bottom and text for options. This is the hboot.
+
+You can use the volume rocker to navigate options, and the power button to select them.
+
+## Boot to `fastboot`
+
+Sometimes you may want to use `fastboot` to flash things. Your phone will need to be in `fastboot` mode to do so. Get to the `hboot` screen as above and select the `fastboot` option. Once you connect your phone to USB, it will display **fastboot USB** if you are connected correctly.
+
+## Boot to Recovery
+
+After installing a custom recovery, you can enter it at any time from the above HBoot menu. Just choose the `recovery` option.
+
+## Enable USB Debugging
+
+USB debugging mode allows adb to work with your phone. To enable it, make sure that it is checked in **settings/apps/development** on your phone
+
+## Checking MD5SUMs
+
+MD5 Checksums allow you to see if a file is exactly the same as it was originally. If even one bit is wrong, the checksum will be completely different, so it is vital when flashing radios and hboots, where no errors can be made.
+
+On Windows, the md5sum program is included with the `miniadb` tools that you've previously downloaded. Move the file you want to check to the `miniadb` directory and use this command in the command prompt:
+
+    md5sum.exe your_filename_here
+
+On Linux and macs, just type the command `md5sum` anywhere, as it is already installed:
+
+    md5sum your_filename_here
+
+## Flashing a new radio or hboot
+
+Sometimes you will need to flash a new radio. Get the radio zip file, and check the md5sum! If it is corrupt, your phone will be bricked, so make sure.
+
+boot your phone to `fastboot` mode (see above), and run the commands below:
+
+    fastboot devices
+    fastboot erase cache
+    fastboot oem rebootRUU
+    fastboot flash zip your-zipfile-name-here.zip
+    fastboot reboot-bootloader
+    fastboot reboot
