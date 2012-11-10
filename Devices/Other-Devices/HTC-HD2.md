@@ -179,7 +179,7 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. Howe
 * Off-Mode Charging
 * Ability to resize partitions without a computer
 * Connection Type = PPP
-* Better ROM manger support
+* Better ROM manager support
 * Faster bootup
 * Works better in general
 * Never seen after install unless needed
@@ -187,6 +187,12 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs. Howe
 * Clk 1.5 = No need for Usb
 * Open-source and still in development
 * Many more features as time goes on!
+
+#### Use this guide
+
+http://forum.xda-developers.com/showthread.php?t=1402975
+
+For finishing up...
 
 #### Installing cLK 1.5
 
@@ -361,7 +367,7 @@ If for any reason you need to go back to stock (like for servicing), just follow
 
 Download an [official Windows Mobile Rom from here](http://forum.xda-developers.com/showthread.php?t=577717). The newest ROM edition is `2.13`, so look for the `Leo 2.13` folder and find your model. *Double check that you have the right ROM for the right model.*
 
-1. Back up your sd card and format it.
+1. Back up your sd card and *fully format* it.
 
 2. Extract the file `leoimg.nbh` from the official rom you previously downloaded.(This can be done with a program like 7zip)
 
