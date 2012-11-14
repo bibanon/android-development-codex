@@ -1,10 +1,10 @@
-The HTC HD2 is truly the dream phone of the mobile world, and a testament to the golden age of HTC. Upon it's release in late 2009, it had a huge screen of unprecedented size (for it's time), half a gig of memory, and a 1 GHz Qualcomm Snapdragon processor. What's there not to like?
+The HTC HD2 is truly the dream phone of the mobile world, and a testament to the golden age of HTC. Upon it's release in late 2009, it had a huge screen of unprecedented size (for it's time), half a gig of memory, and the most powerful processor of it's time. What's there not to like?
 
 There was only one crippling flaw; it was stuck on the dated and later abandoned Windows Mobile 6.5, in a time where Windows Phone 7 was in the cards, iPhone was king and Android was quickly catching up.
 
-The story would have ended there, but as the most powerful phone in the market and firesales looming, developers quickly looked for ways to load different mobile operating systems to this superphone. 
+The story would have ended there, but as the most powerful phone in the market and firesales looming, developers on XDA quickly looked for ways to load different mobile operating systems to this superphone. 
 
-Eventually, they managed to stuff not just each of the newest versions of Android, but also Windows Phone 7, and even entire Linux operating systems. Each year, the phone just kept getting better and better, becoming the stuff of developer legend.
+Eventually, the developers managed to stuff not just each of the newest versions of Android, but also Windows Phone 7, and even entire Linux operating systems. Each year, the phone just kept getting better and better, becoming the stuff of developer legend.
 
 As of this writing, even the venerable HD2 is beginning to feel a bit dated, but it's safe to say that it will still be loved for quite a while longer. 
 
@@ -26,6 +26,8 @@ Pretty amazing for a 3 year old phone. Not even the greatest of Google's Nexus d
 
 ## Sections
 
+If you want to start modding your HD2, read all the guides from top to bottom.
+
 ### Introduction
 
 * [[HD2 History]] - What made the HD2 the versatile device it is now? What can we learn from it?
@@ -33,7 +35,7 @@ Pretty amazing for a 3 year old phone. Not even the greatest of Google's Nexus d
 
 ### Glossary
 
-> Should be imported like a Mediawiki Template...
+A lot of unfamiliar vocabulary is used in the HD2 community. Brush up on it here (and maybe even make some flash cards).
 
 * [[Glossary Windows]]
 * [[Glossary HTC HD2]]
@@ -43,23 +45,35 @@ Pretty amazing for a 3 year old phone. Not even the greatest of Google's Nexus d
 
 Follow these steps from start to finish to start your journey into the magic of the HD2.
 
-* [[HD2 SIM Unlock]] - (optional) Before modding your HD2, note that only WM6 can reliably unlock your phone's radio to work on all GSM networks. Here are methods of getting unlock codes.
+* [[HD2 SIM Unlock]] - (optional) Before modding your HD2, note that only Windows Mobile 6 can remove the carrier lock on your phone. Here are methods of getting unlock codes.
 * [[HD2 Tools]] - Set up your computer to work with the HD2.
 * [[HD2 Radio and HSPL]] - Installing a Hard SPL is the Windows Mobile equivalent of rooting; making it safe and easy to flash the NAND
 
-### Using the HD2
+### HD2 Operating Systems
+
+Descriptions of the history, the functions, and the workings of the various operating systems on the HD2.
+
+* [[Android|HD2 Android]] - Google's famous open-source mobile platform that took the world by storm and putt Apple on the defensive. Large selection of apps, huge freedom in customization.
+* [[Windows Phone 7|HD2 WP7]] - You may not expect great things from Microsoft, but Windows Phone 7 can truly be said to be the ideal mobile platform. Sadly, it only has a small, albeit beautiful library of apps.
+* [[Linux|HD2 Linux]] - *(in development)* Full blown GNU/Linux on the HD2. Still needs some work, but the allure of the desktop on a smartphone lives on.
+* [[Firefox OS|HD2 Firefox OS]] - *(research stages)* Some XDA frontiersmen are looking into the experimental Firefox OS for the HD2.
+* [[Windows Mobile 6|HD2 WM6]] - *(defunct)* This is the original operating system on the HD2. It's best days were behind it by the time it was on the HD2. Still, the HD2 played an important part as both XDA's last Windows Mobile phone and first serious Android smartphone.
+
+### HD2 Bootloaders
+
+> Note: Installing a bootloader removes Windows Mobile 6. Not that it will be missed.
 
 The HD2's unique bootloaders are the secret to the HD2's abilities. Choose the one you prefer.
 
-* [[HD2 MAGLDR]] - If you want Windows Phone 7, Android, or even both, use this bootloader.
-* [[HD2 cLK]] - If you want your HD2 to work just like an Android phone from the inside out (ADB, fastboot, HBOOT), get this bootloader.
+* [[MAGLDR|HD2 MAGLDR]] - If you want Windows Phone 7, Android, or even both, use this bootloader.
+* [[cLK|HD2 cLK]] - If you want your HD2 to work just like an Android phone from the inside out (ADB, fastboot, HBOOT), get this bootloader.
+* [[Restore Windows Mobile 6|HD2 Restore WM6]] - Need to go back to stock for some reason? Here's the guide for you.
+
+### Using the HD2
+
+Other guides for the HD2.
+
 * [[HD2 Specific Mods]] - A few helpful mods that patch over some issues and make the HD2 a more complete product.
-
-### Miscellaneous
-
-Other good reads for the HD2.
-
-* [[HD2 Restore WM6]] - Need to go back to stock for some reason? Here's the guide for you.
 * [[HD2 Accessories]] - What is a smartphone without overpriced accessories? Some of them are quite useful though, so take a look.
 * [[HD2 Troubleshooting]] - Got issues with your HD2? Take a gander at this guide.
 * [[HD2 Credits and Sources]] - All the authors, the guides, the programs referenced in the creation of this guide.
@@ -70,10 +84,8 @@ Other good reads for the HD2.
 * It's not adequately explained how to flash a new radio...
 * finish up the ClockworkMod recovery guide, how to install to MAGLDR
 * Make guide to variants and how to identify them
-* Stock is SPL/OSPL, HSPL is the engineering SPL
-* Suck in guide to NativeSD, it's very unclear even at the source
+* Suck in guide to NativeSD and finish NativeSD Boot switch app guide, it's very unclear even at the source
 * Suck in single SDCard guide
 * The Accessories guide sucks
 * Add guide to Debian Linux on HD2
 * Create a "Credits" section with all the names of the people whose work was used in this guide...
-* Finish NativeSD Boot switch app guide
