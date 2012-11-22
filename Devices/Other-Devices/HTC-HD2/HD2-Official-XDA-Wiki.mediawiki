@@ -1,0 +1,580 @@
+==Vendor Prices & Dates==
+
+'''The table below contains the details for vendors and websites which will be/are selling the HTC Leo'''
+'''The Information will hopefully be kept up to date on release dates and details about pricing etc..
+'''
+
+*For the wiki related to the Micro SDHC vendors (compatible with this phone) see [[MicroSDHC]]
+
+Below is a table showing the prices for the Leo quoting the native price of the vendor, Remember to check the vendor's website for latest price and shipping costs. 
+
+!Table for resellers unsubsidised (prepay or without contract)
+Check the bottom of the page for resellers/GSM providers with Contracts
+
+{| border=1
+!Vendor
+!Location
+!Local Currency
+!Euro Price
+!Release Date
+!Shipping area
+!Pre-Order?
+
+|-
+| [http://www.gsm-eindhoven.nl/ GSM-Eindhoven] 
+| NL
+| €419.00
+| €419.00 
+| In stock
+| Netherlands
+| Yes
+|-
+|[http://www.netintro.be Netintro] 
+| BE
+| €483.00
+| €483.00
+| In stock
+| B & NL 
+| Yes
+|-
+| [http://www.gigavolt.nl/ Gigavolt] 
+| NL 
+| €499.00 
+| €499.00 
+| In stock 
+| Netherlands 
+| Yes
+|-
+| [http://www.digitec.ch/ProdukteDetails2.aspx?Reiter=Details&Artikel=175648 Digitec] 
+| CH 
+| CHF 749.00  
+| €494.88 
+|IN STOCK 
+| Switzerland & Liechtenstein 
+| Yes
+|-
+| [http://www.bestelmaar.nl/bestelm/mcsmambo.p?M5NextUrl=RAPRD&art_id=hhd2eubl Bestelmaar]
+| NL 
+| €516.00  
+| €516.00 
+|IN STOCK 
+| Netherlands ONLY
+| Yes
+|-
+| [http://www.algebeld.nl/gsm/htc/t8585-touch-hd2-wwe/black.html Algebeld] 
+| NL 
+| €519.00  
+| €519.00 
+|IN STOCK
+|NL BE DE
+| Yes
+|-
+| [http://www.selectgsm.com/htc-touch-hd2-unlocked-phone-mobile-phone-pr-17009.html Select GSM] 
+| US 
+| US$ 769.98 
+| €524.68 
+| IN STOCK 
+| WORLDWIDE 
+| Yes
+|-
+| [http://www.htcshop.sk/htc-hd2-leo-ce-slovencina-9.html HTC Shop SK] 
+| SK 
+| €529.00  
+| €529.00
+| IN STOCK 
+| EU only?
+| Yes
+|-
+| [http://www.2call.nl/telefoon/10750/htc-touch-hd-2-en 2Call] 
+| NL 
+| €533.00  
+| €533.00 
+|IN STOCK 
+| NL & BE
+| Yes
+|-
+| [http://www.handtec.co.uk/product.php/2463/htc-hd-2---hd2-- Handtec] 
+| UK 
+| UK £ 486.40  
+| €538.00 
+| IN STOCK 
+| Worldwide
+| Yes
+|-
+| [http://www.smartphonestunts.nl/smartphones/htc/htc-touch-hd2-uk SmartPhoneStunts] 
+| NL 
+| €539.00  
+| €539.00 
+|IN STOCK
+| NL only
+| Yes
+|-
+| [http://uk.insight.com/apps/productpresentation/index.php?product_id=HTCTCHHD2 Insight] 
+| UK 
+| UK£ 486.43  
+| €539.85 
+|IN STOCK 
+| UK & IRL
+| Yes
+|-
+| [http://pdas.centralpoint.nl/htc/99hjy035-00/htc-hd2-t8585-wwe-eu Centralpoint] 
+| NL 
+| €547.40  
+| €547.40 
+|IN STOCK 
+| Netherlands Only 
+| Yes
+|-
+| [http://www.devicewire.co.uk/htc-hd2 DeviceWire] 
+| UK 
+| UK £ 499.99  
+| €548.22 
+|IN STOCK
+| worldwide
+| Yes
+|-
+| [http://www.pdashop.nl/product/78628/htc-hd2-uk.html PDAShop.nl] 
+| NL 
+| €549.00  
+| €549.00 
+|IN STOCK 
+| NL only 
+| Yes
+|-
+| [http://www.smartphoneshop.nl/product/78628/htc-hd2-uk.html Smartphone shop] 
+| NL 
+| €549.00  
+| €549.00 
+|IN STOCK 
+| NL only?
+| Yes
+|-
+| [http://www.pdamall.ro/HTC-HD-2*pID_1420-products_details PDA Mall] 
+| RO 
+| RON 2346.05  
+| €551.90 
+|IN STOCK 
+| ??
+| Yes
+|-
+| [http://www.emag.ro/pda_phone/telefon-pda-htc-touch-hd-2--pHTC00148-HTC-Touch-HD2 EMag] 
+| RO 
+| RON 2349.00  
+| €552.43 
+|IN STOCK 
+| Romania only
+| Yes
+|-
+| [http://www.clove.co.uk/viewProduct.aspx?product=8BD3543E-20C2-425E-AE08-49CDE8188D62 Clove] 
+| UK 
+| UK £499.10  
+| €552.73 
+|IN STOCK
+| worldwide
+| Yes
+|-
+| [http://www.mobilefun.co.uk/sim-free-htc-hd2-p21936.htm Mobilefun] 
+| UK 
+| UK £ 499.95  
+| €553.28 
+|IN STOCK 
+| UK & EU
+| Yes
+|-
+| [http://www.hshop.cz/htc-touch-touch-hd-2.htm Hshop] 
+| CZ 
+| 14275 CZk  
+| €553.32 
+| IN STOCK 
+| Czech Rep, Slovakia ? & EU? 
+| Yes
+|-
+| [http://www.elite-electronix.com/htc-touch-hd2-unlocked Elite elactronics] 
+| US 
+| US$ 824.95  
+| €553.67 
+| No ETA 
+| US & Canada  
+| Yes
+|-
+| [http://www.crescentelectronics.co.uk/htc-hd2-sim-free.html crescent electronics] 
+| UK 
+| UK£ 499.99  
+| €553.72 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.expansys.com/d.aspx?i=188866 Expansys UK] 
+| UK 
+| UK £419.99  
+| €506.96 
+|IN STOCK
+| UK only
+| Yes
+|-
+| [http://www.rueducommerce.fr/Telephonie/Smartphone-PDAphone/Smartphone-PDAphone/HTC/3000377-Smartphone-TOUCH-HD2-LEO.htm Rue Du Commerce] 
+| FR
+| €558.90  
+| €558.90 
+|IN STOCK 
+| ??
+| Yes
+|-
+| [http://www.htcdirect.co.uk/index.php?main_page=product_info&cPath=10&products_id=685 HTC Direct] 
+| UK 
+| UK £509.95  
+| €564.52 
+|IN STOCK 
+|??
+| Yes
+|-
+| [http://www.superetrader.co.uk/product_info.php?products_id=10548 Super E-Trader] 
+| UK 
+| UK £ 510.60  
+| €564.87 
+|IN STOCK 
+| Worldwide
+| Yes
+|-
+| [http://www.expansys-usa.com/d.aspx?i=188312 Expansys US] 
+| US 
+| US$ 829.99  
+| €565.79 
+|IN STOCK
+| US only 
+| Yes
+|-
+| [http://www.amazon.co.uk/HTC-Touch-Windows-Mobile-Sim-Free/dp/B002OOWIF0 Amazon UK] 
+| UK 
+| UK£ 513.88  
+| €568.97 
+|IN STOCK 
+| EU only
+| Yes
+|-
+| [http://www.pdashop.be/product/78628/htc-hd2-uk.html PDAShop.be] 
+| BE 
+| €569.00  
+| €569.00 
+|IN STOCK 
+| BE only 
+| Yes
+|-
+| [http://www.pdaplaza.ca/shop.php?id=697&subcatid=57 PDA Plaza] 
+| CA 
+| CA$ 885.00  
+| €569.73 
+| IN STOCK 
+| US & Canada 
+| Yes
+|-
+| [http://www.mobilecityonline.com/wireless/store/productdetail.asp?productid=25237 mobilecity online] 
+| US 
+| US$ 839.99  
+| €572.54 
+| IN STOCK 
+| US & Canada
+| Yes
+|-
+| [http://www.inkino.co.uk/zen/index.php?main_page=product_info&products_id=3384 Inkino] 
+| UK 
+| UK£ 519.95  
+| €575.53 
+|IN STOCK 
+| ??
+| Yes
+|-
+| [http://www.btconline.nl/btc/RAPRD/HTC-T8585-Touch-HD2/hhtct858EU.html?M5NoArtRel=&M5Option=&ab_agid=1 BTC Online] 
+| NL
+| €581.91  
+| €581.91 
+|IN STOCK 
+| ??
+| No
+|-
+| [http://www2.computeruniverse.net/products/e90353712/htc-hd2-anthrazit.asp Computer Universe] 
+| DE 
+| €584.90  
+| €584.90 
+|IN STOCK 
+|WORLDWIDE
+| Yes
+|-
+| [http://www.expansys.nl/d.aspx?i=188868 Expansys NL] 
+| NL 
+| €584.99  
+| €584.99 
+|IN STOCK
+| NL only
+| Yes
+|-
+| [http://www.bestdigitalmarket.com/view/index/product/HTC-HD-2-HD2--p-800 Bestdigital Market] 
+| UK 
+| UK£ 529.99  
+| €585.91 
+|IN STOCK
+|??
+| Yes
+|-
+| [http://www.webhallen.com/prod.php?id=97079 Webhallen] 
+| SE 
+| (SEK) KR 6129  
+| €587.22 
+|IN STOCK 
+| SWEDEN ONLY
+| Yes
+|-
+| [http://www.minfo.pt/catalogo/detalhes_produto.php?id=210805 Minfo] 
+| PT 
+| €589.90  
+| €589.90 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.phonesonline.ie/Product.asp?ProductID=1026 Phones Online] 
+| IE 
+| €599.00 
+| €599.00 
+|IN STOCK 
+| IRL only??
+| Yes
+|-
+| [http://talkthisway.de/details/592/htc+touch+hd+2++leo+.htm TalkThisWay] 
+| DE 
+| €599.00  
+| €599.00 
+|IN STOCK
+|??
+| Yes
+|-
+| [http://www.mundopda.com/comprar/167-pda-htc/7125-htc-touch-hd-2-leo MundoPDA] 
+| ES 
+| €599.00  
+| €599.00 
+|IN STOCK 
+| EU
+| Yes
+|-
+| [http://www.ssmoviles.com/htc-hd2-leo-espa-ol.html SS moviles] 
+| ES 
+| €599.00
+| €599.00 
+|IN STOCK 
+|??
+| Yes
+|-
+| [http://www.happii.dk/product.aspx?prodid=270923 Happii] 
+| DK 
+| DKK 4466  
+| €599.98 
+|IN STOCK 
+|??
+| Yes
+|-
+| [http://www.belcompany.nl/NL/Shop/AlleToestellen.htm Bel Company] 
+| NL
+| €599.99  
+| €599.99 
+| IN STOCK 
+| NL only
+| Yes
+|-
+| [http://www.expansys.it/d.aspx?i=188938 Expansys Italy] 
+| IT 
+| €599.99  
+| €599.99 
+|IN STOCK 
+| Italy only
+| Yes
+|-
+| [http://emporiolive.com/product_info.php?currency=EUR&products_id=1061&language=fi Emporiolive] 
+| FI 
+| €600.30 
+| €600.30 
+| IN STOCK 
+| Worldwide 
+| Yes
+|-
+| [http://www.phonehouse.se/mobiltelefoner/htc/htc-hd2 The Phone House] 
+| SE 
+| (SEK)KR 6299.00  
+| €603.39 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.expansys.ie/d.aspx?i=189125 Expansys IRL] 
+| IE 
+| €609.99  
+| €609.99 
+|IN STOCK
+| IRL only
+| Yes
+|-
+| [http://www.onthegosolutions.com/product.asp?itemMDL=HTC_TOUCH_HD_2 On The Go Solutions] 
+| US 
+| US$ 899.99  
+| €613.12 
+|IN STOCK 
+| WORLDWIDE
+| Yes
+|-
+| [http://www.buy-mphone.com/acatalog/hd2_sim_free.html mPhone] 
+| UK 
+| UK £ 556.53  
+| €616.48 
+|IN STOCK 
+|??
+| Yes
+|-
+| [http://www.clickok.se/PartDetail.aspx?q=p:2614902;c:36176 ClickOK.se] 
+| SE 
+| (SEK)KR 6484.00  
+| €621.14 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.euro.com.pl/telefony-komorkowe/htc-touch-hd-2-z-wm-6-5-pl.bhtml Euro] 
+| PL
+| z
+l 2599.00  
+| €628.75 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.pdamax.de/?art_nr=hc-063 PDAmax] 
+| DE 
+| €635.00  
+| €635.00 
+|NO ETA
+| EU Only
+| No
+|-
+| [http://www.gsm-store.com/product_details.php?p=646028 GSM Store] 
+| FI 
+| €645.90 
+| €645.90 
+|IN STOCK
+| FINLAND? 
+| Yes
+|-
+| [http://www.verkkokauppa.com/popups/prodinfo.php?id=21174 verkkokauppa.com] 
+| FI 
+| €649.90 
+| €649.90 
+| IN STOCK
+| EU? 
+| Yes
+|-
+| [http://www.play.com/Mobiles/Mobile/4-/12041710/HTC-HD-2-Sim-Free-Unlocked-5-0-Megapixel-Mobile-Phone/Product.html Play.com] 
+| IRL & UK 
+| €649.99  
+| €649.99 
+|IN STOCK 
+|EU
+| Yes
+|-
+| [http://www.mpx.no/aspx/produkt/prdinfovnet.aspx?plid=109613 MPX] 
+| NO 
+| KR 5649.00  
+| €667.52 
+| IN STOCK 
+| Norway only
+| Yes
+|-
+| [http://rozetka.com.ua/ru/products/details/34939/index.html Rozetka] 
+| UA 
+| US$999.00  
+| €681.57 
+|IN STOCK 
+| Ukraine & RU
+| Yes
+|-
+| [http://www.m-technology.fi/tilaukset.php m-Technology] 
+| FI 
+| €684.42 
+| €684.42 
+| ?? 
+| EU? 
+| Yes
+|-
+| [http://webshop.multitech.se/PartDetail.aspx?q=p:2615223;c:36176;r:prisjakt WebShop] 
+| SE 
+| (SEK)KR 7207.00  
+| €690.84 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.digidom.ru/product_607.html Digidom] 
+| RU 
+| rub 29990  
+| €680.94 
+|IN STOCK
+| Russia Only
+| Yes
+|-
+| [http://webshop.nwn.no/wsp/microshop/frontend.cgi?func=catalog.show&func_id=29926&table=PRODUCT Network Norway] 
+| NO
+| KR 5869.00  
+| €693.56 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.vobis.pl/oferta/telefony_i_smartphone/smartphone_z_gps/895480_htc_hd2_leo_hspa_gps.aspx Vobis] 
+| PL 
+| z
+l 2899.00  
+| €701.17 
+|IN STOCK
+| ??
+| Yes
+|-
+| [http://www.newpan.co.il Newpan] 
+| IL 
+| 4200 NIS  
+| €756.44 
+| IN STOCK 
+| Israel only 
+| Yes
+
+|}
+
+'''Table for resellers/GSM providers/Carriers with a subsidised price (Contract prices)'''
+Here we have a table with INITIAL PRICES this is split in two, 1 for the LOWEST PRICE you pay up front (usually on the most expensive tariff) and 2 the HIGHEST PRICE you pay up front (usually on the cheapest tariff) These do not include the monthly charges, And lastly PrePay or non-Contract prices (unsubsidised)
+
+Always use the format CHEAPEST PRICE / HIGHEST PRICE / PREPAY or Without Contract (if available).
+
+
+
+{| border=1
+!Vendor
+!Location
+!Intial Local Price
+!Intial Euro Prices
+!Release Date
+!Pre-Order?
+|-
+| [http://www.??.com ??] 
+|UK 
+| £170.21/ NA / NA  
+| €/ NA / NA 
+| IN STOCK 
+| NO
+|-
+| [http://saunalahti.fi/puhelimet/puhelin.php?id=362&type=handsetmodel Saunalahti] 
+| FI 
+| €612.00/na/na 
+| €612.00/na/na 
+| In stock 
+| contract
+
+|}
+
+----
+<small>[[HTC_Leo|Back to Leo Main Page]]</small>

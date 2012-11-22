@@ -17,8 +17,6 @@ ClockworkMod is the most famous of these.
 
 Get a ROM you like from the [XDA Android NAND Development Forum](http://forum.xda-developers.com/forumdisplay.php?f=928).
 
-## Installing a ROM with ClockworkMod
-
-(use a template for this?)
+See [[Custom ROMs]] for more information.
 
 

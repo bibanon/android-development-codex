@@ -1,0 +1,197 @@
+{{Phone
+|name = HTC HD2
+| sortname           = HD2
+|manufacturer = HTC
+|releasedate = Nov. 2009
+|os = Windows Mobile
+|dimensions = 120.5 x 65 x 11 mm
+|weight = 157 g
+|networks = Network GSM 850 / 900 / 1800 / 1900} 3G Network HSDPA
+|display = TFT capacitive touchscreen, 65K colors, 480 x 800 pixels, 4.3 inches
+|chipset = Qualcomm Snapdragon QSD8250 1 GHz processor
+|bluetooth =  v2.1 with A2DP
+|GPS = yes
+|camera = 5MP (2592 x 194 pixels), Autofocus, LED flash
+|secondarycamera = none
+|internalmemory = 448 MB RAM (576 MB of RAM enabled by Special Radio) 512 MB ROM
+|memorycard = microSD
+|battery = 1230 mAh
+|additionalfeatures = FM Radio, 3.5mm
+}}
+==Introduction==
+'''HTC Leo / HTC T8585 /HTC T9193 / HTC Leo 100/ HTC HD2''' <br />
+Official Website: [http://www.htc.com/europe/product/hd2/overview.html Here]
+
+'''[http://forum.xda-developers.com/forumdisplay.php?f=531 HTC HD2 Forums]'''
+*[http://forum.xda-developers.com/forumdisplay.php?f=532 HD2 General] 
+*[http://forum.xda-developers.com/forumdisplay.php?f=694 HD2 Q&A]
+*[http://forum.xda-developers.com/forumdisplay.php?f=533 HD2 Accessories]
+*[http://forum.xda-developers.com/forumdisplay.php?f=534 HD2 Rom Development]
+*[http://forum.xda-developers.com/forumdisplay.php?f=535 HD2 Themes and Apps]
+
+'''[http://forum.xda-developers.com/forumdisplay.php?f=631 T-Mobile USA HTC HD2 Forums]'''
+*[http://forum.xda-developers.com/forumdisplay.php?f=632 T-Mobile USA HD2 General]
+*[http://forum.xda-developers.com/forumdisplay.php?f=651 T-Mobile HD2 Accessories]
+*[http://forum.xda-developers.com/forumdisplay.php?f=624 T-Mobile USA HD2 ROM Development]
+
+==Reviews==
+*Full and very detailed review of the O2 HTC HD2 at [http://www.4winmobile.com/forums/4wm-reviews-hardware/22380-o2-htc-hd2-review.html 4WinMobile.com]
+*Review by [http://www.gsmarena.com/htc_hd2-review-418.php GSMArena] team. 
+*Review based on pre-release device at [http://www.wmexperts.com/htc-hd2-review-surfaces WMExperts.com] 
+*HTC HD2 Screen Scratch test with Knife,Scissors & Keys [http://www.youtube.com/watch?v=LYZF0e3HVaI Video] 
+*Full review and performance compare with other devices (Turkish) [http://forum.donanimhaber.com/m_37225575/tm.htm donanimhaber.com]
+
+==ROMs==
+*[http://forum.xda-developers.com/showthread.php?t=591784 T-Mobile Energy ROM Collection] NOT FOR EUROPEAN HD2!!!<br />
+===SPL===
+*[http://forum.xda-developers.com/showthread.php?t=609477 Flashing your First GSM 512LEO Rom (For Noobs)] 16th September 2010<br />
+*[http://forum.xda-developers.com/showpost.php?p=6891358&postcount=1893 HSPL3 available] 21st June 2010 <br />
+*[http://forum.xda-developers.com/showthread.php?t=611433 Full Hard-SPL Thread] 4th January 2010 <br />
+*[http://forum.xda-developers.com/showthread.php?t=579173 SPL Thread] Alternative old thread 1st November 2009<br />
+*[http://forum.xda-developers.com/showthread.php?t=893618] MAGLDR 1.13 AKA Android NAND/Windows Phone 7 Flasher<br />
+
+===ROM Development===
+*XDA-Developers HTC Leo [http://forum.xda-developers.com/forumdisplay.php?f=534 ROM dev forum]. <br />
+*Android/Linux/Maemo on HTC Leo [http://forum.xda-developers.com/showthread.php?t=651632 HERE]. <br />
+*ROM Cooking for HTC Leo [http://forum.xda-developers.com/showthread.php?t=590453 Leo Kitchen and Rom cooking]. 
+*Tutorial: [http://forum.xda-developers.com/showthread.php?t=642486 Flash from one Official ROM to another] official ROM or Language - Gold card Method, No H-SPL needed, works with any SPL.
+*[http://www.xda-developers.com/android/port-a-droid-makes-running-and-testing-android-builds-a-breeze/ Port-A-Droid Makes Running and Testing Android Builds a Breeze]
+*SD Card based Android ROM: [[AmeriCanAndroid AOSP HD2]]
+
+===Official ROMs & Radios===
+[[HTC Leo/OfficialROMs|Official ROMs & Radios]]
+
+*ROMs direct from HTC:
+
+http://www.htc.com/uk/help/htc-hd2/#download
+
+
+*ROMs for T-Mobile USA version (TMOUS):
+
+Version 3.14.531.1 - http://dl.htc.com/ruudownload/t-mobileUS/DeviceDownloads.aspx?pid=leo2
+
+Version 2.13.531.1 - http://dl.htc.com/ruudownload/t-mobileUS/DeviceDownloads.aspx?pid=leo
+
+
+*Radios: +do not flash 51 (x.xx.51.xx) Radios to T-Mobile USA (TMOUS)+
+
+Leo_RADIO_2.14.50.04 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_14_50_04.rar link]
+
+Leo_RADIO_2.12.50.02_2 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_12_50_02_2.rar link] [http://hotfile.com/dl/146804394/bf9db2f/Radio_2_12_50_02_2.rar.html link2]
+
+Leo_RADIO_2.11.50.26 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_11_50_26.7z link]
+
+Leo_RADIO_2.11.50.20 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_11_50_20.zip link]
+
+Leo_RADIO_2.10.50.08_2 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_10_50_08_2.rar link]
+
+Leo_RADIO_2.10.50.26 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_10_50_26.rar link]
+
+Leo_RADIO_2.10.50.19_2 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_10_50_19_2.zip link]
+
+Leo_RADIO_2.08.50.05 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Leo_RADIO_15.34.50.07U_2.08.50.05.7z link]
+
+Leo_RADIO_2.07.51.22_2 – [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio_2_07_51_22_2.rar link]
+
+Leo_RADIO_2.15.50.14 – [http://www.datafilehost.com/download-0f71cda2.html link] [http://www34.zippyshare.com/v/59097347/file.html link2] [http://htcfanboys.com/download/joplayer/files/HTC%20HD2/Radios/Radio%20Leo%202.15.50.14.rar link3]
+
+Custom RUU flasher - [http://www.datafilehost.com/download-434ef291.html Leo Software Upgrade.exe]
+
+HardSPL 4 - [http://forum.xda-developers.com/attachment.php?attachmentid=522724&d=1298224028 HSPL4.zip]
+
+To access the Radio Fieldtest:
+Execute fieldtest.exe, stored under the \Windows directory
+Once its launched you can also pull it up from the dialer: *#*#364#*#*
+
+==Resources:==
+===Fixes, Hints & Tips===
+*Enable FPU (Increases the speed of some apps) [http://forum.xda-developers.com/showthread.php?t=597659 Here] <br />
+*3D Drivers/Patch [http://forum.xda-developers.com/showthread.php?t=592663 Release & Forum] <br />
+*Tips and Tweaks [http://forum.xda-developers.com/showthread.php?t=583638 Thread]
+*BsB Tweaks - A collection of registry toggles and more including many of the tips and tweaks. [http://forum.xda-developers.com/showthread.php?t=589305 Forum] <br />
+*HD2Tweak ~  The great little tool aka The Leo's companion ;) [http://forum.xda-developers.com/showthread.php?t=588652 Forum] <br />
+*Enable ExtraSuperFine Camera Mode [http://forum.xda-developers.com/showthread.php?t=598952 Thread] <br />
+*T-Mobile USA Version Bluetooth Tip
+# On the Home screen, slide to the Settings tab, and then tap Menu > All Settings > Bluetooth.
+# When prompted to turn on Bluetooth, tap Yes.
+# Tap the Settings tab ( ), and then tap Not Discoverable.
+# Select Always Visible. Note If you select Visible for 60 seconds, Bluetooth visibility will turn off automatically when the time elapses and your phone has not yet connected to another Bluetooth device.
+# Tap Done. The icon then appears in the title bar to indicate that your phone is in visible mode.
+
+'''Tip:'''To easily switch Bluetooth off or back on, tap Wireless controls on the Home Screen’s Settings tab to open the Comm Manager and then tap Bluetooth’s Off/On switch. <br />
+
+Your phone remembers whether visible mode was previously enabled or disabled. If you did not disable visible mode, switching Bluetooth on in the Comm Manager also puts your phone in visible mode automatically.
+
+===Links===
+*HTC HD2 [http://www.techamok.com/?pid=7176 Walk-through Video] <br />
+*Sync Phone with [http://www.google.com/mobile/products/sync.html#p=winmo Google Sync] and related XDA-Dev [http://forum.xda-developers.com/showthread.php?t=584167 Thread] <br />
+*[[OpenGL]] and Performance Improvement [http://forum.xda-developers.com/showthread.php?t=584966&highlight=opengl Project] <br />
+*[Alternative keyboard applications (Swype included) [http://forum.xda-developers.com/showthread.php?p=5120979#post5120979 Here] <br />
+
+===[[Software & Games]]===
+*A List of all Games and Software that are and aren't compatible can be found Here: [[Software & Games]] <br />
+*HTC HD2 [http://www.freewarepocketpc.net/ FREEWARE downloads] <br />
+*[http://www.1800pocketpc.com/ Windows Phone Apps]
+*[http://www.bestwindowsmobileapps.com/ Windows Phone Apps / Games Review] <br />
+
+==Accessories and Mods==
+[http://forum.xda-developers.com/wiki/index.php?title=Leo_Earphones Modify Leo HTC Headset to In-Ear Headphones]
+
+==Leo Resets & Bootloader==
+===Soft Reset===
+*Push reset button inside phone
+~Or~ <br />
+*Press and hold the Power button
+===Hard Reset===
+'''While phone is on:''' <br />
+Hold Volume up + Volume down & press Reset button <br />
+'''While phone is Off''' <br />
+Hold Volume up + Volume down & press power button <br />
+
+===Bootloader===
+'''While phone is Off:''' <br />
+Hold Volume down & press power button  <br />
+'''While phone is On''' <br />
+Hold Volume down & press Reset Button <br />
+
+==Specifications==
+===Technical===
+'''Network:''' Network GSM 850 / 900 / 1800 / 1900 3G Network HSDPA  (AWS/2100 for TMOUS)<br />
+'''Display:''' Display TFT capacitive touchscreen, 65K colors, 480 x 800 pixels, 4.3 inches <br />
+*Sense UI
+*Multi-touch input
+*Accelerometer sensor for auto-rotation
+*Proximity sensor for auto turn-off
+*Ambient light sensor
+*Pick-to-mute a call
+
+'''Sound:'''
+*Vibration
+*polyphonic MP3, WAV, WMA ringtones
+*Speakerphone
+*3.5 mm audio jack
+'''Memory:''' <br />
+*576 MB RAM (448MB officially supported for non-US devices; every device has sports 576MB of RAM, which can be enabled by flashing a TMOUS based rom with appropriate radio)
+*512 MB ROM (1GB on TMOUS devices)
+'''Card Slot:''' MicroSD ([[TransFlash]]) <br />
+'''Data:''' <br />
+*GPRS: Class 12 (4+1/3+2/2+3/1+4 slots), 32 - 48 kbps
+*HSCSD: Yes
+*EDGE: Class 12
+*3G: HSDPA, 7.2 Mbps, 2 Mbps
+*WLAN: Wifi 802.11 B/g ([http://forum.xda-developers.com/showthread.php?p=4935494#post4935494 N With Modification] <br />
+*Bluetooth: Yes, v2.1 with A2DP
+'''USB:''' Yes, microUSB - No offocoa; USB host support. <br />
+'''Camera:''' Primary: 5MP (2592 x 1944 pixels), Autofocus, LED flash <br />
+'''OS:''' Microsoft Windows Mobile 6.5 Professional <br />
+'''CPU:''' Qualcomm Snapdragon QSD8250 1 GHz processor <br />
+'''Radio:''' Stereo FM radio with RDS
+
+'''GPS:''' Yes, with A-GPS support, [[NaviPanel]] <br />
+'''Java:''' Yes, MIDP 2.0
+
+'''Digital Compass:''' Yes
+
+===Physical===
+'''Dimensions:''' 120.5 x 65 x 11 mm
+'''Weight:''' 157 g

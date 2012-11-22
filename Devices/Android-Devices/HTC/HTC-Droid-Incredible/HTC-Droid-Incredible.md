@@ -14,14 +14,14 @@ The HTC Droid Incredible lives up to it's name; it has the strong aesthetic desi
 
 ## Sections
 
-* [[Bypass Verizon Activation]] - All Verizon phone must be activated before use. If you don't have a Verizon contract, you have to use this exploit to escape it.
+* [[Bypass Verizon Activation]] - All Verizon phones must be activated before use. If you don't have a Verizon contract, you have to use this exploit to escape it.
+* [[DINC Preperation]] - Get ADB up and running and obtain the needed files.
+* [[DINC Things to Know]] - You will be told to do specific actions over and over in this guide. Here they are for reference.
 
 ### Glossary
 
 * [[Glossary Android]]
 * [[Glossary HTC]]
-* [[DINC Preperation]] - Get ADB up and running and obtain the needed files.
-* [[DINC Things to Know]] - You will be told to do specific actions over and over in this guide. Here they are for reference.
 
 ### Unlocking
 
@@ -29,13 +29,18 @@ The Droid Incredible in it's current state has a very grueling unlock method. Ve
 
 Now, we are left with the Official HTCDev Unlock, which, thankfully, *always* works. However, it completely voids the warranty (But by this point in time it's not like there's any of it left). From there, we will downgrade with an exploit and get use the Revolutionary exploit to get S-OFF. Let's go!
 
-* [[DINC HTCDev Unlock]] - The Official bootloader unlock. It always works; but your phone stays S-ON.
-* [[DINC Root and Recovery]] - Rooting the Gingerbread ROM.
-* [[DINC Downgrade to Froyo]] - We will downgrade to Android 2.2 Froyo to get the old HBOOT installed.
-* [[DINC Unlock, Root, and Recovery]] - Unlock, root, and install recovery for the second time.
-* [[DINC SOFF]] - At last, we finally get S-OFF on the Droid Incredible.
-* [[DINC Update HBOOT and Radio]] - The old Froyo update uses older, less efficient radio software. It's well worth the effort to get it to the newest version.
-* [[DINC Custom ROMs]] - Taste the fruits of victory by installing a custom ROM or two.
+1. [[DINC HTCDev Unlock]] - The Official bootloader unlock. It always works; but your phone stays S-ON.
+2. [[DINC Root and Recovery]] - Rooting the Gingerbread ROM.
+3. [[DINC Downgrade to Froyo]] - We will downgrade to Android 2.2 Froyo to get the old HBOOT installed.
+4. [[DINC Unlock, Root, and Recovery]] - Unlock, root, and install recovery for the second time.
+5. [[DINC SOFF]] - At last, we finally get S-OFF on the Droid Incredible.
+6. [[DINC Update HBOOT and Radio]] - The old Froyo update uses older, less efficient radio software. It's well worth the effort to get it to the newest version.
+7. [[Custom ROMs]] - Taste the fruits of victory by installing a custom ROM or two.
+
+### Miscellaneous
+
+* [[DINC Specific Mods]] - Modifications unique to the Droid Incredible.
+* [[DINC Credits and Sources]] - Everyone and every dev whose work went into creating this guide.
 
 ### Roadmap
 
@@ -46,8 +51,3 @@ Now, we are left with the Official HTCDev Unlock, which, thankfully, *always* wo
 5. Re-unlock HTCDev hboot
 6. Re-flash recovery
 7. Re-flash superuser root files and flash unrevoked's "forever" s-off patch
-
-### Miscellaneous
-
-* [[DINC Specific Mods]] - Modifications unique to the Droid Incredible.
-* [[DINC Credits and Sources]] - Everyone and every dev whose work went into creating this guide.

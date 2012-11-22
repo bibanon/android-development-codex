@@ -11,6 +11,8 @@ The big problem with the G2 are the guides. They are a mess, with some guides ha
 * Permaroot instructions need to be taken from the wiki
 * adb should be moved to it's own section
 * all programs need to be consolidated into one package, removing redundant ones
+* Readability cleanup
+* Desire Z HBOOT instructions
 * add more credits as needed
 
 ## adb
@@ -221,7 +223,7 @@ Downgrading is half the battle. Now we need to repeat the process to get permane
 
 http://forum.xda-developers.com/showthread.php?t=1453066
 
-> NOTE: This phone is strangely unique in that you must manually flash the ROM's `boot.img` each time to get custom ROMS booting. Don't forget!
+> NOTE: This phone is strangely unique in that you must manually flash the ROM's `boot.img` each time to get custom ROMS booting.
 
 1. Download the rom.zip you wish to run.
 2. Extract boot.img from the zip and place it in the folder with fastboot.
@@ -237,6 +239,14 @@ http://forum.xda-developers.com/showthread.php?t=1453066
       writing 'boot'...
       OKAY [  1.085s]
       finished. total time: 1.798s
+      
+## Flash Desire Z HBOOT on G1
+
+Some ROMs, such as Sense ROMs require the use of the Desire Z HBOOT. This HBOOT allows extra space to be used for the system, and does not change any functionality. It is recommended to flash this HBOOT to use the 
+
+Otherwise, ROMs requiring the Desire Z ROM will not boot when flashed.
+
+(needs guide)
 
 ## Buttons
 

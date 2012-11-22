@@ -1,0 +1,65 @@
+{{stub}}
+
+{{Tablet
+| name               = ASUS Nexus 7
+| sortname           = Nexus 7
+| manufacturer       = ASUS
+| releasedate        = July 13, 2012
+| os                 = Android
+| dimensions         = 198.5×120×10.56 mm
+| weight             = 340 gr
+| chipset            = Nvidia Tegra 3 T30L
+| display            = 7" WXGA 1280x800(216 ppi) IPS LCD
+| networks           = n/a
+| wifi               = 802.11 b/g/n 2.4 GHz
+| bluetooth          = 3.0
+| NFC                = Yes
+| GPS                = Yes
+| video              = None
+| camera             = None
+| secondarycamera    = 1.2 MP 720p
+| internalmemory     = 1GB RAM, 8/16GB NAND
+| memorycard         = None
+| battery            = 4,325 mAh Li-Ion (9 hours)
+| additionalfeatures = Accelerometer, gyroscope, proximity sensor, digital compass, magnetometer.
+}}
+
+The Nexus 7 is a tablet computer designed and developed by Google in conjunction with Asus. It is the first tablet in the Google Nexus series. The Nexus 7 features a 7-inch (180 mm) diagonal screen, a Nvidia Tegra 3 quad-core chip, 1 GB of RAM, and 8 or 16 GB of internal storage. Available with Wi-Fi and built-in near field communication (NFC) connectivity, it is emphasized as an entertainment device with integration with Google Play. The tablet was the first device to ship with Android version 4.1, "Jelly Bean".
+
+== Overview ==
+* [http://www.google.com/nexus/#/7 Google Play Overview]
+* [http://www.asus.com/Tablet/Nexus/Nexus_7/ ASUS Overview]
+* [http://en.wikipedia.org/wiki/Nexus_7 Wikipedia Overview]
+
+== Reviews ==
+* [http://www.engadget.com/2012/06/28/nexus-7-review Engadget Nexus 7 Review]
+* [http://www.techradar.com/reviews/pc-mac/tablets/google-nexus-7-1087040/review TechRadar Nexus 7 Review]
+* [http://reviews.cnet.co.uk/ipad-and-tablets/google-nexus-7-review-50008423/ CNet Nexus 7 Review]
+
+== XDA-Developers Forums - Nexus 7 ==
+* [http://forum.xda-developers.com/forumdisplay.php?f=1674 Nexus 7 General]
+* [http://forum.xda-developers.com/forumdisplay.php?f=1675 Nexus 7 Q&A]
+* [http://forum.xda-developers.com/forumdisplay.php?f=1676 Nexus 7 Accesories]
+* [http://forum.xda-developers.com/forumdisplay.php?f=1677 Nexus 7 Android Development]
+* [http://forum.xda-developers.com/forumdisplay.php?f=1688 Nexus 7 Original Development]
+* [http://forum.xda-developers.com/forumdisplay.php?f=1678 Nexus 7 Themes & Apps]
+
+== Tutorials and Guides ==
+* [http://www.enolsoft.com/blog/best-android-games-for-google-nexus-7/ Best Android Games for Google Nexus 7]
+* [http://www.enolsoft.com/blog/nexus-7-tipstricks-rip-dvd-to-google-nexus-7/ Rip DVD to Google Nexus 7]
+* [http://forum.xda-developers.com/showthread.php?t=1747884| General Public License]
+* [http://forum.xda-developers.com/showthread.php?t=1747880| Thinking of posting a new thread?]
+* [http://www.enolsoft.com/blog/must-have-android-apps-for-google-nexus-7/ Must Have Android Apps for Google Nexus 7]
+* [http://forum.xda-developers.com/showthread.php?t=1809195| Drivers, Backup, Unlock, Root, CWM, Flash]
+* [http://forum.xda-developers.com/showthread.php?t=1736578| Nexus 7 Jelly Bean Android Development: Sources,Roms,Kernels, etc.]
+
+== Nexus 7 ROMs ==
+=== Original Development ROMs ===
+* [http://forum.xda-developers.com/showthread.php?t=1800268 PARANOIDANDROID (1.992, True HybridMode, Size & UI on Per App Basis)]
+* [http://forum.xda-developers.com/showthread.php?t=1788518 SGT7 - Making your nexus 7 a true tablet (BUILD5)]
+* [http://forum.xda-developers.com/showthread.php?t=1861014 Eclipse Nexus 7 Build 14 (8/31/12) - Welcome to the Dark!]
+* [http://forum.xda-developers.com/showthread.php?t=1777586 Team EOS 3 *JELLYBEAN* Nightlies]
+* [http://forum.xda-developers.com/showthread.php?t=1797105 BAMF Paradigm v2.3.1 (4.1.1) JRO03L 8.31.2012 *FIXES AND MORE*]
+* [http://forum.xda-developers.com/showthread.php?t=1846257 Slim Bean(N7)]
+
+=== Android Development ROMs ===

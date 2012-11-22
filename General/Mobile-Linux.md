@@ -34,7 +34,7 @@ Currently, Plasma Active is being tested by the Kubuntu team on a secret reposit
 
 ### Cordia
 
-Cordia is a project to restore Hildon to it's former glory.
+Cordia is a project to restore Hildon to it's former glory. It currently runs on Mer Core only.
 
 ### Bodhi Linux Mobile
 
