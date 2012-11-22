@@ -14,7 +14,9 @@ You can get it here:
 
 ### Manual Rooting
 
-For reference, this is the manual method of rooting.[1]
+For reference, this is the manual method of rooting.
+
+[Root Droid regardless of version](http://www.droidforums.net/forum/droid-labs/74028-root-droid-1-regardless-os-version.html)
 
 ## Installing a Recovery Image
 
@@ -65,12 +67,14 @@ Though no longer maintained, it's still a great system by itself.
 
 ## Modding History
 
+The Motorola Droid was the most popular device among Android devs for a while. Unfortunately, Motorola put the rest of the 
+
 ## Reference Section
 
-* **Get into Recovery** - [Power+X]
+* **Get into Recovery** - Hold the X button while turning on the Droid.
   * Turn off the phone completely, and press the power button while holding "X" on the keyboard.
 * **Clockworkmod Controls** - D-Pad (on keyboard) OR Volume buttons to scroll & Power to select
 
 ## Sources
 
-[1][Root Droid regardless of version](http://www.droidforums.net/forum/droid-labs/74028-root-droid-1-regardless-os-version.html)
+[Root Droid regardless of version](http://www.droidforums.net/forum/droid-labs/74028-root-droid-1-regardless-os-version.html)

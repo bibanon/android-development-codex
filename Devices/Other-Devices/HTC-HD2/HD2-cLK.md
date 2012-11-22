@@ -31,7 +31,7 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs, and 
 
 ## Installing CLK 1.5 Without USB
 
-> **Note: This method is slightly more prone to bricking, you should only use this method if your USB port is broken.**
+> **Note: You should only use this method if your USB port is broken. It's a bit riskier than using the computer for flashing.**
 
 1. Format SD card.
 2. Download **cLK v 1.5** (The attached `LEOIMG.zip` file)
@@ -46,40 +46,8 @@ Unfortunately, as such, it is currently unable to run Windows Phone 7 ROMs, and 
 
 ## Installing Android with cLK
 
-### Install Generic Google ADB Drivers
+Now we can finally install Android using cLK. There are three ways to do so:
 
-In order to install a recovery, you will need to install the drivers to interface with cLK.
-
-* [Uploaded.to - Google ADB Drivers](http://uploaded.net/file/ypksx8zb)
-
-After that, power on phone and it should boot into cLK.  When Windows prompts you to install drivers, select the folder where you extracted them.
-
-Power on phone and it should boot into cLK. Plug up to computer then do this from the start menu:
-
-    Start>Control Panel>Hardware & Sound>Device Manager
-
-An 'unknown device' should be shown. Right click it and select **Update driver software**.
-
-When menu pops up select **Browse My Computer**.
-
-Select the folder of drivers you previously downloaded, click **Next**, and the drivers will be installed.
-
-### Using cLK after installing Android
-
-* Holding down any key ( except power ) will show text console
-* Holding down the **Home key** will enter Recovery
-* Holding down the **Back Key** will enter fastboot mode
-
-### Flashing ClockworkMod Recovery
-
-1. Open HD2 Toolkit. Make sure your HD2 is plugged in.
-2. Select **cLK Install Recovery**.
-3. Under **Functions**, click **Install**.
-4. A dialog box will pop up. Press **Yes**, since Android has not yet been installed.
-5. A Command Prompt will pop up. Follow the directions to flash (press **Enter** twice).
-6. Once the flash is complete, press **Enter** to return to the HD2 Toolkit.
-7. The device will reboot twice, taking you back to cLK.
-
-### Flashing ROMs with ClockworkMod
-
-(use a template for this)
+* [[Install Android to Phone Memory|HD2 cLK Android NAND]]
+* [[Install Android with NativeSD|HD2 Android NativeSD]]
+* [[Install Android with old SD Method|HD2 Android SD]]

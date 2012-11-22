@@ -9,7 +9,7 @@ As a Nexus device, modding is straightforward and simple, and everything is base
 
 ## Sections
 
-Follow these guides below to start your adventure in Android modding.
+To start your adventure in Android modding, follow the below guides in order.
 
 ### Glossary
 

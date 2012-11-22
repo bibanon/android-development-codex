@@ -1,0 +1,1009 @@
+{{Phone
+|name = HTC Vision
+| sortname           = Vision
+|releasedate = 06 OCT 2010
+|manufacturer = HTC
+|os = Android
+|dimensions = 119.4 x 61 x 15.2 millimeters
+|weight = 184.3 grams (battery included)
+|networks = GSM850, GSM900, GSM1800, GSM1900, HSDPA 1700, HSDPA 2100 
+|display = 3.7-inch Super-LCD flat capacitive screen 
+|chipset = Qualcomm® MSM7230, 800MHz
+|wifi = 802.11 b/g/n, DLNA and Wi-Fi hotspot
+|bluetooth = 2.1 with A2DP 
+|GPS = Yes, with A-GPS support
+|camera = 5 megapixel camera with autofocus, LED flash, 720p Recording
+|secondarycamera = none
+|internalmemory = ROM: 1.5GB (Accessible) RAM: 512MB SDRAM
+|memorycard = microSD, up to 32GB, 8GB included
+|battery = 1300 mAh Li-Ion
+|additionalfeatures = 3.5mm, multitouch
+|NFC = No
+}}
+==Intro==
+
+'''Internal Forum'''
+* http://forum.xda-developers.com/forumdisplay.php?f=750
+
+
+'''HTC Desire Z (Europe)'''
+* Official Website: http://www.htc.com/www/product/desirez/overview.html
+* Forums: http://forum.xda-developers.com/forumdisplay.php?f=750
+
+
+'''T-Mobile G2 (USA)'''
+* Official Website: http://www.htc.com/us/products/t-mobile-g2
+* Forums: http://forum.xda-developers.com/forumdisplay.php?f=750
+
+
+'''CDMA versions'''
+* HTC Merge
+----
+
+==Specification==
+*'''Processor''': Qualcomm® MSM7230, 800MHz
+*'''Graphics''': Adreno 205
+*'''Operating System''': Google Android 2.2 (Froyo)
+*'''Memory''':
+**4GB eMMC (advertised as 4GB on G2, 1.5GB on DZ)  (SKU: SDIN5C2-4G)
+**512 MB RAM
+**MicroSD 2.0 Expansion slot
+*'''Dimensions''': 119mm(L) x 60.4mm(W) x 14.16mm(T)
+*'''Weight''': 180g with battery pack
+*'''Display''':
+**3.7-inch WVGA 480 x 800
+**Multitouch Panel
+**Super-TFT LCD
+*'''Connectivity''': 
+**Bluetooth® 2.1 with EDR,A2DP,AVRCP
+**Wi-Fi®: IEEE 802.11 b/g/n
+**Micro USB Port
+*'''Camera''': 5 megapixel color with autofocus, LED flash, 720P 30fps recording
+*'''Battery''': 1300 mAh rechargeable Li-Ion battery 
+*'''Network''':
+**GSM: 850/900/1800/1900 MHz
+**WDCMA/UMTS: 900/1700&sup1;/2100 MHz
+**Data: CSD/GPRS/EDGE/UMTS/HSDPA/HSUPA
+*'''Misc''':
+**HTC FastBoot
+**HTC Sense UI&sup2;
+**Qualcomm MSM7230 gpsOne with ZeroWait
+**G Sensor
+**Proximity Sensor
+**Digital Compass
+**Ambient Light Sensor
+**FM Radio with RDS
+
+'''Detailed Specifications'''
+*HTC Desire Z - http://pdadb.net/index.php?m=specs&id=2596&view=1&c=htc_desire_z_htc_vision
+*Tmobile G2 - http://pdadb.net/index.php?m=specs&id=2476&view=1&c=t-mobile_g2_htc_vision
+
+==Radio Bands==
+
+The Vision comes with different 3G radio bands set in hardware. It is NOT possible to change these bands via flashing a new radio, configuration menu or any other methods. Once they are set in the factory, they cannot be changed. There are three different configurations, as follows :
+
+*G2 - Band I (2100) and Band IV (1700/2100)
+*Desire Z - Band I (2100) and Band VIII (900)
+*NAM Desire Z (Bell) - Band II (1900) and Band V (850)
+
+If you do not have the correct hardware radio bands for where you are using your phone (i.e. for the frequencies used by your carrier), then you will not be able to use 3G at all. So you will be stuck with voice calls and 2G data (EDGE at best).
+
+== The Missing 2GB ==
+
+'''11-12-10:  The following is our best understanding of the issue at-present.  Scotty2 says this is "99.9%" the issue and "the only explanation that makes sense."'''
+
+=== What Missing 2GB? ===
+
+Although marketing from T-Mobile claim the phone contains 4GB of internal storage (not including the removable micro-SD card), once the phone was released, users quickly noticed that only ~2GB appears to exist.
+
+Several theories for the "missing" flash memory storage were proposed, including a possible "shadow" installation of the operating system being hidden somewhere, as well as a possible 2GB limitation of the card when in "byte" rather than "sector" mode.  Still a third theory proposed that perhaps the extra 2GB were somewhere outside the normal block device where the Android kernel's flash controller couldn't find it.
+
+Apparently, none of these theories were correct.
+
+=== So where is the missing 2GB? ===
+
+To answer this, it is first necessary to understand a bit about how internal flash cards, such as the [http://tjworld.net/attachment/blog/htc-desire-z-tear-down/IMG_0277-small.jpg Sandisk card] (also known as an "emmc") on the HTC Vision, store information.
+
+Luckily, Sandisk has provided a [http://www.sandisk.com/business-solutions/ssd/movie-2-what-is-nand----flash-technology-tutorials helpful video].  Pay particular attention to the discussion of SLC (single-level cell) and MLC (multi-level cell) in Chapter 5.
+
+In an SLC configuration, a single bit is packed into each memory cell.  In a multi-level cell, you can fit 2, 3, 4 or more bits in each cell.  You get a lot of capacity with more bits per cell, but at the expense of speed and reliability.
+
+In trying to figure out where the missing 2gb went, scotty2 noticed that most of the Sandisk card's block device (that is, the part with Android on it) had been partitioned within the regular "User Data Area" as an "Enhanced User Data Area".
+
+Note that when we talk about partitioning the emmc, we're not talking about regular MBR partitions like /dev/whatever.  An emmc partition is a very low-level partition of the flash.  Each emmc partition constitutes a full block device, which can then be further partitioned into a bootloader, /system, /data, etc.
+
+The card's [http://omapworld.com/iNAND_e_MMC_4_41_IF_data_sheet_v1_0%5B1%5D.pdf datasheet] wasn't too clear about what the "Enhanced User Data Area" did that was so different from the regular User Data Area, although one thing was clear-- once its parameters was set, you couldn't "un-set" it.  To quote the datasheet, the Enhanced User Data Area "''can be programmed only once during the device life-cycle (one-time programmable).''"
+
+But why was the entire Sandisk partitioned in this special "Enhanced" User Data area?  No one knew.
+
+Then tmzt found [http://www.wirelessdesignmag.com/ShowPR~PUBCODE~055~ACCT~0021360~ISSUE~1010~RELTYPE~emb~PRODCODE~L0100~PRODLETT~A.html this].  It's an article by Toshiba that suggests what's going on:
+
+''Those areas requiring better reliability are SLC or can be programmed as SLC. . . the Enhanced User Data Area, which may store, for example, system log files, are SLC. The User Data Area, which may store music, pictures, videos and other files is MLC. . . Each 1 bit configured as SLC results in 2 bits less of MLC. Theoretically an 8GB e-MMC device (densities are defined in MLC terms), could be configured virtually all as SLC and thus would be approximately 4GB. In most cases, it is more likely that the majority of the memory would be configured as MLC to support higher density.''
+
+You've probably figured out by now what's likely happened here.  Assuming the Sandisk emmc works like Toshiba's, the 4GB flash has probably been, save for a few tiny partitions such as the radio, irreversibly configured to use SLC, rather than MLC. If so, the benefit is faster performance and perhaps greater stability (and more read/write cycles).  But its capacity/density would be cut in half.
+
+And that, my friends, may very well be where your 2GB has gone.
+
+=== So To Conclude... ===
+
+Assuming the above is a correct understanding of the issue, the following appears to be the case:
+
+*  The HTC vision has a 4GB firmware card
+*  It has been irreversibly partitioned to use a faster/more reliable configuration called SLC
+*  This has resulted in a practical capacity/density of ~2GB
+
+'''Update''':  Initial investigations from [http://pocketnow.com/android/open-letter-regarding-t-mobile-response-to-locking-the-g2 over a month ago] reported that T-Mobile attributed this issue to "creative partitioning":  ("''I called into T-Mobile Android support and was assured this number is correct, and that I do have the full 4GB storage on-board... there's just some "creative partitioning" going on.''")  This may correlate with the explanation provided above.
+
+'''Update 12/6/10''':  A more technical discussion of this (with pictures) is [http://tjworld.net/wiki/Android/HTC/EMMC/UnderstandingUserCapacity here].
+
+==Bootup Key Sequences==
+
+Bootloader (HBOOT): Volume Down + power on
+
+Fastboot: Touchpad button + Power
+
+Reboot phone from within HBOOT or Fastboot: Power + Volume Down + Touchpad button
+
+===Navigating Recovery Mode===
+
+Show/Hide Log Text: Volume Up + Power
+
+Navigate Menu: Volume Up/Down
+
+Select Action: Power
+
+== OTA Updates ==
+
+===Frequently Asked Questions (all devices)===
+
+*Why have I not received the OTA update yet?
+
+''After an OTA update has been released, devices update in "waves." It has nothing to do with location, being on Wi-Fi or 3G, IMEI (don't post your IMEI in a thread), when you activated your device or shoe size. It is completely random which devices are part of which wave. Fortunately, the OTA update file is typically grabbed and posted on XDA for manual update.''
+
+*I was told if I dial '''*#*#CHECKIN#*#*''' that the OTA update will start to download.
+
+''This only works if the wave included your device can get the update. Keep in mind your device also checks in automatically at first boot and when you open the Android Market. Manually checking in when an OTA update is first released is typically not effective.''
+
+*I saw the OTA update file in the forum, how do I use it?
+''If you have an unrooted, stock ROM and stock recovery then save the file to your sdcard as "update.zip" and reboot into recovery. Press power to show the menu. Select apply update.zip.''
+
+*I have a custom ROM, will I receive an OTA update?
+
+''No, custom ROM's have the OTA update mechanism disabled. Most developers will post updated versions of their ROM's in the [http://forum.xda-developers.com/forumdisplay.php?f=758 developer forum] and a large number also use a [http://forum.xda-developers.com/wiki/index.php?title=File:ROM_Manager.png feature of ROM Manager to notify users of newer versions.]''
+
+*Why did my OTA update fail installation?
+
+''There are several reasons an update fails. For users with a rooted stock ROM, you cannot flash an OTA update with ClockworkMod Recovery. [http://forum.xda-developers.com/showthread.php?t=834545 You need to re-flash the stock recovery and try again.] Specific files are patched by the updater-script and asserts checks that they have not been modified or removed. Developers posting "rooted stock" ROM's will typically "deodex" the apk files which changes the md5sum and causes them to fail the assert. The updater-script asserts sometimes check hboot version, CID and ROM build fingerprint as well.''
+
+*Can I flash the Desire Z OTA on my G2?
+
+''No. An OTA update is exclusively for a specific version of the stock ROM for the specific version of the device. This is checked in the updater-script asserts:''
+<pre>
+assert(file_getprop("/system/build.prop", "ro.build.fingerprint") == "tmobile/htc_vision/vision/vision:2.2/FRF91/277427:user/release-keys" ||
+       file_getprop("/system/build.prop", "ro.build.fingerprint") == "tmobile/htc_vision/vision:2.3.4/GRJ22/82286:user/release-keys");
+</pre>
+
+*I flashed the leaked RUU, can I use the OTA update.zip?
+''This depends on the OTA update asserts. You can check the updater-script in the update.zip to see if your specific build fingerprint in included. Otherwise you may need to [http://forum.xda-developers.com/wiki/index.php?title=HTC_Vision#How_To_Get_R.2FW_Access_.28Permanent_Root_.2F_.22Permaroot.22.29_using_gfree_v0.7 downgrade] or use a newer version [http://forum.xda-developers.com/wiki/index.php?title=HTC_Vision#Official official RUU].''
+
+===Desire Z===
+
+====December 2010 DZ OTA 1.72 Update====
+
+On 23 December 2010 HTC released an OTA update, [http://forum.xda-developers.com/showthread.php?t=889296 version 1.72 of the ROM], for European Desire Z phones. This includes camera updates, as well as various other improvements/fixes, including Android 2.2.1.
+
+This OTA update includes a new radio which closes the "wpthis" loophole that was previously used to defeat the NAND write protection, and it includes a new kernel/OS which closes the exploit used by rage to get root.
+
+The Visionary/rage methods to obtain temp root will not work with this OTA applied, and gfree will not work either.
+
+====2011 DZ OTA 1.7x Update====
+
+If you had S-OFF before the OTA update you will only have a false S-OFF and not have root as NAND write protection has been disabled by HTC. Currently psneuter is not possible and will generate the error Failed to set prot mask (Inappropriate ioctl for device). Additionally the stock reimage of PC10IMG.zip through HBOOT will also not work (http://forum.xda-developers.com/showthread.php?t=912399&page=3) as it will generate a "Partition update fail!" and the file will need to be removed from your Micro SDCARD via a Micro SDCARD reader on a pc or another phone.
+<span id="Rooting the G2"></span>
+
+===T-Mobile G2===
+
+====November 2010 G2 OTA 1.22 Update====
+
+*[http://forum.xda-developers.com/showthread.php?t=827139 T-Mobile released an OTA update for the G2 on 3 November.] It enables Wi-Fi calling as well as Wi-Fi tethering (with a T-Mobile tethering plan).
+
+The OTA does not include a new hboot (hboot cannot be downgraded once upgraded), but does include a newer kernel, recovery, and radio image, [http://forum.xda-developers.com/showthread.php?t=831398 all of which can be downgraded from this OTA to the shipping versions]. ''#g2root now considers it safe to install the OTA.''
+
+*Note that if you do decide to apply the OTA, and you've used paulobrien's Google Goggles remover, then you won't be able to cleanly install. [http://forum.xda-developers.com/showthread.php?t=827794 You will have to reflash to the original ROM to update].
+*[http://forum.xda-developers.com/showpost.php?p=8978583&postcount=1 XDA thread]
+*[http://android.clients.google.com/packages/ota/tmobile_g2/e4aaacea73af.OTA_Vision_TMUS_1.22.531.8-1.1.19.531.1_release_signed.zip Direct download from Google]
+
+====July 2011 G2 OTA 2.15 Update====
+*[http://forum.xda-developers.com/showthread.php?t=1188679 On July 27, 2011, T-Mobile released an OTA to update the G2 from 2.2 Froyo to 2.3.4 Gingerbread] with an option for customers to have customer service reps at T-Mobile retail stores provide update via SD card in store by August 6. This is a newer build than the [http://forum.xda-developers.com/showthread.php?t=1074391 2.13 "test" PC10IMG.zip leaked in May] and [http://www.tmonews.com/2011/06/t-mobile-g2-warranty-devices-shipped-with-gingerbread-in-error/ inadvertently shipped on refurbished G2 devices during early summer.]
+
+*Note: G2 Gingerbread ROMS (firmware 2.XX) need to be [http://forum.xda-developers.com/showthread.php?t=1178912 downgraded in order to root.] This includes:
+#Phones that had not previously been rooted prior to installing the OTA update
+#Phones updated with the 2.3.3/2.3.4 PC10IMG
+#Refurbished phones received with 2.3.3/2.3.4 pre-installed
+*Users that had previously rooted 1.19/1.22 using gfree and have an S-OFF bootloader [http://forum.xda-developers.com/showthread.php?t=1206930 can regain root by reflashing a modified PC10IMG and CWM recovery.]
+*[http://forum.xda-developers.com/showthread.php?t=1188679 XDA thread]
+*[http://android.clients.google.com/packages/ota/tmobile_g2/f4d11a64d2df.OTA_Vision_Gingerbread_S_TMOUS_2.15.531.3-1.22.531.8_release_197463.zip Direct download from Google]
+
+====October 2011 G2 OTA 2.16 Update====
+October 17 T-Mobile issued a minor maintenance release that included a Google security patch, Google Skymap improvements (fixes signature for market update,) battery life improvements and data connection while roaming domestically.
+*[http://forum.xda-developers.com/showthread.php?t=1310788 XDA thread]
+*[http://android.clients.google.com/packages/ota/tmobile_g2/e752aaf130be.OTA_Vision_Gingerbread_S_TMOUS_2.16.531.5-2.15.531.3_release_215192.zip Direct download from Google]
+
+==Rooting the Vision (G2/DZ) and DHD ==
+
+===Introduction===
+
+We would like to be a model of openness as a stark contrast to HTC's and T-Mobile's closed attitudes. Allegiances to any particular teams or groups are far less important than a willingness to help, and all who want to help are welcome. Credit will always be given where it is due, so don't worry about anyone claiming your work as his or her own. Catch up on our current progress below and join us in [[#References|IRC]].
+
+'''WARNING:  Be aware that by following these instructions you are messing with your phone with  potential for screwing things up.  Do so at your own risk.  The many authors of this guide assume no responsibility for any damage to your phone, health, general well-being, or anything else untoward with respect to these instructions or you following them.'''
+
+01 April 2011: '''This is a new guide on rooting the G2/DZ/HD. It uses gfree v0.5 - if this fails to powercycle your emmc you have to use the guide for gfree v0.2 that can be found [{{fullurl:HTC Vision|oldid=14422#{{anchorencode:How To Get R/W Access (Permanent Root / "Permaroot") using gfree v0.2}}}} in the history]'''
+
+10 June 2011: '''Updated the guide to use gfree v0.6 - if this fails to powercycle your emmc you could try to use gfree 0.5 instead that can be downloaded from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_05.zip here] (md5sum 74aec166f591ec5d25d898a903570931)'''
+
+16 June 2011: Updated the guide to use gfree v0.7 (now also backups and installs recovery)
+
+26 September 2012: Updated the guide to use gfree v0.9 (now also calculates and checks md5sume of the hboot installation)
+
+5 October 2012: Updated the guide to use gfree v1.0 (added -p to specify an alternate backup path)
+
+=== How To Get R/W Access (Permanent Root / "Permaroot") using gfree v1.0 ===
+
+'''<big> Prerequisites </big>'''
+
+* Having the proper USB drivers installed - [http://www.htc.com/de/SupportViewNews.aspx?dl_id=1073&news_id=918 HTC Sync including Windows USB Drivers for the Vision]
+
+* Disable auto-run or uninstall Visionary if you have it (It's important!)
+
+* adb (installed as part of the [http://developer.android.com/sdk/installing.html Android SDK].) See [http://forum.xda-developers.com/showthread.php?t=865685 this guide on how to install/setup adb on your PC].
+
+* The HTC Desire Z with a firmware version higher than 1.34, T-Mobile G2 with a firmware version higher than 1.22 and the Desire HD with a firmware version higher then 1.32 have to be downgraded before proceeding.
+
+'''<big>Downgrading HTC Desire Z, T-Mobile G2 and Desire HD</big>'''
+
+* For the 1.XX firmware HTC Desire Z follow this guide [http://forum.xda-developers.com/showthread.php?t=905261 Downgrade DZ] till step 12 and then come back.
+
+* For the 1.XX firmware HTC Desire HD follow this guide [http://forum.xda-developers.com/showthread.php?t=905003&highlight=downgrade Downgrade HD] and then come back.
+
+* For the 2.XX firmware HTC Desire Z/Desire HD and T-Mobile G2 follow this guide [http://forum.xda-developers.com/showthread.php?t=1178912 GUIDE Downgrade G2 2.13.531.8 (2.3.3 T-Mobile Rom w/ S-ON) & DZ 2.3.3 w/ S-ON"] and come back. The history can be found in this thread [http://forum.xda-developers.com/showthread.php?t=1176808 New exploit works with Gingerbread!] and Desire Z users see this posting of the thread [http://forum.xda-developers.com/showpost.php?p=15825944&postcount=27 Desire Z explanation].
+
+
+''Please use your brain when following these postings / guides. Especially make sure that you use a PC10IMG.zip for your device!''
+
+
+'''<big> 1. Necessary files </big>'''
+
+psneuter [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/psneuter/psneuter.zip psneuter.zip] (md5sum 89c2dec8d72d87b4c669f44dd31c8d17)
+
+gfree v1.0 [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_10.zip gfree_10.zip] (md5sum 0bc9fc22bda897c765b02066f8a3c83b)
+
+rooting files [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_root_psn.zip gfree_root_psn.zip] (md5sum 3b9172af8c4562b0f7f9e0c5fd01f89a)
+
+''' 1.1. engineering hboot '''
+
+Download the '''appropriate HBOOT for your phone''':
+
+T-Mobile G2: [http://cmw.22aaf3.com/vision/hboot/vision.hboot-0.76.2000.zip vision.hboot-0.76.2000.zip] (md5sum 7669AE12DC2FAA10AE555A164980EFD0)
+
+HTC Desire Z: [http://cmw.22aaf3.com/vision/hboot/vision.hboot-0.84.2000.zip vision.hboot-0.84.2000.zip] (md5sum 2CE1BDD5E4C1119CCFCECB938710D742)
+
+HTC Desire HD: [http://cmw.22aaf3.com/ace/hboot/ace_glacier.hboot-0.85.2007.zip ace_glacier.hboot-0.85.2007.zip] (md5sum df4fd77f44993eb05a4732210d2eddc6)
+
+Note that the md5sums are for the actual hboot img contained within the zip file, not the for the zip file itself. Note also that the dz, g2, and dhd each use their own version of the engineering boot, as the phones are partitioned differently. (If you have previously installed the wrong HBOOT for your phone, you may need to reflash everything after partition 18)
+
+''' 1.2. clockwork recovery '''
+
+Download the '''appropriate clockwork recovery for your phone''':
+
+ClockworkMod Recovery 5.0:
+
+T-Mobile G2 and HTC Desire Z: [http://download.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.7-vision.img recovery-clockwork-5.0.2.7-vision.img] (md5sum 87a428549440894dbe2f96dd5efc4fb5)
+
+HTC Desire HD: [http://download.clockworkmod.com/recoveries/recovery-clockwork-5.0.2.0-ace.img recovery-clockwork-5.0.2.0-ace.img] (md5sum b8d77b9352dcbb41839e45342ea35658)
+
+ClockworkMod Recovery 5.8 (touch):
+
+T-Mobile G2 and HTC Desire Z: [http://download.clockworkmod.com/recoveries/recovery-clockwork-touch-5.8.1.0-vision.img recovery-clockwork-touch-5.8.1.0-vision.img] (md5sum b21aa5a0d593b6ebce880be3316ff64a)
+
+HTC Desire HD: [http://download.clockworkmod.com/recoveries/recovery-clockwork-touch-5.8.1.5-ace.img recovery-clockwork-touch-5.8.1.5-ace.img] (md5sum fd6abfbc459663455a25b88ca7d77442)
+
+Rename the file to 'recovery-clockwork.img'.
+
+
+'''<big> 2. Copy the files to the phone </big>'''
+
+Before you can adb as described below you need to enable debugging in the settings on the phone. In Settings go to "Applications -> Development" and check the "USB debugging" option.
+
+Connect the phone to the USB of your PC. The phone will stay connected during the complete procedure.
+
+Make sure that you do '''NOT turn on USB storage'''. There has to be a sdcard in the phone and it has to be mounted to the phone!
+
+In the commands to run below, '''$ or # represent the prompt and should NOT be entered as part of the commands''' (in Windows this will be something like C:\> instead).
+
+Unpack all the zip files to a directory on your PC.
+Open a terminal (or command window) on your PC and change the current directory to where the files are on your PC and execute these commands:
+<pre>
+$ adb push psneuter /data/local/tmp/
+$ adb push gfree /data/local/tmp/
+$ adb push busybox /data/local/tmp/
+$ adb push hboot-eng.img /data/local/tmp/
+$ adb push root_psn /data/local/tmp/
+$ adb push su /sdcard/
+$ adb push Superuser.apk /sdcard/
+$ adb shell chmod 755 /data/local/tmp/*
+</pre>
+
+'''<big> 2. clockwork recovery for T-Mobile G2 and HTC Desire Z </big>'''
+
+To copy your clockwork recovery execute the following command in the terminal or command window
+<pre>
+$ adb push recovery-clockwork.img /data/local/tmp/recovery.img
+</pre>
+
+
+
+'''<big> 3. Temporary root </big>'''
+
+In the terminal (or command window) execute these commands:
+<pre>
+$ adb shell /data/local/tmp/psneuter
+$ adb shell
+</pre>
+after the last command you should have a root shell in adb (this is indicated by a # prompt).
+Leave this terminal (or command window) that contains the root shell open.
+
+
+'''<big> 4 S-OFF, root and its friends Super-CID, SIM-unlock, engineering hboot, clockwork recovery and root</big>
+
+In the following section we are trying to gain write access to the emmc by power cycling it.
+
+We recommend to install the engineering hboot as part of the gfree procedure.
+
+In the root shell (indicated by the #) that you got in the Temporary root section execute the following commands:
+<pre>
+# cd /data/local/tmp
+# ./gfree -f -b hboot-eng.img -y recovery.img
+# ./root_psn
+# sync
+</pre>
+
+Wait a few seconds for the changes to "take".
+
+'''<big> 4.1. Automatic gfree hboot verification </big>'''
+
+As it is very important that the hboot was installed correctly gfree calculates md5sums of the partition.
+It will calculate the following 3 checksums
+* '''md5sum #1''' - checksum of partition 18 before the installation
+* '''md5sum #2''' - checksum of the hboot image that should be installed
+* '''md5sum #3''' - checksum of partition 18 after the installation
+
+gfree will check the md5sums and give you a proper success or error message.
+The messages are explained in detail at [http://www.thinkthinkdo.com/trac/project1/wiki/gfree gfree-wiki]
+
+The messages that you want to see are either:
+<pre>
+md5sum #1 == md5sum #2 - the hboot image is already installed -> skipping installation
+</pre> 
+or
+<pre>
+md5sum #3 == md5sum #2 - the hboot image was successfully installed -> OK!
+</pre> 
+If you get a different error message you should run for help at [http://webchat.freenode.net/?channels=g2root #G2ROOT] on Freenode.
+
+* If you got one of the two success messages described above -> '''You are fine''', Reboot your phone by executing the following command in the root shell (indicated by the #):
+<pre>
+# reboot
+</pre> 
+
+<span id="VERIFY_.28using_.22gfree_verify.22.29"></span>
+'''<big> 5. Verify the success of gfree </big>'''
+
+You can verify the success of gfree by using gfree_verify.
+
+Download gfree_verify.zip from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_verify_v01.zip gfree_verify_v01.zip] (md5sum 8e3535fd720d19fa0aec4eb711b897c4)
+
+Unzip gfree_verify_v01.zip to a place on your PC.
+
+Open a terminal (or command window) on your PC and change the current directory to where the files are on your PC and execute these commands:
+<pre>
+$ adb push gfree_verify /data/local/tmp
+$ adb shell chmod 755 /data/local/tmp/gfree_verify
+$ adb shell
+</pre>
+In this shell:
+
+'''Remark:''' When you run su for the first time in the adb shell '''make sure the the screen of the phone is unlocked'''. Because when you enter the command the Superuser app will show up and ask you if you want to '''grant superuser access to app Unknown (2000)'''. 
+
+Check the Remember check box and click allow.
+<pre>
+$ su
+# cd /data/local/tmp
+# stop ril-daemon
+# ./gfree_verify
+</pre>
+You should see the following output:
+<pre>
+gfree verify_cid returned: 
+@CID: 11111111
+
+OK
+
+gfree verify_secu_flag returned: 
+@secu_flag: 0
+
+OK
+
+gfree verify_simlock returned: 
+@SIMLOCK= 00
+
+OK
+</pre>
+Start the interface layer again (IN THE ADB SHELL ON YOUR PC):
+<pre>
+# start ril-daemon
+</pre>
+Did it work? Here's what you're looking for:
+
+'''@CID: 11111111''' <--- this response means you have superCID!
+
+'''@SIMLOCK= 00''' <--- this means your simlock is off.
+
+'''@secu_flag: 0''' <--- this means your radio is S-OFF. 
+
+
+'''<big> 6. Backup and cleanup </big>'''
+
+During the process gfree created backups of the partitions that it changed on your sdcard in /sdcard/
+
+The files are called /sdcard/part7backup-<time>.bin, part18backup-<time>.bin (if you installed hboot) and part21backup-<time>.bin. It is '''highly recommended''' that you '''copy these files to a save location on your PC and keep them! '''
+
+You can delete the files in /data/local/tmp they are not needed anymore.
+
+
+'''<big> 7. Next steps </big>'''
+
+Find a custom rom that you would like to install and install it using the clockwork recovery.
+
+Enjoy the freedom of your phone.
+
+If you like free phones and our work we would like to ask you to support the EFF.
+==== Support the EFF ====
+
+[http://www.eff.org https://www.eff.org/sites/all/themes/frontier/images/head_logo.gif]
+
+Now that you have freed your phone, those in the US might consider making a donation to the [http://www.eff.org Electronic Frontier Foundation] who fight to [https://www.eff.org/press/archives/2010/07/26%22 defend your legal right] to root or unlock your own phone when the carriers and phone manufacturers may lobby or otherwise try to stop you. The EFF can always use your [https://secure.eff.org/site/Donation2?df_id=1480&1480.donation=form1&s_src=http%3A%2F%2Fwww.eff.org%2Ffront&s_subsrc=donate tax-deductible support].
+
+== Restoring Stock Hboot ==
+
+
+If you installed the Eng-Hboot and for some reason want to remove it and get your stock hboot instead while keeping your root and S-off follow this '''[http://forum.xda-developers.com/showthread.php?t=999796 GUIDE]'''
+
+== Restoring Stock Recovery ==
+
+If you installed ClockworkMod Recovery and for some reason want to remove it and get your stock recovery instead follow this '''[http://forum.xda-developers.com/showthread.php?t=834545 GUIDE]'''
+
+== Subsidy Unlock, SuperCID, and Radio S-OFF ==
+
+This section is mainly for providing you background information. If you just came here to root/free your phone and followed the previous section, you are done already!
+
+=== Background ===
+
+==== One at a time.  What is Subsidy Unlock and why do I want it? ====
+
+When you buy your Vision phone from T-Mobile, sold as the "G2", your phone is locked to the phone company's network-- the carrier.
+
+If you travel outside of the coverage area for your carrier, your phone will go into "roaming" mode, and you will be charged up the ass.  Now, what can you do about this?  You may wish to purchase a local, pre-paid SIM Card in the country in which you're traveling to make calls or perhaps to buy a few day's worth of Internet access.  But if you try, you'll find your phone won't take foreign SIM cards.
+
+Similarly, if you're a T-Mobile customer with a G2 and you wanted to use another phone network within the US that uses a GSM network, such as AT&T, you will be unable to use an AT&T SIM card in your phone.  It just won't work.
+
+Why won't your phone take non-T-Mobile Sim cards?  Because it's been "locked" (or "[http://en.wikipedia.org/wiki/SIM_lock SIM-locked]" or "subsidy locked" or "carrier locked").
+
+SIM-unlocking your phone will offer the benefit of allowing you to use your phone with other carriers.
+
+NOTE:  T-Mobile does offer an unlock code to its loyal customers who are traveling overseas.  You can call them and request it.  However, as the XDA-forums can [http://forum.xda-developers.com/showthread.php?t=835673 attest], some people have had difficulty with their codes, causing the phone to be unable to establish a connection to ANY network.
+
+We want to fix that.
+
+==== Got it.  Next-- what is this "SuperCID" thing? ====
+
+First let's talk about what a "CID" is in the first place.  CID, as best I can tell, stands for "Carrier IDentification" and it's a little number that restricts which software can be installed on a phone.  The CID determines for example, that only an officially-signed T-Mobile radio can be installed on a T-Mobile phone.  And it's why you can't flash a Vodafone ROM onto a Bell Desire Z.
+
+It may be helpful to think of the CID as a kind of "region coding" like you find on DVDs, where a North American DVD can't be played in a European player.  But if you hack your DVD player, you could switch it from a European player to a North American one.  Or you might even hack it to play both.
+
+You can do the same with phones.  SuperCID is, as the name implies, a universal CID where the phone will accept any kind of firmware image from anyone.
+
+==== Finally, what's Radio S-OFF and What Does It Mean to Me? ====
+
+The "S" stands for "Security".
+
+As scotty2 says, "''s-off is the switch that says 'alright, do whatever you want to do - good luck!''"
+
+So here's how it works- normally when you boot up, HBOOT (the bootloader) says to the radio, "are you S-ON or S-OFF?"  If the radio says "S-ON" then the bootloader  WILL prevent you from using most of its commands, and WILL write protect system and recovery.  If the radio says "S-OFF", then it will NOT prevent you from using most of its commands, and it will NOT write protect system and recovery.
+
+Even phones that have been "permarooted" still have an S-ON radio.
+
+But- you say, system and recovery haven't been protected since scotty2 figured out how to defeat the emmc protection...  That's what permaroot is all about, isn't it?!  So surely the radio must already be S-OFF!
+
+Nope.  You've had "Label" S-OFF.  Not Radio S-OFF. 
+
+As scotty2 puts it, "''[by patching HBOOT], we forge [messages to HBOOT] so it always looks like the radio says it's S-OFF.''"  This works great so long as you've got a hacked HBOOT.  But here's the problem-- people have been getting into trouble by flashing factory firmware over their rooted firmware.  First thing it does before writing the ROM is overwrite their patched HBOOT.  HBOOT turns on read-only mode on the recovery and /system, and the poor folks get locked out of their phones with the old firmware still there.
+
+Having "real" radio S-OFF, scotty2 says, "will save people from almost-bricking-by-way-of-reflashing-factory-firmware."  It also means you'll have unrestricted access to messing with your phone's radio.  Although- he notes, the android kernel itself restricts your access to the radio partition.  For your safety.
+
+=== Unlock the Phone, Set SuperCID, and Turn Radio S-OFF ===
+'''NOTE''': This section is only for people who permarooted the phone with an old methode (pre gfree) and want to add S-OFF, Super-CID and SIM-unlock. It is not very noob-friendly and assumes that you know some stuff.
+
+'''NOTE''': If you have NOT permarooted your phone previously with the HBOOT/wpthis method, doing so using the [[#Rooting the Vision (G2/DZ) and DHD|new "gfree" method listed above in this wiki]] should have the added effect of sim-unlocking the phone, setting superCID and turning Radio S-OFF.  In fact, it's the new method for permarooting.  So if you haven't yet permarooted, look at those instructions.
+
+'''WARNING:  Be aware that by following these instructions you are messing with your phone with  potential for screwing things up.  Do so at your own risk.  The many authors of this guide assume no responsibility for any damage to your phone, health, general well-being, or anything else untoward with respect to these instructions or you following them.'''
+
+''' gfree and radio versions '''
+
+gfree is known not to work for radio firmwares with higher versions than 26.03.02.xx
+
+The reason for this is that HTC patched the hole that allowed scotty2 to power cycle the emmc chip to drop its write protection.
+
+So if you installed a radio version with a higher version number then '''downgrade the radio firmware''' before using gfree.
+
+gfree is also known not to work on the HTC 1.72 ROM version. If you have radio S-OFF then you can downgrade to an earlier version where it works. If you do not have radio S-OFF then you cannot downgrade.
+
+''' gfree and kernel versions '''
+
+gfree uses a dynamic in-memory patch of the kernel to remove the kernel's write protection of the radio settings partition.
+
+So, for those of you who have permarooted the old HBOOT way and put on new kernels --The following kernel versions that are known '''NOT''' to work yet with gfree.  If you have one of the following kernel versions on your phone install a different (stock, OTA or cyanogen) kernel before starting this procedure:
+{| class="wikitable"
+|+
+! Kernel
+|-
+| Cyanogen kernel of release 6.1.1
+|-
+| pershoots 11/30 build
+|-
+| pershoot's 2.6.32.26 – OC-UV-NEON_FP (1.516GHZ)
+|- 
+| 2.6.32.26-cm-virtuous-v1.0 rmk@droid#1
+|}
+
+It might well be that also other newer kernels to not work with gfree. So if you experience problems with this procedure (either the phone reboots during the process or the procedure completes correctly but the verify still shows that the phone is locked) then '''it is in general a very good idea to downgrade the kernel to an original stock kernel or even better to [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/boot_img/boot-new.img this kernel]'''.
+ 
+Okay.  So we're assuming you've permarooted already.  You might want to back up your phone with nandroid on the Clockwork recovery image first, just in case.  Make sure you have USB Debugging turned on and at least 5MB on your sdcard.
+
+'''Note''':  If you hanker to do it the longer, manual, harder, and more dangerous way, or are just curious what gfree does, see [{{fullurl:HTC Vision|oldid=10879#{{anchorencode:Subsidy Unlock, SuperCID, and Radio S-OFF }}}} the wiki history] for the old instructions.
+
+No?  Then let's begin.
+
+==== 1. Download gfree and verify sdcard is not mounted by your computer ====
+
+You will need to download a program called [http://android.d3xt3r01.tk/cyanogen/common/ gfree] that will first copy partition 7 of the phone, then patch it, then reflash back to your phone.  (verified to work with the g2 and desire z as well as the desire hd).  (You will also need adb, which you can download as part of the [http://developer.android.com/sdk/installing.html Android SDK].)
+
+Unzip  [http://android.d3xt3r01.tk/cyanogen/common/ gfree_02.zip] to a place on your computer.
+
+'''Make sure your computer is not mounting your phone's sdcard'''.
+
+'''<big>gfree version 0.02 and its options</big>'''
+
+Since the current version 0.02 gfree supports the following options:
+<pre>
+gfree usage:
+gfree [-h|-?|--help] [-v|--version] [-s|--secu_flag on|off]
+	-h | -? | --help: display this message
+	-v | --version: display program version
+	-s | --secu_flag on|off: turn secu_flag on or off
+	-c | --cid <CID>: set the CID to the 8-char long CID
+	-S | --sim_unlock: remove the SIMLOCK
+
+	-f | --free_all: same as --secu_flag off --sim_unlock --cid 11111111
+</pre>
+In the following steps the -f will be used to mimic the behavior of the original gfree version that will do radio S-OFF, Super-CID and simunlock in one go.
+
+But you can use the same procedure as below with different options to either just set one of these or to go back to radio S-ON and your original CIN
+
+==== 2.  Run gfree on the phone ====
+
+On your computer's terminal/command line, navigate to where the gfree file is, and then...
+
+<tt>
+ adb push gfree /data/local
+ adb shell
+</tt>
+
+This copies gfree to your phone, then puts you in your phone's terminal. Then (IN THE ADB SHELL) do this:
+
+<tt>
+ su
+ cd /data/local
+ chmod 777 gfree
+ ./gfree -f
+ sync
+</tt>
+
+Wait a few moments for the sync to "take".  Then reboot your phone.  That's it!
+
+gfree created a backup of your original partition 7 at '''/sdcard/part7backup-<time>.bin''' you might consider copying this to a safe location on your computer.
+
+Now you can try using a new SIM card to verifiy that it worked.  Also, if you had to flash a different kernel before running gfree, you may now reflash the kernel you originally had.
+
+Here are some optional steps to make sure you did it right:
+
+==== 3. (OPTIONAL) Verify you did it right ====
+
+There is a newer method to verify your success using gfree_verify -> see [[#VERIFY (using "gfree verify")]]
+
+To verify all went well, do this:
+
+#  Plug in your phone to your computer
+#  In the Terminal/command line, type this:
+
+<tt>
+ adb shell
+</tt>
+
+this puts you in the phone's shell.  now it's a simple matter of the following:
+
+(note the # is your prompt.  Don't type the "#".  The lines without the # are returned by the phone.)
+
+<tt>
+ # su
+ # stop ril-daemon
+ # cat /dev/smd0 &
+ # echo -e 'ATE1\r' > /dev/smd0
+ 0
+ #
+ # echo -e 'ATV1\r' > /dev/smd0
+ OK
+ # echo -e 'AT@CID?\r' > /dev/smd0
+ @CID: 11111111
+ 
+ OK
+ echo -e 'AT@SIMLOCK?40\r' > /dev/smd0
+ # AT@SIMLOCK?40
+ @SIMLOCK= 00
+ 
+ OK
+ #echo -e 'AT@SIMLOCK?AA\r' > /dev/smd0
+  AT@SIMLOCK?AA
+ @secu_flag: 0
+ 
+ OK
+</tt>
+
+It should look something like that anyway.  It may look slightly different if you were typing while the computer was sending you back information.
+Alternatively, you could open two terminals that connect to your phone: one for sending command ( except for the cat /dev/smd0 & command which is used to read back data), the other just issue the remaining command "cat /dev/smd0" (remember to strip off the final & ). 
+
+Did it work?  Here's what you're looking for:
+
+'''@CID: 11111111''' <--- this response means you have superCID!  Congrats!
+
+'''@SIMLOCK= 00'''  <--- this means your simlock is off.  Mazel Tov!
+
+'''@secu_flag: 0'''  <--- this means your radio is S-OFF.  Hurrah!
+
+==References==
+
+===Documentation and Sources===
+[http://omapworld.com/iNAND_e_MMC_4_41_IF_data_sheet_v1_0%5B1%5D.pdf SanDisk iNAND e.MMC Datasheet] - Verified correct datasheet as per IC markings from [http://forum.xda-developers.com/showthread.php?t=799629 this post], "SanDisk SDIN5C2-4G 0352S0S07A"
+
+[https://docs.google.com/viewer?url=http://rere.qmqm.pl/~mirq/JESD84-A44.pdf 4.4 eMMC Documentation] - We believe this is the correct version, but for a possible SPI mode the 4.2 version is referenced below. Specifically, here are the parts applying to [http://forum.xda-developers.com/showpost.php?p=8519014&postcount=811 write protection].
+
+[https://docs.google.com/viewer?url=http://dl.dropbox.com/u/4217079/JESD84-B42.pdf 4.2 eMMC Documentation]
+
+[http://member.america.htc.com/download/RomCode/Source_and_Binaries/vision-2.6.32-g814e0a1.tar.gz HTC Desire Z kernel source] almost certainly T-Mobile G2 kernel source as well
+
+[http://member.america.htc.com/download/RomCode/Source_and_Binaries/buzz-2.6.32-g4b3e397.tar.gz HTC Wildfire kernel that has some MSM7x30 code in it]
+
+[https://www.codeaurora.org/contribute/projects/ Code Aurora Forums (CAF)] - [https://www.codeaurora.org/gitweb/quic/la/?p=kernel/experimental.git;a=tree;h=7271566998e342b8ee40e56f0bdf7b2469ec637b;hb=7271566998e342b8ee40e56f0bdf7b2469ec637b More specifically], as it relates to the G2
+
+[http://github.com/tmzt/g2root-kmod Github of current modules]
+
+[http://tjworld.net/wiki/Android/HTC/Vision IntuitiveNipple's Vision site, containing ongoing analysis of HBOOT and RADIO images. Check in for HBOOT reverse engineering info ]
+
+===On XDA===
+
+XDA Discussion [http://forum.xda-developers.com/showthread.php?t=794053 Thread #1]
+
+XDA Discussion [http://forum.xda-developers.com/showthread.php?t=803208  Thread #2]
+
+Kinda unrelated, but [http://forum.xda-developers.com/showpost.php?p=8523631&postcount=832 here is] HTC's response to their gpl violation.
+
+===IRC===
+
+Freenode IRC channels:
+
+* #G2ROOT   <- ''please'' familiarize yourself with this page and [http://tjworld.net/wiki/Android/HTC/Vision IntuitiveNipple's wiki] before asking questions.
+* #g2-chat   <- please use this one for non-rooting related questions.  People will jump all over you if you ask an offtopic question in #g2root
+* #G2-DEV
+
+To catch up on what you may have missed:
+
+* [http://ns3.servedcomputing.com/g2root.txt #G2ROOT IRC live log] (updates on refresh)
+* [http://irclog.netripper.com/?chan=G2ROOT perhaps a better #G2root IRC log] (multi-pages for readability)
+* [http://irc.clicked.cc/?chan=g2-root #G2-ROOT IRC log]
+
+=== Radio Partition Map ===
+
+ =================== partition info begin ===================
+ /boot/qcsbl_cfg type_id = 0X4D, start_sector = 0X00000001, size_in_sectors = 0X000003E8
+ /boot/qcsbl type_id = 0X45, start_sector = 0X000003E9, size_in_sectors = 0X00000080
+ /boot/oemsbl type_id = 0X46, start_sector = 0X00000469, size_in_sectors = 0X00002328
+ !~_(0.76.200 type_id = 0XFFFF, start_sector = 0X00002791, size_in_sectors = 0X00FFD870
+ /boot/modem type_id = 0X49, start_sector = 0X00002792, size_in_sectors = 0X0000EA60
+ /boot/adsp type_id = 0X50, start_sector = 0X000111F3, size_in_sectors = 0X000061A8
+ /boot/htc type_id = 0X51, start_sector = 0X0001739C, size_in_sectors = 0X00001000
+ /boot/rf_nv type_id = 0X52, start_sector = 0X0001839D, size_in_sectors = 0X00001800
+ /boot/nv_mfg type_id = 0X53, start_sector = 0X00019B9E, size_in_sectors = 0X00001000
+ /boot/cdma_user_data type_id = 0X54, start_sector = 0X0001AB9F, size_in_sectors = 0X00000800
+ /boot/rf_delta type_id = 0X56, start_sector = 0X0001B3A0, size_in_sectors = 0X00000800
+ /boot/reserved type_id = 0X55, start_sector = 0X0001BBA1, size_in_sectors = 0X0000445F
+ /boot/modem_fs1 type_id = 0X4A, start_sector = 0X00020001, size_in_sectors = 0X00001800
+ /boot/modem_fs2 type_id = 0X4B, start_sector = 0X00021802, size_in_sectors = 0X00001800
+ /boot/htc_data type_id = 0X74, start_sector = 0X00023003, size_in_sectors = 0X00000800
+ /boot/htc_reserved type_id = 0X75, start_sector = 0X00023804, size_in_sectors = 0X000045FB
+ /boot/misc type_id = 0X76, start_sector = 0X00027E00, size_in_sectors = 0X00000200
+ /boot/appsbl type_id = 0X47, start_sector = 0X00028001, size_in_sectors = 0X00000800
+ /boot/splash type_id = 0X34, start_sector = 0X00028802, size_in_sectors = 0X00000800
+ /boot/wifi type_id = 0X36, start_sector = 0X00029003, size_in_sectors = 0X00000A00
+ /boot/recovery type_id = 0X71, start_sector = 0X00029A04, size_in_sectors = 0X000043FA
+ /boot/apps type_id = 0X48, start_sector = 0X0002DDFF, size_in_sectors = 0X00002000
+ /boot/mfg type_id = 0X73, start_sector = 0X0002FE00, size_in_sectors = 0X00000200
+ /boot/misc2 type_id = 0X31, start_sector = 0X00030001, size_in_sectors = 0X00000200
+ /boot/system type_id = 0X83, start_sector = 0X00030202, size_in_sectors = 0X000CFDFD
+ /boot/system type_id = 0X83, start_sector = 0X00100000, size_in_sectors = 0X00299001
+ /boot/system type_id = 0X83, start_sector = 0X00399002, size_in_sectors = 0X00066667
+ /boot/devlog type_id = 0X19, start_sector = 0X003FF66A, size_in_sectors = 0X0000A000
+ !~_(0.76.200 type_id = 0XFFFFFFFF, start_sector = 0X00000000, size_in_sectors = 0X00000800
+ !~_(0.76.200 type_id = 0XFFFFFFFF, start_sector = 0X00000000, size_in_sectors = 0X00000800
+ =================== partition info end ===================
+
+=== HBOOT partition map ===
+
+ [merge_mfg]:(MERGEMFG, 10) block start=0, size=0 (0 KB)
+ [radio]:(OTHER, 4) block start=0, size=163840 (0 KB)
+ [merge_emmc]:(RAW, 4) block start=0, size=4194304 (655360 KB)
+ [fat]:(RAW, C00) block start=0, size=0 (0 KB)
+ [local]:(RAW, 0) block start=0, size=0 (0 KB)
+ [spcustom]:(RAW, 0) block start=0, size=0 (0 KB)
+ [microp]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [cpld]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [rcdata]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [a1026]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [tp]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [wimax]:(RAW, 0) block start=0, size=0 (0 KB)
+ [nv]:(OTHER, 0) block start=0, size=0 (0 KB)
+ [htcdata]:(RAW, 7404) block start=143363, size=2048 (1233216 KB)
+ [radio_reserve]:(RAW, 7504) block start=145412, size=17915 (1661741 KB)
+ [dzsystem]:(DEZERO, 8) block start=197122, size=851453 (425726 KB)
+ [dzdata]:(DEZERO, 8) block start=1048576, size=2723841 (1361920 KB)
+ [misc]:(RAW, 7601) block start=163328, size=512 (256 KB)
+ [hboot]:(RAW, 4701) block start=163841, size=2048 (1024 KB)
+ [sp1]:(RAW, 3401) block start=165890, size=2048 (1024 KB)
+ [wifi]:(RAW, 3601) block start=167939, size=2560 (1280 KB)
+ [recovery]:(RAW, 7101) block start=170500, size=17402 (8701 KB)
+ [boot]:(RAW, 4801) block start=187903, size=8192 (4096 KB)
+ [mfg]:(RAW, 7301) block start=196096, size=512 (256 KB)
+ [misc2]:(RAW, 3101) block start=196609, size=512 (256 KB)
+ [system]:(EXT3, 8301) block start=197122, size=851453 (425726 KB)
+ [userdata]:(EXT3, 8301) block start=1048576, size=2723841 (1361920 KB)
+ [cache]:(EXT3, 8301) block start=3772418, size=419431 (209715 KB)
+ [devlog]:(EXT3, 1901) block start=4191850, size=40960 (20480 KB)
+
+==ROMs==
+===Official===
+
+*PC10IMG - http://shipped-roms.com/index.php?category=android&model=Vision
+*[http://forum.xda-developers.com/forumdisplay.php?f=758 G2 and Desire Z Android Development thread] New RUU's are frequently leaked there first. 
+*[ROM]Vision_TMOUS_1.19.531.1_Radio_12.21.60.09b_26.02.0 1.15_M2 - http://forum.xda-developers.com/showthread.php?t=788489
+*[ROM]RUU_Vision_HTC_ARA_1.83.415.2_Radio_12.28e.60.140f _26.04.02.17_M2_SF_release - http://forum.xda-developers.com/showthread.php?t=933961&highlight=arabic
+
+===Custom===
+*[http://forum.xda-developers.com/forumdisplay.php?f=758 G2 and Desire Z Android Development thread] Lot of great AOSP and Sense based roms in there by very talented dev's.
+*[http://forum.xda-developers.com/showthread.php?t=1493365 ROM Thread Index for the (HTC) Vision]
+*[http://www.cyanogenmod.com Cyanogenmod] (external link)
+*[http://www.virtuousrom.com Virtuous series of ROM's] (external link)
+
+==Radios==
+===Official===
+[RADIO][UPDATED 8/8/11]HTC VISION RADIO's (PC10IMG.zip Update Files & .img files) - http://forum.xda-developers.com/showthread.php?t=970809
+
+== Unrooting and Returning to Stock ==
+
+'''So what if I need to change it all back to stock for warranty purposes or something else?'''
+
+In the commands to run below, '''$ or # represent the prompt and should NOT be entered as part of the commands''' (in windows this will be something like C:\> instead).
+
+=== Prerequisites: ===
+'''You need to have radio S-OFF to follow this steps'''
+
+'''Please make sure that gfree_verify returns secu_flag = 0 before following this steps!!!'''
+=== If your main version is higher than 1.19.531.1 ===
+If you main software version is higher than the version of the PC10IMG you want to install (in this case 1.19.531.1) you have to change the main version number in the misc partition. This can be done using a tool called misc_version.
+Get the misc_version_05.zip that is attached from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/misc_version/misc_version_05.zip misc_version_05.zip] and unzip the misc_version_05.zip file to a folder.
+Open a terminal or command window, navigate to where the files are on your computer, and execute these commands:
+<pre>
+$ adb push misc_version /data/local/tmp/misc_version
+$ adb shell chmod 777 /data/local/tmp/misc_version
+$ adb shell
+# /data/local/tmp/misc_version -s 1.00.000.0 
+# exit
+</pre>
+This tool will create a backup of the misc partition 17 on the sdcard using the name "/sdcard/part17backup-<time>.bin" so make sure that the sdcard is mounted to the phone.
+
+=== Install the stock image ===
+In case of the original T-Mobile G2 the stock rom is called [http://shipped-roms.com/index.php?category=android&model=Vision PC10IMG_Vision_TMOUS_1.19.531.1_Radio_12.21.60.09b_26.02.01.15_M2_release_149459_signed.zip]
+<pre>
+$ adb push PC10IMG_Vision_TMOUS_1.19.531.1_Radio_12.21.60.09b_26.02.01.15_M2_release_149459_signed.zip /sdcard/PC10IMG.zip
+</pre>
+Disconnect the phone from USB and shutdown the phone. 
+
+Boot into hboot by holding <Vol-Down> while powering on.
+
+hboot should load the PC10IMG.zip automatically and the ask you if you want to update. Press <Vol Up> to start the update.
+
+After updating the radio hboot will start again (screen will get dark for some seconds)
+
+If you had the fake S-OFF engineering hboot installed it will be replaced by this process
+
+=== radio S-ON and original CID ===
+There are 2 ways to get radio S-ON and the original CID:
+
+1. Restore the backup of your partition 7. This will set secu_flag = 1 and CID = T-MOB010 and will also bring back the SIM-lock data.
+
+2. Use gfree to set secu_flag = 1 and CID = T-MOB010 (or your corresponding original CID).
+
+In both cases you need to first gain temporary root. We will use psneuter for this.
+=== temporary root ===
+Before you can adb as described below you need to enable debugging in the settings on the phone. In Settings go to "Applications -> Development" and check the "USB debugging" option.
+
+Get the psneuter.zip from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/psneuter/psneuter.zip psneuter.zip] and unzip the psneuter.zip file to a folder. Open a terminal or command window, navigate to where the files are on your computer, and execute these commands:
+<pre>
+$ adb push psneuter /data/local/tmp/psneuter
+$ adb shell chmod 777 /data/local/tmp/psneuter
+$ adb shell /data/local/tmp/psneuter
+$ adb shell
+</pre>
+after the last command you should have a root shell in adb (this is indicated by a # prompt).
+Leave this terminal (or command window) that contains the root shell open.
+
+=== Restoring the backup of partition 7 ===
+Setting S-ON and CID and restoring the simlock can be done using gfree to restore the backup of you partition 7.
+
+You can use gfree to remove the write protection from the emmc and the kernel and restore the backup. To do so you can use the "-r" option of gfree.
+
+ON YOUR PC:
+
+Get gfree_10.zip from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_10.zip gfree_10.zip].
+
+Unzip gfree_10.zip to a place on your computer. Open a terminal or command window, navigate to where the files are on your computer, and type:
+<pre>
+$ adb push gfree /data/local/tmp/gfree
+$ adb shell chmod 777 /data/local/tmp/gfree
+</pre>
+gfree should now be in your phone at /data/local/tmp
+
+IN THE ROOT SHELL (in the first terminal/command) :
+
+We assume that the backup of your partition 7 in in /sdcard and is called part7backup-<time>.bin (replace <time> with the time string of your backup).
+
+Now run:
+<pre>
+# /data/local/tmp/gfree -r /sdcard/part7backup-<time>.bin
+# sync
+</pre>
+Remove the PC10IMG.zip and the tools from the phome:
+<pre>
+# rm /sdcard/PC10IMG.zip
+# rm /data/local/tmp/psneuter
+# rm /data/local/tmp/gfree
+</pre>
+
+Disconnect your phone from USB and power it down.
+
+Boot into hboot by holding <Vol-Down> while powering on.
+
+The heading should now read: "VISION PVT SHIP S-ON"
+
+=== Alternative: Use gfree to get radio S-ON and the original CID ===
+If you lost your partition 7 backup or you do not want to restore the simlock data you can use the -c and -s options of gfree to set the CID and the S-ON flag.
+
+ON YOUR PC:
+
+Get gfree_10.zip from [http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_10.zip gfree_10.zip].
+
+Unzip gfree_10.zip to a place on your computer. Open a terminal or command window, navigate to where the files are on your computer, and type:
+<pre>
+$ adb push gfree /data/local/tmp/gfree
+$ adb shell chmod 777 /data/local/tmp/gfree
+</pre>
+gfree should now be in your phone at /data/local/tmp
+
+IN THE ROOT SHELL (in the first terminal/command) :
+(Assuming you have a T-Mobile G2) Now run:
+<pre>
+# /data/local/tmp/gfree -s on -c T-MOB010
+# sync
+</pre>
+
+Alternatively, if you have an HTC Desire Z, then substitute the appropriate CID value for your phone/carrier, e.g. 
+<pre>
+# /data/local/tmp/gfree -s on -c HTC__102
+--secu_flag on set
+--cid set. CID will be changed to: HTC__102
+Section header entry size: 40
+Number of section headers: 44
+Total section header table size: 1760
+Section header file offset: 0x000138b4 (80052)
+Section index for section name string table: 41
+String table offset: 0x000136fb (79611)
+Searching for .modinfo section...
+ - Section[16]: .modinfo
+ -- offset: 0x00000a14 (2580)
+ -- size: 0x000000cc (204)
+Kernel release: 2.6.32.21-gbfa36d9
+New .modinfo section size: 204
+Attempting to power cycle eMMC... OK.
+Write protect was successfully disabled.
+Searching for mmc_blk_issue_rq symbol...
+ - Address: c02a6900, type: t, name: mmc_blk_issue_rq, module: N/A
+Kernel map base: 0xc02a6000
+Kernel memory mapped to 0x40002000
+Searching for brq filter...
+ - Address: 0xc02a6900 + 0x34c
+ - 0x2a000012 -> 0xea000012
+Backing up current partition 7 and patching it...
+patching secu_flag: 1
+Done.
+</pre>
+
+[http://www.thinkthinkdo.com/trac/project1/raw-attachment/wiki/gfree/gfree_verify_v01.zip gfree_verify_v01.zip] is a very cool tool to check if the cid was set correctly.
+
+A german locked phone looks like this:
+
+<pre>
+$ adb shell
+# stop ril-daemon  
+# /data/local/tmp/gfree_verify
+gfree verify_cid returned: 
+@CID: HTC__102
+
+OK
+
+gfree verify_secu_flag returned: 
+@secu_flag: 1
+
+OK
+
+gfree verify_secu_flag returned: 
+@secu_flag: 1
+
+OK
+
+gfree verify_secu_flag returned: 
+@secu_flag: 1
+
+OK
+
+gfree verify_simlock returned: 
+@SIMLOCK= 00
+
+OK
+
+# start ril-daemon
+</pre>
+
+CAUTION!!!: If you have flashed RUU Vision HTC WWE 1.72, gfree will not work. I used RUU_Vision_HTC_WWE_1.34.405.3_Radio_12.28b.60.140e_26.03.02.18_M2_release_154596_signed.exe
+
+To extract the rom.zip (PC10IMG.zip) you need to start the exe on a Windows machine, in my case Windows 7. While the exe is executed you go to start and execute %temp%. With this "command" you get an explorer window with the user temp files. There are some directories, have a look at all of them until you find the files corecomp, dotnetinstaller and another directory with a cryptic name. Inside of this directory there is the rom.zip. You should rename this file to PC10IMG.zip, so the bootloader on your phone recognizes the file.
+
+=== Cleanup ===
+
+Remove the PC10IMG.zip and the tools from the phone:
+<pre>
+# rm /sdcard/PC10IMG.zip
+# rm /data/local/tmp/psneuter
+# rm /data/local/tmp/gfree
+</pre>
+Disconnect your phone from USB and power it down.
+
+Boot into hboot by holding <Vol-Down> while powering on.
+
+The heading should now read: "VISION PVT SHIP S-ON"

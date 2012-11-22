@@ -49,16 +49,6 @@ Follow these steps from start to finish to start your journey into the magic of 
 * [[HD2 Tools]] - Set up your computer to work with the HD2.
 * [[HD2 Radio and HSPL]] - Installing a Hard SPL is the Windows Mobile equivalent of rooting; making it safe and easy to flash the NAND
 
-### HD2 Operating Systems
-
-Descriptions of the history, the functions, and the workings of the various operating systems on the HD2.
-
-* [[Android|HD2 Android]] - Google's famous open-source mobile platform that took the world by storm and putt Apple on the defensive. Large selection of apps, huge freedom in customization.
-* [[Windows Phone 7|HD2 WP7]] - You may not expect great things from Microsoft, but Windows Phone 7 can truly be said to be the ideal mobile platform. Sadly, it only has a small, albeit beautiful library of apps.
-* [[Linux|HD2 Linux]] - *(in development)* Full blown GNU/Linux on the HD2. Still needs some work, but the allure of the desktop on a smartphone lives on.
-* [[Firefox OS|HD2 Firefox OS]] - *(research stages)* Some XDA frontiersmen are looking into the experimental Firefox OS for the HD2.
-* [[Windows Mobile 6|HD2 WM6]] - *(defunct)* This is the original operating system on the HD2. It's best days were behind it by the time it was on the HD2. Still, the HD2 played an important part as both XDA's last Windows Mobile phone and first serious Android smartphone.
-
 ### HD2 Bootloaders
 
 > Note: Installing a bootloader removes Windows Mobile 6. Not that it will be missed.
@@ -68,6 +58,7 @@ The HD2's unique bootloaders are the secret to the HD2's abilities. Choose the o
 * [[MAGLDR|HD2 MAGLDR]] - If you want Windows Phone 7, Android, or even both, use this bootloader.
 * [[cLK|HD2 cLK]] - If you want your HD2 to work just like an Android phone from the inside out (ADB, fastboot, HBOOT), get this bootloader.
 * [[Restore Windows Mobile 6|HD2 Restore WM6]] - Need to go back to stock for some reason? Here's the guide for you.
+* [[HaRET]] - If you want to keep Windows Mobile 6 and have Android too, use HaRET, a program that runs Android from the SDCard. There is some work on moving it to WP7.
 
 ### Using the HD2
 
@@ -77,6 +68,16 @@ Other guides for the HD2.
 * [[HD2 Accessories]] - What is a smartphone without overpriced accessories? Some of them are quite useful though, so take a look.
 * [[HD2 Troubleshooting]] - Got issues with your HD2? Take a gander at this guide.
 * [[HD2 Credits and Sources]] - All the authors, the guides, the programs referenced in the creation of this guide.
+
+### HD2 Operating Systems
+
+Descriptions of the history, the functions, and the implementation of the various operating systems on the HD2.
+
+* [[Android|HD2 Android]] - Google's famous open-source mobile platform that took the world by storm and putt Apple on the defensive. Large selection of apps, huge freedom in customization.
+* [[Windows Phone 7|HD2 WP7]] - You may not expect great things from Microsoft, but Windows Phone 7 can truly be said to be the ideal mobile platform. Sadly, it only has a small, albeit beautiful library of apps.
+* [[Linux|HD2 Linux]] - *(in development)* Full blown GNU/Linux on the HD2. Still needs some work, but the allure of the desktop on a smartphone lives on.
+* [[Firefox OS|HD2 Firefox OS]] - *(research stages)* Some XDA frontiersmen are looking into the experimental Firefox OS for the HD2.
+* [[Windows Mobile 6|HD2 WM6]] - *(defunct)* This is the original operating system on the HD2. It's best days were already behind it by the time of the phone's release. Still, the HD2 played an important part as both XDA's last Windows Mobile phone and first serious Android smartphone.
 
 ## Issues with the Guide
 

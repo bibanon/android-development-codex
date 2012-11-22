@@ -1,5 +1,3 @@
-# Motorola Droid 2
-
 The Motorola Droid 2 directly followed from the ever-popular Motorola Droid that started the Android craze. As such, it was expected that it would give Android users another true taste of the latest stock Android experience. However, Google had moved on to making it's own phone with the new Nexus line, and with Motorola and Verizon freed to do whatever they wanted, they immediately set to limit the freedoms of their own users.
 
 The Droid X and the Droid 2 were the first of Motorola's Android devices to feature an encrypted bootloader, one that would only accept Motorola-signed ROMs and kernels. With no hope of ever breaking this protection, the famous Motorola Droid devs stuck with their aging phone until the advent of the Galaxy Nexus.
@@ -25,7 +23,14 @@ If you still want to keep going, lube up, follow the guidelines to the letter, a
 * (optional) Extra Battery
   * If you're going to the trouble to buy an external wall charger, why not get another battery anyway?
 
-  
+## Sections
+
+* [[Introduction|D2 Introduction]]
+* [[Rooting|D2 Rooting]] - Rooting the stock ROM
+* [[Installing a Recovery Image|D2 Recovery]] - If you want to go even farther than rooting the stock ROM, you can install a recovery to get custom ROMs. But due to the locked bootloader, there aren't much options.
+* [[Flashing an SBF|D2 SBF]] - If things go wrong and you're stuck on the dreaded bootloader mode, you can try and flash a stock SBF. Just make sure that you **don't downgrade!**
+* [[D2 Sources]] - All the programs used, the sources for the files, etc.
+
 ## Rooting (version 2.3.4 OTA)
 
 Everything starts with rooting the phone. There are many methods, but we saved here the best, easiest, and latest methods 
@@ -47,6 +52,8 @@ You just need to download this SPF and flash it using RSDLite.
 Afterwards, install the superuser apps and tools using adb.
 
 ### Method 3: Linux (Manual)
+
+(needs work)
 
 ## Installing Custom ROMs
 

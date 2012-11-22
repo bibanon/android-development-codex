@@ -2,13 +2,11 @@ Custom ROMs can breathe new life into old phones, giving them more features, bet
 
 ## Choosing a Custom ROM
 
-The biggest forum for custom ROMs is [XDA-Developers](http://forum.xda-developers.com/forumdisplay.php?f=635). Here, in the Droid Incredible Android Development section, you can choose from a multitude of ROMs to fit your needs. 
+The biggest forum for custom ROMs is [XDA-Developers](http://forum.xda-developers.com/). Just type the name of your device in the search bar, and go to the corresponding **Android Development** board.
 
-There is a (kind of old) list of good ROMs in [this thread](http://forum.xda-developers.com/showthread.php?t=969371).
+From there, find a ROM that fits your needs. Once you find it, download the accompanying `.zip` file.
 
-Since the lineup changes all the time, we really can't make a decent list here, so go to [the forum](http://forum.xda-developers.com/forumdisplay.php?f=638) and find a ROM that fits your needs. Once you find it, download the accompanying `.zip` file, and we will install it in the next section.
-
-Notice that unless specifically stated in the ROM, most do not include Google Apps, such as the Play Store or Google Maps due to legal constraints. If you want them (definitely recommended), download the [Google Apps here.](http://goo.im/gapps/)
+Notice that unless specifically stated in the ROM, most do not include the Play Store due to legal constraints. If you want them (definitely recommended), download the [Google Apps here.](http://goo.im/gapps/)
 
 ## Installing a Custom ROM
 
