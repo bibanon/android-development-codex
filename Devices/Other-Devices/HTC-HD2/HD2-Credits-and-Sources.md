@@ -1,5 +1,9 @@
 Nearly all the information in this guide comes from these sources. I just rewrote and updated some of it. Kudos to all the developers who made these guides, and those who made the HD2 what it is; we couldn't have done it without you.
 
+## Files
+
+* [Shipped ROMs - All Official RUUs for the HTC HD2](http://shipped-roms.com/index.php?category=windows%20mobile&model=Leo)
+
 ## SIM Unlocking
 
 * [XDA-Developers - Unlock TMOUS HTC HD2](http://forum.xda-developers.com/showthread.php?t=634908)
