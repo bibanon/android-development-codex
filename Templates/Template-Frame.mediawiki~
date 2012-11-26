@@ -1,0 +1,27 @@
+{{ADC Template}}
+
+== Usage ==
+
+<pre>
+{{Frame
+
+| title = Enter the title of the frame.
+| page = Enter the name of the page to be framed. No need to include a ":" before it.
+
+}}
+</pre>
+
+== Example ==
+
+{{Frame|title=Google/LG Nexus 4|page=LG Nexus 4}}
+
+<includeonly>
+{| width="100%" cellspacing="6" cellpadding="6" style="border-collapse: collapse; border-style: solid;border-width: 1px;border-color: #666;"
+|- valign="top"
+|style="line-height:1.5em;text-align:left;background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF), to(#E0E9E9));background: -moz-linear-gradient(#FFF, #E0E9E9);background: linear-gradient(#FFF, #E0E9E9);font-size:1.8em;border-style:solid;border-width: 1px;border-color: #AAA;text-shadow: #eee 2px 1px 1px;color:#454545;"|<span style="margin:10px">{{{title}}}</span>
+|- valign="top"
+|style="border-style:solid;border-width: 1px;border-color: #AAA;"|{{:{{{page}}}}}
+<div style="font-size:1.1em; font-weight:bold;margin-top:1em;">
+|}
+</includeonly>
+

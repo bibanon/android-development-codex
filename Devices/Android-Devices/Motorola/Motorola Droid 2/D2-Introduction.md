@@ -1,0 +1,14 @@
+Verizon's Motorola Droid 2 directly followed from the ever-popular Motorola Droid that started the Android craze. Not only did that smartphone throw Windows Mobile and Blackberry into obscurity, it also managed to face the iPhone for the first time. The result was a large community, and inevitably, a massive dev community, since it was indirectly supported as a Google Experience device.
+
+As such, it was expected that it would give Android users another true taste of the latest stock Android experience. However, Google had moved on with the new Nexus line, and with Verizon revitalized on a true wave of iPhone rivals, they immediately demanded their phones be locked with the highest security possible.
+
+The Droid X and the Droid 2 were the first of Motorola's Android devices to feature an encrypted bootloader, one that would only accept Motorola-signed Linux kernels. As of yet, even with the exploits on newer Motorola phones, no dev has found a way get past this restriction.
+
+For you, that means **you can root and install custom ROMs; but there will be no decent Android updates and no modded kernels**, both of which are so integral to the modding experience.
+
+With no hope of ever breaking this protection, the famous Motorola Droid devs stuck with their aging phone until the advent of the Galaxy Nexus.
+
+For you unlucky ones left behind with this crippled phone, you will face an lethargic developer atmosphere, difficult and dangerous procedures, and results that may not even be worth the effort, due to the use of aging and unhackable kernels. Hey, at least you can root.
+
+Such a sad fall for a company that made Android what it is today.
+
