@@ -1,0 +1,32 @@
+<noinclude>{{ADC Template}}
+
+'''A generic message box.'''
+
+See also:
+
+* [[:Template:Box BLUE]]
+* [[:Template:Box GREEN]]
+* [[:Template:Box RED]]
+* [[:Template:Box YELLOW]]
+
+====Usage====
+
+{{Ic|1=<nowiki>{{Box||Content without heading}}</nowiki>}}
+
+{{Ic|1=<nowiki>{{Box|Example:|Content with heading}}</nowiki>}}
+
+{{Ic|1=<nowiki>{{Box|Example:|Content followed by border-color|#DF0000}}</nowiki>}}
+
+{{Ic|1=<nowiki>{{Box|Example:|Content followed by border-color and background-color|#DF0000|#FFDFDF}}</nowiki>}}
+
+====Example====
+
+{{Box||Content without heading}}
+
+{{Box|Example:|Content with heading}}
+
+{{Box|Example:|Content followed by border-color|#DF0000}}
+
+{{Box|Example:|Content followed by border-color and background-color|#DF0000|#FFDFDF}}</noinclude><includeonly><div style="padding: 5px; margin: 0.50em 0; background-color: {{{4}}}; border: thin solid {{{3|#000}}}; overflow: hidden;"><strong> {{{1}}} </strong>{{{2}}}</div></includeonly>
+
+[[Category:ADC Structural Template]]

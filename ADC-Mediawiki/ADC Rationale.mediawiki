@@ -1,0 +1,10 @@
+Currently, the Android modding scene depends heavily on forums as their bread and butter. While forums may be great for fast-paced development, their disjointed, massive threads are horrible for any kind of useful documentation. The results are:
+
+* '''Outdated and dispatriate guides'''
+* '''Disunited guidemakers and developers'''
+* '''General confusion''', leading to needless bricking
+* '''Angry users that create bitter developers'''
+* '''"Obvious" troubleshooting tips hidden under a mountain of 500 posts'''
+* '''No clear liquidation plan, leading to link rot and loss of hard work in several years''' (see XDA's Windows Mobile 6 forums)
+
+By uniting guidemakers into a single guide, we hope to give end-users great guides, and keep both end-users and developers happy, for once in our history.

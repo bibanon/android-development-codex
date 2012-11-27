@@ -1,0 +1,17 @@
+=== General ===
+
+* [[ADC Introduction]] - A quick intro to the rationale and ideals of this guide, and smartphone modding in general.
+* [[ADC General Setup]] - Learn how to install and run the tools you need to succeed.
+* [[ADC Customizations|General OS Customizations]] - General customizations that work on all devices of a specific OS.
+
+=== Content Guidelines ===
+
+* [[ADC Guidelines|General Guidelines]] - The ideals that you should uphold while working with and editing this guide.
+* [[ADC Templates]] - Templates and general guidelines for creating customized guides for a device.
+* [[ADC Linux]] - Run a full desktop OS on your little mobile device; research is being made to make it comfortable to use in the mobile space.
+
+=== Reference ===
+
+* [[ADC Glossary]] - Contains all the crazy acronyms and word soup that you'll need to wade through when using this guide.
+* [[ADC Buying Guide]] - While modding can fix up an outdated device, it will make your life easier to buy the right device from the start.
+

@@ -36,6 +36,7 @@ If you haven't already, please learn the [[ADC Editing Standards]] before going 
 
 * **Page Headers:** A box that holds a related icon and a short overview of the contents of a wikipage. Must be used on every page.
 * **Device Infobox:** Used to give a quick summary of what 
+http://trog.qgl.org/2011/setting-up-infobox-templates-in-mediawiki/
 * **Article Summary/Map:** A nice navigation box and quick description to lead modders through every step of modding their device.
 * **Article Status Templates:** Is a page outdated, inaccurate, or in need of repair? Tag it with these templates so we know what's wrong with which page.
 * **Internationalization:** (i18n) It helps to reach Android modders in their native language. This system, adopted from the Chakra Wiki, is made to reach a new market of Android modders in need of good tips. 
