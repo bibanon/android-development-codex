@@ -1,0 +1,47 @@
+<noinclude>
+{{ADC Template}}
+
+== Issues ==
+
+* The mediawiki tables center all content. We're not sure exactly how to work around this
+** The result is that if one page is larger than the other, the smaller page will have a whole bunch of empty space at the beginning.
+
+== Usage ==
+
+<pre>
+{{Doubleframe
+
+| title1 = Enter the title of the first frame.
+| page1 = Enter the name of the page to be framed. No need to include a ":" before it.
+
+| title2 = Enter the title of the second frame.
+| page2 =  No need to include a ":" before it.
+
+}}
+</pre>
+
+== Example ==
+
+{{Doubleframe
+
+| title1 = Devices
+| page1 = ADC/Device Guides
+
+| title2 = LG Nexus 4
+| page2 =  LG Nexus 4
+
+}}
+
+</noinclude>
+
+<includeonly>
+{| width="100%" cellpadding="6" style="border-collapse: collapse;"
+
+|width="50%" style="background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF), to(#E0E9E9));background: -moz-linear-gradient(#FFF, #E0E9E9);background: linear-gradient(#FFF, #E0E9E9);text-align:center;border-style:solid;border-width: 1px;border-color: #AAA;text-shadow: #eee 2px 1px 1px;color:#454545;font-size:large"|{{{title1}}}||width="50%" style="background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFF), to(#E0E9E9));background: -moz-linear-gradient(#FFF, #E0E9E9);background: linear-gradient(#FFF, #E0E9E9);text-align:center;border-style:solid;border-width: 1px;border-color: #AAA;text-shadow: #eee 2px 1px 1px;color:#454545;font-size:large"|{{{title2}}}
+|- style="border-style:solid;border-width: 1px;border-color: #AAA;"
+
+| {{:{{{page1}}}}}
+| {{:{{{page2}}}}}
+
+|}
+</includeonly>

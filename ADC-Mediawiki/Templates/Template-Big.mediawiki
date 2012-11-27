@@ -1,0 +1,3 @@
+<includeonly>64px</includeonly><noinclude>{{ADC Template}}
+
+This template defines the big icons' size, {{Big}}, as oposed to the small size, {{Small}}.</noinclude>

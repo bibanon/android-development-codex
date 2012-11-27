@@ -1,0 +1,23 @@
+<noinclude>{{ADC Template}}
+
+'''A special template for use in ''all'' [[Android Development Codex]] template pages.'''
+
+==Usage==
+
+This template should be added at the very beginning of all template pages between 'noinclude' tags:
+
+ &lt;noinclude&gt;<nowiki>{{ADC Template}}</nowiki>&lt;/noinclude&gt;
+
+A brief description of the template, usage instructions, and output example should also be added between the 'noinclude' tags (as in this template).
+
+The template wikitext must be written between 'includeonly' tags:
+ 
+ &lt;includeonly&gt;...&lt;/includeonly&gt;
+
+====Example====
+
+{{ADC Template}}</noinclude><includeonly>[[Category:ADC Template]]{{Note|This page is a template that is part of the [[Android Development Codex]].
+
+Please do not experiment with this template; you could ruin [[Special:Whatlinkshere/Template:{{PAGENAME}}|all pages using this template]]. If you want to edit this template, create a template subpage of your user, copy the text and experiment there. When it works, you can apply the changes here.
+
+Feel free to voice [[Template talk:{{PAGENAME}}|your opinion]] regarding this template.}}</includeonly>

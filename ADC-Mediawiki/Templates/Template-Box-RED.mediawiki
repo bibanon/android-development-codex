@@ -1,0 +1,13 @@
+<noinclude>{{ADC Template}}
+
+'''A generic RED message box.'''
+
+====Usage====
+
+{{Ic|1=<nowiki>{{Box RED|Example:|Content}}</nowiki>}}
+
+====Example====
+
+{{Box RED|Example:|Content}}</noinclude><includeonly>{{Box|{{{1}}}|{{{2}}}|#DDBBBB|#FFDDDD}}</includeonly>
+
+[[Category:ADC Structural Template]]

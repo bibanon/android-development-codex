@@ -7,7 +7,9 @@ The Mac/Linux methods are *strongly recommended*. RSDLite on Windows has been bu
 This is perhaps the simplest, easiest, and safest way to flash SBFs. Just burn this Linux image to a CD, and run it on your computer. 
 
 1. Download the LiveCD from [here]().
-2. [[Burn the LiveCD to a disc|LiveCD]], or a [[USB Drive|LiveUSB]].
+2. [[Burn the downloaded image to a disc|LiveCD]], or a [[USB Drive|LiveUSB]].
+3. Set your computer to boot from CD or USB, and insert your live media into your computer.
+4. Follow the instructions that the Linux LiveCD gives you.
 
 ### Mac OS X and Linux (sbf_flash)
 

@@ -1,0 +1,18 @@
+## Device Guide Standards
+
+### Content
+
+* Make sure everything is up-to-date.
+* Use wikilinks on terms and concepts that might be unfamiliar to the average layman (but only on first appearance!)
+* Make content that is as reusable as possible. Import existing content where available.
+* All guides must progress linearly. Don't get them mixed up!
+* Clear, numbered steps and instructions to the point (make sure that anyone can understand it)
+* Make required skills, setup, and files clear and accessible. Make sure that all files are saved somewhere safe with two mirrors. If the author requests no mirrors, leave mirror links as secret HTML comments just in case.
+
+### Structure
+
+* Use Header boxes, to provide a pleasing, aesthetic intro; and for us to store category tags and other global mods
+* Use of formatting "templates" (Note, warning, tip boxes, CLI, code, other advanced stuff)
+* Infobox on the side (adopt the same one from XDA Wiki)
+* Article Summary/Navigation bars, and  for sequenced guides
+* Mark outdated or otherwise notable guides with quick tag templates

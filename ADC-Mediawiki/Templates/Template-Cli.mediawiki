@@ -1,0 +1,19 @@
+<noinclude>{{ADC Template}}
+
+'''Displays text as if entered at a command line, allowing markup inside for formatting.  You must manually enter line breaks as <code><nowiki><br/></nowiki></code>.  For a cutesy blinking cursor, you can use the template {{[[Template:Cursor|Cursor]]}}.'''
+
+====Usage====
+
+{{Codeline|1=<nowiki>{{cli|text to display}}</nowiki>}}
+
+====Example====
+
+{{cli|1=
+$ ./hello<br/>
+Hello, world! 
+$ {{cursor}}
+}}
+
+[[Category:ADC Structural Template]]
+
+</noinclude><includeonly><div style="padding: .5em; border: 1px dashed #2f6fab; color: #aaa; background-color: black; line-height: 1.1em; font-family: monospace;">{{{1}}}</div></includeonly>

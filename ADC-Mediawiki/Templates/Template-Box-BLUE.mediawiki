@@ -1,0 +1,13 @@
+<noinclude>{{ADC Template}}
+
+'''A generic BLUE message box.'''
+
+====Usage====
+
+{{Ic|1=<nowiki>{{Box BLUE|Example:|Content}}</nowiki>}}
+
+====Example====
+
+{{Box BLUE|Example:|Content}}</noinclude><includeonly>{{Box|{{{1}}}|{{{2}}}|#BBBBDD|#DDDDFF}}</includeonly>
+
+[[Category:ADC Structural Template]]

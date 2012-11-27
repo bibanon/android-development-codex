@@ -1,0 +1,28 @@
+From here, find the name of your device, click the appropriate guide, and get it ready for modding! If you are able to, please help and create a guide for your own device.
+
+=== HTC ===
+
+* [[ADC/HTC HD2|HTC HD2]] (HD2) - '''Status:''' Nearly Complete
+* [[ADC HTC Droid Incredible|HTC Droid Incredible]] (DINC) - '''Status:''' Complete
+* [[ADC/HTC Desire Z|HTC Desire Z/T-Mobile G2]] (G2) - '''Status:''' Needs restructuring
+
+=== Google Experience ===
+
+* [[ADC/Asus Nexus 7|Asus Nexus 7]] (N7) - '''Status:''' Complete
+* [[ADC/LG Nexus 4|LG Nexus 4]] (N4) - '''Status:''' - Under Construction
+* [[ADC/Motorola Droid|Motorola Droid]] (OGDR) - '''Status:''' Under Construction
+* [[ADC/HTC Dream|HTC Dream/T-Mobile G1]] (G1) - '''Status:''' Needs restructuring
+
+=== Motorola ===
+
+* [[ADC/Motorola Droid 2|Motorola Droid 2]] (D2) - '''Status:''' Under Construction
+
+=== Other ===
+
+* [[ADC/Amazon Kindle Fire|Amazon Kindle Fire]] (KF) - '''Status:''' Under Construction
+* [[ADC/Nook Color|Nook Color]] (NC) - '''Status:'''
+
+== Windows Mobile 6 ==
+
+* [[ADC/HTC Herald|HTC Herald]] (WING) - '''Status:''' Complete, ROMs undergoing liquidation
+
