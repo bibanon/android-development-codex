@@ -15,8 +15,14 @@ The result for you? A dearth of custom ROMs, improvements, and updates, difficul
 It's time to begin your long journey. In this guide, **we only support methods that work on the newest firmware, 2.3.4**, so update your phones accordingly.
 
 * [[D2 Introduction]] - Exactly what makes the Droid 2 so developer-unfriendly and what can be done to beat it?
+
+### Root/Unlock/Recovery
+
+* [[Flashing an SBF|D2 SBF]] - If things go wrong and you're stuck on the dreaded bootloader mode, you can try and flash a stock SBF. Just make sure that you **don't downgrade!**
 * [[D2 Rooting]] - The least we can do is to root the Droid 2, so you can at least enjoy the power of rooted apps. 
 * [[Installing a Recovery Image|D2 Recovery]] - If you want to go even farther than rooting the stock ROM, you can install a recovery to get custom ROMs. But due to the locked bootloader, there aren't much options.
-* [[Flashing an SBF|D2 SBF]] - If things go wrong and you're stuck on the dreaded bootloader mode, you can try and flash a stock SBF. Just make sure that you **don't downgrade!**
+
+### Miscellaneous
+
 * [[D2 Linux]] - Lo and behold, pure, unadulterated Linux works on these Motorola phones.
 * [[D2 Sources]] - All the programs used, the sources for the files, etc.

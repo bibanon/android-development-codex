@@ -1,0 +1,33 @@
+## Mission
+
+I am creating the Android Development Codex, a wiki that aims to unite the confused mess of guides and guidemakers in the Android Community into a single, up-to-date, and clear tutorial.
+
+This guide is already shaping up pretty well, and is set to revolutionize the Android Modding community.
+
+The current implementation is stored here:
+
+https://github.com/bibanon/android-development-codex/wiki
+
+http://forum.xda-developers.com/wiki/Android_Development_Codex
+
+## Extensions
+
+**List of Extensions needed**: ParserFunctions, ConfirmEdit, EmbedPDF, VideoPlayer, Semantic Mediawiki
+
+ParserFunctions and ConfirmEdit are the most important.
+
+**Skins I would like**: Cavendish: https://github.com/DaSchTour/Cavendish
+
+Here they are in links to the extension download page:
+
+http://www.mediawiki.org/wiki/Extension:ParserFunctions
+
+http://www.mediawiki.org/wiki/Extension:ConfirmEdit
+
+http://www.mediawiki.org/wiki/Extension:EmbedPDF
+
+http://www.mediawiki.org/wiki/Extension:VideoPlayer
+
+http://www.semantic-mediawiki.org/
+
+Thanks for your assistance.
