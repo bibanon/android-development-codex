@@ -12,7 +12,8 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 
 {{Note|Your calculator must be at firmware version 3.1 or less to install Ndless 3.1. No method has been discovered to install ndless on 3.2.}}
 
-* [[Nspire Ndless]] - Ndless enables allows custom apps to be run on the TI-Nspire. It also provides a nice SDK for developers to work in.
+* [[Nspire Ndless]] - Ndless enables allows custom apps to be run on the TI-Nspire using traditional programming languages, like any decent computer.
+* [[Nspire Ndless SDK]] - Ndless also provides a nice SDK for developers to work in, packing a nice emulator to boot.
 * [[Nspire Linux]] - A small build of embedded ARM Linux created with Buildroot. Works quite nicely, though apps have to be cross-compiled with buildroot.
 
 ## Programs

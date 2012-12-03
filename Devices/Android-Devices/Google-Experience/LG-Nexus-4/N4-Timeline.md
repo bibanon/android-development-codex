@@ -6,6 +6,7 @@ Due to the lack of stock, the initial history of the Nexus 4 is organized into w
 
 *Most of the Nexus 4 community was established in the second wave, containing advanced users armed to the teeth with website attack scripts and backed by the Reddit community. The shopping fiasco was no different, but Google eventually came to their senses and established a preorder scheme; just allow 7-8 weeks shipping.*
 
+* *11/31/12* - The first orders from Wave 2 begin to ship earlier than expected. This is restricted to people with *1-2 weeks* shipping. Backorders from Wave 1 are still shipping and pending for those in limbo, however.
 * *~1:30PM PST 11/27/12* - Google finally comes to it's senses and **begins a "pre-order" system that is built on backorders up to 8 weeks long.** However, since the payment system is still busted, the proceed/checkout button does not work. [Some users report success by rapidly mashing the button.](http://www.reddit.com/r/nexus4/comments/13vvi2/official_nexus_4_round_2_order_thread/c77o2h5)
 * *12:00PM PST 11/27/12* - **Google begins the second wave of Nexus 4 orders.** In a scenario oddly reminiscent of the the first release, it sold out in a matter of minutes with the same pain inducing purchase system.
 * *All users*

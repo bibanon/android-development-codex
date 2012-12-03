@@ -1,6 +1,6 @@
 MAGLDR is the first, and best-known bootloader for the HD2, made by Cotulla from the Dark Forces Team (DFT). It can boot both Android and Windows Phone 7. 
 
-Unfortunately, it is closed source and has not been updated in over a year, with a few unsolved issues. [[cLK|HD2 cLK]] may prove to more sustainable, but for now, most people use MAGLDR.
+MAGLDR is closed source software, but free to use. The current build is stable, but has not been updated in over a year, with a few unsolved issues. However, Cotulla *is* actively working (on a WP8 port, to boot); just not actively releasing.
 
 ## Features
 
@@ -12,7 +12,7 @@ Unfortunately, it is closed source and has not been updated in over a year, with
 ## Issues
 
 * Battery does not charge on MAGLDR screen, you need to boot into an operating system for it to charge.
-* Closed source: the community cannot assist in maintaining it
+* Closed source: All work and features come from Cotulla. We are beholden to him and him only.
 * Starting to feel the effects of code rot
 
 ## Installing MAGLDR 1.13

@@ -1,0 +1,60 @@
+== Files to Get ==
+
+You will need to download two files and extract them.
+
+* [http://dl.dropbox.com/u/22186524/files/miniadb_inc.zip miniadb_inc.zip] - Modified from Scotty's original miniadb package. Now with Linux installation instructions and binaries, and cleaned up to work for all phones.
+* [http://dl.dropbox.com/u/22186524/files/dinc_2.3.4_unlock_files.zip dinc_2.3.4_unlock_files.zip] - Contains all the little files you need to work with your droid. It's just a compilation of the links in the next section.
+* PB31IMG for froyo: [http://www.mediafire.com/?uvha2u2pv3xp8d5 PB31IMG.zip] # md5: <tt>31bb1611a0fa8197d447c0438426717e</tt>
+
+Then, you'll need to go to [http://www.htcdev.com/bootloader HTCdev - Unlock Bootloader] and register an account.
+
+=== Included in the archive ===
+
+This is a list of what is inside the archive and where else to get the files. Just download the one above and you'll have everything.
+
+* [http://www.mediafire.com/?o6c4kq4wyccuom5 miniadb_inc]
+* md5: <tt>7c5211686a20b558ccd660c782f82e2b</tt>
+* PB31IMG for froyo: [http://www.mediafire.com/?uvha2u2pv3xp8d5 PB31IMG.zip] # md5: <tt>31bb1611a0fa8197d447c0438426717e</tt>
+* superuser files: [http://downloads.androidsu.com/superuser/Superuser-3.0.7-efgh-signed.zip superuser 3.07] (found on [http://unrevoked.com/rootwiki/doku.php/public/revolutionary revolutionary public wiki])
+* forever patch [http://downloads.unrevoked.com/forever/current/unrevoked-forever.zip unrevoked-forever] from [http://unrevoked.com/rootwiki/doku.php/public/forever public:forever RootWiki]
+
+== ADB ==
+
+If you already have ADB installed, skip this section.
+
+=== Prepare ADB (Windows) ===
+
+:''Might want to incorporate into one big '''Android SDK Platform Tools''' section''
+
+You will need to get the proper drivers to interface with your phone. You can choose either to install HTCSync for the drivers, or better yet, use the [http://downloads.unrevoked.com/HTCDriver3.0.0.007.exe modified HTC drivers from revolutionary]. Follow the instructions there to install them.
+
+First, unzip your {{Ic|mini-adb-inc.zip}} file into the root folder of your hard drive, such as {{Ic|C:\}}. This means the top level, not inside any folders, so just copy and paste the folder onto {{Ic|C:\}} with everything else that is there.
+
+We will assume this folder to be named <tt>miniadb_inc</tt>
+
+Open a command window. In Windows 7, click the start bubble in the lower left and type {{Ic|command}} in the search box to find the Command Prompt application. In Windows XP, go to '''Run''' and type {{Ic|cmd.exe}} to run it.
+
+Type the following at the prompt in your cmd window to change to your <tt>miniadb_inc</tt> directory.
+
+{{Cli|
+C:\> cd C:\miniadb_inc
+C:\miniadb_inc> {{Cursor}}
+}}
+
+Your command prompt should display that last line provided you:
+
+# unzipped the miniadb_inc zip
+# put the folder on your c drive
+# didn't change the name
+
+Now make sure usb debugging is checked in '''settings/apps/development''' on your phone,and plug your phone into your PC.
+
+If your drivers are installed correctly, this should show your phone's serial number. You should hear the '''found device''' noises when you plug your phone in. if it starts installing drivers, wait for it to finish before proceeding.
+
+Finally, type this command to make sure your phone is being recognized.
+
+{{Cli|
+C:\miniadb_inc> adb devices
+}}
+
+Now you can just go to the {{Ic|miniadb_inc}} folder and use {{Ic|adb}} from there.
