@@ -1,3 +1,5 @@
+Ordering the Nexus 4 can be extremely aggravating and difficult. Here are some tips to get through the crowds and nab one for yourself.
+
 ## Suggested Tactics
 
 * **Set up Google Wallet before ordering!** The less servers and checkpoints you need to break through, the better.
@@ -34,12 +36,11 @@ When the release date begins to heat up, set up a cart buster script to nab the 
 You can check passive monitors for a quick glance at whether a device is available or not.
 
 * [Ianturgeon.com - Nexus 4 status viewer](http://ianturgeon.com/nexus4status/)
-* 
 
 ### Notifiers
 
 Notifiers actively tell you, through IM, text, or email, whether a product is available.
 
+* [ZauberNerd's Nexus Google Talk/Jabber bot](https://plus.google.com/u/0/109651506622355695262/posts/97nePebB5sw) - Ask a bot about the status of a Nexus device, available or not. It can even IM you when it is available. Includes source code.
 * [Whohas.it](http://whohas.it/g/247) - A site designed to notify buyers of the availability of rare products. Notifies with email, sound alert, or a text message.
 * [Canibuyanexus4.info](http://canibuyanexus4.info/products/nexus-4) - A site that will email you when the Nexus 4 is available.
-* [ZauberNerd's Nexus Google Talk/Jabber bot](https://plus.google.com/u/0/109651506622355695262/posts/97nePebB5sw) - Ask a bot about the status of a Nexus device, available or not. It can even IM you when it is available. Includes source code.
