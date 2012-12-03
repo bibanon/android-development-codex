@@ -1,6 +1,5 @@
 ## Installing Linux
 
-
 Installing BASH not enough for you? You want the full Linux experience? Some people have gotten a full Linux chroot environment running on their X. Currently this is a stripped down version of Ubuntu, but the next iteration is moving toward Slackware-based Gentoo.
 
 
