@@ -1,4 +1,6 @@
-> _This is a long bit of history about why the HTC HD2 became what it is today, and what technologies gave it such abilities. You don't need to know this to use the phone, but it's good to know how things came together_
+> _This is a long bit of history about why the HTC HD2 became what it is today, and what technologies gave it such abilities. You don't need to know this to use the phone, but it's good to know how things came together._
+
+{{Note|I wrote this, but I am a relative newcomer to the community, and it has a ton of inaccuracies and missing points. Hopefully you can help out and fix some of them.}}
 
 HTC started out as the creator of the first Windows Mobile PDA/smartphones in 1999, blowing away old Palm PDAs with a dream to bring the power of a true computer to your pocket. You may not have heard this before; indeed, HTC had to sell out to third-party brand-names like Compaq and HP to even get these phones to market. 
 
@@ -19,4 +21,8 @@ But this wasn't enough, and MAGLDR was developed to completely replace Windows M
 In the space of a year, the HD2 had gained all of it's signature features, quickly becoming famous for the community's unprecedented longevity, recieving the newest Android and WP7 builds even when phones of it's caliber never got close. The latest development was the introduction of Android (NativeSD), to make Android run as fast as possible on SDCards.
 
 The HD2 is a product of unparalleled design, bad luck, and a massive community's fight to turn lemons into lemonade by giving this lost phone a second life. Who knows when such an arrangement will occur again, or if anything can even think of equaling the HD2's abilities?
+
+## Sources
+
+* [XDA Developers - A Tribute to the HTC HD2](http://www.xda-developers.com/android/a-tribute-to-the-htc-hd2-part-one/)
 
