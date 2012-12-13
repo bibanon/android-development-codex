@@ -43,7 +43,7 @@ http://trog.qgl.org/2011/setting-up-infobox-templates-in-mediawiki/
 
 ### Undocumented Features
 
-* **Frames:** [Frame], [Doubleframe] - Based on the tables in the iDroid Wiki front page. Makes it easy to frame a small wikipage in a aesthetically pleasing box. This may only be used on the front page.
+* **Frames:** [Frame], [Doubleframe] - Based on the tables in the iDroid Wiki front page. Makes it easy to frame a small wikipage in a aesthetically pleasing box. This should only be used on the front page.
 
 ## Device Guide Standards (notes)
 
