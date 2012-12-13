@@ -1,9 +1,13 @@
 Ordering the Nexus 4 can be extremely aggravating and difficult. Here are some tips to get through the crowds and nab one for yourself.
 
+During Wave 1, there were no pre-orders, just direct purchase. As a result, the phone was sold out in all regions in 30 minutes, with a few popping up from time to time as orders failed to process.
+
+During Wave 2, the situation did not improve from before. This time, determined not to repeat the same mistake, users snuffed by the first launch used scripts that brought Google's servers to it's knees. The company finally came to it's senses and instituted a pre-order system, with shipments expected in 8-9 weeks.
+
 ## Suggested Tactics
 
 * **Set up Google Wallet before ordering!** The less servers and checkpoints you need to break through, the better.
-* **Check the [/r/Nexus4 Subreddit](http://www.reddit.com/r/nexus4/) or [/r/Android](http://www.reddit.com/r/Android/) for news.** These are the largest community dedicated to nabbing an N4, and they will warn you of important tips and tricks.
+* **Check the [/r/Nexus4 Subreddit](http://www.reddit.com/r/nexus4/) or [/r/Android](http://www.reddit.com/r/Android/) for news.** These are the largest communities dedicated to nabbing an N4, and they will warn you of important tips and tricks.
 * **Subscribe to email or GTalk monitors** to see if or when the Nexus 4 is in stock.
 * **Set up a script** that will automatically add the Nexus 4 to your cart when it is available.
 * **Start your scripts 30 minutes early!** Google notoriously releases devices early, in pursuit of the lulz.
@@ -24,6 +28,12 @@ Redditor DeathByAssphyxiation tells buyers to ["never refresh, just keep pressin
 Another method is to use {{Key|Tab}} to navigate to the button, and to [keep the {{Key|enter}} button held down.](https://twitter.com/TomDanTheRock/status/273546858289303554)
 
 ## Wave 1 (8:00PM PST 11/13/12)
+
+A redditor would describe it as:
+
+> It was as if Google made it's own store, which is open only at two random times in the year. Three hours before it's first opening, a poster is placed with a specific time. For laughs, the store opens thirty minutes early.
+> 
+> The store has five entrances where people lined up, four of which were fake. The few who managed to get in saw scalpers taking ten phones at a time and successfully buying up all the stock. And then Google employees would randomly push people's carts on the floor. By the time some honest buyer jumped the pitfalls and reached the counter, they would have discovered that they bought three phones too many.
 
 ### Cart Busters
 
