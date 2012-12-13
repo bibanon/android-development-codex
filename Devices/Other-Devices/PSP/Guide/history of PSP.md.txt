@@ -1,0 +1,232 @@
+http://pspheaven.punbb-hosting.com/viewtopic.php?id=46
+
+skunkator
+    GOD
+    From: location location
+    Registered: 09-February-07
+    Posts: 578
+    Dollars: 367
+    Bank: 28
+    Reputation :   8 
+    Website
+
+History of the PSP (noobs read here)
+
+i was reading this artical about PSP Hombrew on wikipedia and i thought this would help people who know nothing of homebrew, devhook, downgraders, etc.
+
+This should help all the noobs understand wat homebrew is and wat i can do~
+
+
+
+Origins
+In May 2005, it was discovered that PSPs using the 1.00 version of the firmware could execute unsigned code. This meant that PSPs could be used to run homebrew software, as there was no mechanism to check if the code had been digitally signed by Sony. A proof-of-concept "Hello World" was released to demonstrate this. This resulted in the release of a number of homebrew software, which were all built with the GNU GCC and GNU Binutils, modified to produce code for the PS2 and PSP (MIPS processor devices).
+
+In addition, it became possible to dump Universal Media Discs (UMDs) using a homebrew technique. These dumped UMD images can be written to a Memory Stick and executed, performing in exactly the same way as if they were being read from a UMD.
+
+A primitive homebrew program was made available to revert from 1.50 to 1.00, but this was only possible if the PSP was originally a 1.00 model, as the firmware dump required was unique to each PSP. In July 2006, a downgrader for 1.50 to 1.00 was released, allowing any 1.50 PSP to downgrade to 1.00
+
+
+1.50 homebrew
+It was discovered in June 2005 that unsigned code could be run on a firmware with version 1.50. The discovery allowed early US PSP adopters to run homebrew which quickly led to articles appearing in the mainstream.[1]
+
+Two ways were developed to run unsigned code, swapping memory sticks, and later, a safer exploit known as 'KXPloit'.
+
+
+Swaploit
+Swaploit was released on June 15, 2005. It was created by a Spanish team and involved swapping two memory sticks to run the selected homebrew.
+
+
+KXploit
+KXploit exploited a misuse of the sprintf function of the PSP by having another folder named exactly the same with a percentage sign before the file name (eg game and game%). The original folder contained no data aside from images and a PARAM.SFO. The problem with this exploit was that corrupted data would show on the memory stick (as well as the normal data). However, this was shortly overcome by using two tricks. One would exploit the FAT16 system of the memory stick, and the other involved putting __SCE__ before the name of corrupted folder and %__SCE__ before the name of the normal folder (with the percentage sign at the end removed). Both tricks would remove corrupted data and still allow the EBOOT to be run. A similar tool called Sei PSP tool automatically hides the corrupted data and includes a tool to do so for previously installed homebrew applications.
+
+
+Downgrader & Custom Firmwares
+The very first downgrader created for the PSP was one that would allow users of the 2.00 firmware version to go back to 1.50 using a tiff exploit in the PSP's photo section.
+
+In July 2006 a downgrader was released, allowing 1.50 users to downgrade their PSPs to 1.00. This was a major breakthrough as people believed it would lead to custom firmwares on 1.50, which could allow 2.71+ features with 1.00 EBOOT execution. Many people did not attempt the downgrade, due to decreased compatibility of running homebrew with the older firmware, compared to 1.50. On September 01, 2006 a downgrader was released for firmware version 2.71. This exploit took advantage of a "libtiff" file bug in the PSP.
+
+Later the same month, a limited custom firmware (named a proof of concept) was released, allowing the execution of version 1.00 EBOOTs, access to a limited recovery mode, and ability to automatically load an application upon start. Other custom firmwares have since been released. Today, there is a better version of the custom firmware called "Casual v3". Easier to install, it provides better stability and integration with Devhook. For example, if Devhook and Casual v3 are both configured properly, one can make it so that turning on the PSP loads firmware version 2.71, but when holding "R" and turning on the PSP, it loads 1.50 version firmware. This is an ideal alternative to the modchip, "Undiluted Platinum".
+
+Released on 8th October 2006 is Dark_Alex's custom firmware 2.71 SE-A which utilizes the features of the 2.71 web browser, video features, RSS feeds, WMA capabilities and flash capabilities for the web browser as well as full 1.5 user and kernel homebrew usage and full 2.71 user and kernel homebrew, as well as adding a recovery mode for unbricking "semi-bricked" PSP from bad flashing etc.
+
+An historical update to this new custom firmware came out on the 24th of the same month. In this update the 2.71 SE-B the major feature is the loading of ISO's and CSO's from the game menu in the XMB. And just two days later was updated to 2.71 SE-B` which includes NO-UMD iso loading. A few days later, 2.71 SE-B`` was released. It allowed the ability to run 2.80+ games, including GTA VCS, through devhook (Devhook's SFO Version) and it fixed some bugs found in 2.71 SE-B`. The Latest version is 2.71 SE-C.
+
+
+1.51 and 1.52 homebrew
+It is not possible to run homebrew on 1.51 or 1.52 without upgrading the firmware. Many possibilities have been claimed as fact, usually involving the DATA.PSP files from an official update. However, all remain unproven.
+
+
+2.00 homebrew
+Sony, seeing that not many people were updating their PSPs to 1.51 or 1.52, decided to release an update with features that would give people an incentive to update. The main feature was an official web browser, revealed at the 2005 PlayStation Meeting on June 20, 2005. The Japanese version of the update was released a week later, on June 27, 2005. In addition to a web browser, it also had support for high-quality MPEG-4 AVC video and the ability to change the wallpaper. As 2.00 contained a web browser, it became possible to write programs that would take advantage of the PSP's HTML rendering ability, and its newfound ability to connect to a server on a wireless network.
+
+On September 23, 2005, an exploit, a buffer overrun in the image rendering, was discovered, allowing execution of an unsigned binary file. The method involved the user setting a PNG image as their background and a TIFF file in their photo directory. When the Photo menu was accessed, the binary file was loaded.
+
+Two days later, the first "Hello World" program was released. The size of the binary was limited to 64kb, and the PSP could not yet read unencrypted ELF files, so further experimentation was required before any kind of homebrew software could be run. A day later, the first playable game using the exploit was released, titled "TIFF Pong 2.00".
+
+On September 28, 2005, a successful downgrader, the MPH Downgrader, was released. This would change the system's version to 1.00, tricking the PSP into allowing the 1.50 update.
+
+Moving quickly to fix this exploit, on October 3, 2005 Sony released the version 2.01 firmware. This was a pure security update and offers nothing new in the way of features.
+
+
+Trojan. PSPBrick
+On October 2, 2005, an alternative downgrader was released. The "downgrader" was actually a trojan that, if run on PSP, destroys the firmware and BIOS, resulting in the PSP becoming un-bootable. This was officially reported by Symantec as Trojan.PSPBrick. After the release, many PSP homebrew sites checked every homebrew release for the trojan, to ensure safety for their users.
+
+Any files that are based on the toc2rta TIFF exploit (including the EBOOT Loader and the MPH Downgrader) are now seen as trojans by anti-virus programs, even if they are perfectly legitimate.
+
+
+Trojan. PSPbrick.B
+A PSP bricker (see 'Trojan. PSPbrick' above), known as 'SDL test' has recently come into circulation. Its effects are the same as above, but is not detected by anti-virus programs, due to the fact it is new. A program that can find these brickers can be found at pspupdates.qj.net
+
+
+2.01 - 2.60 homebrew
+On the September 28, 2005, Cheat Device was released for GTA: Liberty City Stories which exploited a memory bug during saving. It ran behind Liberty City Stories allowing for various modifications to the game, such as infinite health and the ability to "spawn" any of the vehicles in the game.
+
+A "Hello World" was created in December, 2005. A day later, the first playable homebrew for version 2.01 was released, titled "Tetris for Firmware 2.01". (Despite the name, this game was not authorized by The Tetris Company.)
+
+Two days later, the exploit was released for 2.60 firmware, leading to the creation of Tetris for version 2.50 and 2.60. A developers kit was later released.
+
+In January, 2006, an EBOOT Loader for 2.01+, and then, a version of the eLoader which supported version 2.60 were released
+
+WiFi connectivity was added on April 2, 2006, due to the discovery of a function that allowed the eLoader to initialize WiFi without kernel mode.
+
+On June 27, 2006, another exploit was discovered in the 2.50 and 2.60 firmware that allowed for kernel mode to be utilized. GTA: Liberty City Stories is still required. The exploit takes advantage of another buffer overflow bug that was added when Sony included an additional security check in the 2.50 firmware. Three days later, a fully functioning 2.50/2.60 to 1.50 downgrader was released. If the PSP had the TA-082 PCB, the downgrader would not work, and would "brick" the PSP[2]. This was due to a protection implemented in newer motherboards. It is unknown as to what exactly is being blocked.
+
+In August, it was reported that a successful downgrade on a TA-082 to the 1.50 firmware was achieved. It takes 45 minutes and an image must be dumped that is specific to one's own PSP device. No other details have been announced.[2].
+
+Furthermore, during June 2006, Rockstar started shipping a version of GTA:LCS that patches the memory bug. The patched UMD also contains a compulsory upgrade to firmware 2.60. It was met with a change of serial number and graphical layout, in the PAL regions.
+
+On 21 August 2006 it was announced that homebrew is possible on 2.01-2.80 by loading a tiff image. This resulting in launching homebrew on 2.00-2.60 without GTA:LCS using full kernel access. Contrary to popular belief, the exploit itself wont allow code to be executed under the kernel space, but does in fact use the sceKernelLoadExec exploit present in 2.50-2.71, hence why 2.80+ cannot yet be downgraded.
+
+On 5 September 2006, an EBOOT loader that does not require GTA:LCS, and uses the new TIFF exploit, was released for the 2.00-2.60 firmwares. It still has the same compatibility rate as previous loaders, due to the user mode limitations. A kernel mode version is being worked on.[3]
+
+On 9 September 2006, an easier way of downgrading firmware 2.01 was released. It functioned in the exact same way as the 2.0 downgrade (swapping index.dat from flash0 to the index.dat from the 1.00 firmware, tricking the PSP into launching the 1.50 update EBOOT) however, it uses the new TIFF exploit (as the one used to downgrade firmware 2.00 was patched in 2.01).
+
+
+2.70-2.80 homebrew
+On 25 April 2006, Sony released firmware version 2.70, which directly patched the exploit in the GTA savegame. Currently, the libTIFF exploit talked about below is now supported by 2.00-2.80 allowing homebrew to be executed. With 2.70 came Macromedia Flash support, and hence a number of PSP Flash games have been created. There have also been various flash portals released to allow flash games and applications to easily be run without adding them to bookmarks. The most recent firmware update is currently version 3.01.
+
+On 21 August 2006, it was announced that a new overflow had been discovered in the libTIFF image libraries of the PSP, in all versions upwards of 2.00.
+
+In late August 2006, the first Hello World program working through the libTIFF exploit was released. It runs in kernel mode on firmwares up to 2.70, and user mode in 2.80.
+
+On 1 September 2006, a downgrader for firmware 2.71 was released. Executing itself via the Photo menu (through an arbitrary TIFF), it expands itself into working memory, uses the PRX from the 1.50 Update EBOOT to write a new IPL and then formats the flash0 partition, then copies a dump of the 1.50 firmware, stored on the memory stick, to the flash0 partition. The flash1 settings partition is detected as "corrupted" when user first boots 1.50, and is then rewritten by pressing Circle.
+
+On 2 September 2006, an update of the 2.71 downgrader was made public. This fixed an error in the previous downgrader which sometimes caused premature bricking.
+
+On 12 September 2006, Tetris for firmware 2.80 was released, along with an SDK, Tetris being the first homebrew available on 2.80. This was followed just hours later by TIFF pong (edited one day later), followed two days later by TIFF Tron, TIFF Snake, TIFF Space Invaders, TIFF Font Hack, and TIFF Penguin Scramble. It is likely that many more games will be released under this SDK, as the Noobz team have confirmed (many times) the upcoming 2.70-2.80 eLoader, meaning most developers will be waiting for this opening, followed by what Noobz can do with the kernel exploit. Even though the Noobz team is working on an eLoader, many people are developing their own games using the 2.80 SDK.
+
+On 21 September 2006, eLoader 0.99 was released. It had support for Firmware 2.70 and 2.71, with limited kernel access.
+
+On 22 September 2006, A homebrew Launcher for Firmware 2.71 was released by Dark_AleX. This allowed to launch homebrew games from the XMB Game Menu. It worked by making a patch in memory that remained until the PSP was restarted.
+
+On 24 September 2006 A DevHook port for firmware 2.71 , it allowed users to emulate 1.50 firmware. It was reported that it is fully compatible with TA-082 motherboard.
+
+On 29 September 2006 ISO files can be successfully launched under firmware 2.71 and TA-082 motherboard through Dark_AleX's Homebrew enabler revision C and DevHook 0.4x for 2.71 enabler. Although the libtiff exploit is operational in 2.80, an eloader is still under development and is expected to arrive soon. A certain file is missing from the 2.71 version in 2.80
+
+On 8 October 2006, A 2.71 custom firmware was released by Dark_Alex. Uses the 1.50 firmware kernel to bootstrap to a custom 2.71 firmware. This firmware mod allows to run 1.00 and 1.50 homebrew, and 2.71 homebrew as well, all of them with kernel access.
+
+On 15 November 2006, A new version of eLoader was released by the Noobz team. This now also works on 2.80 firmware by using the TIFF exploit, giving the ability launch user-mode EBOOTs on 2.80 firmware. Also released in this version is an experimental loader for 2.80 firmware called "xLoader". This new loader allows homebrew EBOOTs to be launched from the XMB Game Menu.
+
+On 20 November 2006, It was confirmed that flash0 access on 2.80 is possible and custom gameboots have been flashed on to a psp running 2.80 firmware. Although a downgrader has not been made yet this has opened up the path to making one.
+
+On 24 November 2006, There was a rumor on two well known sources, qj.net and dcemu, that there will be a downgrader for 2.80 in a matter of a days or a few weeks. This downgrader is supposed to not be run off of the xloader, the only known loader for 2.80.
+
+On 25 November 2006, Dark_Alex released the newest version of his 2.71 Custom firmware named "2.71 SE-C". With this new version allowing support for .prx plugins that run directly from the memory stick, a whole new "sub" scene has emerged to create custom extensions for the public at large.
+
+On 28 November 2006, It was announced on www.maxconsole.net that Booster the creator of DevHook will soon release a new "0.50" version of his now famous DevHook Firmware Emulator and ISO loader. It is suspected that this new version will emulate either the new 2.8X or 3.X firmwares released by Sony. Since those firmwares have already been dumped and only await a program to use them, it seems a logical conclusion.
+
+on 29 November 2006, Booster released DevHook 0.50 suports up to 2.8x
+
+
+2.81+ Homebrew
+As of this time there is no way to run homebrew, isos, emulators, or downgraders on firmwares 2.81 and 2.82. In 2.81, the latest exploit, a LibTIFF vulnerability is patched. Shortly after the 3.00 update was released to add compatibility with the PlayStation 3, a 3.01 update was released to patch a security hole, leading all homebrew groups to begin searching for this hole. However it was later confirmed that this was nothing more than a simple bug.
+
+
+Motherboards
+Before Sony saw the 2.50/2.60 downgrader they made a new motherboard for the PSP called TA-082 which, when downgrading below firmware 2.50 is tried will get a corrupt firmware and the PSP will become un-bootable (bricked). A homebrew developer called 0okm claims to have successfully made a TA-082 downgrader, but it is still unclear when it will be released.
+
+Recently it has been discovered by 0okm that Sony has released a new motherboard called TA-086 but it is still unclear what changes it has from the TA-082 motherboard.
+
+To spot if you have a TA-082 motherboard without voiding your warranty see this image.
+
+
+Modchip
+The first PSP modchip ("Undiluted Platinum") was announced on May 28, 2006. It allows the user to run two separate firmwares, one on the PSP itself, and one on the modchip. It also allows the restoration of corrupted firmware ("unbricking"), and so may lead to the creation of custom firmwares, allowing the full range of homebrew, while still being able to play the latest games. However, this chip may not run on all PSP hardware, due to the lower voltage of newer, TA-082, PSP boards.
+
+Around the same time as this release, a second modchip was announced. This modchip contains a different PSP firmware to the one onboard the PSP itself and can be booted from, or copied to, the PSP's original NAND flash chip, unbricking the PSP. It's called "Multi Firmware Module" and is planned for release upon the acquisition of a suitable manufacturer.
+
+
+ISO image loader
+UMDs can be run from the Memory Stick by utilizing a ripped ISO image. The legality of the loaders used to run these ISOs, and indeed, ripping the ISOs in the first place, is questionable at best, as the only UMDs available are retail versions.
+
+Three methods of loading ISOs are available: generic loaders, which trick the PSP into thinking the ISO is in fact a UMD in the PSP's drive; and game-specific booters, which only allow a particular game to be run, and more recently the advent of 2.71 SE-B allows the loading of isos requiring 2.81 and under with no UMD in the drive.
+
+Through homebrew, developers have also enabled the PSP to load modified versions of ISOs using specially developed programs. Both the DAX and CSO (Compressed ISO) formats are compressions of an ISO image and can be loaded with DaxzISO, 2.71 SE-C and DevHook respectively.
+
+
+Game compatibility
+In order to force users to update to their latest firmware, Sony has increasingly made games firmware specific. GTA: Liberty City Stories requires firmware functions only present in 2.00+, and so will not run on lower firmwares. In February 2006, a loader was released, allowing GTA:LCS (and other games required 2.00+) to be run on PSPs below 2.00. In June 2006, a firmware emulator was released, allowing games requiring up to version 2.50 to be run on firmware 1.50.
+
+Often, games request 2.00+ firmware, but do not depend on 2.00 features to operate, and so can be easily circumvented using a version changer.
+
+
+Version changer
+A utility was released circumventing the version number check. This utility tricked games by setting the firmware version to a high number (eg 9.99). The UMD would assume its version (usually 2.00+) was older, and so would not attempt to update.
+
+A different standpoint is taken with the "No Update UMD Starter", which instructs the PSP to ignore the update when booting a UMD, and to boot directly into the game.
+
+These methods do not work for games requiring 2.00+, as they depend on functionality added by this firmware in order to function.
+
+
+Firmware loaders
+It is possible to run games specifically for firmware versions 2.00 and above (such as GTA: Liberty City Stories) on previous firmware versions. This is done by using a firmware loader.
+
+The PSP has five drives:
+
+ms0 - Memory Stick
+flash0 - BIOS
+flash1 - Flash Memory
+disc0 - UMD Drive
+ipl - Initial Program Load
+Files from the BIOS and flash memory (of a different version) are copied to separate folders on the memory stick. The firmware loader proceeds to load these files. Recently, the release of a homebrew program (Devhook) has enabled loading firmware versions 2.00 through 2.71 entirely. It can then load/play UMD games requiring that particular firmware, as well as use the built-in Internet Browser with Macromedia Flash support, LocationFree, RSS feeds, ATRAC3/ATRAC3plus, WMA and AVC playback.
+
+
+Custom Firmware
+On October 8th, 2006, Dark_Alex released a modified version of the 2.71 firmware[4] which features homebrew launching and ISO launching directly from the XMB without a UMD in drive, meaning you can enjoy all the features of 2.71 and enjoy the homebrew capability's of 1.00. Currently in version 2.71 SE-C, it is compatible with most user- and kernel-mode 1.50 homebrew, and a fixer has been released for the homebrew that isn't. It launches UMDs for all firmwares up to 2.81. There is also a 2.71 - 2.80/2.81/2.82/3.00/3.01 hybrid for devhook. It apparently can run all of the new games which are coming out that SE-B/SE-C cannot run.
+
+
+TIFF Homebrew
+To date, there have been twelve TIFF games and six applications. They do not have sound except for the updated Tetris and Breakout and have limited graphics. The games and programs released so far are:
+
+Games
+Analog Fun
+Breakout
+Magic 8-Ball
+Penguin Scramble
+Pong
+Road Runner
+Snake
+Space Invaders
+Starfield tech demo
+Tetris
+TNT Dude "a bomber man clone"
+Tron
+
+
+Programs
+3D Cube test
+Calculator
+File Assistant
+Fire demo
+Font modifier(Font Hack)
+
+As well as that, for firmwares 2.00 - 2.80, an EBOOT loader (eLoader Kreik [0.9995]) was created to allow users to run homebrew on those firmwares with limited flash modifications.
+
+It is now possible to change gameboots, backgrounds and coldboot sounds on 2.80, 1.50, and 2.71 SE.
+
+
+Notable homebrew
+Main article: List of PlayStation Portable homebrew
+
+DevHook
+This application, created by BOOSTER, can load alternate firmware versions from dumps without affecting the PSP's actual firmware by mounting flash0, flash1 (where the firmware is stored) and the IPL to a directory on the memory stick pro duo, then executing a firmware reboot, which then loads the emulated firmware, without the PSP even knowing. Hence, there are no risks of bricking, or damaging the PSP in any way. The user can access all the features of the emulated firmware, including UMDs requiring the firmware version. The latest version of DevHook (v0.50) allows for emulation of 2.82 firmware, and supports limited homebrew launching on said firmware. Note: To save space on the memory stick, newer versions of DevHook allow much of the emulated firmware to be stored in the PSP's flash memory. 

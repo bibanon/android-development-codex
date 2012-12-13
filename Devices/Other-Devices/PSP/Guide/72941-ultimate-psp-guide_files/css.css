@@ -1,0 +1,96 @@
+.forumdata
+{
+    width: 100%; 
+}
+.datacontainer
+{
+    width: 100%;
+}
+ol.column4
+{
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+ol.column4 li
+{
+    width: 17%;
+    float: left;
+    padding-left: 15px;
+    margin: 2px;
+}
+ol.column4 li.old
+{
+    background: transparent url(images/bluefox/statusicon/subforum_old.png) no-repeat left center;
+}
+ol.column4 li.new
+{
+    background: transparent url(images/bluefox/statusicon/subforum_new.png) no-repeat left center;
+}
+ol.column3
+{
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+ol.column3 li
+{
+    width: 28%;
+    float: left;
+    padding-left: 15px;
+    margin: 2px;
+}
+ol.column3 li.old
+{
+    background: transparent url(images/bluefox/statusicon/subforum_old.png) no-repeat left center;
+}
+ol.column3 li.new
+{
+    background: transparent url(images/bluefox/statusicon/subforum_new.png) no-repeat left center;
+}
+ol.column2
+{
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+ol.column2 li
+{
+    width: 45%;
+    float: left;
+    padding-left: 15px;
+    margin: 2px;
+}
+ol.column2 li.old
+{
+    background: transparent url(images/bluefox/statusicon/subforum_old.png) no-repeat left center;
+}
+ol.column2 li.new
+{
+    background: transparent url(images/bluefox/statusicon/subforum_new.png) no-repeat left center;
+}
+ol.column1
+{
+    width: 100% !important;
+    padding: 0px;
+    margin: 0px;
+    clear: both;
+}
+ol.column1 li
+{
+    width: 90%;
+    float: left;
+    padding-left: 15px;
+    margin: 2px;
+}
+ol.column1 li.old
+{
+    background: transparent url(images/bluefox/statusicon/subforum_old.png) no-repeat left center;
+}
+ol.column1 li.new
+{
+    background: transparent url(images/bluefox/statusicon/subforum_new.png) no-repeat left center;
+} 
