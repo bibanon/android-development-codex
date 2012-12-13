@@ -1,5 +1,7 @@
 *This guide is an experiment of the Android Development Codex, an independent project to reform the dispatriate guides of XDA-Developers. For more info, see the [[front page.|Android Development Codex]]*
 
+{{Note|This guide, as well as the Nexus 4 itself, is still under development. Please help out by bringing in content, keeping methods up-to-date, and adding screenshots when possible.}}
+
 {{Under Construction}}
 
 The Google/LG Nexus 4 was the hottest device of late 2012, stuffing the most powerful components available in the nicest looking Nexus to date, all backed by the allure of the Google Experience. And somehow, they managed to sell it a starting price of $299 unlocked.

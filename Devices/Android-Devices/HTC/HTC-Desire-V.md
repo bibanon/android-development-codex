@@ -1,5 +1,3 @@
-## HTC Desire V
-
 The HTC Desire V is a low-end smartphone announced in June 2012 and sold in India, Europe, Taiwan, and China. It sports nearly the same processor and GPU as the Google/HTC Nexus One and HTC Desire, which as of writing is nearly two years old. However, it also has the HTC Sense 4.0a UI on top of that.
 
 This phone is new and still under research, so it's a good project for me to start my first foray as an XDA-Developer. It is also a perfect time to build a great guide from the start, rather than rely on a mess of others.
