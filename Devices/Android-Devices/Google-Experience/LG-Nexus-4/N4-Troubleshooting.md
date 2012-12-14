@@ -17,7 +17,7 @@ Also, if you rooted your Nexus 4, don't panic. Just reflash the official ROM and
 
 However, if you bought your Nexus 4 from eBay, you are risking the warranty, so stay in touch with the seller. There is no international warranty, either; you need to go back to the country of origin for support. This is the number one reason why you should avoid eBay scalpers.
 
-## Normal Behavior
+## Fixable with Software
 
 ### Hovering Effect on Flat Surfaces
 
@@ -36,10 +36,22 @@ If there is more than just a little subtle rattling, that is cause for concern, 
 
 ### Miscolored Screen
 
-* Problem: The entire screen seems... off. In color, anyway.
-* Solution: The issue is with the software, not the hardware. Wait for a software update, or root your phone and install a ROM with decent calibration.
+* Problem: The entire screen seems... off. Yellowed. In color, anyway.
+* Solution: The issue is with the software, not the hardware. Use an app to raise the blue color by +5.
 
-Nexus phones are known for their lack of color calibration. No one knows the reason why; but at the very least, you can be safe in the fact that there is no hardware error.
+Nexus phones are known for their lack of color calibration. No one knows the reason why; but at the very least, you can be safe in the fact that there is no hardware error, and it can be easily fixed through an app.
+
+**Method 1: Without Root**
+
+Use [this app](https://play.google.com/store/apps/details?id=com.netmanslab.sa&hl=en) to bump up the blue color by +5, or whatever feels comfortable.
+
+Note that this is just a color overlay. For security purposes, Android prevents app installation when there is an overlay on, so you'll need to turn the overlay off to press **Install**.
+
+
+**Method 2: With Root Kernel Tweak**
+
+Use Faux123's kernel with Gamma Correction.
+
 
 ### Insensitive Screen
 
@@ -57,6 +69,13 @@ Nobody knows whether this is a software or hardware issue, or a part of the desi
 
 The iPhone 5 has a similar issue with touch sensitivity.
 
+### Volume is too low
+
+* Problem: While the Nexus 4 inherits excellent and clean audio drivers from the LG Optimus G, [for some reason the maximum volume is extremely low.](http://www.gsmarena.com/google_nexus_4-review-860p8.php)
+* Solution: The only solution as of now is to get root and recovery. The flashable below greatly increases the volume of the sound on the Nexus 4, and also adds some extra audio engines.
+
+* [XLoud Mod for Nexus 4](http://forum.xda-developers.com/showthread.php?t=2025486)
+
 ## Defects
 
 After getting your Nexus 4, make sure to check for these common issues.
@@ -73,8 +92,8 @@ Dead pixels are common defects on screens in general.
 ### Yellow Spots
 
 * Problem: Yellow spots appear on some areas of the screen. (Note: A fully yellow screen is a different issue entirely)
-* Solution: Wait for the spots to go away. If they reappear or worsen, call for a replacement immediately.
+* Solution: Wait a few weeks for the spots to go away. If they reappear or worsen, call for a replacement immediately.
 
-Yellow spots are a common issue with smartphones in general, from the iPhone to the HTC One X. 
+Yellow spots are a common issue with smartphones in general, from the iPhone to the HTC One X. They seem to be a result of the glue failing to dry in time when it is out of the factory.
 
 
