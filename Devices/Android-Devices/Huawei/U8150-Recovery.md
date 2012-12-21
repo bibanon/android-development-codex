@@ -13,8 +13,6 @@ As long as ROM Manager is available, you can use the **ROM Manager** app to easi
 3. Follow the directions and your custom recovery is installed.
 4. Now you can download a custom ROM and install it. Select **Reboot Into Recovery** to jump directly into ClockworkMod directly.
 
-### Manual On-Phone
-
 ### Manual Computer
 
 First, ensure that you have 
@@ -39,11 +37,11 @@ UltraJack is an older type of recovery based on Amon Ra. It is pretty much does 
 
 To reenter UltraJack Recovery afterwards, turn off the phone and hold {{Key|Power}} + {{Key|Volume Up}} + {{Key|Start Call (Green) Key}}.
 
+### Manual On-Phone
+
 ### Manual Computer
 
-First, ensure that you have
+First, ensure that you have [[Android SDK Platform Tools]] installed. Then just use this command:
 
-* [[Android SDK Platform Tools]]
-
-		adb reboot bootloader
-		fastboot flash recovery cwm-recovery.img
+    adb reboot bootloader
+    fastboot flash recovery cwm-recovery.img

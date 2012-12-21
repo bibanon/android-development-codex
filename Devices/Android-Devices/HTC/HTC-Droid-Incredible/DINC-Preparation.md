@@ -8,6 +8,8 @@ You will need to download two files and extract them.
   # md5: `31bb1611a0fa8197d447c0438426717e`
 
 Then, you'll need to go to [HTCdev - Unlock Bootloader](http://www.htcdev.com/bootloader) and register an account.
+
+Finally, install the [[Android SDK Platform Tools]].
   
 ### Included in the archive
 
