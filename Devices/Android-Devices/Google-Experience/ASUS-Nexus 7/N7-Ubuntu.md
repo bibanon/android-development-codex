@@ -1,12 +1,10 @@
-## Manual Method
-
-Here is a manual method of installing Ubuntu on the Nexus 7. This does exactly the same thing as the installer, and is outlined for for your information, or porting purposes.
+Here is a manual method of installing Ubuntu on the Nexus 7. This does exactly the same thing as [the official installer](https://wiki.ubuntu.com/Nexus7/Installation), and is outlined for for your information, or porting purposes.
 
 ## Preparations
 
-Your Nexus 7's bootloader [[must be unlocked|]], and set to USB Debugging mode. (Settings->Developer Options)
+Your Nexus 7's bootloader [[must be unlocked|Nexus Unlock]], and set to USB Debugging mode. (Settings->Developer Options). If you don't see **Developer Options**, go into **About Phone** 
 
-You need to install these dependencies from a package manager:
+After that, you'll need to install these dependencies from a package manager:
 
 * `android-tools-fastboot`
 * `wget`
@@ -66,7 +64,9 @@ After that, you now have Ubuntu Linux on the Nexus 7!
 
 If you want to go back to normal ol' Android or don't have a custom recovery image installed, you can restore your device to Android with this method.
 
-[[N7 Restore]]
+If you screw up your Nexus for any reason, you can always reflash\ and life will be back to normal.
+
+[[Nexus Restore]]
 
 ### Custom ROM Recovery installed
 
@@ -75,3 +75,11 @@ Rejoice! If you use a custom recovery (perhaps for installing custom ROMs), you 
 See the custom recovery guides for more details.
 
 It remains to be seen whether the custom recovery can back up Ubuntu, however...
+
+## Android + Ubuntu Dual Boot
+
+Yes, it's possible.
+
+## Sources
+
+* [Installing Ubuntu on the Nexus 7](https://wiki.ubuntu.com/Nexus7/Installation)
