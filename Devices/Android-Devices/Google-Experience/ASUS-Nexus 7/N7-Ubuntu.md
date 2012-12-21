@@ -1,3 +1,7 @@
+[[Linux]]
+
+## Manual Method
+
 Here is a manual method of installing Ubuntu on the Nexus 7. This does exactly the same thing as [the official installer](https://wiki.ubuntu.com/Nexus7/Installation), and is outlined for for your information, or porting purposes.
 
 ## Preparations
