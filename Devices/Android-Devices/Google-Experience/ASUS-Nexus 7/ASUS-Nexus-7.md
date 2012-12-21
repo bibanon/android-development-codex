@@ -4,24 +4,23 @@ As a Nexus device, modding is straightforward and simple, and everything is base
 
 ## Status
 
+* Generation: **Sixth Generation**
 * Type: **Google Experience**
 * Stance: **Developer Friendly**
 
-## Sections
-
-To start your adventure in Android modding, follow the below guides in order.
-
-### Glossary
+## Glossary
 
 * [[Glossary Android]]
 * [[Glossary Android Versions]]
 
-### Unlock, Recovery, and Root
+## Unlock, Recovery, and Root
 
-* [[N7 One Click Root]] - The easy, one-click root. Great for noobs who want to get it done quickly and easily.
-* [[N7 Manual Method]] - Another way to root is to do it manually. If you've rooted quite a bit of phones, try this out to see what the toolkits do under the hood. Nexus devices are particularly straightforward and safe to root.
+* [[Nexus Drivers]] - Set up your device to work with ADB.
+* [[Nexus Toolkits]] - The easy, one-click root. Great for noobs who want to get it done quickly and easily.
+* [[Nexus Manual Method]] - While one-click root/unlock programs exist and are *perfectly safe to use*, take advantage of the great opportunity to understand more by using the manual method; few other devices are as straightforward or forgiving.
+* [[Nexus Restore]] - Got any problems, or need to send your device back for repair? Just restore it to stock.
 
-### Miscellaneous
+## Miscellaneous
 
-* [[Ubuntu on Nexus 7|Linux]] - Because of it's ubiquity and low price, the Nexus 7 is being used as Ubuntu's ARM reference device. You can install it to your little tablet with the click of a button.
+* [[Ubuntu on Nexus 7|N7 Ubuntu]] - Because of it's ubiquity and low price, the Nexus 7 is being used as Ubuntu's ARM reference device. You can install it to your little tablet with the click of a button.
 * [[N7 Sources]] - All the guides we've sourced and all the people to thank.
