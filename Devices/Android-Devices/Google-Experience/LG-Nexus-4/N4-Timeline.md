@@ -2,11 +2,18 @@ This is the timeline for events in the Nexus 4's existence. The latest news is a
 
 Due to the lack of stock, the initial history of the Nexus 4 is organized into waves of orders.
 
+## Other waves
+
+After Wave 2, people who ordered for 4-5 weeks shipping got theirs in a few days. Google even released an apology for the mess. But there are hints that LG is turning away from the Nexus 4, a phone that cuts into the sales of the Optimus G.
+
+* *12/17/12* - For the first time in the Nexus 4's history, an official statement from a Google UK/Ireland Official leaks out. He offers grave apologies for the absymal ordering experience to the a mob in Google+, but shifts the blame to LG for failing to fulfill orders. 
+  * Some users think that LG is refusing to fulfill the wave of new orders, which have low profit margins and are threatening their own sales. It might not be long before the Nexus 4 becomes a limited edition phone...
+* *12/12/12* - The last few stragglers are still waiting from Wave 1, with orders over a month old even while those who ordered two days ago got theirs.  Redditors call it [Barry Bonds Steroid Limbo](http://www.reddit.com/r/nexus4/comments/14scu8/nexus_4_order_1_month_old/c7g00e1). The issue becomes so bad that many of them end up reordering or buying new phones.
+
 ## Wave 2
 
-*Most of the Nexus 4 community was established in the second wave, containing advanced users armed to the teeth with website attack scripts and backed by the Reddit community. The shopping fiasco was no different, but Google eventually came to their senses and established a preorder scheme; just allow 7-8 weeks shipping.
+*Most of the Nexus 4 community was established in the second wave, containing advanced users armed to the teeth with website attack scripts and backed by the Reddit community. The shopping fiasco was no different, but Google eventually came to their senses and established a preorder scheme; just allow 8-9 weeks shipping.
 
-* *12/12/12* - The last few stragglers are still waiting from Wave 1, with orders over a month old even while those who ordered two days ago got theirs.  Redditors call it [Barry Bonds Steroid Limbo](http://www.reddit.com/r/nexus4/comments/14scu8/nexus_4_order_1_month_old/c7g00e1). The issue becomes so bad that many of them end up reordering or buying new phones.
 * *12/4/12* - The first ad for the Nexus 4 is made by LG UK, a pittiance presented on Youtube. Yet the LG Optimus G has had well-designed TV commercials blaring since November. In an nutshell, "With the limited supply of Nexus 4s the whole town had to share just two devices." - [Girwaffles, Reddit r/Nexus 4](http://www.reddit.com/r/nexus4/comments/14awhy/nexus_4_ad_by_lg_uk/c7bfljs)
 * *12/1/12* - Strikes cripple the Port of Los Angeles. As a result, Nexus 4 shipments from Korea are stuck waiting on container ships in port. Most people are now stuck in the "The Yellow Box of Death" (shipping label created. And somehow, a few people with 2-3 week shipping get their phones long before the 1-2 week group. 
 * *11/31/12* - The first orders from Wave 2 begin to ship earlier than expected. This is restricted to people with *1-2 weeks* shipping. Backorders from Wave 1 are still shipping and pending for those in limbo, however.
