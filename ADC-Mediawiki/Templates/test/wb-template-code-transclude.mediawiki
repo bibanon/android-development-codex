@@ -1,0 +1,62 @@
+<div {{#if:{{{collapsible| }}}|class="collapsible {{#ifeq:{{{collapsible| }}}|hidden| |selected}}"}} style="background-color:{{{color|#7777FF}}}; float:{{{float|none}}}; width:{{{width|auto}}}; margin-bottom:1em; padding:0.2em">
+{{#ifeq:{{{2| }}}|{{{2|u}}}|
+ <{{{headType|div}}} {{#if:{{{collapsible| }}}|class="title"}} style="text-align:{{{headAlign|center}}}; background-color:{{{color|#7777FF}}};">{{{1}}} &nbsp; [{{Querylink|{{#rel2abs:{{{2}}}}}|qs=action=edit|edit}}]&nbsp;</{{{headType|div}}}>
+ <div {{#if:{{{collapsible| }}}|class="body"}}>{{ {{{2}}} }}</div>
+| {{ {{{1}}} }} }}
+</div>
+
+<noinclude>
+----
+== Documentation ==
+This template is designed to act as a "box" in the style of separate information boxes as seen in textbooks (often labelled Box 1.1, etc.). It is assumed that the content of the box is saved on a separate page. The name of the page is passed to this template and it is automatically [[transcluded]] as the contents of the box. When writing a book, this separates the contents of each information box from the main text: usually a desirable feature.
+
+=== Titles ===
+A minimal use of the template can be seen by providing a single unnamed argument, which is interpreted as the path to the page to be transcluded into the box. This can be useful for title-less boxed, or if you want to have the title of the box in the transcluded file itself. However, this means that you cannot take advantage of the  collapsible box mechanism, detailed below.
+
+If two unnamed arguments are provided, the first argument is treated as the box title, and the second as the path to the page to be transcluded. 
+
+=== Collapsible boxes ===
+You can use the "collapsible" parameter to turn long boxes, which may distract a reader from the main text, into drop-down boxes. Use "collapsible=hidden" to have the contents hidden by default. This cannot be used on title-less boxes (there has to be a titlebar to contain the drop-arrow when the box is hidden).
+
+=== Extra functionality ===
+To provide a link to allow editing of the transcluded page, a self-styled "edit" link is provided. This uses #rel2abs, so assumes that the link is a relative one (as is likely to be the case in a book with text boxes collected in one place. This is, however, a slight hack. Improvements are welcome!
+
+The "head" of the box (i.e. the title) can be tweaked using the headType parameter, which can (if required) be set to the header levels h2, h3, h4, etc. This means that the box will appear in the TOC listing for the page. The headAlign parameter allows the head to be shifted to the right or left, as opposed the the default centred title.
+
+The box can be further adjuested by using the "color, "float" and "width" and parameters. Examples are provided below, mostly using the "Lorem" template
+
+=== Examples ===
+One argument (a simple box)
+<pre>{{Code:Transclude|Lorem}}</pre>
+{{Code:Transclude|Lorem}}
+
+Two arguments (a box with a title)
+<pre>{{Code:Transclude|Box 1.2|Lorem}}</pre>
+{{Code:Transclude|Box 1.2|Lorem}}
+
+A collapsible box 
+<pre>{{Code:Transclude|Box 1.3|Lorem|collapsible= collapsible}}</pre>
+{{Code:Transclude|Box 1.3|Lorem|collapsible= collapsible}}
+
+A collapsible box, hidden by default, with a left-aligned title of heading level 4
+<pre>{{Code:Transclude|Box 1.4|Lorem|collapsible=hidden|headType=h4|headAlign=left}}</pre>
+{{Code:Transclude|Box 1.4|Lorem|collapsible=hidden|headType=h4|headAlign=left}}
+
+
+The most complicated (and most realistic)
+{{Code:Transclude|Box 1.5|Lorem
+|collapsible=true
+|color=#778899
+|float=right
+|width=25%
+|headType=h5}} 
+A collapsible box at the side, in a different colour
+<pre>{{Code:Transclude|Box 1.5|Lorem
+|collapsible=true
+|color=#778899
+|float=right
+|width=25%
+|headType=h5}}</pre>
+
+[[Category:Code templates|Transclude]]
+</noinclude>
