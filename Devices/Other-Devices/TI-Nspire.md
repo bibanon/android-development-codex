@@ -10,7 +10,7 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 
 ### Ndless
 
-{{Note|Your calculator must be at firmware version 3.1 or less to install Ndless 3.1. No method has been discovered to install ndless on 3.2.}}
+{{Note|Your calculator must be at firmware version 3.1 or less to install Ndless 3.1. Ndless on 3.2 will require you to downgrade your firmware.}}
 
 * [[Nspire Ndless]] - Ndless enables allows custom apps to be run on the TI-Nspire using traditional programming languages, like any decent computer.
 * [[Nspire Ndless SDK]] - Ndless also provides a nice SDK for developers to work in, packing a nice emulator to boot.
@@ -19,3 +19,5 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 ## Programs
 
 Here we will direct you to Omninaga or Hackyournspire.
+
+## Sources
