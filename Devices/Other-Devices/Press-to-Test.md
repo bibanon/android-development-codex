@@ -1,5 +1,3 @@
-# Press-to-Test
-
 ## Start Press-to-Test mode:
 
 1. Turn the TI-Nspire device OFF
