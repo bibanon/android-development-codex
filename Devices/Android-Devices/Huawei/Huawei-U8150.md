@@ -1,4 +1,4 @@
-A cheap, tiny, underclocked phone that gets the job done. Not as popular in the West, but it's big in China and Italy. Uses plain ol' AOSP Froyo. 
+A cheap, tiny, underclocked phone that gets the job done. Not as popular in the West, but it's big in China, Africa, and Italy. Uses plain ol' AOSP Froyo. 
 
 It's quite common as a low end phone throughout the world, with a lot of development effort (a rarity on such a little old phone) though apparently not enough to warrant an XDA board.
 

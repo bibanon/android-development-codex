@@ -50,4 +50,3 @@ Now, we are left with the Official HTCDev Unlock, which, thankfully, ''always'' 
 # Re-unlock HTCDev hboot
 # Re-flash recovery
 # Re-flash superuser root files and flash unrevoked's &quot;forever&quot; s-off patch
-
