@@ -18,6 +18,6 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 
 ## Programs
 
-Here we will direct you to Omninaga or Hackyournspire.
+
 
 ## Sources
