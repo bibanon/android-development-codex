@@ -1,0 +1,2 @@
+<div style="border: #77FF77 solid 1px; text-align: left; padding:5px; clear: both; background-color: #DDFFDD">[[Image:Crystal Clear action apply.png|20px]] {{{1}}}<div style="border: #77FF77 solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{2}}}</div>{{{3}}}</div>
+<noinclude>[[Category:Code templates|Valid]]</noinclude>

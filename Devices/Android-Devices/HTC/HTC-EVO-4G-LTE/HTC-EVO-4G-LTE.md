@@ -8,13 +8,13 @@
 
 ### All ICS/JB Builds: 1.13.651.1 - 1.22.651.3 and 2.15.651.1 (Latest) - 3.15.651.16 (does that exist?)
 
-* [[Rooting]] - [bigdaddy619](http://forum.xda-developers.com/showthread?t=2026938)
+* [[Jewel Rooting]] - [bigdaddy619](http://forum.xda-developers.com/showthread?t=2026938)
 
 ### 2.13.651.1 and older
 
 * [[RegawMOD Root]] - [regawmod](http://forum.xda-developers.com/showthread.php?t=1690919)
-* [[S-OFF]] - [DirtyRacun](http://unlimited.io/dirtyracun.htm)
-* [[S-ON]] - [RegawMOD S-ON](http://forum.xda-developers.com/showthread.php?t=1744700)
+* [[Jewel S-OFF]] - [DirtyRacun](http://unlimited.io/dirtyracun.htm)
+* [[Jewel S-ON]] - [RegawMOD S-ON](http://forum.xda-developers.com/showthread.php?t=1744700)
 
 ### 1.22.651.1 and older
 

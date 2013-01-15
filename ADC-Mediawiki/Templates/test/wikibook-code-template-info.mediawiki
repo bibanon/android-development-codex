@@ -1,0 +1,159 @@
+{{documentation subpage}}
+== Documentation ==
+The purpose of this series of templates is to increase the readability of code examples in programming books.  Each template includes a div with an colored outline and colored background, and a second div with a colored outline and white background.  Inside the first div is a space which allows a comment or other instruction; inside the second div is the code space.  The include code is used along with two arguments, the first being the comment and the second being the code.
+
+Due to parsing limitations, the current version of the code template requires the user to include &lt;pre&gt;&lt;/pre&gt; tags around the code sample.  (Inclusion of the &lt;pre&gt;&lt;/pre&gt; tags causes the wiki parser to render the wiki include code as plain text instead of parsing it.)  This may change if I am able to hack around the parser and insert the include tag manually. (Note you can now do this using <nowiki>{{#tag:pre|content}}</nowiki> [[User:YanWong|Yan]] ([[User talk:YanWong|talk]]) 21:38, 13 November 2008 (UTC))
+
+Templates initially created by [[User:Banzaimonkey|banzaimonkey]] 01:04, 6 August 2006 (UTC) for the [[PHP Programming|PHP wikibook]].  These templates are intended to be usable in all programming wikibooks, but specific alterations or exceptions may be required for a particular programming language.  Please be extremely careful when modifying these templates, as your changes may be propagated across a large number of pages unbeknownst to you.  If you'd like to use a code template that is not described below, feel free to add your own and include it in the list (please also include the "Code Template" category on each new template's page, inside &lt;noinclude&gt;&lt;/noinclude&gt; tags; see an existing template as an example).
+
+Another concern I have is that these will add large sections of color to "Print" pages on wikibooks that use them, thus vastly increasing printing costs.  If anyone has a suggestion on how to filter these to white (see template Misc2, below), please leave a note on the discussion page.
+
+== Why Use Code Templates? ==
+
+''Why use code templates?  Isn't there already a blue box around code?''
+
+The design presentation using the code template / code box highlights the code much more obviously, allowing the reader to see the code much more easily.  Thus, the user is able to focus his or her energy on parsing the code ''only'', rather than having to parse the wiki page to figure out which sections actually ''are'' code.  Because there is room for comment text inside the code template, it is easier to attach a specific note, instruction, or link to a particular piece of code.  This affords the author greater clarity when making reference to code examples.  The code template also allows the code to be easily recognized and edited inside the wiki source because it has distinct bracketing (from the template code itself).  Finally, some of the alternate stylesheets to not designate code with anything more than monospace font.
+
+== Usage Notes ==
+
+*I highly recommend the use of &lt;pre&gt;&lt;/pre&gt; tags to format code inside the code template.  This allows code to break lines and allows additional code to be added easily.  It also allows authors to establish an indentation scheme, which increases readability.
+*With the inclusion of the [[mw:Extension:Highlight|Highlight extension]] to wikibooks, you can now use &lt;source lang="x"&gt; &lt;/source&gt; which is automatically converted to &lt;pre&gt;&lt;/pre&gt; with colour-formatted code.
+*All code templates must include the correct number of vertical lines '''|''', even if the argument is blank.  If you don't want to enter text after a particular argument, that's fine, but you still need the vertical line.
+
+== Code Templates ==
+
+*[[Template:Code:Basic]]  - Show basic programming example without any other features
+*[[Template:Code:Valid]]  - Show valid programming example with green box and checkmark icon
+*[[Template:Code:Error]]  - Show errors, invalid or otherwise broken programming example with red box and x-mark icon
+*[[Template:Code:Output]] - Show basic programming example with resulting output
+*[[Template:Code:Interpreted]] - Show basic programming example for an interpreted language, with many styles
+*[[Template:Code:Tip]]    - Show a useful programming tip with yellow box and star icon
+*[[Template:Code:Transclude]] - Show a programming example by transcluding a programming example template
+
+*[[Template:Code:Alt]] - Compare two programming examples using logical "or"/"and" connector.
+
+== Example Template Usage ==
+
+=== Code:Basic ===
+
+{{Code:Basic
+|This box can show code or simply be used to highlight a particular section of text with a blue outline.
+|Pie
+#Cherry
+#Apple
+#Peach
+<source lang="perl">$array_pie = {Cherry, Apple, Peach};</source>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Basic
+|This box can show code or simply be used to highlight a particular section of text with a blue outline.
+|Pie
+#Cherry
+#Apple
+#Peach
+&lt;source lang="perl"&gt;$array_pie = {Cherry, Apple, Peach};&lt;/source&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+=== Code:Valid ===
+
+{{Code:Valid
+|The following code is valid:
+|<pre>$valid; #code example</pre>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Valid
+|The following code is valid:
+|&lt;pre&gt;$valid code example;&lt;/pre&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+=== Code:Error ===
+
+{{Code:Error
+|The following code contains an error:
+|<pre>$this line does not end with a semicolon</pre>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Error
+|The following code contains an error:
+|&lt;pre&gt;$this line does not end with a semicolon&lt;/pre&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+=== Code:Alt ===
+
+{{Code:Alt
+|You can use either "echo" or "print" to output text.
+|<pre>echo "Hello World.";</pre>
+|and / or / not / etc.
+|<pre>print "Hello World.";</pre>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Alt
+|You can use either "echo" or "print" to output text.
+|&lt;pre&gt;echo "Hello World.";&lt;/pre&gt;
+|and / or / not / etc.
+|&lt;pre&gt;print "Hello World.";&lt;/pre&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+=== Code:Output ===
+
+{{Code:Output
+|In this example, you'll be able to see the code and the output it generates.
+|<pre>print "Hello World.";</pre>
+|<pre>Hello World.</pre>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Output
+|In this example, you'll be able to see the code and the output it generates.
+|&lt;pre&gt;print "Hello World.";&lt;/pre&gt;
+|&lt;pre&gt;Hello World.&lt;/pre&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+{{Code:Interpreted/doc}}
+
+=== Code:Tip ===
+
+{{Code:Tip
+|It's a good idea to add comments to your code.
+|<pre>//This variable controls the loop
+$loopvar1;</pre>
+|The explanation can be continued after the code sample.
+}}
+
+The code for the above code box can be seen here:
+
+<pre>{{Code:Tip
+|It's a good idea to add comments to your code.
+|&lt;pre&gt;//This variable controls the loop
+$loopvar1;&lt;/pre&gt;
+|The explanation can be continued after the code sample.
+}}</pre>
+
+=== Code:Transclude ===
+
+This can be used to create a transcluded, titled page, like so
+{{Code:Transclude
+|Template_talk:Code:Transclude
+}}
+<includeonly>
+[[Category:Code templates|{{PAGENAME}}]]
+</includeonly>

@@ -1,0 +1,2 @@
+<div style="border: #FFFF77 solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFDD">[[Image:Crystal_Clear_action_bookmark.png|20px]] {{{1}}}<div style="border: #FFFF77 solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{2}}}</div>{{{3}}}</div>
+<noinclude>[[Category:Code templates|Tip]]</noinclude>
