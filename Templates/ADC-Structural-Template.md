@@ -8,49 +8,51 @@ Templates that can be used to prettify and add functions to the [[Android Develo
 
 ==Formatting templates==
 
-* [[:Template:Message box]]
-* [[:Template:Progressbar]]
+* [[:Template:Message box]] - Displays a general message about a page.
+* [[:Template:Progressbar]] - Displays a bar that shows the progress made on a page.
 * [[:Template:Sn]]
+* [[:Template:Frame]] - A frame that holds an inline page. Only to be used on the frontpage.
+* [[:Template:Doubleframe]] - A frame that holds two inline pages. Only to be used on the frontpage. (needs fixing so that content is top-aligned, not centered)
 
 ===Code formatting templates===
 
-* [[:Template:Key]]
-* [[:Template:Ic]]
-* [[:Template:Bc]]
-* [[:Template:Hc]]
+* [[:Template:Key]] - Makes a keystroke clear
+* [[:Template:Ic]] - Used to format code inside a line.
+* [[:Template:Bc]] - Used to format a block of code.
+* [[:Template:Hc]] - A name of a block of code is at the top, usually used for the contents of files. Can also be used for commands.
 
 ===Box templates (generic)===
 
-* [[:Template:Box]]
-* [[:Template:Box BLUE]]
-* [[:Template:Box GREEN]]
-* [[:Template:Box RED]]
-* [[:Template:Box YELLOW]]
+* [[:Template:Box]] - A basic box template.
+* [[:Template:Box BLUE]] - A blue box template.
+* [[:Template:Box GREEN]] - A green box template.
+* [[:Template:Box RED]] - A red box template.
+* [[:Template:Box YELLOW]] - A yellow box template.
 
 ===Box templates (specific)===
 
-* [[:Template:FAQ]]
-* [[:Template:News]]
-* [[:Template:Note]]
-* [[:Template:Tip]]
-* [[:Template:Warning]]
+* [[:Template:FAQ]] - Used for formatting Frequently Asked Questions.
+* [[:Template:News]] - Used to show some news on a page.
+* [[:Template:Note]] - Used to call attention to a useful note.
+* [[:Template:Tip]] - Used to call attention to a useful tip.
+* [[:Template:Warning]] - Used to warn the user of a pitfall.
 
 == Tags ==
 
-* [[:Template:Linkrot]]
+* [[:Template:Linkrot]] - Used to tag broken links.
 
 ===Article status templates===
 
-* [[:Template:Accuracy]]
-* [[:Template:Bad translation]]
-* [[:Template:Deletion]]
-* [[:Template:Expansion]]
-* [[:Template:Merge]]
-* [[:Template:Moveto]]
-* [[:Template:Out of date]]
-* [[:Template:Poor writing]]
-* [[:Template:Stub]]
-* [[:Template:Translateme]]
+* [[:Template:Accuracy]] - Tags the page as inaccurate.
+* [[:Template:Bad translation]] - Tags the page as a bad translation of the original article.
+* [[:Template:Deletion]] - Tags the page for deletion.
+* [[:Template:Expansion]] - Tags the page for expansion.
+* [[:Template:Merge]] - Tags the page as a merger for another page.
+* [[:Template:Moveto]] - Tags the page for moving.
+* [[:Template:Out of date]] - Tags the page as outdated.
+* [[:Template:Poor writing]] - Tags the page as poorly written.
+* [[:Template:Stub]] - Tags the page as a stub.
+* [[:Template:Translateme]] - Tags the page for translation.
 
 ==Guide Structure Templates==
 
@@ -67,8 +69,8 @@ Please see [[Writing Article Overviews]] for usage instructions.
 
 ===Miscellaneous===
 
-* [[:Template:Header]]
-* [[:Template:I18n]]
-* [[:Template:InterLang]]
+* [[:Template:Header]] - Used as a header for all pages, and a place for structure templates to be added in.
+* [[:Template:I18n]] - Used for easy internationalization without the use of plugins.
+* [[:Template:InterLang]] - A backend for I18n.
 
 [[Category:ADC Template]]

@@ -1,0 +1,15 @@
+<includeonly><div class="collapsible" style="border:1px solid #aaaaaa; width:{{{width|50%}}}; background:{{{bg|#ccccff}}};">
+<div class="title" style="text-align:left; padding:0.5em; background:{{{bg|#ccccff}}}; color:{{{fg|black}}};">{{#if:{{{icon|}}}|[[File:{{{icon}}}|24x24px]]&emsp;}}{{{header|XML Example}}}</div>
+<div class="NavContent" style="margin:0.5em; margin-top:0em; background:white; border:1px solid #aaaaaa;">
+{{#ifeq:{{{showlinenumbers|false}}}|true
+|{{#tag:source|{{{source|{{{1|}}}}}}|lang="{{{lang|xml}}}"|enclose="div"|line="true"}}
+|{{#tag:source|{{{source|{{{1|}}}}}}|lang="{{{lang|xml}}}"|enclose="div"}}
+}}
+</div>
+{{#if:{{{result|}}}|<div class="NavContent" style="margin:0.5em; margin-top:0em; background:white; border:1px solid #aaaaaa;">
+{{{result}}}
+</div>
+}}
+</div></includeonly><noinclude>
+{{documentation}}
+</noinclude>

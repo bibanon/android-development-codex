@@ -1,0 +1,6 @@
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #DDDDFF">{{{1}}}
+[[Image:Crystal_Clear_app_terminal.png|20px]] '''Code:'''
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{2}}}</div>
+[[Image:Crystal_Clear_app_kscreensaver.png|20px]] '''Output:'''
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{3}}}</div>{{{4}}}</div>
+<noinclude>[[Category:Code templates|Output]]</noinclude>
