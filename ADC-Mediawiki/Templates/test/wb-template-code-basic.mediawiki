@@ -1,0 +1,8 @@
+Template:Code:Basic - Show basic programming example without any other features
+Template:Code:Valid - Show valid programming example with green box and checkmark icon
+Template:Code:Error - Show errors, invalid or otherwise broken programming example with red box and x-mark icon
+Template:Code:Output - Show basic programming example with resulting output
+Template:Code:Interpreted - Show basic programming example for an interpreted language, with many styles
+Template:Code:Tip - Show a useful programming tip with yellow box and star icon
+Template:Code:Transclude - Show a programming example by transcluding a programming example template
+Template:Code:Alt 

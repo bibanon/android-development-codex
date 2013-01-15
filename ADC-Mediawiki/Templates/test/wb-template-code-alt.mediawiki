@@ -1,0 +1,5 @@
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #DDDDFF">{{{1}}}
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{2}}}</div>
+<span style="text-transform: uppercase; font-weight: bold;">{{{3}}}</span>
+<div style="border: #7777FF solid 1px; text-align: left; padding:5px; clear: both; background-color: #FFFFFF;">{{{4}}}</div>{{{5}}}</div>
+<noinclude>[[Category:Code templates|Alt]]</noinclude>
