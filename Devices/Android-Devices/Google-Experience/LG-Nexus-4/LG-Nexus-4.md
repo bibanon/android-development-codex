@@ -49,6 +49,10 @@ After rooting, you can elect to stay on Google's stock Android, or try out excit
 * [N4 Custom ROMs](http://forum.xda-developers.com/forumdisplay.php?f=1911) - *Ongoing Development* A link to XDA's Android Development Forums, where you can find custom ROMs for your phone.
 * [[N4 Performance]] - The N4 might have the best chipset around, but performance is dampened by it's inefficient casing and sub-optimal CPU governor. There are ways of sidestepping the issue.
 
+## Miscellaneous
+
+* [Convert Optimus G to N4](http://forum.xda-developers.com/showthread.php?t=2099784)
+
 ## Development
 
 (make a section on how to compile kernels and make ROMs, perhaps a teardown)

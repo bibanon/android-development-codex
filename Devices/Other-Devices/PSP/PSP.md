@@ -40,6 +40,7 @@ Custom Firmware adds a huge array of useful features pertaining to homebrew apps
 
 ### Custom Firmware
 
+* Port 6.60 PRO-C to PSP GO (if not already)
 * Run through methods of installing 6.60 PRO, compatibility
 * Find guides and history for old firmwares
 
@@ -50,9 +51,10 @@ Custom Firmware adds a huge array of useful features pertaining to homebrew apps
 
 ### Liquidation Committee
 
+* Find an exploit to fully install CFW on newer motherboard PSP-3000s (just for convenience)
+  * Find a way to automatically run CFW installer
 * Archive the very best homebrew and source code somewhere safe, like the Internet Archive.
 * Find all the old PSP devs, find out history
-* Find an exploit to fully install CFW on newer motherboard PSP-3000s (just for convenience)
 * Bring back TN-Settings to new CFW
 
 ### Best MicroSD to Memory Stick Duo
