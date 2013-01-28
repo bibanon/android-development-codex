@@ -14,7 +14,7 @@ When the PSP first came out, the system was incredible, but the firmware was lac
 
 The first barrier to homebrew was the stock firmware's inability to run code not signed by Sony. In May 2005, hackers working on the PSP discovered exploits in firmwares 1.00 and 1.50 that allowed them to run unsigned code on the PSP. 
 
-Later, a the first homebrew programs arrived, from Hello World tests to entire emulators. This was a watershed moment that started it all. 
+It wasn't long before the first homebrew programs arrived, from Hello World tests to entire emulators. This was a watershed moment that started it all. 
 
 Websites everywhere soon offered guides to C++ and Lua programming using GCC on the PSP, linking the PSP to iPods, and even using it to control Sony's Aibo robot. Even a system-bricking trojan was released. A team of these hackers managed to crack the firmware and published the results online.
 
@@ -22,7 +22,7 @@ As soon as homebrew programs were made, people were asking the big bad question;
 
 ### The TIFF Exploit
 
-Sony soon made new security updates that patched the exploits, but the community held out and looked for downgrades from the new systems. Eventually, Sony realized that their updates needed some content, and on version 2.00 (released June 27, 2005), added a web browser and more file compatibility to the mix. In addition, in new games, users were required to upgrade before playing.
+Sony soon made new security updates that patched the exploits, but the community held out and looked for downgrades. Eventually, Sony attempted a carrot and stick method. On version 2.00 (released June 27, 2005), added a web browser and more file compatibility to the mix. In addition, in new games, users were required to upgrade before playing.
 
 It was clear that PSP modders could not simply rely on 1.50 for long, and without some sort of new exploit, they were toast.
 
@@ -52,9 +52,13 @@ Starting from July 2007, a supposed Russian hacking team called Team M33 took ov
 
 ### PSP Modchips
 
-The continous cycle of exploit and patch led some developers to try and break the circle with modchips. These chips allowed PSPs to run two seperate firmwares and restore corrupted firmware ("unbricking"). The Multi Firmware Module was the first to be developed in April 2006, though never manufactured. Undiluted Platinum was the later standard, made May 2006. The day after it's release, kernel exploits were discovered for 2.50 and 2.60, aggravating the buyers who bought the modchips to downgrade from those versions. Because it was incompatible with TA-082+ motherboards, PSP-Devolution was created to be compatible with all of them.
+The continous cycle of exploit and patch led some developers to try and break the circle with modchips. These chips allowed PSPs to run two seperate firmwares and restore corrupted firmware ("unbricking"). 
 
-All these modchips have since been made obselete by the Pandora's Battery, which offers the same abilities without the need for careful soldering.
+* The Multi Firmware Module was the first to be developed in April 2006, though never manufactured.
+* Undiluted Platinum was the later standard, made May 2006. The day after it's release, kernel exploits were discovered for 2.50 and 2.60, aggravating the buyers who bought the modchips to downgrade from those versions.
+* Because it was incompatible with TA-082+ motherboards, PSP-Devolution was created to be compatible with all of them.
+
+All these modchips were immediately made obselete by the coming Pandora's Battery, which offered the same abilities without the need for careful soldering.
 
 ### Pandora's Battery
 
@@ -66,7 +70,7 @@ In August 27, 2007, Team N00bz, partnering with the biggest names in PSP hacking
 * It could install any firmware of any kind, at any time.
 * It could not be patched by Sony using software, effectively making it a permanent solution for running homebrew on the PSP-1000 (Phat).
 
-Creating this ultimate exploit was no small feat, having to reverse-engineer a the service mode, develop a method to make a Pandora Battery and go back, all without any access to official hardware or software.
+Creating this ultimate exploit was no small feat, having to reverse-engineer the service mode, develop a method to make a Pandora Battery and go back, all without any access to official hardware or software.
 
 While they attempted to keep it secret until after the production of the new PSP-2000 (Slim), to stall for time so that Sony could not fix the exploit through new hardware, a leak occured and the software and the exploit was sold on the black market. To prevent carpetbaggers from profiting off their hard work, n00bz released the hack on their site for free.
 
@@ -76,33 +80,29 @@ While Sony is unsupportive of homebrew in general, some Sony representatives sta
 
 The PSP Slim was later released, but was still susceptible to the Pandora Battery, albeit unable to create one. While it was not compatible with the old 1.50 IPL, Dark AleX created Despertar del Cementerio as a cross-platform installer for custom firmware. The first homebrew capable firmware on the PSP Slim was therefore 3.60-M33.
 
+(need more history after the slim)
+
 ### Continue?
 
 The history of PSP modding goes thin here, as the PSP aged and new devices like the iPhone and Android enticed new developers with their more powerful hardware and greater possibilities. The once uncrackable PS3 sucked in tons of developers to try their luck after Linux was disabled through a firmware update. The PSP's golden age began to wane, and it was to be left behind in the dustbin of history.
 
-Long after the last major developers had moved away, PS3 development would soon lead to the greatest development ever in PS3 and PSP homebrew history: The discovery of the root signing keys. In 2011, Geohot, the famed hacker genius, managed to find Sony's root signing keys. This was even greater than the Pandora's Battery; it was the wholesale and total defeat of Sony's software signing security system. Now there was no need for rare 0-day exploits or custom firmware: anyone could dump homebrew on any PSP system and run it, no matter what happened. There was no way for Sony to change the root keys without rendering their own software unusable. 
+Long after the last major developers had moved away, PS3 development would soon lead to the greatest development ever in PS3 and PSP homebrew history: The discovery of the root signing keys. In 2011, Geohot, the famed hacker genius, managed to find Sony's root signing keys. This was even greater than the Pandora's Battery; it was the wholesale and total defeat of Sony's software signing security system. Now there was no need for rare 0-day exploits or custom firmware: anyone could throw homebrew on any PSP system and run it, no matter what. There was no way for Sony to change the root keys without rendering their own software unusable. 
 
-It launched a major fiasco that brought the company to it's knees, and left them in a burning urge for revenge that was only crushed by the forces of Anonymous, but more so marks the conclusion of the PSP hacking scene. With the ultimate goal now reached, the hard-working developers and the holdout PSP users could now rest in peace.
+It launched a major fiasco that brought Sony to it's knees, and left them in a burning urge for revenge that was only crushed by the forces of Anonymous. 
+
+But more so, the event marks a glorious conclusion to the efforts of the PSP hacking scene. With the ultimate goal now reached, the hard-working developers and the holdout PSP users could now rest in peace.
 
 Even to this day, a small team maintain new custom firmwares 7 years after the introduction of the first PSP, and 4 hardware updates later. 
 
-Hopefully this brief history helped you understand how the scene got where they are now, and the hard work that developers did to outwit big bad Sony and bring us fire and freedom from the clutches of the gods.
+Hopefully this brief history helped you understand how the scene got where they are now, and the hard work that developers did to outwit the most powerful security around and bring us fire from the clutches of the gods.
 
 ## Homebrew Programs
 
 The exploits and custom firmware are only half the story. The real meat is in the homebrew that the community made for the PSP, and of course the emulators and UMD rippers. 
 
-## Guide to
+## PSP Hardware Mods
 
-Now that you know what you can achieve from PSP Homebrew, let's detail some methods for actually getting it on.
-
-
-
-## Devices
-
-### PSP-1000
-
-This was the first version of the PSP sold, and it is the most ripe for development.
+* [PSP + PS2 Controller](http://www.acidmods.com/forum/index.php?topic=36297.0)
 
 ## Sources
 
