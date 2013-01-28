@@ -1,0 +1,71 @@
+# PSP Programming
+
+## Languages Used
+
+* **C** - The language of choice for most serious PSP Devs.
+* **C++** - A superset of the C language with added Object Oriented Programming capabilties.
+* **Lua** - A simple scripting language for quick and dirty homebrew.
+
+### Other Languages
+
+* **Java (J2ME)** - Few PSP devs use Java, but Java programs work alright with the PSPKVM Java Mobile emulator.
+
+## Access_Denied's Guide
+
+* [Qj Forums - Access_Denied's Beginner C Programming Tutorials](http://forums.qj.net/psp-development-forum/158366-tut-beginner-c-programming-tutorials.html)
+
+### Introduction
+
+You will need:
+
+* A PSP
+* (Windows only) Cygwin/MinGW - We strongly suggest that you use Mac or Linux when programming. But if you can't, you can install the GNU Userland for Windows.
+* A decent text editor (with syntax highlighting, auto-indent, whatnot)
+  - Windows: Notepad++
+  - Mac: Sublime Text
+  - Linux: Gedit, Kate, Geany, Vi, Emacs, etc.
+* PSPDev SDK - Compiles C source code into PSP Homebrew programs.
+* [`pspcallbacks.h`](http://trac.assembla.com/PSPAPM/export/163/GUItest/pspcallbacks.h) - Place that file inside `X:/cygwin/usr/local/pspdev/psp/sdk/include/`. It will save many lines of code in the future.
+* [graphics.c/.h](http://www.psp-programming.com/tutorials/c/lesson04.zip)
+
+Also, you'll see in a few tutorials the references to images that don't exist. Just make your own. The background image can be any 480x272 image and the player image can be any 32x32 image. (.PNG of course)
+
+Hope these tutorials are helpful.
+
+* Tutorial 1: Hello World! - Learn how to make a simple PSP program.
+
+## MinPSPW (Windows)
+
+ one of the best (and definitely the easiest ) is called minpspw, the minimalist pspsdk. this package contains everything you need to setup a basic pspsdk in a windows environment.
+
+installation is very simple:
+
+### Download MinPSPW
+
+1. Get the [MinPSPW installer from Sourceforge](http://sourceforge.net/projects/minpspw/)
+2. Once the download is complete, run the installer. Follow the instructions and leave all the defaults checked.
+
+> click "next", accept the license agreement and click "next" again. you should now be at the "choose components" screen. this screen lets you select what will and will not be installed. by default, "PSP DevKit", "SDK Samples", "PSP Link", "HTML Documentation", and "Basic Devpaks" are selected for installation, while "Visual Studio Support" and "Man/Info Pages" are not.
+
+i suggest you leave all the defaults selected and they are all somewhat essential for developing for the psp. if you are going to be coding using microsoft visual studio then you need to select "Visual Studio Support" for installation. i will leave the installation of "Man/Info Pages" up to you 
+
+when you are finished selecting components for installation, click "next".
+
+### step #3 - complete installation
+
+this screen is the standard "select destination" screen. you can change the location of installation, but i highly suggest you leave it in its default location  when you are done click "install". once it is complete, click "next", then "finish"
+
+### step #4 - adding pspsdk environment variables
+
+the last step to installing the pspsdk on windows is adding the pspsdk to the environmental variables. to keep this simple, i am not going to go into much detail concerning getting to menu for modifying environment variables. each version of windows is different, so just google "how to modify environment variables on windows [insert version here]".
+
+once you have reached the environment variables menu, select the variable called "Path" in the "system variables" box and click the "edit" button. once the dialog box pops up, place the cursor at the end of the statement in the "Variable Value" box. 
+
+with the cursor at the end of the statement, add this (no spaces): ;C:\pspsdk
+
+once that is done you are set to go. you have successfully completed installing the pspsdk on windows via minpspw! congrats! now get to coding!
+
+## Sources
+
+* [](http://forums.pspslimhacks.com/threads/read-this-first-learning-how-to-program.11592/)
+* [](http://wololo.net/talk/viewtopic.php?f=24&t=3635)
