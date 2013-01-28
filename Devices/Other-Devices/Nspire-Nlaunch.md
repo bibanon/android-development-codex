@@ -98,7 +98,27 @@ The calculator will restart into OS v3.2.
 
 To go back to OS v3.1 + Ndless, just repeat the same steps.
 
+## Creating your own images
+
+
+
+## Using CAS on non-CAS systems
+
+nLaunch bypasses all known protections made by TI, such as the following:
+
+* either a development or production OS (the RSA signature is ignored)
+* accordingly, any modified official OS
+* either a CAS or non-CAS OS (bits indicating the type of model are ignored)
+* an OS whose version number is earlier than the minimum version normally installable, written before the beginning of the NAND filesystem (the anti-downgrade protection is ignored) 
+
+Therefore, installing a CAS OS on a non-CAS TI-Nspire is possible. 
+
+(However, we strongly recommend that you do follow testing guidelines and refrain from using this ability to circumvent restrictions on CAS calculators.)
+
+If you are a concerned educator, simply use the Nspire crib to update all your student's Nspires before a test, which will remove Ndless, nLaunch, and any custom OSes, returning them to their original state.
+
 ## Sources
 
+* [Omnimaga - nLaunch](http://www.omnimaga.org/index.php?topic=15464.0)
 * [TI-Planet: Critor - Installation Ndless 3.2 Switch](http://tiplanet.org/forum/viewtopic.php?t=11025&p=134150&lang=en)
 * [Hackspire - Operating System](http://hackspire.unsads.com/wiki/index.php/Operating_System) - States that the correct key combination to enter maintenence mode on the Touchpad is Doc+Enter+EE .
