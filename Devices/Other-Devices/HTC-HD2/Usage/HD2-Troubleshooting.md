@@ -12,7 +12,15 @@ Your phone is not dead yet, though. Just buy a cheap external battery charger an
 
 In most cases, your headphones are being wrongly recognized as a headset, confusing the music player into interpreting signals from a nonexistent play/pause/skip button. 
 
-The solution is to disable headset commands from your music player app. If it cannot be disabled or there are problems elsewhere, the simplest solution is to actually use headphones with 3 ring jacks or buttons (like iPod earphones). 
+### Disable Headset Commands
+
+The solution is to disable headset commands from your music player app.
+
+The [WizDroid app](https://play.google.com/store/apps/details?id=com.yifandroid.wizdroids) is a perfect solution. You will need to have Android 4.0+ to use this app, though.
+
+### Audio Splitter
+
+If the headset cannot be disabled or there are problems elsewhere, the simplest solution is to actually use headphones with 3 ring jacks or buttons (like iPod earphones).
 
 If you want to use your normal headphones, you need to get a "audio input/output splitter", which will redirect the headset band to nothing, and also allow you to use conventional microphones with the HD2. This is nice to get, especially now that new laptops are using the same 3 ring jack.
 
