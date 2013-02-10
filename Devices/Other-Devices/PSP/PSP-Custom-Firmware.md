@@ -1,30 +1,35 @@
-Once, custom firmwares were the essential endpoint to run homebrew in a difficult journey from exploit to exploit. But now that homebrew works on any PSP, they're easy to install.
+While homebrew can be signed to work on any PSP, most users will want to install a custom firmware to gain some additional features:
 
-Custom firmwares offer these extra features:
-
-* **Runs Signed and Legacy Homebrew** Support for older, unsigned homebrew, in both user and kernel mode, as well as modern signed homebrew.
-* **Plugin Mode** - Extend the abilities of your PSP with CFW Plugins.
-* **ISO/CSO Game Playback/Dump** - Migrate your aging UMD game library to storage; almost essential, as the discs are quickly breaking down.
-* **PSX Emulator Unlock** - Now you can use Sony's secret PSX emulator. Though it's never been perfect.
+* **ISO/CSO Game Playback/Dump** - UMDs are notoriously unreliable, so move them to digital format before your game collection is gone for good.
+* **Runs Legacy Homebrew** - Custom firmware allows older, unsigned PSP homebrew to run. Otherwise, the PSP will claim that the homebrew is "corrupted".
+* **Plugin Mode** - Extend the abilities of your PSP with PRX Plugins.
+* **PSone Emulator Unlock** - Now you can use Sony's secret PSone emulator. Though it's never been perfect.
 * And much, much more...
 
-==Current==
+==Preperation==
 
-All PSPs at any firmware version are now compatible with 6.60 PRO. However, some of the newer ones require a few workarounds to work well.
+Before installing, use PSPIdent and check the motherboard table to see which CFW your PSP requires.
 
-===6.60===
+You will also need to update to [[6.60 OFW]] before proceeding. Since the installer is signed and works on any PSP firmware, official or unofficial, don't worry about losing any homebrew capabilities.
+
+Some newer PSPs do not support permapatches. This only means that you will have to reinstall custom firmware each time your PSP fully turns off (not when it is sleeping), which only takes a couple of seconds.
+
+==6.60==
 
 The last generation of a long history of PSP Custom Firmware. This one picks up where GEN left off with an update to the last Official Firmware 6.60 and an signed installer that works on any PSP model or firmware.
 
 * [[6.60 PRO]] - The PRO series of custom firmwares are the only open-source CFWs available, and are as such the best supported.
 ** [http://code.google.com/p/procfw/ 6.60 PRO Google Code Project]
-* [[6.60 ME]] - A closed source CFW for HEN-based PSPs. Offers a few different and interesting features.
+* [[6.60 ME]] - 6.60 Minimal Edition. A closed source CFW made by neur0n. Offers a few different and interesting features.
+* [[6.60 LME]] - 6.60 Light Minimal Edition. A closed source CFW made by neur0n for HEN-based PSPs.
+
+==6.20==
+
+Some PSPs only support permapatching 6.20. However, you can add the features back in.
 
 ===Official Firmware===
 
 Of course, we will need to delve into Sony's good ol' official firmware. Listed here are the most important ones; the rest can be found in the last link.
-
-* 6.60 OFW
 
 * [[PSP Official Firmware]] - This is a list of all the Official Firmware, and mirrors.
 
