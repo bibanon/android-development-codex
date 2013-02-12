@@ -182,6 +182,11 @@ The PSP includes native support for Playstation games, though POPSLoader may be 
 
 Gameboy Advance emulation on the PSP is primarily based on Exophase's gPSP, which prided itself on quality and range. However, a few unofficial modders from Japan took it on themselves to add more features, resulting in a mess of variations of differing quality. The family tree has been a mess ever since.
 
+We recommend takka's UO gpSP Kai.
+
+* UO gpSP Kai 3.4 Test 3 Build 92 -> [http://filetrip.net/f7581-GPSP-Kai-3-4.html DOWNLOAD] - [http://en.sourceforge.jp/projects/gpsp-kai/ AUTHOR: takka] - [http://en.sourceforge.jp/projects/gpsp-kai/scm/svn/ SOURCE CODE]
+: Takka's famous unofficial Japanese version of gPSP, which has been the preferred fork for generations. Translated into multiple languages by DarkSpace. Slightly slower in some games, but retains 16:9 stretching and cheats.  You may need to turn "Fake FAT" on to avoid crashes.
+
 * gPSP-J ~ 2012-06-16 -> [http://www.emucr.com/2012/06/gpsp-j-20120616.html DOWNLOAD] - AUTHOR: anonymous
 : Based on gPSP v0.91. A new edition of the UO gPSP-kai emulator made by an anonymous Japanese coder, following from v3.1.
 : Bit more speed in some games, but some features were removed such as 16:9 fullscreen stretching support and cheats.  You may need to turn "Fake FAT" on to avoid crashes.
@@ -196,14 +201,8 @@ Gameboy Advance emulation on the PSP is primarily based on Exophase's gPSP, whic
     Magnification: 165%
     Bilinear Filter: On
 
-* UO gpSP Kai 3.4 Test 3 Build 92 -> [http://filetrip.net/f7581-GPSP-Kai-3-4.html DOWNLOAD] - [AUTHOR: takka, DarkSpace (translation)]
-: Translated into multiple languages by DarkSpace. The other recommended emulator.  Slightly slower in some games, but retains 16:9 stretching and cheats.  You may need to turn "Fake FAT" on to avoid crashes.
-
-* gPSP v0.9 ~ 2012-07-08 -> [http://dl.qj.net/psp/emulators/gpsp-09-signed-version.html DOWNLOAD] - [AUTHOR: Exophase] - [http://www.mediafire.com/?ngu983yi5136a0t SOURCE CODE]
+* gPSP v0.9 ~ 2007-07-08 (signed 2012-07-08) -> [http://dl.qj.net/psp/emulators/gpsp-09-signed-version.html DOWNLOAD] - [AUTHOR: Exophase] - [http://www.mediafire.com/?ngu983yi5136a0t SOURCE CODE]
 : The original by Exophase, with a greater focus on compatibility over features. This newest edition was signed by [http://wololo.net/talk/viewtopic.php?f=2&t=12367 Dovahkiin], with quite a few bug fixes, to boot.
-
-* UO gPSP Kai v3.1  ~ -> [DOWNLOAD] [http://en.sourceforge.jp/projects/gpsp-kai/ AUTHOR: takka] - [http://en.sourceforge.jp/projects/gpsp-kai/scm/svn/ SOURCE CODE]
-: Takka's famous unofficial Japanese version of gPSP, which has a greater amount of features.
 
 ===Atari Lynx===
 * Emulator v0.82f -> [http://filetrip.net/f28313-e%5Bmulator%5D-%28Source-Included%29-0-82f.html DOWNLOAD] - [http://dev-e.sakura.ne.jp/ AUTHOR: E]

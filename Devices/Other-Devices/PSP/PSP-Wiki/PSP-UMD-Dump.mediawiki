@@ -1,0 +1,44 @@
+{{stub}}
+
+== Create ISOs from UMD Backups ==
+
+UMD Backups are stored in the ISO format.
+
+=== UMD Killer EBOOT Edition (Game UMDs) ===
+
+This is the EBOOT EDITION (user mode) of UMD Killer, with this version you can dump ONLY GAME Umds, because Video Umds are dumpable only in Kernel Mode.
+
+{{Note|Ensure that your PSP has a [[Custom Firmware]] installed!}}
+
+# Move the UMDKiller folder to `ms0:\PSP\GAME`.
+# Open the UMDKiller application from the PSP XMB.
+
+=== UMD Killer PRX Edition (Audio and Video UMDs) ===
+
+This is the PRX EDITION (kernel mode) of UMD Killer, with this version you can dump both GAME and VIDEO Umds. 
+
+=== UMD Dumper (Game UMDs) ===
+
+A version of UMD Dumper built using Lua.
+
+
+== Compress ISO to CSO (optional) ==
+
+UMD backups can be unnecessarily large, so if you don't have a 4GB memory stick, compression is vital.
+
+===ISO Tool (PSP)===
+
+[http://dl.qj.net/psp/homebrew-applications/iso-tool-v1978-cfw.html Takka's ISO Tool]
+
+=== Yacc (PC) ===
+
+[http://pspslimhacks.com/yet-another-cso-compressor-yacc-v0401-released/]
+
+=== PSP CSO Compressor (PC) ===
+
+[http://www.softpedia.com/get/CD-DVD-Tools/Virtual-CD-DVD-Rom/PSP-ISO-Compressor.shtml]
+
+== Run UMD Backups ==
+
+(use CFW)
+

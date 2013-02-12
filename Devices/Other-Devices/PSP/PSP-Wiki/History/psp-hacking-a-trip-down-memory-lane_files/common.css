@@ -1,0 +1,29 @@
+
+
+/* table of contents */
+table.contenttoc {
+  margin: 5px;
+  border: 1px solid #000000;
+  padding: 0px;
+  float: right;
+}
+
+table.contenttoc th {
+  background: lightblue;
+  text-align: center;
+  padding: 5px;
+}
+
+table.contenttoc td {
+  padding: 2px 5px;
+}
+
+ .pagenavcounter {
+    font-weight:bold;
+    margin-bottom: 5px;
+
+}
+
+.active a {
+    font-color: #000000;
+}

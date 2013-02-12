@@ -1,0 +1,47 @@
+[http://www.businessweek.com/stories/2005-11-30/attack-of-the-playstation-hackers Source: Businessweek]
+
+The moment Sony's (SNE
+
+) handheld game console, PlayStation Portable, went on sale in the U.S. on March 24, Auri Rahimzadeh got one. For months, he'd heard all about the latest gizmo from the Japanese electronics giant. Slightly bulkier than a checkbook and costing around $200, the PSP was the ultimate in mobile entertainment -- a video-game, movie and music player, and Internet portal all wrapped into one easy-to-carry package.
+
+While Rahimzadeh had been waiting for his preordered console, he had read rave reviews by technophiles who had scored a PSP in Japan months earlier. He knew this was no ordinary gaming gizmo.
+
+MOVIE BUFF. But Rahimzadeh had a hunch that the PSP could do far more. And from the instant he tore through the packaging, the 30-year-old software designer from Indianapolis knew exactly how to unlock all that untapped potential: hacking.
+
+"I always try getting more out of a device, if it appears it can do it and I can enjoy the device more," says Rahimzadeh, whose book, Hacking the PSP, is due out in December.
+
+So far, Rahimzadeh has written software for his own PSP and downloaded, or "homebrew," games written by other techies. He's even found a way to watch the hundreds of movies and TV shows he has on DVD by ripping them onto the PSP's tiny, removable 1-gigabyte memory cards.
+
+SECRETS BARED. Rahimzadeh wasn't alone. On Web bulletin boards, the word was out. Hackers were discovering that it didn't take much to modify -- "mod" in hacker parlance -- the PSP's Firmware version 1.5 software. Web sites were soon offering tips on how to write new programs in languages such as C++ or Lua and run them on memory sticks.
+
+They would tell you which adapters could link a PSP to an iPod. Hardware experts gave detailed instructions on where to solder the PSP's circuit board. And anonymous contributors sent in discoveries, such as using a PSP to remote control a Sony Aibo robot dog.
+
+By June 15, the PSP was fully unmasked when a team of hackers cracked the code and published the results online, according to Greg MacKenzie, who runs the site psp-hacks.com with Paul Shales in Toronto, Canada.
+
+SEE YOU IN COURT? But Sony was hardly sitting still, since hackers who buy the machine but shun the content pose a direct threat to the company's business model. Like other game-machine makers, Sony doesn't make money on the consoles -- it profits on the royalties from licensed games and movies (see BW Online, 11/22/05 "Microsoft's Red-Ink Game").
+
+As early as May, the company's video-game unit, Sony Computer Entertainment (SCEI), had software updates that plugged the PSP's vulnerabilities. In late July, it began a carrot-and-stick approach, warning would-be hackers and enticing them to try out the new upgrades, which added a Web browser and new music-player and photo-viewer.
+
+A month later, it followed with similar upgrades for U.S. users. Sony officials won't say whether they are considering suing hackers. "We cannot guarantee PSP hardware that has been modified," says SCEI spokeswoman Nanako Kato.
+
+MICROSOFT, TOO. PSP sales surpassed 10 million in late October but Sony doesn't disclose financial data on the franchise. "It's a well-known fact in the video-game industry that the bulk of revenues derive from the games software rather than the hardware, which is often sold at a loss or break even," says Schelley Olhava, an analyst with market-research firm IDC. "Sony's PSP business is heavily reliant on selling content."
+
+Is this attack specific to Sony, the world's dominant game-console maker? Hardly. Hackers have picked apart other makers' video-game consoles with just as much glee. Microsoft's (MSFT
+
+) Xbox360, which was launched on Nov. 22, was barely on the shelf before hackers were weighing in on a handful of Web sites with advice about linking the Xbox to a PSP or running programs based on the Linux operating system.
+
+In April, Nintendo's handheld DS and Sony's PlayStation consoles were the subject of contests for hackers on a site called engadget.com.
+
+CIRCUIT SURGERY. Hackers say they only created the online open-source system to remedy the PSP's shortcomings. Many initially complained about the device's limited compatibility with video and audio formats. Songs stored in an iTunes (AAPL
+
+) browser wouldn't play, and neither would MP4 videos. Converting videos to the memory sticks was a headache, and wirelessly shuttling data from the PSP to another device took a lot of creativity. Forget about hooking a PSP to a TV and playing movies, or running the library of Sony games made for the living-room consoles.
+
+David Prochnow, a technology writer, says the PSP had all the potential of a powerful multimedia device but was "crippled" by its software. Using a soldering iron and a screwdriver, he tore open his PSP -- and now it prints photographs, shares music with other portable players, and runs all types of converted video files. "Any, and every, PSP owner can become a hacker," says Prochnow, whose book, PSP Hacks, Mods and Expansions, goes on sale in December.
+
+Sony says it can stay ahead of the hackers. With recent updates, the PSP can now play a variety of music formats and podcasts, as well as digital video clips downloaded form the Net. In October, Sony added its newest option -- a LocationFree program that lets users stream videos to the PSP by tapping into a PC or DVD player at home over Wi-Fi or broadband connections.
+
+SLICK STUFF. For every new Firmware update, hackers have advised doing just the opposite -- downgrading to older, low-security software they posted on the Net. There were plenty heeding the advice. Traffic on the psp-hacks.com site averages 12 million hits a month, according to Mackenzie, who started the site as a blog for friends.
+
+"I've seen some amazing products from independent developers," says Rahimzadeh, the software developer and author. "Much of this homebrew software has the finesse of the huge game-development houses such as Electronics Arts (ERTS
+
+) and even Sony." From the look of it, this battle is only just beginning.

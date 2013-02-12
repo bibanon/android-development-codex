@@ -1,0 +1,114 @@
+== Part 1 ==
+
+[http://www.qj.net/psp/hacks-exploits/psp-hacking-a-trip-down-memory-lane.html Source: Qj.NET]
+
+Well, we’re at a crossroads with regards to PSP Hacking, what with the announcement of a PSP modchip. And coincidentally, I’d been working on an article pretty much related to the history of PSP hacking. So what better time to present it? Well here goes.
+
+I'm sure our readers are quite curious about the history of PSP hacking. I can state that about 60%-70% of our readers have joined us within the last 6-8 months. And trust me, your time hasn’t been as exciting as the first few months after the release of the PSP.
+
+We’ve had the firmware updates, the eLoaders, the ISO loaders, and loads more, and just about everyone knows about them. But far too few people know or remember the first few weeks/months when the PSP came out.  Let’s go on a small journey, shall we?
+
+First, let me introduce the guy who’s been one of the most instrumental people in PSP hacking:
+
+Nem – the guy who started it all. You could call him the 'Father of PSP homebrew'. Yep, surprise! It’s not Fanjita. I’m actually surprised that few people know him. He’s the guy (along with SEC-Saturn Expedition Committee) who released the first homebrew application for the PSP, a Hello World application.
+
+People who’ve been programming would know that the Hello World app is the first step to any programming. Whether its console hacking, or learning a new programming language, a Hello World application is the first step. And on the PSP, it’s even more important. Since the PSP is so tightly locked by Sony, a Hello World application is definitive proof that you’ve got code running. Sure, you always get the “crash” when you do something which wasn’t meant to be done, but a crash does not always mean that it can be exploited to result into something. A few examples would be glitched videos, images, or other files. Few of these glitched files have actually resulted into something. That’s the reason why a hello world app is the most important.
+
+So let’s do a bit of a flashback, shall we?
+First homebrew on a 1.0 – Hello World
+First homebrew on a 2.0 – Hello World (Technically, the first homebrew was just a small app which painted the PSP's screen, but Hello World was definitive proof)
+First homebrew on a 2.xx– I’ll safely assume that it was a Hello World app. Maybe someday, I’ll verify it with Edison Carter.
+
+By now, I’ll assume that you know how significant a hello world app is. So let’s take a ride to a magical moment in PSP hacking. The first ever unofficial code on a 1.0. I’ll quote Nem from his post on the PS2DEV Forums.
+ 
+
+hello world
+“Greeting fellows. It's Hello World for PSP.
+Hello World, PSP!
+Runs only on PSP 1.00.
+Place EBOOT.PBP at directory PSPGAMEHELLOPSP of Memory Stick, and
+you will find HELLO WORLD at GAME -> MEMORY STICK of XMB.
+To shutdown, hold up power switch several seconds, or remove battery.
+All scratch code, compiled by ps2dev toolchain.”
+
+Yes, this simple program was going to be one of the greatest moments in PSP homebrew history. Who would’ve thought that?
+
+So what did Sony do? Release a new firmware 1.50, blocking all homebrew, before the psp was launched outside of Japan. (There wasn’t much back then anyways). The new US owners of the PSP woke up to a homebrew-less PSP! No emulators, no games, no homebrew. Period. The PSP community was once again in darkness. So what next?
+
+PSP DEVFor some time, nobody knew. All the PSP users in the US and the World were praying for homebrew. And their prayers were answered. On June 15, 2005 (Less than a year ago!), a Spanish group called PSP-DEV (Comprising mainly of CybBlade, Pawstick and Killer-X, not related to PS2DEV in any way) released the first exploit for 1.50 PSPs, Swaploit. the method, crude. But who cared? Firmware 1.5 now had all the homebrew that 1.0 had been known for.
+
+
+It worked by swapping Memory Sticks while starting the application. Like i said, crude. But definitely functional. But programmers are known for their laziness. Not while programming, but usually with everything else. So were they going to stop? Nope. Just a week after swaploit, PSP-DEV released KXploit. That finally meant that 1.5 homebrewers didn’t have sore fingers or broken nails.
+
+PSP DEV
+
+And then Sony released another update! Multiple actually, but commonly referred to as 1.5x. And a useless one at that. This was the first of many “security fix” updates. And it showed the lengths to which Sony would go, just to block homebrew. I’m not quite sure of the difference between 1.51 and 1.52. I read somewhere that the 1.51 psps were simply refurbished ones, and you shouldn’t have had one of them. Anyways, the 1.5x firmwares will go down in PSP hacking history as the only two uncrackable ones. There was no vulnerability discovered. I won’t say that they were uncrackable, just that nobody had a good look at them.
+
+By now, the people were becoming restless. There were hardly any good games out. And the psp had hardly delivered any of its “Personal Media Player” promises. Sure, you had movie playback, and mp3 playback, but that’s it. The movies supported were low-res mp4 ones and audio playback was only mp3 and atrac3. And this was attracting a lot of media attention. Sony had to do something to silence everyone. Enter 2.0
+
+One of the first firmwares which tried to fill up the void which Sony had left after announcing great things before the PSP came out. It bundled a web browser, AVC movie playback and wav, mp4-aac audio playback, and support for a few new image formats including TIFF (more on that later), plus a few additions. Supposed to be the firmware which forced every homebrew-lover to update, it did its job quite well. The web browser was the main reason why so many people upgraded. Although it received a lot of good reviews for having tabbed browsing, it was still another half-baked cake.
+
+Since it borrowed netfront’s code it also shared a few irritating things with the original. It ran out of memory too early. And it didn’t support Flash. People were once again discontented. The various “please make a downgrader” threads on every PSP community forum are witness to that fact. The hacking community had another challenge on its hands. Were they going to be successful?
+
+For some time, nobody knew the answer. And then it happened! It was known that the PSP was using libTIFF to display the TIFF images. And there was a known vulnerability in the version which the PSP was using. So, Skylark, Niacin and a 3rd anonymous person tried to exploit it. And they were greeted by success! Using a buffer overflow in the library, they were able to paint the screen with color. And it was quite a big achievement. But it still didn’t run code.
+
+TIFF - Image 1 
+
+
+It was now time for the second stage. Exploiting the hole so that useful code could be run. And Groepaz of “Hitmen” group was the first successful person to display “Hello World” on 2.0 PSPs. The homebrew community, now quite aware of the significance of “Hello World”, was thrilled to hear of this great news. It was now time for the real homebrew to come by the truckloads.
+
+TIFF - Image 2
+
+But it didn’t happen. The process to develop exclusively for 2.0 was still difficult. You needed a bit of Assembly knowledge, which was hard to come by, since most of the developers were still new to development itself! Around this time, MPH released a downgrader out of the blue. Nobody was expecting it. But sure as hell, after the multiple fakes by shady people, this was the real thing! And it created a huge buzz. All the PSP sites which hosted the downgrader faced huge traffic due to the mad rush. And again, the forums were alive with people who were new to the whole 1.5 “KXploit” thing. And this time, the community welcomed them with open arms, making multiple guides, and in general, easing the newbies into the “1.5 scene”
+
+But there were a few who didn’t want to give up the new Web Browser and AVC movie playback. They waited for a solution. And it came in the form of an Eboot Loader which loaded 1.0 eboots on 2.0. And again, unlike what most people think, it wasn’t Fanjita who created the first Eboot Loader for 2.0 PSPs. A guy by the name of Saotome was the first successful person to load 1.0 eboots on 2.0. Although it only ran a few eboots (including Nem’s original Hello World app), it was definitely a start.
+
+And this was the time when Fanjita showed up. Yes, this late! And one more thing, his first homebrew wasn’t the Eboot Loader. It was a Tetris clone, made for 2.0 using the TIFF exploit. Then on, he borrowed Saotome’s Eboot Loader code and got to work on it, creating his own Eboot Loader, now known as eLoader. The rest is history.
+
+Right now, with firmware 2.70, we stand at a similar situation. Although a lot was promised, including a Flash Player, it was once again, a half-baked cake. Few hours after the new firmware’s release, there were complaints that the Flash capability was severely limited and not quite up to the mark. And it was true. So once again, the homebrew community is waiting for a miracle. And they’re justified in thinking so. Sony has thrown the gauntlet by blocking the GTA exploit. But the “hackers” have come up with one of the most popular solutions. A modchip. Whether it’s real or fake, I can’t tell, because I myself don’t know for sure. But regardless of that, it’s got people excited again. And that’s what I love to see. And by the way, I’m rooting for homebrew, as always. What about you?
+
+Note: I’d like to extend my greatest appreciation to everyone who’s been mentioned in this small article. Plus, I’d like to thank the whole PS2DEV community for making the PSP what it is. It would have been a dark place without you guys. And prayers go out to CybBlade's family. CybBlade lost his battle to cancer sometime in the last year. I hope you're busy in heaven hacking God's PSP ;)
+
+A big "Thank You!" to Sony for the PSP, and a big "No Thank You!" for blocking homebrew.
+
+== Part 2 ==
+
+[http://www.qj.net/qjnet/psp/psp-hacking-history-part-2-the-sony/hackers-tug-o-war.html Source: Qj.NET]
+
+I tend to have these phases, when I keep thinking about the past. Or maybe, I'm just a bit drunk... But since people liked the previous article about the history of the PSP scene, I believe people will have the same feelings for this one too. Though don't worry, if you don't like it, the comments section is a good place to send me death threats. I'll make sure to read them.
+
+Anyways, around the time when I wrote the first article, it was still slow-going in the PSP scene. Although we had homebrew up to FW 2.6 using the savegame exploit in GTA, people were still stuck with the tedious method of having to load GTA everytime they wanted to do anything with homebrew.
+
+Dying homebrew scene: And yes, for once I'll say it- The scene was dying. Although I personally never let it show, it was really beginning to get boring with a PSP. Good games were few and far apart. The biggest sellers were actually the first-gen release games. GTA broke records on the PSP, but it was still a one-off game. The only big things happening were in the homebrew scene, with emulators and other awesome homebrew ruling the PSP. And as much as we wanted otherwise, 1.5 was still the firmware to be at. With kernel mode, the level of freedom and power that the programmers got was unmatched on 2.0 and above.
+
+One example was Devhook, the brainchild of Booster. One thing people might not know is that Devhook, earlier known as Device Hook, was released and being updated since the days of WAB. But the difference was that back then, it was an out-and-out ISO loader. And since the people already had other more-reliable applications for that, it was nothing big. Don't get me wrong though, even back then, it was a great piece of programming. But its complexity was its downfall.
+
+The new versions, however, were nothing but kickass. Full emulation of 2.5 firmware (back then) meant that the 1.5 world was shining as ever. But for the people on 2.01 or above, it was getting very uneasy.
+
+The new beginning: Rewind back to June 28th, 2006. Bright sunny day, the PSP scene was chugging along at a slow pace, and as usual, I was busy ranting in our forums. But something was different. A relative unknown in the PSP scene going by the alias Hitchhikr was going to be the one of the biggest legends of the PSP scene. And boy, were we in for a huge treat! There were rumors that he had magically "cracked" the firmware, and that kernel mode was here on firmware 2.5/6. Was it true? You bet! Within a few hours, the excitement turned into madness. People had become restless. What would this mean for everyone?
+
+Nobody knew.. But everyone was sure that good times were coming. It was quite obvious, since we had people like Fanjita and Ditlew, Skylark and many more looking closely at the huge crater that was 2.5/6 security- a crater which had been the result of some clever poking around on the part of Hitchhikr.
+
+DOWNGRADER!: Back then, Dark_AleX, still not very well known, was taking his first baby steps towards his current legendary status. Although his major work had been in the form of an ISO loader, people were still quite happy to know that their PSPs' future was in good hands. A day later, we already had something to be excited about- A work-in-progress 2.5/6 downgrader. Although it did brick some PSPs, it was pretty obvious that we would have something real in a day or two. And funny as it might be, within a couple of days, we were looking at a 2.5/6 -> 1.5 downgrader. This was more of clever code than outright legendary coding. And as expected, the downgrader was updated within a matter of a few days to include cleaner code and better security.
+
+Devhook: Being one of the most commented (1000+!) and read stories on PSPUpdates signifies the fact that hordes of people were probably peeing in their pants suddenly looking at the power that was 1.5 firmware. And Devhook suddenly became that much more special. The great thing was that although everyone had downgraded to 1.5, they wouldn't miss any firmware up to 2.6 because they had Devhook. That, my friends, was only the start though.
+
+Within a few days Devhook was updated to version 0.44. The big update was the possibility to emulate firmware 2.71. And although it wasn't so, the PSP scene was beginning to look like a race between Booster and Dark_AleX. Booster was releasing update after update to Devhook, and Dark_AleX was busy making life for 1.5ers heaven. Custom firmware, only a very-much abused buzzword until now, was finally starting to show promise.
+
+The catalyst was Dark_AleX's first proof of concept. In a matter of weeks, we were flooded with improvements to Dark_AleX's code. My personal favorite was harleyg's custom firmware. But also notable were Zettablade and Lordstrum's versions of it. If anything, this was the golden time for the PSP scene. The latest Devhook had come out, and a huge surprise was the ability to launch homebrew on emulated 2.71 firmware(!).
+
+Sony fighting back!: Fast forward a week and firmware 2.80 had already been out for a couple of days. Devhook v0.46 had just come out, with more of a bugfix release than anything big. Less than a week later, Sony struck! The owner of PSPSoftware, the release site for Booster's Devhook had suddenly received a stern warning from Sony. The message was simple- remove a certain file off the servers. Within a couple of days, PSPSoftware was closed down. Personally, I don't know whether it was the direct work of Sony, or just the owner getting frightened and shutting shop, but one thing was clear - Sony had their eyes on us.
+
+NOPx86: Once that was over, it was back to some quiet times. After all, people like Dark_AleX and Booster had already done a lot of great things. But again, there was someone restless, someone continuously trying out new ways to crack the PSP firmware. That someone is none other than one my good friends NOPx86. Being his tester for a while now, I can proudly say that he's one of the hardest working people in the PSP scene, continuously trying out new ways to run code on the latest firmwares. And yeah, I can proudly say that he has quite a few tricks up his sleeve, which you'll see some time in the future. But since we're talking about the past, let's continue.
+
+Sometime in the second week of August, NOPx86 was successful in getting one of them modified TIFF files to crash the PSP. Again, there was a buzz everywhere, including our forums. It was partly because of the fact that it was based on the TIFF library, and as such, didn't require people to buy the GTA umd and run it everytime they needed some homebrew goodness. The icing on the cake was kernel mode homebrew on all firmwares upto 2.71, and user-mode homebrew on 2.80.
+
+Fanjita's Hello World!
+
+Hello World!: Barely 6 days later, I woke up to the amazing image of Fanjita's Hello World on 7 different PSPs! Truely a sight to behold in itself, it was a dream come true for every PSP user. A little over a week later, Fanjita "ported" the eLoader to the TIFF exploit, which meant that it no longer needed GTA to run homebrew.
+
+Dark_AleX!: He probably had sleepless nights, trying to think of the next big thing for the PSP. He probably didn't have to think hard enough, because within a week of Fanjita being successful with his Hello World demo, Dark_AleX ported his 2.5/6 downgrader to the 2.71 firmware, only with the extra benefit of not needing a GTA UMD for the same. What was amazing that the PSP scene had suddenly caught up with all of the PSP's newer firmwares, barring two.
+
+Tetris: A mere 12 days later, the Noobz crew, mainly comprised of Fanjita and Ditlew, released Tetris for firmwares 2.0 - 2.80, a huge accomplishment. And testifying to the greatness of that release is the fact that it has raked well over 70,000 downloads on our site itself! I'm willing to bet that in its lifetime, it will rake in well over a hundred thousand downloads, almost something of a record in the PSP homebrew scene.
+
+Well, that just about wraps it up for this second part of my article. I haven't covered the news about the custom firmware because, well, it's still not that long ago ;). Let's see what the future holds for PSP homebrew in the coming months. With Sony's feverishly hyped up PS1 emulator, games like GTA:VCS and homebrew like Devhook and the upcoming v2 of PSX-P, I'm willing to bet that the coming few months will probably be the best time for the PSP. And sure enough, we'll be there to cover every moment of it. Stay tuned!

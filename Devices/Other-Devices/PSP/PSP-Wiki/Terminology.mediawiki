@@ -1,0 +1,188 @@
+== 0–9 ==
+
+== A ==
+
+===Alpha===
+
+A term given to software very early in development, before it becomes a beta form (See ''Beta'').
+
+== B ==
+
+===Backup===
+
+A loose term used to describe a ROM/ISO that has been extracted from the original cartridge/disc into a single data file on a personal computer for personal use or archival, or the method for doing so. This can be done using various methods depending on what system the cartridge/disc is for. Also known as "dumping/ripping".
+
+===Ban===
+
+Refers to when a particular user has been blocked from visiting, viewing and posting on the forum. The "ban" can be set on the users username, e-mail addresses and even their IP addresses. (Also applies to ''IRC''.)
+
+===Beta===
+
+A software that is incomplete, in development or not in its final form. Beta software may contain many known bugs (See ''Bug'').
+
+===Bug===
+
+An accidental mistake made in the programming of a piece of software (i.e. a video game), that may cause undesired operation or produce errors or worse. A bug can often be fixed or resolved by applying a patch (see ''Patch'').
+
+== C ==
+
+===Crash===
+
+A unexpected fault (bug (See ''Bug'')) in a software that will cause it to halt immediately. A crashed piece of software can not be recovered and must be re-started.
+
+===Crack===
+
+An unofficial patch (See ''Patch'') released by an individual or group which is meant to be applied to a piece of software to remove certain restrictions, features or anti-piracy (See 'Piracy') techniques, for example, a time restriction on an official demo piece of software.
+
+== D ==
+
+===Demo===
+
+A trial version of a software or game usually released by the developers of the software for promotional purposes. Demo software almost always has restrictions such as a time limit, lack of features or the inability to perform certain functions.
+
+===Dump===
+
+The term "dumping" is a method of backing up an original game to a PC.
+
+== E ==
+
+===Emulator===
+
+A program for the computer that allows ROMs to be played on the computer. It "emulates" a system.
+
+== F ==
+
+===Firmware===
+
+The code that a device runs from. A device which allows for firmware upgrades means that a new version of the device doesn't need to be bought to get new features.
+
+===Flash Memory===
+
+Storage space that is stored on a chip instead of a disk that must be read like a harddrive. Contains no moving parts. Can be used either as internal memory like the DS, or can be used as a portable storage device like thumb drives or SD cards.
+
+== G ==
+
+===GUI===
+
+Acronym for "Graphical User Interface". Basically means there is more than text on the screen.
+
+== H ==
+
+===Hack===
+
+modification of a file or a system. For example, a 'ROM hack' means a 'modified ROM'.
+
+===Homebrew===
+
+a homebrew game is a game developed by hobby programmers. Read more.
+
+== I ==
+
+== J ==
+
+== K ==
+
+== L ==
+
+===LAN===
+
+Acronym for "Local Area Network". Connects a small, local areas together.
+
+===LCD===
+
+Acronym for "Liquid Crystal Display". Uses a smaller amount of power making it suitable for battery powered devices.
+
+===Li-On===
+
+See ''Lithium-Ion''.
+
+===Lithium-Ion===
+
+A commonly used battery for electronics. It usually comes as a flat rectangle. It does not suffer from the memory effect.
+
+== M ==
+
+== N ==
+
+===NFO===
+
+NFO, an abbreviation of "info". "NFO" files are ASCII (See ''ASCII'') text files with the filename extension ".nfo". These are commonly found alongside pirate (See ''Piracy'') software releases by individuals or groups. They contain information about the release and other useful and useless information.
+
+== O ==
+
+===OFW===
+
+Acronym for "Original Firmware" for PSP.
+
+== P ==
+
+===Patch===
+
+When a large program is released that has a bug, a patch is usually released instead of having the user download the whole program again. The patch is then applied to the existing data and fixes the bug.
+
+===Piracy===
+
+The act of illegally acquiring copyrighted materials, by downloading it from the Internet without permission of the author.
+
+===Pirate===
+
+One who engages in piracy.
+
+===PSP Phat (PSP 1000)===
+
+The first handheld of Sony. PSP is an acronym of "PlayStation Portable". It was the first Handheld to use an optical disc (''UMD'') to store games.
+
+===PSP Slim and Lite (PSP 2000)===
+
+An updated version of the PSP Phat. This version is 33% lighter and 19% slimmer than the PSP 1000. The screen was made a little brighter and the internal memory was doubled to shorten the loading times. Also the battery capacity was lowered by 1/3th, but thanks to new Power saving modes, the run time stays the same. A new video-Out port was added to the side.
+
+===PSP Brite (PSP 3000)===
+
+An updated version of the PSP 2000. Main changes are the brighter screen, addition of a microphone and new UMD-slot design.
+
+===PSP GO (PSP N1000)===
+
+The PSP GO is the newest version of the PSP. It is not a replacement the PSP 3000, but is sold at the same time of it. The biggest change is that this model does not contain an UMD drive. Instead, games have to be downloaded from the PS Store to the 16GB internal memory. The screen was made smaller and can slide up to reveal the controls.
+
+== Q ==
+
+== R ==
+
+===Release Group===
+
+A group that releases games on the Internet. A group is given credit to a game when they release it.
+
+== S ==
+
+== T ==
+
+== U ==
+
+===UMD===
+
+Acronym for "Universal Media Disc". The Sony PSP uses this as data container (mainly for games). UMDs can contain up to 1.8GB of data.
+
+===USB===
+
+Acronym for "Universal Serial Bus". A connection interface that is now the most common used amongst external computer peripherals, including MP3 players, external hard drives, keyboards and mice. USB is widely used because of its simple connection, easy to use socket, its data transfer speeds and its "plug 'n' play" reliability. Many GBA flash kits use USB.
+
+== V ==
+
+== W ==
+
+===Wi-Fi===
+
+Short for "Wireless fidelity". Wi-Fi is a type of wireless LAN (see ''LAN''). This makes it possible for a Wi-Fi enabled device, such as the Nintendo DS, to access an Internet connection shared via a wireless LAN without any additional wires or connections. See also: ''Nintendo Wi-Fi Connection''.
+
+== X ==
+
+== Y ==
+
+== Z ==
+
+== Sources ==
+
+* [http://wiki.gbatemp.net/wiki/PSP_Glossary GBATemp Wiki - The original PSP Glossary]
+
+[[Category:PSP]]
+
