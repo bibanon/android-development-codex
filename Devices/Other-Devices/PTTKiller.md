@@ -2,11 +2,11 @@
 
 Here are a few 
 
-## OSLauncher
+## nLaunch
 
 OSLauncher allows any firmware to run on some models of the Nspire. This opens the door for a native replacement firmware; a side effect is that it is possible to install a CAS version.
 
-## PTTKiller
+## PTTCopier
 
 This is the forbidden fruit of TI-Nspire development. The holy grail of the thoughtless cheat and the bane of the dev community. So bad that it was nicknamed "Nspire Community Killer". It's name is PTTKiller.
 
@@ -18,17 +18,14 @@ To deter the knowledgeless cheat and stay on TI's good side, we only provide a d
 
 ### Method
 
-Under PTT, it is still possible to run programs and documents; they just need to be transferred first. Under normal circumstances, a teacher would use a computer to send a useful document to the calculator. The document is therefore stored in the hidden `/exammode` directory.
+Under PTT, it is still possible to run programs and documents; they just need to be transferred first. Under normal circumstances, a teacher would use a computer to send a useful document to the calculator. The document is therefore stored in the hidden `/exammode/` directory.
 
 What a PTTKiller would do is copy a folder from normal documents to the exammode beforehand, without the use of a computer.
 
     // Moves the "ptt" folder to beat PTT
     rename("/documents/ptt", "/exammode/usr/ptt");
 
-We could extend this by moving the libraries over, too.
-
-    // OPTIONAL: Moves the "MyLib" folder to allow use of libraries
-    rename("/documents/MyLib", "/exammode/usr/MyLib");
+Oddly, functions in libraries don't work, whether PTTCopier is used or not. The first library will have functions working normally, but after that one is closed, no other library will have usable functions. However, all other programs and documents are unaffected.
 
 ### Extending
 

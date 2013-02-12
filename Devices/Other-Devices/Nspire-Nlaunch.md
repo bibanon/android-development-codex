@@ -1,4 +1,4 @@
-{{Note|Nlaunch is only compatible with the classic TI-Nspire models (Clickpad/Touchpad), both CAS and non-CAS. It hasn't been ported to the CX series.}}
+{{Note|Nlaunch is only compatible with the classic TI-Nspire models (Clickpad/Touchpad), both CAS and non-CAS. It hasn't been ported to the CX series as of this writing.}}
 
 Nlaunch is a Boot2 exploit that allows users to run any kind of OS on the Nspire without regard for version, model, or source checking. This also makes it possible to dual-boot OS versions.
 
@@ -100,7 +100,7 @@ To go back to OS v3.1 + Ndless, just repeat the same steps.
 
 ## Creating your own images
 
-
+(needs elaboration)
 
 ## Using CAS on non-CAS systems
 
@@ -113,9 +113,9 @@ nLaunch bypasses all known protections made by TI, such as the following:
 
 Therefore, installing a CAS OS on a non-CAS TI-Nspire is possible. 
 
-(However, we strongly recommend that you do follow testing guidelines and refrain from using this ability to circumvent restrictions on CAS calculators.)
+(However, we ask that you refrain from using this ability to circumvent restrictions on CAS calculators.)
 
-If you are a concerned educator, simply use the Nspire crib to update all your student's Nspires before a test, which will remove Ndless, nLaunch, and any custom OSes, returning them to their original state.
+If you are a concerned educator, simply use the Nspire crib to update all your student's Nspires before a test, which will remove Ndless, nLaunch, and any custom OSes, returning them to their original state. And don't worry about your crafty students; OS 3.1 and Ndless can be easily reinstalled at home after the test.
 
 ## Sources
 

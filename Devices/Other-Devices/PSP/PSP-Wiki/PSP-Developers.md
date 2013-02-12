@@ -1,4 +1,4 @@
-# PSP Development and Hacking
+# PSP Hacking and CFW
 
 ## Dark ALeX
 
@@ -7,6 +7,16 @@
 ## Fanjita
 
 * Pandora's Battery
+
+## neur0n
+
+* [Unofficial Blog](http://neur0npsp.altervista.org/)
+* [Twitter](https://twitter.com/neur0ner)
+
+A Japanese PSP/Vita dev with the power of Dark ALeX and a curious affinity to Madoka Magica.
+
+### Creations
+
 
 
 # Homebrew
