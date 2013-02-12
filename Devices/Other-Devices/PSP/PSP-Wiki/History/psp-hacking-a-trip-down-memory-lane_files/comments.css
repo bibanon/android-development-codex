@@ -1,0 +1,51 @@
+.com {width:545;overflow:none;padding-bottom:20px; background: #f1f2f2;}
+.bar {background-image: url('http://img.qj.net/img/comments/54/bar.gif'); background-repeat:no-repeat;height:17pt;}
+.bar_disabled {background-image: url('http://img.qj.net/img/comments/disabled/bar.gif'); background-repeat:no-repeat;height:17pt;}
+.bar_reply {background-image: url('http://img.qj.net/img/comments/54/bar_reply.gif'); background-repeat:no-repeat;height:17pt;width:495}
+.bar_reply_disabled {background-image: url('http://img.qj.net/img/comments/disabled/bar_reply.gif'); background-repeat:no-repeat;height:17pt;width:495}
+.comtitle {padding-top:3pt !important; padding-top:3px;}
+.comspan {color:white;font-family:arial;font-size:11px;}
+.star {padding-right:4px;padding-top:1px}
+.yesno {padding-top:1px;text-align:right;padding-right:10;width:30}
+.combut {border:none; cursor:pointer;}
+.comcontent{background-image: url('http://img.qj.net/img/comments/54/blend.gif'); background-repeat:repeat-x;width:528; overflow:hidden; color: #333333; font-family:arial;font-size:12px;padding:5px}
+.comcontent_disabled{background-image: url('http://img.qj.net/img/comments/disabled/blend.gif'); background-repeat:repeat-x;width:528; overflow:hidden; color: #333333; font-family:arial;font-size:12px;padding:5px}
+.replycontent{background-image: url('http://img.qj.net/img/comments/54/blend.gif'); background-repeat:repeat-x;width: 485 !important; width:495; overflow:hidden; color: #333333; font-family:arial;font-size:12px;padding:5px}
+.replycontent_disabled{background-image: url('http://img.qj.net/img/comments/disabled/blend.gif'); background-repeat:repeat-x;width: 493 !important; width:495; overflow:hidden; color: #333333; font-family:arial;font-size:12px;padding:5px}
+.arrows img {border:none; height:8px; cursor: pointer; }
+.arrows {padding-left:5px;width:8px}
+.input_odd
+{
+	background-color:#ffffff;
+	border:1px solid #C2CCD3;
+	color: black;
+	font-family:Verdana;
+	font-size:12px;
+}
+
+.rolldown{
+	margin: 0pt; 
+	padding: 0pt; 
+	overflow: hidden; 
+	right: 5px; 
+	position: relative; 
+	z-index: 80; 
+	background-color: inherit; 
+	width: 500px; 
+	height: 1px; 
+}
+.rolldowncontent
+{
+	overflow: hidden; 
+	padding-left: 10px; 
+	width: 490px;
+	background-color: inherit; 
+	vertical-align:bottom;
+}
+.btn {float: left}
+.btn {background: url(http://img.qj.net/uploads/temp/jc_btnl.gif) no-repeat; margin-right: 5px}
+.btn div {margin:0 -1px 0 0; float: left;background: url(http://img.qj.net/uploads/temp/jc_btnr.gif) 100% 0 no-repeat}
+.btn a {text-decoration: none; height: 22px;line-height: 22px;font-size: 12px;font-weight: bold;color: #777;padding: 0px 5px;border: none}
+.btn a:hover {text-decoration: none; color: #0B55C4}
+
+#comments-form-buttons {font: normal 1em Verdana, Arial, Sans-Serif;margin-left: 20px !important;margin-top: 10px;margin-bottom: 8px;overflow: hidden;padding: 0}

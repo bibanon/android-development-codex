@@ -1,14 +1,34 @@
+The PSP has a smorgasbord of different motherboards, each with different abilities and restrictions. They all support the same custom firmware and homebrew nowadays, but to a different extent, so it is important to identify which motherboard you use with the below tools and our motherboard table.
+
 == Identifying your PSP Motherboard ==
+
+=== LCFW ===
+
+In order to use PSP identification software, we will need custom firmware (CFW) installed. This is no longer a Chicken-and-Egg problem as life was in the Dark Days, since Temporary Custom Firmware (LCFW) works on any PSP without risk of bricking.
+
+{{:PSP/Install OFW 6.60}}
+{{:PSP/Install 6.60 PRO}}
+{{:PSP/Temporary CFW}}
+** In theory, you are finished, since custom firmware is already installed to your PSP. 
+** Continue only if you want to install CFW permanently (which does not bring much benefit anyway) and your PSP motherboard supports cIPL or 6.20 Permapatching (use PSPIdent and check the table).
 
 === PSPIdent ===
 
-[http://forums.pspslimhacks.com/threads/pspident-v0-75-released.11970/ DOWNLOAD]
+# Make sure Temporary Custom Firmware or equivalent is installed.
+# Download [http://forums.pspslimhacks.com/threads/pspident-v0-75-released.11970/ PSPIdent v0.75] and extract the archive.
+# Copy the PSPIDENT folder under the /PSP/GAME/ folder in the PSP's memory stick.
+# Run PSPIdent from the XMB (main PSP menu), under Games -> Memory Stick.
+# PSPIdent will display your motherboard model. Check the motherboard table on this page to see which method is right for you.
+# Press Circle to create a screenshot for later use, and keep that picture in a safe place on your computer for reference.
+# Press Home to exit PSPIdent.
 
 === PSP Everest v2 Rev. 5 ===
 
 [http://psdev.ru/?p=205 DOWNLOAD]
 
 == Table ==
+
+The motherboard table can be said to be the periodic table of the PSP; it is the fundamental to understanding which PSPs support which CFW installation method. Since the motherboard table has never been built in it's entirety, we took the effort to build one ourselves on this wiki. Credits to antonizoon, MrShyCity, and DWG21R.
 
 {| class="wikitable"
 ! Motherboard !! PSP Model !! Generation !! cIPL !! HEN !! 6.20 Perma Patch !! LCFW !! Create Pandora !! Unbrick !! Lowest Possible OFW
@@ -60,7 +80,10 @@
 | TA-096 || Street E1000 || 11g || style="background:red" | NO || style="background:red" | NO || style="background:red" | NO || style="background:#9E7BFF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 6.50
 |}
 
-*Note: Some PSP Identification programs have recognized a non-existent "TA-090v3" motherboard. This is a typo, it is actually a "TA-090v2" motherboard. But to reduce confusion, we have added it to the chart with the same attributes as a "TA-090v2".*
+=== Table Notes ===
+
+* '''TA-095v1 (09g)''' and '''TA-095v2 (09g)''' have been shown to be [http://lolhax.org/2011/09/01/chronoswitch-downgrader-5-0-advanced-09g-support/ functionally compatible with (04g) motherboards], allowing a downgrade to 6.20 using [[PSP/Chronoswitch|Chronoswitch]]. After using this downgrader, to upgrade above 6.20 you must use a special [http://psdev.ru/?p=56 upgrade app] .
+* Some PSP Identification programs have recognized a non-existent "TA-090v3" motherboard. This is a typo, it is actually a "TA-090v2" motherboard. But to reduce confusion, we have added it to the chart with the same attributes as a "TA-090v2".
 
 === Image Tables ===
 
@@ -77,3 +100,4 @@ File:DWG21R-Hackable-PSPs.png|DWG21R's picture that started it all.
 
 * [http://wololo.net/talk/viewtopic.php?t=11958 Wololo.net - 2012 PSP Motherboard Table]
 * [http://www.pspmod.com/forums/psp-discussion/61384-guide-psp-motherboard-relationships-compatibility-list.html Original Motherboard Table]
+

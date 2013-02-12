@@ -1,0 +1,240 @@
+/************************************************
+*	Tag
+************************************************/
+.clearfix {
+	height: 1%;
+}
+
+.tag {
+	margin: 0;
+	padding: 0;
+	color: #999;
+	display: inline;
+}
+
+.tag ul {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+}
+
+.tag ul li {
+	display: inline;
+	list-style-type: none;
+	background-image: none;
+	padding: 0 0.5em;
+}
+
+.tag ul li a {
+	display: inline;
+	text-decoration: none;
+	margin-bottom: 0; //
+	text-transform: capitalize;
+}
+
+/*************************************************
+*   Add Tags
+**************************************************/
+div.addtags {
+	margin-top: 4px;
+}
+
+div.addtags a:link {
+	color: red;
+	text-decoration: none;
+}
+
+div.addtags a:visited {
+	color: red;
+	text-decoration: none;
+}
+
+div.addtags a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+div.addtags a:active {
+	color: red;
+	text-decoration: none;
+}
+
+div.addtags a img {
+	vertical-align: text-bottom;
+}
+
+div.addtags img {
+	padding-right: 3px;
+}
+
+/************************************************
+*	Tag Cloud
+************************************************/
+.tagCloud a {
+	line-height: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 2px;
+}
+
+.tagCloud a.tag1:link {
+	font-size: 10px;
+	/* color: #993300; */
+}
+
+.tagCloud a.tag1:visited {
+	font-size: 10px;
+	/* color: #993300; */
+}
+
+.tagCloud a.tag1:hover {
+	xfont-size: 10px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;
+}
+
+.tagCloud a.tag2:link {
+	font-size: 12px;
+	/* color: #993300; */
+}
+
+.tagCloud a.tag2:visited {
+	font-size: 12px;
+	/* color: #993300; */
+}
+
+.tagCloud a.tag2:hover {
+	xfont-size: 12px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+.tagCloud a.tag3:link {
+	font-size: 14px;
+	/* color: #882200; */
+}
+
+.tagCloud a.tag3:visited {
+	font-size: 14px;
+	/* color: #882200; */
+}
+
+.tagCloud a.tag3:hover {
+	xfont-size: 14px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+.tagCloud a.tag4:link {
+	font-size: 16px;
+	/* color: #882200; */
+}
+
+.tagCloud a.tag4:visited {
+	font-size: 16px;
+	/* color: #882200; */
+}
+
+.tagCloud a.tag4:hover {
+	xfont-size: 16px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+.tagCloud a.tag5:link {
+	font-size: 18px;
+	/* color: #771100;  */
+}
+
+.tagCloud a.tag5:visited {
+	font-size: 18px;
+	/* color: #771100; */
+}
+
+.tagCloud a.tag5:hover {
+	xfont-size: 18px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+.tagCloud a.tag6:link {
+	font-size: 20px;
+	/* color: #771100; */
+}
+
+.tagCloud a.tag6:visited {
+	font-size: 20px;
+	/* color: #771100; */
+}
+
+.tagCloud a.tag6:hover {
+	xfont-size: 20px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+.tagCloud a.tag7:link {
+	font-size: 22px;
+	/* color: #660000; */
+}
+
+.tagCloud a.tag7:visited {
+	font-size: 22px;
+	/* color: #660000;  */
+}
+
+.tagCloud a.tag7:hover {
+	xfont-size: 22px;
+	xcolor: #FFFFFF;;
+	xbackground: #993300;
+    text-decoration: underline;  
+}
+
+/************************************** 
+*Warnings 
+***************************************/
+div.warning {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+div.warning h1 {
+	line-height: normal;
+	font-size: 200%;
+	font-weight: bold;
+	text-align: center;
+	color: red;
+}
+
+div.warning h2 {
+	text-align: center;
+	line-height: normal;
+	font-size: 150%;
+	font-weight: bold;
+}
+
+/*****************************************************
+*Joomla Tags
+********************************************************/
+div.joomlatags {
+	margin-left: 220px;
+	text-align: center;
+	font-size: 9px;
+	display: block;
+	color: orange;
+	padding: 4px;
+}
+
+/***************************************************************
+*Add Tags
+*******************************************************************/
+.button2-left .add_Tags {
+	background: url(../images/addTags.png) 100% 0 no-repeat;
+}				

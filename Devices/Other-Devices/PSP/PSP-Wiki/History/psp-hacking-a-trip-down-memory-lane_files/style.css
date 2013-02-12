@@ -1,0 +1,180 @@
+/* content plugin styles */
+.jcomments-links {margin-top: 10px; clear:both; text-align: left}
+.comments-link, .readmore-link{padding: 0 5px 5px 14px;background-image: url(images/jc_blog.gif);background-repeat: no-repeat}
+.comments-link {background-position: 0 -27px}
+.readmore-link {background-position: 0 2px}
+	
+/* JComments common styles */
+#jc a:link, #jc a:visited, #jc a:hover {outline: none} 
+#jc .clear {clear: both; height: 1px; overflow: hidden}
+#jc .busy { display:none; margin: 3px auto; padding: 0; width: 16px; height: 16px; background: url(images/jc_busy.gif) no-repeat; }
+
+#jc h4 {color: #555;background-color: inherit;font-weight: bold;text-align: left;border-bottom: 1px solid #D2DADB;padding: 0 0 2px 0;margin-bottom: 10px}
+
+#jc p.message {color: #777;background-color: inherit; background-image: none; text-align: center;text-decoration: none;text-transform: none;text-indent: 0;padding: 5px 0 0 0;border-top: 1px solid #D2DADB}
+
+#comments {margin: 0;padding: 0;width: 100%;text-align: left;text-decoration: none;text-transform: none;text-indent: 0}
+#comments a {color: #849B9F;background-color: inherit;font-weight: normal;text-decoration: none}
+#comments a:active, #comments a:focus, #comments a:hover {color: #cc0000}
+#comments a[rel*=external] {background: url(images/jc_link.gif) no-repeat center right;padding: 0 10px 0 0;margin: 0 2px}
+	
+/* RSS and Refresh*/
+#comments .rss, #comments .refresh, #comments .subscribe {padding: 0 0 0 14px;margin: 0 0 0 2px;border: none}
+#comments .rss {background: url(images/jc_rss.gif) no-repeat center left}
+#comments .refresh {background: url(images/jc_refresh.gif) no-repeat center left}
+#comments .subscribe {background: url(images/jc_subscribe.gif) no-repeat center left}
+#comments h4 .rss, #comments h4 .refresh {padding: 0 0 0 10px;margin: 0 0 0 5px;display: inline}
+
+/* List footer */
+#comments-list-footer {margin: 0 0 10px 20px}
+
+/* Show/hide form */
+#comments-form-link .showform {margin: 5px 0 0 22px;padding: 0 0 5px 14px;background: url(images/jc_blog.gif) no-repeat 0 -28px;border: none;font-weight: bold;display: block}
+
+/* Comment */
+#comments .comment-box {margin: 0;padding: 0; color: #999}
+#comments .comment-avatar {float: left;margin: 0;padding: 0}
+#comments .avatar-indent {padding-left: 40px}
+
+#comments .comment-anchor {color: #777; text-decoration: none; border: none}
+#comments .comment-author, #comments .author-homepage {color: #3c452d;font: bold 1em Verdana, Arial, Sans-Serif;margin: 0;padding: 0}
+#comments .author-homepage {text-decoration: none; border-bottom: 1px dotted #3c452d}
+#comments .comment-title {color: #b01625;font: bold 1em Verdana, Arial, Sans-Serif;margin: 0;padding: 0}
+
+/* Avatar */
+#comments .comment-avatar img {width: 32px;border: none !important;}
+
+/* Date and Time*/	
+#comments .comment-date {font-size: 10px;color: #999;margin: 0;padding: 0 0 0 12px;background: url(images/jc_date.gif) no-repeat center left}
+#comments .comment-body {color: #777;margin: 6px 0 0;padding:0 0 2px}
+
+/* Quote, Code and Hidden block styles */
+#comments .quote, #comments blockquote, #comments .code, #comments code, #comments pre {margin: 5px 0 5px 10px; display: block; clear: both; background-image: none}
+#comments blockquote, #comments .hidden, #comments code, #comments pre {color: #849B9F;text-align: left;padding: 8px;margin-bottom: 8px}
+#comments blockquote, #comments .hidden {border: 1px dashed #849B9F}
+#comments code, #comments pre {border: 1px solid #dedede;overflow: hidden;white-space:normal}
+#comments .code {background: none; border: none; padding:0}
+#comments .quote {color: #777}
+#comments .hidden {clear: both;display: block;margin: 5px 0}
+
+/* Quote and Reply to buttons panel */
+#comments .comments-buttons {height: 15px;float: right}
+
+#comments .email, #comments .emailactive {font: normal 1em Verdana, Arial, Sans-Serif; text-decoration: none; white-space: normal; margin: 0; padding: 0; line-height: 10px; cursor: pointer; border-bottom: 1px dotted #999}
+#comments .email {color: #444; background-color: inherit}
+#comments .emailactive {color: #cc0000; background-color: inherit}
+#comments .email img, #comments .emailactive img {padding: 0}
+
+#comments p {font: normal 1em Verdana, Arial, Sans-Serif;margin: 5px 5px 5px 0;	padding: 0; text-decoration: none; text-transform: none; text-indent: 0}
+
+#comments .comment-body img {padding: 0; border: 0 none}
+#comments .comment-body .img {padding: 4px 0 !important; max-width: 500px}
+#comments .toolbar {clear: both;color: #ccc;border-top: 1px solid #ccc;margin: 8px 0 0 0;padding: 5px 0 0 0}
+#comments .toolbar img{cursor: pointer; padding: 0; margin: 0}
+
+/* Comments list */
+#comments .comments-list {margin-left: 20px;height: 1%}
+#comments .even, #comments .odd {background-image: none;color: #3c452d; margin-left: 0;margin-bottom: 10px;padding: 0}
+
+#comments-list .comments-inline-edit {padding: 5px; margin: 5px 0; color: inherit;background-color: #fff;border: 1px solid #ccc}
+
+/* Comment form */
+div.comments-policy {color: #777; text-align: left;text-decoration: none;text-transform: none;text-indent: 0; background-color: inherit; border: 1px dotted #ccc; padding: 5px; margin: 5px 0px 5px 20px; margin-left: 20px !important;}
+div.comments-policy ol, div.comments-policy ul {margin: 0;padding: 5px 0 0 20px;line-height: 5px}
+div.comments-policy ol li, div.comments-policy ul li {font: normal 1em Verdana, Arial, Sans-Serif; margin: 0;padding: 0;border: none;line-height: 5px}
+
+#comments-form, #comments-form p, #comments-report-form, #comments-report-form p, #comments-form span, #comments-form .counter {text-align: left;text-decoration: none;text-transform: none;text-indent: 0}
+#comments-form p, #comments-report-form p, #comments-form span, #comments-form .counter {color: #777;font: normal 1em Verdana, Arial, Sans-Serif}
+#comments-form p, #comments-form #comments-form-buttons, #comments-form #comments-form-error, #comments-form #comments-form-captcha-holder {font: normal 1em Verdana, Arial, Sans-Serif;margin-left: 20px !important;margin-top: 10px;margin-bottom: 8px;overflow: hidden;padding: 0}
+
+#comments-inline-edit {border: 1px solid #ccc;margin: 5px 0 0 0;background: #fff}
+#comments-inline-edit #comments-form p, #comments-inline-edit #comments-form #comments-form-buttons,
+#comments-inline-edit #comments-form-error {font: normal 1em Verdana, Arial, Sans-Serif;margin-left: 5px !important;margin-left: 5px;margin-top: 5px;margin-bottom: 2px;padding: 0}
+
+#comments-form img.smile {margin: 0 3px 3px 0;padding: 0;border: none;cursor: pointer}
+#comments-form img.captcha {padding: 0;margin: 0 0 3px 0;border: 1px solid #ccc}
+#comments-form span.captcha {padding: 0 0 0 12px; color: #777; background: url(images/jc_refreshg.gif) no-repeat 0 2px;cursor: pointer}
+#comments-form label, #comments-report-form label {color: #777; background-color: inherit; line-height: 1.5em; padding: 0;margin: 0;vertical-align: middle}
+#comments-form input, #comments-report-form input, #comments-form textarea {color: #444;background-color: #fff;padding: 0;margin: 0;border: 1px solid #ccc}
+#comments-form input {width: 170px;margin-bottom: 2px;height: 1.5em}
+#comments-form input.selected, #comments-form textarea.selected {color: #777;background-color: #ffffe0;border: 1px solid #849B9F}
+#comments-form input.error, #comments-form textarea.error {border: 1px solid #f00;text-decoration:none;text-transform:none;background-color: #ffffe0}
+
+#comments-form input.checkbox {width: 16px; line-height: 1.5em; padding: 0; margin: 0; vertical-align: middle; border: none}
+#comments-form input.captcha {width: 116px; margin: 3px 0 5px 0}
+#comments-form textarea {max-width: 400px !important;width: 350px;margin:0}
+
+#comments-form-message {padding: 5px 5px 5px 25px;margin-right: 5px;display: block}
+.comments-form-message-error {background: #FFD86F url(images/jc_error.gif) no-repeat 4px 50%}
+.comments-form-message-info {background: #DFEEFF url(images/jc_info.gif) no-repeat 4px 50%}
+
+#comments-form .counterpanel {height:13px;display:block;overflow:hidden;color: #ccc;padding: 0;margin:0;border:1px solid #ddd;border-top-width:0;max-width: 400px !important;width: 350px;background-color: #eee}
+
+#comments-form .grippie {height:13px;display:block;overflow:hidden;color: #ccc;padding: 0;margin:0;border:1px solid #ddd;border-top-width:0;max-width: 400px !important;width: 350px;cursor:s-resize;background: #eee url(images/resize.gif) no-repeat right center}
+#comments-form .grippie .counter {font-size: 10px;padding: 0; margin: 0}
+#comments-form .grippie span {display:block;float:left}
+#comments-form .grippie span span {display:inline;float:none}
+
+#comments-form .btn, #comments-report-form .btn {float: left; background: url(images/jc_btnl.gif) no-repeat; margin-right: 5px}
+#comments-form .btn div, #comments-report-form .btn div {margin:0 -1px 0 0; float: left;background: url(images/jc_btnr.gif) 100% 0 no-repeat}
+#comments-form .btn a, #comments-report-form .btn a {text-decoration: none; height: 22px;line-height: 22px;font-size: 12px;font-weight: bold;color: #777;padding: 0 5px;border: none}
+#comments-form .btn a:hover , #comments-report-form .btn a:hover {text-decoration: none; color: #0B55C4}
+#comments-form-smilespanel {display: none;cursor: pointer;padding: 2px;max-width: 200px;background-color: #fff;border: 1px solid #ccc;overflow: auto;left: 0;top: 0;position:absolute}
+
+#comments-footer, #comments-footer a {color: #ccc !important; background-color: inherit; font: normal 9px Verdana, Arial, Sans-Serif !important}
+#comments-footer {display: block;height: 14px;border-top: 1px solid #ccc;padding-top: 1px;margin-top: 4px;text-align: right}
+#comments-footer a {text-decoration: none !important;text-transform: none;padding: 0;margin: 0;border: none !important;float: right; background: none !important}
+
+/* Pagination */
+body #jc #nav-bottom, body #jc #nav-top {line-height: 19px !important;line-height: 17px;height: auto !important;text-align: center; margin: 0 auto;}
+#jc #nav-bottom span.page, #jc #nav-top span.page {color: #777;background-color: #eee;border: 1px solid #d6dadd}
+#jc #nav-bottom span.hoverpage, #jc #nav-top span.hoverpage {color: #777;background-color: #e8e9ea;border: 1px solid #d6dadd}
+#jc #nav-bottom span, #jc #nav-top span {color: #777;background-color: inherit;font-size: 10px;font-family: Arial, sans-serif;margin: 0 2px;height: 15px;padding: 2px 8px;cursor: pointer;vertical-align: top}
+#jc #nav-bottom span.activepage, #jc #nav-top span.activepage {color: inherit;background-color: white}
+#jc div#nav-bottom, #jc div#nav-top {position: relative;z-index: 2;width: 100%}
+#jc div#nav-bottom {margin: 10px 0 0 0;padding: 0;background: url(images/jc_dot.gif) repeat-x top left}
+#jc #nav-bottom span.activepage {border-bottom: 1px solid #d6dadd;border-left: 1px solid #d6dadd;border-right: 1px solid #d6dadd;border-top: 1px solid white}
+#jc div#nav-top {margin: 10px 0;background: url(images/jc_dot.gif) repeat-x bottom}
+#jc #nav-top span.activepage {border-top: 1px solid #d6dadd;border-left: 1px solid #d6dadd;border-right: 1px solid #d6dadd;border-bottom: 1px solid white}
+
+/* Vote */
+#jc span.comments-vote {width: 6em;height: 15px;float: right}
+#jc span.comments-vote a{width: 15px;height: 14px;float: left;margin: 0 3px 0 0;display: block;background-repeat: no-repeat;background-image: url(images/jc_vote.gif);border: none !important; text-decoration: none}
+#jc span.comments-vote .busy{margin: 0; float: right; width: 16px}
+#jc .vote-good{background-position: 0 0}
+#jc .vote-poor{background-position: -15px 0}
+#jc span.vote-good,#jc span.vote-poor,#jc span.vote-none{margin: 0;float: right;font: bold 1em Verdana, Arial, Sans-Serif;line-height: 14px}
+#jc span.vote-good{color: #339900}
+#jc span.vote-poor{color: #CC0000}
+#jc span.vote-none{color: #A9A9A9}
+
+/* BBCode */
+#jc span.bbcode{width: auto;height: 23px;display: block;margin-bottom: 5px}
+#jc .bbcode a, #jc .bbcode a:focus, #jc .bbcode a:active, #jc .bbcode a:hover{width: 23px;height: 23px;float: left;margin: 0 2px 0 0;display: block;background-color:transparent !important;background-repeat: no-repeat;background-image: url(images/jc_bbcode.gif);text-decoration:none;border:none !important}
+#jc a.bbcode-empty{background-position: 0 0}
+#jc a.bbcode-b{background-position: -30px 0 !important}
+#jc a.bbcode-i{background-position: -60px 0 !important}
+#jc a.bbcode-u{background-position: -90px 0 !important}
+#jc a.bbcode-s{background-position: -120px 0 !important}
+#jc a.bbcode-url{background-position: -150px 0 !important}
+#jc a.bbcode-img{background-position: -180px 0 !important}
+#jc a.bbcode-list{background-position: -210px 0 !important}
+#jc a.bbcode-hide{background-position: -240px 0 !important}
+#jc a.bbcode-quote{background-position: -270px 0 !important}
+#jc a.bbcode-smile{background-position: -300px 0 !important}
+#jc a.bbcode-youtube{background-position: -330px 0 !important}
+#jc a.bbcode-google{background-position: -360px 0 !important}
+#jc a.bbcode-wiki{background-position: -390px 0 !important}
+#jc span.bbcode img {width: 23px;height: 23px;float: left;margin: 0 2px 0 0}
+#jc .custombbcode {width: 23px;height: 23px;float: left;margin: 0 2px 0 0;display: block;text-decoration:none;cursor: pointer}
+
+/* Rounded comments */
+.rbox {margin: 0;width:auto;overflow: hidden}
+.rbox div {text-align: left;margin: 0}
+.rbox_t {margin: 0;border-top: 1px solid #ccc;background-color: #FFF}
+.rbox_tl {background: url(images/jc_rb_tl.gif) 0 0 no-repeat;padding-left: 13px}
+.rbox_tr {height: 10px;overflow: hidden;background: url(images/jc_rb_tr.gif) 100% 0 no-repeat;padding-right: 13px}
+.rbox_m {border-left: 1px solid #ccc;border-right: 1px solid #ccc;width: auto;padding: 0 8px; background-color:#fff;line-height: 100%}
+.rbox_b {margin-top: -5px;border-bottom: 1px solid #ccc;background-color: #FFF;height: 12px;line-height: 12px}
+.rbox_bl {background: url(images/jc_rb_bl.gif) 0 100% no-repeat;padding-left: 13px}
+.rbox_br {height: 13px;background: url(images/jc_rb_br.gif) 100% 100% no-repeat;padding-right: 13px}

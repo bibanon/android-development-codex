@@ -1,8 +1,10 @@
-= Recommended PRX Plugins 
+{{stub}}
 
 All plugins support 6.20-6.60 unless otherwise noted.
 
 A full list of plugins can be found here.
+
+Below are a list of PRX Plugins that we recommend.
 
 (Plugin wikipages need to be made)
 
@@ -16,7 +18,7 @@ PRX files that we consider vital to the proper functioning of the PSP. Some of t
 * [[Game Categories]] - Eventually, your PSP folder will get big. Very big. And it helps to be able to put them into folders.
 * UMD Dump - Dump any UMD to your Memory Stick, including Video and Audio UMDs.
 * Download Manager - An important augmentation that adds a download manager to the browser.
-* CustomHome - Adds much more features to the ingame Home Menu to make it much more useful.
+* CustomHome - Adds much more features to the ingame Home Menu to make it much more useful. (Note: Prevented homebrew from running on my PSP Fat 6.60 PRO-C2.)
 * XMBCtrl - Adds various customization options for CFW to the XMB.
 * BlinkLED - Restores a feature that Sony removed in 6.20 that blinks the Wifi indicator when data is being transferred.
 
@@ -35,7 +37,7 @@ PRX files that we recommend, but each to their own.
 == Gaming ==
 
 * CFW Folder Blocker - Some newer UMD Games will start acting strangely if they detect the `ms0:/seplugins` or `ms0:/ISO` folders, so stop them from seeing the folders and they will be back to normal. Here is a list of those that do.
-* ISOChange - If a UMD asks you to change disks, and you're using an ISO, you'll need this program.
+* disc_change - If a UMD asks you to change disks, and you're using an ISO, you'll need this program.
 * Game Menu v7 - Bring the VSH menu to your game!
 * Profile Manager - Keep savedata safe in up to 20 different profiles, so that your annoying brother won't screw up your saves.
 * Pergame Custom - A plugin that selectively loads plugins for each game.
