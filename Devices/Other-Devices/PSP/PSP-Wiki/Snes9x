@@ -1,0 +1,71 @@
+# SNES9x
+
+Don't forget to CHANGE THE CPU from the default 300Mhz to 333Mhz. It helps a bit. I also recommend changing the Sound from 44KHz to 22KHz.
+
+
+## SNES9xTYL
+
+This emulator lets you play your classic SNES games, fully accelerated on your PSP via the PSP CPU/GPU and media engine.
+
+### SNES9xTYL MECM
+
+* [Original Source](http://dempa.logue.be/PSP/Snes9x%20TYL)
+[http://pspslimhacks.com/super-nintendo-snes-emulator-snes9xtyl-mecm-091011-3/]
+
+Some bug fixes and stability increases. 
+
+### SNES9xTYL SlimMCM
+
+[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&ved=0CDUQFjAA&url=http%3A%2F%2Fwww.qj.net%2Fpsp%2Fhomebrew-applications%2Fsnes9xtylsmcm-test-5-27%2F05%2F08.html&ei=Q-sOUaiGO4rbigL4ioDwDw&usg=AFQjCNEPyeyEWfuawqX7wZIfAVMnvzgaMA&sig2=EYV_-DbQj1dtZxJ912yK9w&bvm=bv.41867550,d.cGE]
+
+Known differences from 4.2TYL:
+
+* The menu is much faster which takes a bit of getting used to. I like using the Home button to go to the menu. Overall an improvement.
+* Bugs Bunny Rabbit Rampage NOW WORKS without the annoying video glitches when he jumps. 
+* Super Mario Kart is a bit faster.
+* The great Claymates game unfortunately still DOES NOT WORK :( Maybe next time...
+
+### SNES9xTYL++
+
+* Author: [Ruka](http://rukapsp.hp.infoseek.co.jp/) and [DaveX] <grayfox_at_gmail_dot_com>
+* [Source code v18]()
+* [Source code v23]()
+* [Source code v26](http://dl.qj.net/psp/development/snes9xtyl-version-26-source-code.html)
+
+* Quick save state [press RTRIGGER + SELECT] and quick load state[ RTRIGGER + START]
+* Auto-fire [Available in CONTROLS main menu]
+
+Ruka's original was said to have very few discernable updates, and even some regressions.
+
+### Chilly Willy and CaptShoe's Snes9xTYL 0.4.2 ME for PSP Slim
+
+* [Download](http://dl.qj.net/psp/emulators/snes9xtyl-042-me-for-psp-slim.html)
+* [Source Code](http://dl.qj.net/psp/emulators/snes9xtyl-042-me-for-psp-slim-source-code.html)
+
+* Ported to use 3.xx compatible MediaEngine library.
+* Fixed button detection in key redefine screen when map analog to pad is enabled.
+* Sound issues reduced, but not entirely. This would require more time.
+* L+R functionality replaced by Home button. To quit, tap Home twice.
+* The time to get back to the XMB should now be decreased. Homehook.prx courtesy of NJ.
+* Simplified welcome message with the ability to disable completely.
+* Option to turn off intro animation.
+* New snesadvance.dat (speedhacks) by Illegal Machine and Warkobo. Thanks!
+* New XMB graphics.
+
+Aside from bringing SNES emulation goodness to the PSP Slim, this SNES emulator also works fine on old PlayStation Portables. According to Chilly Willy, this version is hardcoded to run at 333 MHz since the PSP Slim hangs when you change the CPU speed while MediaEngine is running.
+
+This version of Snes9xTYL also burns up a lot of juice. Cilly Willy says that "sleep mode has been disabled since sleep would have done nothing at all". Both the CPU speed change and the battery drain issues are being worked on and should be fixed in a later release.
+
+### SNES9xTYL 4.2 (original)
+
+
+## SNES9x Euphoria
+
+## Issues
+
+* Kirby Superstar and anything that requires special chips will be slow, no known solution
+
+## SNES9x v0.02y32
+
+* Author: [y PSP Dev](http://ypspdev.hp.infoskeek.co.jp/)
+* Download: [Mediafire](http://www.mediafire.com/?29y2sbl9b4uokiy)

@@ -1,0 +1,119 @@
+=Templates=
+
+== {{Install OFW 6.60}} ==
+
+** (Since Sony has left the PSP at 6.60 for more than 2 years, it's safe to use System Update to update to 6.60)
+# Download [http://us.playstation.com/support/systemupdates/psp/index.htm OFW 6.60 from Sony] or from [http://pspcfw.com/dl/download.php?file=831PSP_660_FW_UPDATE.RAR PSPCFW].
+# Extract this file.
+# Copy EBOOT.PBP to ms0:/PSP/GAME/UPDATE/
+# From the XMB (main psp menu) run the update from Game -> Memory Stick .
+# You are now on OFW 6.60!
+
+== {{Install 6.60 PRO}} ==
+
+# Find the [http://code.google.com/p/procfw/downloads/list latest version of 6.60 PRO] and extract it.
+# Copy and paste the extracted contents to their respective folders on the root of the PSP (e.g. PSP -> ms0:\PSP, seplugins -> ms0:\seplugins)
+# From the XMB (main psp menu) run the PROUPDATE from Game - Memory stick.
+# Press X to install CFW
+
+== {{cIPL Flash 6.60 PRO}} ==
+
+# From the XMB (main psp menu) run the CIPL Flasher from Game - Memory stick.
+# You have successfully installed 6.60 PRO.
+
+== {{Remove GEN Version Protect}} ==
+
+# Open VSH menu by clicking on the Select button from XMB (main psp menu)
+# Change USB device to Flash0 .
+# Plug the PSP into a PC.
+# Navigate to /vsh/etc/
+# Open version.txt using notepad or wordpad
+# In the first line change the 9.90 to 5.50 and save.
+# Disconnect your psp from the pc and change the USB device back to Memory stick in vsh menu
+
+=={{Temporary CFW}} ==
+
+# Delete cIPL Flasher from Game - Memory stick.
+# Please note that this is a temporary CFW. You will be back to OFW 6.60 if your PSP runs out of power (not sleep mode). But don't worry, just run FastRecovery from Game - Memory stick and CFW will be back in a matter of seconds!
+# You have successfully installed 6.60 PRO-C!
+
+== {{Downgrade to OFW 6.20}} ==
+
+# [http://everything-psp.blogspot.com/2012/01/6xx-downgrader-v5.html 6.xx Downgrader]
+
+== {{Install OFW 6.20}} ==
+
+# Shut down your psp completetly so that you are on OFW 5.03
+# Download OFW 6.20 (Do not use system update!)
+# Extract the file.
+# Plug the PSP into the PC and copy EBOOT.PBP to PSP/GAME/UPDATE/
+# Navigate to Game - Memory stick:
+# Launch 6.20 OFW update, follow the instructions, and wait for it to finish.
+# Check '''Settings -> System Settings -> System Information''' and make sure the '''System Software''' line displays '''Version 6.20''' before proceeding.
+
+== {{Install 6.20 PRO}} ==
+
+# Find the [http://code.google.com/p/procfw/downloads/list latest version of 6.20 PRO] and extract it.
+# Copy and paste the contents to their respective folders on the root of the PSP (e.g. PSP -> ms0:\PSP, seplugins -> ms0:\seplugins)
+# Run '''6.20 PRO Permanent Patch''' from the XMB.
+# '''DO NOT DELETE ''vshorig.prx'',''' which is found on the root of the Memory Stick. '''Keep a backup''' of this file on your computer: it contains vital information needed to uninstall 6.20 PRO. Without this file, it will be very difficult to upgrade your PSP in case of emergency.
+# We also recommend (but do not require) keeping '''6.20 PRO Permanent Patch''' and '''PRO Update''' on your memory stick just in case you need to uninstall 6.20.
+
+== {{Restoring vshorig.prx}} ==
+
+(This method has not been well tested, but it has worked for [http://gbatemp.net/threads/whats-vshorig-prx-for.304261/ one random person on the internet.] Use at your own risk.)
+
+# Download [http://www.psp-hacks.com/file/1891 PSARDumper for 6.20], and install it into your /PSP/GAME/ folder.
+# Download the 6.20 OFW update: [http://www.psphero.com/download/official_620go.rar PSP GO], [All other PSPs] 
+# copy the EBOOT.PBP of the 6.20 update to the root of your memory stick
+
+Start PSARDumper, and press (Circle) button when it loads
+
+when it finishes, there will be a new folder at the root of your memorystick called F0/
+Navigate to F0/vsh/module/ and find the file vshmain.prx
+rename this file to vshorig.prx and copy to the root of your memory stick.
+
+=={{Uninstall 6.20 PRO}}==
+
+In some cases, you may need to remove 6.20
+
+# Make sure that '''vshorig.prx''' is still on the memory stick before proceeding. ''Do not continue if it is missing!''' It is unique to every PSP; hopefully you made a backup.
+# Run the 6.20 PRO-B5 Permanent Installer again.
+# Press X to uninstall the Permanent Patch.
+# Run the PRO Update program and press Triangle to uninstall CFW.
+** If this does not work, or your PSP 
+
+== {{cIPL Motherboards}} ==
+
+cIPL supports:
+
+* PSP 1000 Fat: (All motherboards) '''TA-079v1''', '''TA-079v2''', '''TA-079v3''', '''TA-081''', '''TA-082''', '''TA-086'''
+* PSP 2000 Slim: (Everything except TA-088v3): '''TA-085v1''', '''TA-085v2''', '''TA-088v1''', '''TA-088v2''', '''TA-090v1'''
+
+cIPL does not support any other PSP motherboards.
+
+All of the cIPL compatible PSPs are also capable of using [[PSP/LCFW Motherboards|LCFW]] and [[PSP/6.20 Permapatch Motherboards|6.20 Permapatch]] (though cIPL is preferred).
+
+== {{6.20 Permapatch Motherboards}} ==
+
+These PSPs can only use 6.20 permapatching and LCFW:
+
+* PSP GO: (All motherboards) '''TA-091''' '''TA-094'''
+* PSP 3000: (Everything except 07g and 09g) '''TA-090v2''', '''TA-090v3''', '''TA-092''', '''TA-093'''
+* PSP 2000: '''TA-088v3'''
+
+It is also possible to use 6.20 permapatch on PSPs that support [[PSP/cIPL Motherboards|cIPL]], though it is obviously not needed.
+
+== {{Chronoswitch Motherboards}} ==
+
+Compatible with these motherboards ONLY:
+
+* PSP 3000 Brite: '''TA-095v1 (09g)''', '''TA-095v2 (09g)'''
+
+DO NOT USE Chronoswitch with other motherboards, such as '''TA-095v1 (09g)''' or '''TA-095v2 (09g)''' . These can already downgrade to 6.20 using [[PSP/6.20 Permapatch|6.20 Permapatch]].
+
+== {{LCFW Motherboards}} ==
+
+* PSP E1000 Street: '''TA-096'''
+* PSP 3000 Brite: '''TA-095v1 (07g)'''
+* Any PSP that is [[PSP/cIPL Motherboards|cIPL]] or [[PSP/6.20 Permapatch Motherboards|6.20 Permapatch]] compatible

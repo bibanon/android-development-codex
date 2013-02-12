@@ -1,0 +1,9 @@
+if (window['google'] != undefined && window['google']['loader'] != undefined) {
+if (!window['google']['ima']) {
+window['google']['ima'] = {};
+google.ima.Version = '1.8';
+google.ima.JSHash = '84479ae78e2ae96fc191dae83ffb2033';
+google.ima.LoadArgs = 'file\75ima\46v\0751';
+}
+google.loader.writeLoadTag("script", google.loader.ServiceBase + "/api/ima/1.8/84479ae78e2ae96fc191dae83ffb2033/default.I.js", false);
+}

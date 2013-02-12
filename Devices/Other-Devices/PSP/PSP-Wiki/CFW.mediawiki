@@ -1,0 +1,195 @@
+==Preperation==
+
+# First, identify your PSP motherboard in the [[PSP/Models]] guide.
+h
+===Glossary===
+
+* OFW - Official Firmware. Not modded in any way.
+* CFW - Custom Firmware. Modded OFW with special features.
+* Signing - Homebrew built to work on any PSP firmware by adding Sony's Root Signing keys to them.
+
+=LCFW=
+
+LCFW is a temporary CFW exploit that gives you all the features of a permanent CFW, but is lost whenever the PSP runs out of power. It only takes three seconds to reinstall it, though.
+
+LCFW is the safest method of installing CFW since it works on every PSP motherboard and will never result in a brick.
+
+These PSP motherboards can only use LCFW:
+
+* PSP E1000 Street: '''TA-096'''
+* PSP 3000 Brite: '''TA-095v1 (07g)'''
+
+Additionally, LCFW also works on:
+
+* All PSPs that support 6.60 permapatching
+* All other known PSP motherboards
+
+==PSP E1000 Street==
+
+===Official Firmware is 6.60===
+
+{{Install 6.60 PRO}}
+
+{{Temporary CFW}}
+
+===Official Firmware below 6.60===
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{Temporary CFW}}
+
+
+
+==PSP 3000 Brite (07g and 09g)==
+
+===Official Firmware is 6.60===
+
+{{Install 6.60 PRO}}
+
+{{Temporary CFW}}
+
+===Official Firmware below 6.60===
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{Temporary CFW}}
+
+
+
+=6.20 Permapatch=
+
+{{Note|This method is only for people who absolutely cannot wait three seconds to recover CFW when the PSP runs out of power. Otherwise, we strongly recommend using [[LCFW]], an easier method where there is no risk of bricking your PSP!}}
+
+On the 6.20 firmware, there is a unique exploit that allows permapatching on some newer PSPs.
+
+Don't worry about issues with using an older version; the features have mostly been backported, and 6.20 PRO-C2 uses a convenient exploit to run 6.60 ISOs.
+
+These PSPs can only use 6.60 permapatching and LCFW:
+
+* PSP GO: (All motherboards) '''TA-091''' '''TA-094'''
+* PSP 3000: (Everything except 07g and 09g) '''TA-090v2''', '''TA-090v3''', '''TA-092''', '''TA-093''', TA-095v1 (09g) (possible, but unconfirmed)
+* PSP 2000: '''TA-088v3'''
+
+In addition, you can use the permapatch on:
+
+* All PSPs that support cIPL
+** PSP 1000 Fat: (All motherboards) '''TA-079v1''', '''TA-079v2''', '''TA-079v3''', '''TA-081''', '''TA-082''', '''TA-086'''
+** PSP 2000 Slim: (Everything except TA-088v3): '''TA-085v1''', '''TA-085v2''', '''TA-088v1''', '''TA-088v2''', '''TA-090v1'''
+
+(but for those PSPs, just use cIPL, which is easier and safer)
+
+==PSP GO (All motherboards)==
+
+===Official Firmware 6.20 or Below===
+
+{{Install 6.20 PRO}}
+
+===Official Firmware 6.20 or Above===
+
+{{Downgrade to OFW 6.20}}
+
+{{Install 6.20 PRO}}
+
+==PSP 3000 Brite (Non 07g)==
+
+===Official Firmware 6.20 or Below===
+
+{{Install 6.20 PRO}}
+
+===Official Firmware 6.20 or Above===
+
+{{Downgrade to OFW 6.20}}
+
+{{Install 6.20 PRO}}
+
+==PSP 2000 Slim (TA-088v3)==
+
+===Official Firmware 6.20 or Below===
+
+{{Install 6.20 PRO}}
+
+===Official Firmware 6.20 or Above===
+
+{{Downgrade to OFW 6.20}}
+
+{{Install 6.20 PRO}}
+
+
+==Other motherboards==
+
+* Note: DO NOT USE on '''07g, 09g or TA-096'''. See the [[PSP/Models]] table for more information.
+
+
+
+=cIPL=
+
+cIPL supports:
+
+* PSP 1000 Fat: (All motherboards) '''TA-079v1''', '''TA-079v2''', '''TA-079v3''', '''TA-081''', '''TA-082''', '''TA-086'''
+* PSP 2000 Slim: (Everything except TA-088v3): '''TA-085v1''', '''TA-085v2''', '''TA-088v1''', '''TA-088v2''', '''TA-090v1'''
+
+cIPL does not support any other PSP motherboards.
+
+All of the cIPL compatible PSPs are also capable of using LCFW and 6.60 permapatch (though cIPL is preferred).
+
+==PSP 2000 Slim (Non TA-088v3)==
+
+===Official Firmware is 6.60===
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+===Official Firmware below 6.60 or using CFW M33/Dark AleX===
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+===Custom Firmware 5.50 GEN or 5.50 Prometheus 4===
+
+{{Remove GEN Version Protect}}
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+
+==PSP 1000 Fat (All motherboards)==
+
+===Official Firmware is 6.60===
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+===Official Firmware below 6.60 or using CFW M33/Dark AleX===
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+===Custom Firmware 5.50 GEN or 5.50 Prometheus 4===
+
+{{Remove GEN Version Protect}}
+
+{{Download OFW 6.60}}
+
+{{Install 6.60 PRO}}
+
+{{cIPL Flash 6.60 PRO}}
+
+==Sources==
+
+* [http://forums.dashhacks.com/psp-tutorials-guides/306417-hacking-psp-mega-thread-never-outdated.html Dashhacks - Hacking PSP Mega Thread: Never Outdated]
+* [http://forums.dashhacks.com/psp-tutorials-guides/295996-5-03-gen-mhu-ofw-6-20-pro-b-9-permanent.html Dashhacks - 5.03 GEN/MHU 6.20 PRO-B9 Permapatch]

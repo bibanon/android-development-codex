@@ -1,0 +1,79 @@
+== Identifying your PSP Motherboard ==
+
+=== PSPIdent ===
+
+[http://forums.pspslimhacks.com/threads/pspident-v0-75-released.11970/ DOWNLOAD]
+
+=== PSP Everest v2 Rev. 5 ===
+
+[http://psdev.ru/?p=205 DOWNLOAD]
+
+== Table ==
+
+{| class="wikitable"
+! Motherboard !! PSP Model !! Generation !! cIPL !! HEN !! 6.20 Perma Patch !! LCFW !! Create Pandora !! Unbrick !! Lowest Possible OFW
+|-
+| TA-079v1 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-079v2 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-079v3 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-081 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-082 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-086 || Fat 1000 || 01g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:green" | YES || style="background:green" | YES || 1.00
+|-
+| TA-085v1 || Slim 2000 || 02g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:green" | YES || style="background:green" | YES || 3.60
+|-
+| TA-085v2 || Slim 2000 || 02g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:red" | NO || style="background:green" | YES || 3.60
+|-
+| TA-088v1 || Slim 2000 || 02g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:red" | NO || style="background:green" | YES || 3.60
+|-
+| TA-088v2 || Slim 2000 || 02g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:red" | NO || style="background:green" | YES || 3.60
+|-
+| TA-088v3 || Slim 2000 || 02g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 3.9x/4.0x
+|-
+| TA-090v1 || Slim 2000 || 02g || style="background:#5CB3FF" | 6.60 PRO-C2 || style="background:#659EC7" | 6.60 ME-1.8 || style="background:LightGreen" | YES (Use cIPL Instead) || style="background:LightGreen" | YES (Use cIPL Instead)  || style="background:red" | NO || style="background:green" | YES || 3.60
+|-
+| TA-090v2 || Brite 3000 || 03g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 4.20
+|-
+| TA-090v3 || Brite 3000 || 03g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 4.20
+|-
+| TA-091 || Go N1000 || 05g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 5.70 (05g)
+|-
+| TA-092 || Brite 3000 || 03g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 4.20
+|-
+| TA-093 || Brite 3000 || 04g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 5.70 (04g)
+|-
+| TA-094 || Go N1000 || 05g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 5.70 (05g)
+|-
+| TA-095v1 (07g) || Brite 3000 || 07g || style="background:red" | NO || style="background:red" | NO || style="background:red" | NO || style="background:#9E7BFF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 6.30
+|-
+| TA-095v2 (07g) || Brite 3000 || 07g || style="background:red" | NO || style="background:red" | NO || style="background:red" | NO || style="background:#9E7BFF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 6.30
+|-
+| TA-095v1 (09g) || Brite 3000 || 09g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 5.70 (04g)
+|-
+| TA-095v2 (09g) || Brite 3000 || 09g || style="background:red" | NO || style="background:red" | NO || style="background:#8467D7" | 6.20 PRO-C2 || style="background:#5CB3FF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 5.70 (04g)
+|-
+| TA-096 || Street E1000 || 11g || style="background:red" | NO || style="background:red" | NO || style="background:red" | NO || style="background:#9E7BFF" | 6.60 PRO-C2 or 6.60 LME-1.8 || style="background:red" | NO || style="background:red" | NO || 6.50
+|}
+
+*Note: Some PSP Identification programs have recognized a non-existent "TA-090v3" motherboard. This is a typo, it is actually a "TA-090v2" motherboard. But to reduce confusion, we have added it to the chart with the same attributes as a "TA-090v2".*
+
+=== Image Tables ===
+
+These are the outdated originals. Only kept for archival purposes, don't use them.
+
+[[File:DWG21R-Hackable-PSPs.png]]
+
+<gallery>
+File:MrShyCity_PSP_Motherboard_Overview.png|MrShyCity's Original 2012 PSP Motherboard list.
+File:DWG21R-Hackable-PSPs.png|DWG21R's picture that started it all.
+</gallery>
+
+== Sources ==
+
+* [http://wololo.net/talk/viewtopic.php?t=11958 Wololo.net - 2012 PSP Motherboard Table]
+* [http://www.pspmod.com/forums/psp-discussion/61384-guide-psp-motherboard-relationships-compatibility-list.html Original Motherboard Table]
