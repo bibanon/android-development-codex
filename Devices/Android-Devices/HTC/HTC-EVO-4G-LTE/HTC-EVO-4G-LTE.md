@@ -2,6 +2,14 @@
 
 * Short Name: Jewel
 
+## Sections
+
+* [[Jewel Version Table]]
+* [[Wipe Secure Element]]
+* [[Jewel Rooting]]
+* [Jewel S-OFF](http://unlimited.io/jewel.htm)
+* [[Jewel Rollback]] - Need to go back to stock for some reason? Just rollback.
+
 ## Root/Unlock/Recovery
 
 * [[Wipe Google Wallet]] - Before flashing a RUU/custom ROM or doing a hard reset, **Clear Google Wallet Settings** (Open Google Wallet, *Menu/Settings/Reset Google Wallet*). Otherwise, **the secure element will be damaged** in the process! [Source](http://forum.xda-developers.com/showthread?p=1675353)
@@ -25,4 +33,5 @@
 
 ### Firmware
 
+* [XDA-Developers - Rooting recent versions of HTC EVO 4G LTE](http://forum.xda-developers.com/showthread.php?t=2026938)
 * [Jewel Firmware Collection](http://forum.xda-developers.com/showthread.php?t=1704612)
