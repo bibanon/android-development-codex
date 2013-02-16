@@ -1,20 +1,14 @@
 While Android is open-source and uses the Linux kernel at it's core, it is not a full "GNU/Linux" operating system, opting to replace the GNU userland with it's own Java-based ecosystem.
 
-This makes Android incompatible with actual Linux applications, and vice versa (though many are trying to port the Dalvik Machine there...)
+This makes Android incompatible with actual Linux applications, and vice versa (though it is possible to port the Dalvik Machine there...)
 
 Therefore, some developers are taking up the effort to bring true GNU/Linux distros to Android devices.
 
-## Making Mobile Linux Usable
-
-The desktop ecosystem has proven a hard sell on mobile touchscreen devices, and attempts to adapt the full power of GNU/Linux to the phone space has often met with failure.
-
-Here is [[a project|Mobile Linux]] that attempts to find and fix those pressing issues.
-
 ## Chrooted GNU/Linux
 
-All rooted Android devices can run full GNU/Linux in a chroot.
+All rooted Android devices can run full GNU/Linux in a chroot. This is best if you only need Linux command line apps, or have s powerful phone.
 
-However, Android does not use the X Server, and as such, Linux applications can only be used through a VNC app. This increases overhead and restricts the full power of Linux.
+Since Android does not use the X Server, chrooted Linux applications can only be used through a VNC app. This increases overhead, with Android and a VNC server running in the background and restricts Linux's full power.
 
 ## Optware
 
@@ -34,7 +28,17 @@ Ubuntu Phone is currently using the Nexus 4 and the Galaxy Nexus as official dev
 
 Canonical has chosen the Google/[[ASUS Nexus 7]] as their official ARM tablet reference device, currently testing a one-click installer on it.
 
+### Arch Linux + Xorg Display Hijack
+
+This hack runs an X display server safely and natively from a chroot, reducing overhead. Only proven to work on the Nook Color, though an unknown amount of phones support it. [Link](http://thomaspolasek.blogspot.ca/2012/04/arch-linux-lxde-w-xorg-mouse-keyboard_16.html)
+
 ### Installation Instructions
+
+## Making Mobile Linux Usable
+
+The desktop ecosystem has proven a hard sell on mobile touchscreen devices, and attempts to adapt the full power of GNU/Linux to the phone space has often met with failure.
+
+Here is [[a project|Mobile Linux]] that attempts to find and fix those pressing issues.
 
 ## Ubuntu DEs
 
