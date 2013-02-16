@@ -12,15 +12,25 @@ Here is [[a project|Mobile Linux]] that attempts to find and fix those pressing 
 
 ## Chrooted GNU/Linux
 
-All rooted Android devices can run full GNU/Linux in a chroot. Chrooted GNU/Linux systems
+All rooted Android devices can run full GNU/Linux in a chroot.
 
 However, Android does not use the X Server, and as such, Linux applications can only be used through a VNC app. This increases overhead and restricts the full power of Linux.
+
+## Optware
+
+A uniquely light edition of Linux for embedded devices [Link](https://github.com/pfalcon/optware-android)
 
 ## Native Linux
 
 On some devices, there are efforts to run Linux natively, without the overhead of an Android chroot.
 
-## Ubuntu on Nexus 7
+### Ubuntu Phone
+
+(not released yet)
+
+Ubuntu Phone is currently using the Nexus 4 and the Galaxy Nexus as official developer reference devices.
+
+### Ubuntu Desktop on Nexus 7
 
 Canonical has chosen the Google/[[ASUS Nexus 7]] as their official ARM tablet reference device, currently testing a one-click installer on it.
 
