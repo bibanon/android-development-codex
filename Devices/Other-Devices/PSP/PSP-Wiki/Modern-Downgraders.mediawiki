@@ -1,0 +1,75 @@
+== Pandora's Battery ==
+
+* Despretar del Cementerio v9 - An update to Dark AleX's original made by neur0n, supporting 6.60 ME.
+* Time Machine - Install multiple firmwares to your memory stick, and use the Pandora's Battery to switch between them.
+** Time Machine Addon - A modification by neur0n supporting 6.60 ME.
+
+== Downgrading your PSP ==
+
+=== From 6.xx to 6.20 ===
+
+* 6.xx Downgrader - Downgrade from any 6.xx firmware. Not for PSP Brite (09g) models.
+* Chronoswitch Downgrader - A unique 6.xx downgrader designed for PSP Brite (09g) models, to install 6.20.
+
+=== From 6.xx to 5.xx ===
+
+* Hellcat's Recovery Flasher
+
+=== From 1.50 to 1.00 ===
+
+* 1.00 Downgrader - Downgrade from OFW 1.50 to OFW 1.00, the first firmware available for the PSP in Japan.
+
+== Running Old Firmware ==
+
+WARNING: Your PSP will be BRICKED if you downgrade past your PSP's lowest firmware version. See [[PSP/Models/the chart]] to see which
+
+If you're a historian who wants to try out older firmware, we recommend obtaining a PSP 1000 Fat, since is able to run every single firmware version safely.
+
+=== 6.xx ===
+
+* 6.xx Downgrader - Downgrade from any 6.xx firmware. Not for PSP Brite (09g) models.
+* Chronoswitch Downgrader - A unique 6.xx downgrader designed for PSP Brite (09g) models, to install 6.20.
+* Hellcat's Recovery Flasher - Directly jump from 6.xx to older versions.
+
+=== 2.xx - 5.xx ===
+
+* Time Machine - Install multiple firmwares to your memory stick, and use the Pandora's Battery to switch between them.
+
+=== 1.xx ===
+
+* 1.00 Downgrader - Downgrade from OFW 1.50 to OFW 1.00, the first firmware available for the PSP in Japan.
+
+== To-Do ==
+
+* Create a unified Time Machine app that installs any firmware to PSP
+* Create a version of RainsMMSMaker that works with 6.60 CFW
+
+== Repair Semi-Brick on PSP-3000 Brite and PSP Go ==
+
+Semi-Brick is a state where the firmware no longer functions, but the recovery menu is still accessible by booting with the R trigger held.
+
+This occurs on PSP-3000 Brite and PSP Go as a result of a bad flash while installing 6.20 PRO permapatch.
+
+Make sure that your unique vshorig.prx file is on the root of the memory stick; you'll need this to uninstall 6.20 PRO. Hopefully you've backed it up.
+
+# remove battery, re-insert and power up holding R trigger.
+# if the PRO recovery menu shows up, you're in luck else you have a full-brick.
+# in the recovery menu, search for this option 'Hide cfw files' and set it to DISABLED
+# Choose 1st option -Toggle USB (make sure USB device set to ms)
+# make sure you have a 'vshorig.prx' file there (if you haven't tampered with the cfw files it should be there and you can skip step 3 and 5)
+# Download [http://uploading.com/files/21afcb11/Semi-BrickRecovery.exe/ Semi-BrickRecovery.exe.]
+# copy that file in this location ms0:/psp/game
+# now run the Semi-BrickRecovery.exe from this folder.
+# Done!
+# Go to the UPDATE folder and replace the 635.pbp with [http://us.playstation.com/support/systemupdates/psp/index.htm the 6.60 OFW EBOOT]. Make sure to rename the 6.60 eboot to '''ofw.pbp''' .
+# if you have any plugins in the seplugin folder delete all of them now.
+# exit usb mode and choose to reset device.
+# power on again holding R trigger.
+# run the third option 'Run /PSP/GAME/RECOVERY/EBOOT.PBP'
+# press X to install ofw.
+# the Sony updater should now come up.
+# You're now back on 6.60 OFW. We recommend that you install Temporary CFW instead of a permapatch, since there is no chance of semi-bricking your PSP.
+
+=== Sources ===
+
+* [http://www.pspmod.com/forums/psp-guides-tutorials/72941-ultimate-psp-guide.html PSPMod - The Ultimate PSP Guide]

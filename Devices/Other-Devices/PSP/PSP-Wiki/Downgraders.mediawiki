@@ -1,0 +1,47 @@
+==PSP-1000 Downgraders==
+
+Since OFW 1.50 was supported by most homebrew applications, downgraders were created to send users back in time to this ancient firmware. As time went on, developers created custom firmware which gave users new features while supporting homebrew at the same time.
+
+The ultimate downgrader is, of course, the Pandora's Battery, which has it's own section.
+
+===Downgrader to 1.00===
+In July 2006 a downgrader was released, allowing 1.50 users to downgrade their PSPs to 1.00. This was a major breakthrough as people believed it would lead to custom firmwares on 1.50, which could allow 2.71+ features with 1.00 EBOOT execution. Many people did not attempt the downgrade, due to decreased compatibility of running homebrew with the older firmware, compared to 1.50.
+
+Using the 1.50>1.00 downgrader on a PSP with a TA-082+ motherboard will brick the PSP.
+
+===2.00===
+The first downgrader created for the PSP was one that would allow users of the 2.00 firmware version to go back to 1.50 using a tiff exploit in the PSP's photo section. This works by changing the version number in the firmware to 1.00 tricking the 1.50 update to think the PSP has a lower firmware than it actually has.
+
+===2.01===
+On 9 September 2006, another way of downgrading firmware 2.01 was released. It functioned in the exact same way as the 2.00 downgrade (swapping index.dat from flash0 to the index.dat from the 1.00 firmware, tricking the PSP into launching the 1.50 update EBOOT) however, it uses a later TIFF exploit (as the one used to downgrade firmware 2.00 was patched in 2.01)
+
+===2.50/2.60===
+On July 1, 2006, a fully functioning 2.50/2.60 to 1.50 downgrader was released. If the PSP had the TA-082 or TA-086 PCB, the downgrader would not work, and would "brick" the PSP.
+
+===2.71===
+This was released on September 01, 2006 by Dark AleX. This downgrader used an exploit that took advantage of the libtiff bug in the PSP.
+
+===2.71 (TA-082)===
+This was released on 27 December 2006 by Dark AleX, harleyg and Mathieulh and is similar to the 2.71 downgrader. This downgrader allowed the installation of 1.50 on TA-082 motherboards with 2.71 already installed was released. Previously, this was impossible due to an incompatibility with some IDstorage keys, attempting to write it would brick the PSP.
+
+===2.80===
+The first 2.80 downgrader was released by PSP developer 0okm on 23 December 2006. Many people at first thought that this experimental downgrader would brick PSPs. This was incorrect as many people reported back with success.
+
+On 24 December 2006, a 2.80 easy downgrader was released by csfreakno1 which had far better instructions, in both German & English, its interface also had improvements with its ease of use. The downgrading files it used were the same as 0okm's, but it was put together in such a way to make it more user-friendly. As of this date, the latest version is 0.3 and it has to be run from xLoader. It has been confirmed as working. There are still some improvements needed as it will brick a PSP if it is run from eLoader! (An unofficial leak was found on 23rd December, but this only featured German instructions, but it was still the same downgrader, but with different languages)
+
+On 2 January 2007, a 2.80 -> 2.71 downgrader for TA-082/TA-086 was released by 0okm, allowing PSPs in 2.80 to downgrade to 2.71 then use the Dark AleX TA-082 downgrader to downgrade to 1.50 firmware.
+
+Later the NOOBZ team released a port of Dark AleX's HEN and generic downgrader for firmware 2.80 which was safer than the previous downgraders for 2.80. This downgrader also features TA-082 downgrading by detecting if the motherboard is a TA-082 and change the IDStorage keys if needed before flashing the firmware.
+
+===3.03===
+It had been one month since the 2.71 downgrader and the next expected downgrader was for 2.81, but to everyone's surprise N00bz came out with the 3.03 downgrader. It required an unpatched version (with 2.0 firmware on it) of Grand Theft Auto: Liberty City Stories. This allowed anybody who owned a PSP, at the time, to downgrade to 1.5 and access homebrew.
+
+This exploit, known as the "Goofy" exploit, was also used in the early 2.50/2.60 downgraders, which Sony never patched properly in 3.03. It worked because Sony only patched save slots 1-7 which the user could choose from the Load Game menu. The only thing NOOBZ had to do was move the "hacked" save data to the 8th slot, which was the auto-load slot that was used by the game on startup to automatically load the last saved game.
+
+===3.11===
+In 9 September 2007, Fanjita and the Noobz! team created a 3.11 downgrader, using the Lumines exploit. This downgrader was made for PSPs with patched IdStorage that were unable to upgrade to firmware 3.50.
+
+===3.50===
+On 26 June 2007, the Noobz! team released a downgrader using the Illuminati (Lumines) Exploit and an undisclosed kernel exploit for firmware 3.50 PSPs.
+
+All firmwares up to 3.50 have the ability to downgrade, either through upgrading and downgrading, or straight downgrading. The PSP 1007 has not yet been proven to downgrade, and it is not known if it could cause a brick.
