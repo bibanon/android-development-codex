@@ -1,0 +1,139 @@
+==Custom firmwares==
+Custom firmwares used a subset of the commonly known 1.50 firmware to launch a newer firmware with homebrew capabilities, while newer custom firmwares use a custom IPL to launch the firmware and patch it. On firmwares with 1.50 kernel, some less used features are removed in newer versions including "LocationFree Player" and Korean fonts in order to save on internal memory. The firmware adds support for homebrew loading in addition to loading official Sony EBOOTs, integrating an ISO/CSO loader launched from the XMB game menu, and a recovery menu accessible upon boot-up.
+
+===1.50 Proof of Concept===
+In July 2006, a limited 1.50 custom firmware (named a proof of concept) was released by Dark AleX, allowing the execution of version 1.00 EBOOTs, access to a limited recovery mode, and ability to automatically load an application upon start. Other custom firmwares have since been released. Today, there are more developed versions such as "Casual V3" and the SE/OE/M33 firmwares.
+
+===2.71 SE (Special Edition)===
+On 8 October 2006 Dark AleX's custom firmware 2.71 SE-A was released, which utilizes the features of the 2.71 web browser, video features, RSS feeds, WMA capabilities and flash capabilities for the web browser as well as full 1.50 user and kernel homebrew usage and full 2.71 user and kernel homebrew, as well as adding a recovery mode for unbricking "semi-bricked" PSP from bad flashing etc.
+
+An update to this new custom firmware came out on the 24th of the same month. In this update the 2.71 SE-B the major feature is the loading of ISOs and CSOs from the game menu in the XMB. And just two days later was updated to 2.71 SE-B' which includes NO-UMD ISO loading. A few days later, 2.71 SE-B" was released. It allowed the ability to run 2.80+ games, including GTA VCS and it fixed some bugs found in 2.71 SE-B'. The latest version is 2.71 SE-C, which allows to load PRX files directly from the memory stick, enabling the option to safely add new functions to your PSP (like listening to MP3 files while showing photos).
+
+===Open Edition versions===
+
+===3.02 OE===
+On 21 December 2006 A new custom firmware called "3.02 OE-A" was released by Dark AleX. It contains the same features of 2.71 SE-C, but also includes all 3.02 features excluding the Location Free player and the Korean fonts. New features added to this custom firmware include WMA and Flash Player enabling through the Recovery Menu and cracking the DRM of the PSX emulator, allowing users to share PSX games to other PSP systems.
+
+On 25 December 2006. An update to the 3.02 OE-A Firmware was released called "3.02 OE-B." Its main feature was the ability to run PSX games from a memory stick using a ripping utility called "popstation" released alongside the new firmware.
+
+===3.03 OE===
+On 4 January 2007 The custom firmware "3.03 OE-A" was released by Dark AleX. It has the same features of 3.02 OE-B along with the ability to run compressed PSX games and support for custom manuals in PSX games. Later on 6 January 2007 3.03 OE-A' also known as 3.03 OE-A2 was released. A new feature in this release is the ability to change the CPU/Bus speed in UMD/ISO games.
+
+On 10 January 2007 A "3.03 OE-B" custom firmware was released by Dark AleX. This custom firmware required 3.03 OE-A/A' firmware to be installed first. A new feature in this release is the ability to play full screen (480 X 272) MP4-AVC videos.
+
+On 25 January 2007 Dark AleX released "3.03 OE-C" custom firmware. This was a major update and thus required a full install. Among the features are using WiFi at 333 MHz, maximum bit-rate limit of MP4-AVC videos is raised from 768 kbit/s to 16384 kbit/s (16 Mbit/s), ability to change the CPU/Bus speed of the XMB, faster cold-boot, as well as several other new features.
+
+===3.10 OE===
+On 4 February 2007 A "3.10 OE-A" custom firmware was released by Dark AleX, allowing screen brightness to the 4th level without having to connect the AC adapter along with the ability to run static ELF homebrew with the 3.10 kernel.
+
+On 6 February 2007 A "3.10 OE-A' / A2" custom firmware was released by Dark AleX, fixing a simple bug in the execution of PSP games including Metal Slug 6 and others. The bug was caused by the incorrect patching of a static ELF in some cases. This was only a minor update, however, and therefore was not needed by everyone running the custom firmware.
+
+===3.30 OE===
+3.30 OE-A was released on April 15, 2007 It offers all past features from other custom firmwares, such as all features (except LocationFree Player) built into the official 3.30, functionality as well as 1.50 features, such as ISO/CSO loading and homebrew support. A 3.30 OE-A' update was released on April 20, 2007 This release includes a fix to security bug that overwrites certain parts of the RAM and also reintroduces the auto-boot program feature
+
+===3.40 OE===
+3.40 OE was released on April 20, 2007 This release includes the same changes made in 3.30 OE-A' except it now uses the 3.40 firmware. It fixed a bug that caused data to be written to random addresses in the PSP's RAM. If the bug caused memory writes to certain kernel functions, the console could potentially be rendered unusable if those functions were accessed. Autoboot, which had been broken since 3.03 OE, was reimplemented. Improvements in the flasher were made to check that the correct DATA.DXAR file is used for an update, thus preventing people using incorrect firmware version data files from rendering their PSP units useless.
+
+===Increasing Edition versions===
+
+===1.62 IE Custom Firmware===
+In March 2007, user becus25 released 1.62 IE-A. The latest version is 1.62 IE-D. Like custom firmware 1.53, it is based on the 1.5 kernel. Earlier versions of 1.62 IE would often cause bricks when the flash was modified. But updates were soon released fixing the problem. Currently though, 1.62 IE is only compatible with TA-079 motherboards and will brick on TA-082 and later motherboards. Features are similar to other firmwares including recovery mode, autoboot, and flash access. becus25 has also modified the popular app by Booster, Devhook which allows firmwares to run from the memory stick, virtually removing the chance of bricking.
+
+===3.02 IE-A Custom Firmware===
+In July 2007, user becus25 released 3.02 IE-A which incorporated 3.02 OE with some improvements of IE. He later released an update which resolved certain bugs in the initial release.
+
+===3.40 IE Custom Firmware===
+In July 2007 becus25 released his modification of 3.40 OE which includes a new "recovery menu" to use along with the OE one, called 3.40 IE-A. Several days later, becus25 released 3.40 IE-A2, with less chance of bricking, and some bug fixes in the recovery menu. It was met with much negative feedback from the homebrew community, due to the fact that it was, essentially, useless. Because of this, as well as personal issues, becus25 quit making firmware and homebrew.
+
+===M33 versions===
+
+===3.51 M33===
+On July 14, 2007, Dark_AleX (under the pseudonym "Team M33", claiming to be a Russian hacking team) released a custom firmware called "3.51 M33". This custom firmware was, at the time, believed to be made by reverse engineering Dark AleX's custom firmwares, thus it includes all the original features of 3.XX-OE, but it runs 3.51 firmware, allowing users to play future games that will one day require 3.51 firmware.
+
+On July 18, 2007, Team M33 released an update called 3.51 M33-4. It added a new No-UMD ISO loading mode and added support for 1.50 plugin loading. It also included earlier bug fixes for ISO loading and WLAN. The next day, 3.51 M33-6 update was released. It added a new No-UMD ISO loading mode using the official ISO loader from Sony, bringing almost 100% No-UMD compatibility. To be compatible, the ISO/CSO in the memory stick has to have less than 56 characters. On July 21, 2007, 3.51 M33-7 was released, which included more bug fixes, mainly in the ISO-loading of various games, however also fixed brightness issues on TA-082/TA-086 motherboards when launching homebrew. A small WiFi patch was also included.
+
+===3.51 M33 Expansions and Patches===
+Several developers have released expansions for 3.51 M33 which feature bugfixes and added features. For example, one such expansion, 3.51 LE-A or "Light Edition" added support for dumping the BOOT.BIN file from UMDs and flash dumping.
+
+===3.52 M33===
+On July 25, 2007, Team M33 released an update to their custom firmware, dubbed 3.52 M33. This update now uses the 3.52 kernel and fixes a bug which prevented Go!Cam, GPS and sceKernelLoadExecVSH from working in GAME mode. It also improves No-UMD compatibility and allows official downloaded PSN titles to play properly, as these weren't supported by 3.51 M33 and some 3.XX OE custom firmwares.
+
+On July 30, 2007, Team M33 released the second edition of 3.52 M33, 3.52 M33-2. Changes are added to this Firmware, which includes; Wi-Fi can work properly now, Chinese is available in the language section, added "Format flash1 and restore settings" option under Advanced, speed option 20 and 100 are added under CPU Speed, PSP cannot be turned off or hibernate in USB mode. document.dat (game manual) can be read in PSX games (was not possible in the first version). The update has also fixed compatibility issues with IrShell (a popular homebrew program).
+
+On August 19, 2007, Team M33 released the third edition of 3.52 M33, 3.52 M33-3. Changes are added to this firmware, which includes: USB access to flash2 and flash3, added processor speeds 75 and 133, added vshmenu which can be used to dump UMDs or access other storage areas from recovery or by pressing menu on XMB, added support for UMD video ISOs, added support for popsloader 3.30. This update included a mechanism to cause the PSP to brick during updating if it detected the update had been modified, this was done in retaliation to the website ps3news rebranding the custom firmware releases as their own work. The website ps3news kept the bricking update on their website for more than 24 hours while censoring forum comments reporting bricked PSPs caused by the modified update.
+
+On August 21, 2007, Team M33 released the fourth edition of 3.52 M33, 3.52 M33-4. Changes are added to this firmware, which includes mainly bugfixes: Fixed the bug that caused CRC error when writing to flash USB in the XMB. The new speeds added in the third edition (75 MHz and 133 MHz) are actually accessible now via the vshmenu and core as they were (and still are) missing in the recovery menu.
+
+===3.60 M33===
+On September 10, 2007 Team M33 released custom firmware 3.60 M33 for the PSP Slim. It was released after the NAND of the PSP Slim was dumped. This was the first custom firmware that booted without using a 1.50 subset due the the new ability to boot a custom IPL.
+
+Due to incompatibilities with the new motherboard, 3.60 M33 does not contain a 1.50 kernel and thus cannot run homebrew written for 1.50. Currently it can only run homebrew made for the 3.60 kernel but Team M33 stated they would make it compatible with 2.xx kernel homebrew in the near future (Team n00bz later released eLoader 1.000 which could run most homebrew requiring the 1.50 kernel on the PSP Slim).
+
+3.60 M33 is installed by using a modified version of Pandora's Battery. Special files are written to the "magic" memory stick that is used in conjunction with the battery.
+
+===3.71 M33===
+On September 20, 2007, Team M33 announced that they would be taking "a break", due to the OE leak. The break didn't last long however, and Team M33 (who was revealed to be Dark_AleX along with a group of members) released 3.71 M33 on September 23, 2007 for the original PSP-1000 and the PSP Slim PSP-2000. Once again, 1.50 homebrew is incompatible on the slim, but a kernel patch has been released for the PSP-1000 allowing execution of 1.50 kernel mode homebrew. Also, due to kernel changes in the original firmware, many plugins made for previous firmwares are incompatible. A version 2 of both the 3.71 M33 and the 1.50 add-on were released on October 2, 2007. It fixed some bugs in the previous firmware. On November 8, 2007, Dark_AleX (Team M33) released version 3 of 3.71 again featuring various bug fixes along with an updater POPSloader to include POPS from FW3.71 and FW3.72. On December 12, 2007, Dark_Alex released update 4 for FW3.71 along with a new multi-disc popsloader.
+
+===3.80 M33===
+On January 14, 2008, Team M33 released the 3.80 M33 Custom Firmware . This update features a new network update feature that when enabled will check for M33 firmware updates. When the feature is disabled through the recovery menu, the network update feature operates as it normally does checking for Sony firmware updates. The update also included a "NID Resolver" to improve compatibility of code calling kernel mode functions by re-mapping the old kernel NIDs to the new kernel NIDs. Team M33 also released update 2 on the same day which fixes the scePowerGetClockFrequencyInt NID not being resolved properly. Update 2 additionally fixes a problem with the way PSX eboot icons are displayed if they are 80x80 pixels. a 1.50 Kernel update was also released.
+
+Update 3 was released on January 16, 2008; It fixed a synchronization issue that the plugins check code cause in PSN NP9660 original games. Additional libraries were added to the NID resolver and some internal changes required for the new version of the popsloader which was released on the same day. Update 4 was released on the same day to address a quick bugfix, galaxy.prx was updated because it was causing a problem with slow memory sticks.
+
+Update 5 was released on January 20, 2008; This update fixed an issue where custom CPU clock speed would not be set for games that restart using sceKernelLoadExec (e.g. Castlevania). Additionally an option was added to recovery to hide PIC0.PNG and PIC1.PNG from the XMB, this can improve speed when browsing the games list in XMB.
+
+===3.90 M33===
+3.90 M33 was released on January 31, 2008. This new firmware uses the 3.90 kernel and includes a bug fix for M33 NO UMD. The installer was also improved with the ability to download the 3.90.PBP file as returning a way for the user to bypass the battery check during updating. The 1.50 kernel add-on for PSP-1000 was also released the same day. An update for the M33 version was released on February 08, 2008.
+
+Update 2 was released on February 13, 2008. It involved improvements in plugins loading code which fixed some problems with problematic cards due to filesystem not getting mounted. Also rest of the regions were added to the recovery fake region. Changes were also made in the updater which allowed for stable and faster reading from memory stick. Update 2 also paved the way for the TimeMachine NAND boot by fixing the Pandora Battery IPL bug in the slim, which wouldn't load from NAND if a Pandora battery was inserted. So now, you can boot normally with a Pandora battery on both the fat and slim PSP.
+
+Update 3 Was released on March 30, 2008. This plugin did not include any major update but expands compatibility with the M33 NO-UMD Driver. PSP users with 3.80 M33 or above can install Update 3 by accessing Network Upgrade on their PSPs, Feature added in recent Firmwares . Official Changelog: March33 NO-UMD driver compatibility has increased to support games like Coded Arms, Patapon, Innocent Life: A Futuristic Harvest Moon, and several other titles. Also, when the date on the PSP is set to April 2, the PSP registers the date as March 33 and the waves in the background move faster. The nickname is displayed as "March 33" and the MAC Address is displayed as "33:33:33:33:33:33" under System Information. This was added to celebrate the one year anniversary of Team M33.
+
+===4.01 M33===
+4.01 M33 was released on June 28th, 2008. This new firmware allows the translation of the recovery menu, in addition to a camera-related bug fix. On June 29th, 2008, an update was released fixing various bugs. An experimental plug-in was also released by Dark Alex for the PSP Slim & Lite on July 2nd, 2008 which allowed unencrypted savestates.
+
+===HX versions===
+
+===3.72HX-1===
+On November 06, 2007, homebrew developer "_HellDashX_" released the 3.72HX-1 custom firmware. This custom firmware was made by reverse engineering Dark_AleX's 3.71 M33-2 and the adapting it to the 3.72 firmware. It contains all features from 3.71 M33-2 except the 1.50 kernel extension, which was released shortly after. Also a version 2 called 3.72HX-2 has now been released.
+
+===3.73HX-1===
+On November 30, 2007, "_HellDashX_" issued a statement that 3.73 HX-1 was created and released on December 12, 2007.
+
+This firmware will have access to the official PSP features and changes, as well the “custom” factor enabling homebrew, etc
+
+===Other custom firmwares===
+
+===1.53 Custom Firmware===
+On 19 February 2007 A custom firmware was released by Eiffel56. This firmware was called 1.53 to avoid confusion between the official 1.51 and 1.52 firmwares compared to this custom version. This version is built for firmware 1.50 loyalists as not every user wished to upgrade to the SE or OE firmwares. This firmware offered many features offered in the 1.50 Proof of Concept firmware by Dark AleX such as a limited recovery mode, autoboot option, custom PRX loading, launching 1.00 Homebrew eBoots, hiding corrupt data icons and starting ISO files from the XMB.
+
+===3.40* LE (Leaked Edition)===
+On August 08, 2007 Team Wildcard released a reverse engineered version to the OE Custom firmware source code. The firmware was released after it was leaked from Team Wildcard's servers. The firmware contains all the features of 3.40 OE but contains features such as a new recovery menu and in XMB recovery access. Many users complained, since it was not 100% complete, it contained many bugs and glitches. The vast majority of the bugs were addressed in subsequent patches to the original firmware, which also added features such as the automatic detection of which kernel should be used to run a program. The fact the firmware was leaked meant that Sony could look at the code the firmware hackers use and make it more difficult for them in the future.
+
+===1.50 UE===
+On 12 January 2008 DeathCradle made a Custom Firmware based on Dark_AleX's 1.50 Proof Of Concept, This Custom Firmware provided a new Recovery, with access to flash0, Flash1 & ms0 (Memory Stick) via USB. It also featured everything of Dark_AleX's 1.50 Proof Of Concept and was also made to take the building pressure off of Team M33. It also provided the use of 1.00 Eboots to run and the original 1.50 Eboots.
+
+===3.93 M33 Unofficial===
+Yellow_Rain released a "patch" to 3.90 M33-2 on March 21, 2008, which adds the features of 3.93 to 3.90 M33. However, there were some issues with Yellow_Rain using the M33 name.
+
+===GEN Firmware===
+
+===CFW 3.93===
+On April 26, 2008 an unknown developer released 3.93 CFW on pspgen.com. This CFW was made with permission from Dark_AleX and others. According to the readme, this CFW now uses the 3.93 kernel, and has added several features. These are the ability to access recovery from the XMB, the ability to make a Pandora Battery (convert/revert battery) from recovery, save savedata in its normal, unencrypted state, and the ability to hide the PSP Mac Address in the XMB. (Changing it to all 0's)
+
+Although with the approval of Dark_AleX and Math, a few bugs has arisen. These are minor bugs and do not affect the firmware in any way. Sometimes, the Hide Pic0 in Game Menu and the Hide Mac Address options does not always work. This would require a user to reset their devices in order for it to be fully functional. Also, the CXMB 3.1 plugin cannot work with the Hide Mac Address option from the Recovery-Vsh Menu as it will freeze the System sub-menus in the XMB.
+
+However, the firmware has been tested and 3.90 flash0 themes as well as CXMB are known to work properly. Also, the 3.90 IRShell patch can be successfully done enabling users to fully unlock the potential of IRShell.
+
+A day later on April 27, 2008, a 1.50 Kernel Addon was released.
+
+On May 3, 2008, an new Update (named Update 2) has been made available. Update 2 fixed a bug in the Sony's OSK where pressing SELECT while it was up would freeze the system. Also, Hellcat's Savegame Deemer was removed. However, it can still be used as an ordinary plugin.
+
+===3.95 GEN===
+3.95 GEN is a custom firmware developed by Miriam of PSP-GEN. 3.95 GEN was released on June 01, 2008 at 01:00 pm, (GMT + 1) after being delayed due to server issues. During the delay, Miriam managed to work out most bugs that had existed before the release. This included fixing the Phat's memory limitations, and enabling popsloader to work where it has not previously worked before... The newly added features to 3.95 GEN included vsh-recovery where the recovery menu can be bought up from the XMB. The new recovery menu uses the standard M33 recovery and adds more features such as Pandora Battery creation tools, the ability to hide the MAC Address in the XMB, USB to the UMD. Also, the configuration of Network Update can be changed to search for updates for either GEN firmwares, M33 firmwares, or Sony's official firmwares. Outside of the firmware, the ipl for Slims is patched so units can boot up with a Pandora Battery, as well as load TimeMachine. Popsloader and PSX emulation is fixed and works as long as a user uses the 'popsloader.prx' file included in the download.
+
+The use of the Sony updater is still present. However, the battery check, and IDStorage Key checks still exists. However, the ability to download the '395.PBP' from the Internet does not exist anymore.
+
+As nids has changed from 3.90/3.93 to 3.95, some plugins may or may not work. Also, the MS read times seemed to be addressed by either Sony or Miriam in this release, as the PSP can read data from the MS in the XMB faster than on 3.80/3.90, even with the 3.71 fatmsmod.prx patch included. Some homebrew such as irShell and NervOS cannot fully work.
+
+===3.95 GEN-2===
+On June 6, 2008, Miriam released 3.95 GEN-2. 3.95 GEN-2 included fixed some of the known bug fixes within the firmware. This update fixed the bug where the PSP will act bricked if the user tried to access the vshMenu when it was turned off from recovery. Also, homebrew compatibility on both the Phat and Slim were increased, and some homebrew such as the latest SNES emulator worked again. On top of that, Phat users were able to use popsloader again since the memory limitation has been addressed and fixed. However, some bugs such as the .at3 file not playing while selecting homebrew and PSP ISOs do not play while on PSX games they do.

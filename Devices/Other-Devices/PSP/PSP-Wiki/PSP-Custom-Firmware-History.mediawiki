@@ -1,0 +1,400 @@
+<!--This article was flush full of original research, unverifiable content and other problems prior.-->
+
+{{Mergefrom|Dark Alex|date=August 2008}}
+[[Image:PSP-Homebrew.jpeg|thumb|300px|HelloWorld Homebrew]]
+'''PlayStation Portable homebrew''' refers to the process of using [[Exploit (computer security)|exploit]]s and [[Hack (technology)|hacks]] to execute [[unsigned code]] on the [[PlayStation Portable]] (PSP).
+
+==Motivation for homebrew==
+Hackers have stated that the motivation for [[unlocking]] the PSP has nothing to do with [[Copyright infringement|piracy]], but allowing individuals full access to the products they've purchased and the freedom to do what they want with the item as well as the interest in exploring something unknown.<ref name="tapping">{{citeweb|title=Tapping into Tinkering|url=http://www.washingtonpost.com/wp-dyn/content/article/2005/07/11/AR2005071101638_2.html|date=2005-07-12|accessdate=2008-07-22|author=Mike Musgrove|publisher=The Washington Post}}</ref><ref name="BusinessWeek" /> Fanjita, a member of the hacker group "N00bz!", stated: ''"Everyone has the right to do what they want with their own hardware. Piracy does upset me, and because what we are doing opens the way to piracy it's harder to justify it morally. But our stance on piracy is clear, and we hope to be role models. Sony have never been in touch with me, so I am confident that what we are doing is legal."''<ref name="hackerteam">{{citeweb|title=Three hacker teams unlock the PSP|url=http://news.bbc.co.uk/2/hi/technology/6397797.stm#chart|accessdate=2008-07-21|date=2007-02-26|author=Paul Rubens|publisher=BBC}}</ref> Additional features added including the ability to share music, print photos and run additional video formats originally unsupported by the device<ref name="BusinessWeek"/>
+
+==Sony's position==
+Sony has told the media that any issues resulting from running modified code on the device would void the warranty.<ref name="reuters" /><ref name="BusinessWeek" /> They have also stated that the problem is not with homebrew but piracy.<ref name="hackerteam" /> However their constant firmware updates are seen as attempts to hamper homebrew development.<ref name="eetimes">{{citeweb|title=Under the Hood: Sony Playstation Portable slims down|url=http://www.eetimes.com/news/semi/showArticle.jhtml?articleID=204200248|date=2007-11-20|accessdate=2008-07-22|author=Gregory A. Quirk|publisher=EETimes}}</ref> This hampering could do the attempts to curb piracy more harm than good.<ref name="tapping" />
+
+==History of homebrew on PSP==
+Soon after the PSP was released [[Hacker (hobbyist)|hackers]] began to discover exploits in the PSP that could be used to run unsigned code on the device. [[Sony]] released version 1.51 of the PSP [[firmware]] in [[May 2005]] to plug the holes that hackers were using to gain access to the device.<ref name="reuters">{{citeweb|title=Sony battles hackers over hijacked games|url=http://www.newindpress.com/NewsItems.asp?ID=IEN20050706033455&Page=N&Title=Infotech&Topic=0|accessdate=2008-07-21|date=2005-07-06|publisher=Reuters}}</ref> On [[June 15]] [[2005]] the hackers distributed the [[Software cracking|crack]]ed code of the PSP on the [[internet]]. Hackers refused to apply updates which would render their hacks unusable so Sony attempted to convince users that there was a benefit to upgrading by including new features in the firmware updates, such as a [[web browser]], and not just security patches to plug the vulnerabilities. [[BusinessWeek]] dubbed this the "carrot-and-stick" approach.<ref name="BusinessWeek">{{citeweb|title=Attack of the Playstation Hackers|url=http://www.businessweek.com/technology/content/dec2005/tc20051230_356459.htm|date=2005-12-01|accessdate=2008-07-21|author=Kenji Hall|publisher=BusinessWeek}}</ref>
+ 
+In [[August 2005]] Sony released version 2.0 of the firmware which included the web browser, file compatibility updates and other features.<ref>{{citeweb|title=Playstation.com - Support - System Updates - psp|url=http://www.us.playstation.com/support/systemupdates/psp/history.html#update200}}</ref> Hackers and other homebrew enthusiasts then encountered the first [[Trojan horse (computing)|trojan]] for the PSP. [[Symantec]] called this trojan "Trojan.PSPBrick". Users attempting to [[downgrade]] their PSP using this software instead found that is was rendered inoperable as this software deleted important system files.<ref>{{citeweb|title=Trojan Trashes Playstation Portable|url=http://www.pcworld.com/article/122915/trojan_trashes_playstation_portable.html|date=2005-10-08|accessdate=2008-07-22|author=Robert McMillan|publisher=PC World}}</ref> Over the course of 2005 Sony released six different versions of the firmware and hackers typically responded to it by downgrading to avoid the new security updates.<ref name="BusinessWeek" />
+
+In Mid-[[2006]], after several months of problems in defeating the PSP's firmware a file was posted online which allowed new PSPs running firmware version 2.6 to downgrade to 1.5 so they could then be hacked using older methods. This reportedly caused more [[Word_of_mouth#Word_of_mouth_marketing_.28WOMM.29|buzz]] in the community than any recent official offerings for the device.<ref name="routine>{{citeweb|title=Routine Upgrades Are the Bane of 'Homebrew' Enthusiasts|url=http://www.washingtonpost.com/wp-dyn/content/article/2006/07/05/AR2006070501627.html|date=2006-06-06|accessdate=2008-07-28|author=Mike Musgrove|publisher=The Washington Post}}</ref>
+
+One of the drawbacks of downgrading the PSP is that new legitimate media may require the presence of a new firmware edition. A hacker by the name of [[Dark Alex]] had released a custom firmware called "Dark Alex's Open Edition firmware" which opens the firmware but allows users to use the existing feature set of the current edition. Sony quickly patched the firmware again, continuing the carrot-and-stick game with the hackers and users.<ref name="hackerteam" /> In 2006 Sony released six editions of the firmware and in [[2007]] they released another six editions.
+
+
+On April 17th, 2005, a DNS redirection trick was discovered in the content-downloading feature of the game Wipeout Pure that allowed regular HTML web pages to be displayed in place of the official website. Using this trick, and with a bit of guesswork, hackers spotted that navigating to addresses such as file:///disc0:/ would allow files from the UMD to be viewed. Further exploration of a UMD disc using this method led to the discovery of the format of the executables that the PSP uses. Using a dumped PSP system ROM image, and the knowledge discovered from the Wipeout disc, the layout of the executable format was successfully reverse-engineered by a hacker named "NEM" and the "Saturn Expedition Committee" group.
+
+In May of the same year, PSPs using the 1.00 version of the firmware were able to execute unsigned code packed in the same format as the EBOOT.BIN executable from Wipeout Pure, but from the /PSP/GAME folder on a Memory Stick. This meant that PSPs could be used to run homebrew software, as there was no mechanism to check if the code had been digitally signed by Sony in this firmware revision. This is similar to the PlayStation and PlayStation 2 consoles, which were missing many security features in their first revisions. A proof-of-concept "Hello World" was released to demonstrate this flaw. This lead to the development of a number of homebrew software programs, which were all built with a customized version of the GNU GCC and GNU Binutils modified to produce code for the PS2 and PSP (MIPS processor devices).
+
+In addition, it became possible to dump Universal Media Discs (UMDs) using a homebrew technique. These dumped UMD images could be written to a Memory Stick Duo and executed, performing in almost exactly the same way as if they were being read from a UMD disc.
+
+===1.50 homebrew===
+Version 1.50 of the PSP firmware, the original version shipped with non-Japanese PSPs, introduced new security measures that attempted to block the execution of homebrew software. However, in June of 2005, hackers discovered a method to run unsigned code on version 1.50. The discovery allowed early PSP adopters to run homebrew, which quickly led to articles on PSP homebrew appearing in mainstream media outlets.[1]
+
+Two ways were developed to run unsigned code; first, through the use of an exploit known as "Swaploit", and later, via the safer 'KXPloit' method.
+
+===Swaploit===
+Swaploit was released on June 15, 2005. It was created by a Spanish team and involved swapping two Memory Sticks after attempting to launch a homebrew program, before the firmware had a chance to detect the missing Memory Stick and thus return to the XMB with an error. On one Memory Stick was an EBOOT.PBP file containing metadata such as the program title and logo; on the second Memory Stick, in the same path as the first EBOOT.PBP, there was a second EBOOT.PBP containing only the program code. There were reports of failing memory sticks using this method, but none have been verified.[citation needed]
+
+===KXploit===
+KXploit was released on June 22, 2005. Developed by the Spanish Killer-X, KXploit exploited a misuse of the sprintf function of the PSP by having another folder named exactly the same with a percentage sign after the file name - for example, 'game' and 'game%'. The folder with the percent sign in its name contained the same sort of EBOOT as the first Memory Stick in the Swaploit exploit, while the folder without the percent sign contained the same sort of EBOOT as the second Memory Stick in said exploit. The problem with this exploit was that, when displayed in the XMB's Game menu, the folder without the percent sign would appear as a corrupted data icon alongside the icon for the program. This is because the EBOOT in the folder without a percent sign contained no metadata, only program code, and therefore could not be interpreted as a proper EBOOT by the XMB. However, this was shortly overcome by using two tricks. One exploited the FAT16 system of the memory stick by using folders with long names, and the other involved putting __SCE__ before the name of the folder containing the program code and %__SCE__ before the name of the folder containing the metadata (with the percentage sign at the end removed). Both tricks caused the corrupted data to disappear from the Game menu, while still allowing the EBOOT to be executed. Tools such as PSP Brew and Sei PSP Tool were later created that allowed the user to automatically hide the corrupted data and organize installed homebrew programs.
+
+===No-KXploit Patch===
+Some homebrew users complained about the need for two folders and the corrupted data icons. While there were ways to hide the icons, they could be a nuisance to new PSP homebrew users. On April 10, 2006, the No-KXploit patch was released, which patched the PSP's firmware in memory to allow non-KXploited homebrew to be executed directly. The No-KXploit patch itself required the use of KXploit for its execution. After being installed once, the patch would remain resident as long as the PSP did not lose power or undergo a full reboot.
+
+The patch originally did not modify the firmware of the PSP or write to the flash. However, a new version was eventually released which modified the PSP's system files permanently so that the program only had to be run once.
+
+===2.00 homebrew===
+Seeing that not many people were updating their PSPs to 1.51 or 1.52 (which were mainly security patches designed to defeat Swaploit and KXploit), Sony released an update with features that would give people an incentive to update. The main feature was an official web browser, revealed at the 2005 PlayStation Meeting on June 20, 2005. The Japanese version of the update was released a week later, on June 27, 2005. In addition to a web browser, it also had support for high-quality MPEG-4 AVC video and the ability to change the wallpaper. As version 2.00 contained a web browser, it became possible to write web-based programs that would take advantage of the PSP's HTML rendering ability, and its new found ability to connect to a server on a wireless network.
+
+On September 23, 2005, a buffer overrun was discovered in the image rendering libraries of version 2.00 which allowed the execution of an unsigned binary file. The method involved the user opening a specially-crafted TIFF file from the Photo menu of the XMB. When the image was accessed, the exploit was triggered and program file was loaded.
+
+Two days later, the first "Hello World" program was released. The size of the binary that could be loaded was limited to 64kb, and the PSP could not yet read unencrypted ELF files, so further experimentation was required before the more popular homebrew applications could be run. A day later, the first playable game using the exploit was released, titled "TIFF Pong 2.00".
+
+Various developers used this exploit to create downgraders, which allowed version 2.00 users to run the version 1.50 update program and reinstall the older, less secure firmware. A PSP developer by the name of Fanjita created a program called eLoader using the same exploit, which allowed the user to run unsigned user mode homebrew launched from a menu. This was an alternative to downgrading the PSP to version 1.50 using the popular MPH Downgrader.
+
+===2.01 - 2.60 homebrew===
+Moving quickly to fix this exploit, Sony released firmware version 2.01 on October 3, 2005. This was only a security update and offered no new features.
+
+On September 28, 2005, Cheat Device was released for Grand Theft Auto: Liberty City Stories which used a buffer overflow available during the loading of saved game data. It ran in the background of Grand Theft Auto: Liberty City Stories, allowing for various cheats to be used in the game, such as infinite health and the ability to "spawn" any of the vehicles in the game. Based on the proof-of-concept provided by the Cheat Device, a "Hello World" was created in December of 2005. A day later, the first playable homebrew for version 2.01 was released, titled "Tetris for Firmware 2.01".
+
+Two days later, the exploit was released for firmware versions 2.50 and 2.60, leading to the creation of Tetris for these versions. An SDK was later released so that other developers could write their own software using the exploit. In January of 2006, versions of Fanjita's eLoader which supported version 2.01 and later version 2.60 were released. On April 2, 2006, due to the discovery of a function that allowed eLoader to initialize the WiFi hardware without access to kernel mode code execution, WiFi connectivity was enabled.
+
+On June 27, 2006, another exploit was discovered in firmware versions 2.50 and 2.60 that allowed for kernel mode code to be utilized. Though the exploit was in the firmware itself, Grand Theft Auto: Liberty City Stories was still required to run the initial code. The exploit took advantage of another buffer overflow bug that was added when Sony included an additional security check in the 2.50 firmware.
+
+Furthermore, during June 2006, Rockstar started shipping a version of Grand Theft Auto: Liberty City Stories that patched the buffer overflow exploit. The patched UMD also contains a compulsory upgrade to firmware version 2.60. In the PAL regions, the new disc was easily recognizable due to a new serial number and graphical layout.
+
+On August 21, 2006 homebrew execution became possible on versions 2.00 through 2.80 due to another TIFF image exploit, this removing the requirement of Grand Theft Auto: Liberty City Stories. Contrary to popular belief, the exploit itself did not allow code to be directly executed in kernel mode, but through an exploit present in the sceKernelLoadExec command present in versions 2.50 through 2.71. This kernel mode exploit was fixed in version 2.80.
+
+On September 5, 2006, an EBOOT loader that used the new TIFF exploit was released for firmware versions 2.00 through 2.60. It still had the same compatibility problems as previous versions of eLoader, due to its restriction to executing only user mode code.
+
+===2.70 - 2.71 homebrew===
+On April 25, 2006, Sony released firmware version 2.70, which patched the exploit in Grand Theft Auto: Liberty City Stories. Version 2.70 also brought support for Macromedia Flash, leading to the creation of a number of PSP Flash games. Various Flash portals were released to allow flash games and applications to be run from a single location without adding them all as bookmarks.
+
+Throughout September 2006, hackers released downgraders and homebrew loaders for firmware version 2.71, using the second TIFF image exploit previously mentioned.
+
+===2.80 homebrew===
+On September 12, 2006, Tetris for firmware 2.80 was released, along with an SDK for creating homebrew that could run on version 2.80 using the second TIFF exploit. This was followed just hours later by TIFF pong, and two days later by more TIFF homebrew. Later the Noobz hacker team released version 0.995 of eLoader (also known as eLoader "Kriek"), which added support for version 2.80. New with this version was xLoader, a program which allowed homebrew EBOOTs to be executed from the Game menu on version 2.80.
+
+On December 20, 2006, a new exploit that enabled kernel mode code execution in version 2.80 was found by Team C+D and a proof of concept program was released. This eventually lead to the development of a downgrader for version 2.80.
+
+===2.81 - 3.03 homebrew===
+On January 25, 2007, a user-mode exploit was discovered which affected PSP firmware versions 2.00 through 3.03. A "Hello World" application, called the Goofy Exploit, was subsequently released by the Noobz team, proving that unsigned code could be run on a PSP running version 2.81 or higher. The exploit requires a non-patched copy of the Grand Theft Auto: Liberty City Stories UMD. It was a variation of the old Grand Theft Auto: Liberty City Stories exploit, taking advantage of the fact that Sony's patch only affected the save slots numbered 0 - 7; however, the game's auto-load feature would also load saved games from slots 8 and 9, allowing the same exploit to be used if it was stored in either of these 2 slots.
+
+On January 28, 2007, the Noobz team released the 3.03 Homebrew Enabler, or HEN, for users of firmware version 3.03 who did not wish to downgrade but wanted the benefits of homebrew on their system. This also required the use of a non-patched copy of the Grand Theft Auto: Liberty City Stories UMD.
+
+===3.10 - 3.50 homebrew===
+On June 23, 2007, a new exploit that worked on all firmwares up to version 3.50 was made public. This exploit, called the "Illuminati exploit", required a copy of the game Lumines. Three days later, Noobz made a downgrader using this exploit. In Japan, some versions of Lumines have been patched and now include the 3.51 firmware update, which patched this exploit.
+
+===3.51+ homebrew===
+A Pandora's Battery is required to run homebrew software on a PSP currently running firmwares 3.51 or above. This is because, as of yet, no exploits from these firmwares that could lead to homebrew execution or downgraders have been made public. An alternative to homebrew games is Flash Games.
+
+==Firmware decryption==
+Firmware decryption allows disassembling firmware modules, which in turn allows custom hybrid firmwares to be made, such as the SE/OE/M33 firmwares made by Dark_AleX, and for firmware emulation using Booster's DevHook. Decryption of firmwares is different from being able to downgrade them; decryption allows developers to search through the firmware's system files to look for possible exploits in the code, but decryption on its own does not lead to a downgrader.
+
+==Custom firmwares==
+Custom firmwares used a subset of the commonly known 1.50 firmware to launch a newer firmware with homebrew capabilities, while newer custom firmwares use a custom IPL to launch the firmware and patch it. On firmwares with 1.50 kernel, some less used features are removed in newer versions including "LocationFree Player" and Korean fonts in order to save on internal memory. The firmware adds support for homebrew loading in addition to loading official Sony EBOOTs, integrating an ISO/CSO loader launched from the XMB game menu, and a recovery menu accessible upon boot-up.
+
+===1.50 Proof of Concept===
+In July 2006, a limited 1.50 custom firmware (named a proof of concept) was released by Dark AleX, allowing the execution of version 1.00 EBOOTs, access to a limited recovery mode, and ability to automatically load an application upon start. Other custom firmwares have since been released. Today, there are more developed versions such as "Casual V3" and the SE/OE/M33 firmwares.
+
+===2.71 SE (Special Edition)===
+On 8 October 2006 Dark AleX's custom firmware 2.71 SE-A was released, which utilizes the features of the 2.71 web browser, video features, RSS feeds, WMA capabilities and flash capabilities for the web browser as well as full 1.50 user and kernel homebrew usage and full 2.71 user and kernel homebrew, as well as adding a recovery mode for unbricking "semi-bricked" PSP from bad flashing etc.
+
+An update to this new custom firmware came out on the 24th of the same month. In this update the 2.71 SE-B the major feature is the loading of ISOs and CSOs from the game menu in the XMB. And just two days later was updated to 2.71 SE-B' which includes NO-UMD ISO loading. A few days later, 2.71 SE-B" was released. It allowed the ability to run 2.80+ games, including GTA VCS and it fixed some bugs found in 2.71 SE-B'. The latest version is 2.71 SE-C, which allows to load PRX files directly from the memory stick, enabling the option to safely add new functions to your PSP (like listening to MP3 files while showing photos).
+
+===Open Edition versions===
+
+===3.02 OE===
+On 21 December 2006 A new custom firmware called "3.02 OE-A" was released by Dark AleX. It contains the same features of 2.71 SE-C, but also includes all 3.02 features excluding the Location Free player and the Korean fonts. New features added to this custom firmware include WMA and Flash Player enabling through the Recovery Menu and cracking the DRM of the PSX emulator, allowing users to share PSX games to other PSP systems.
+
+On 25 December 2006. An update to the 3.02 OE-A Firmware was released called "3.02 OE-B." Its main feature was the ability to run PSX games from a memory stick using a ripping utility called "popstation" released alongside the new firmware.
+
+===3.03 OE===
+On 4 January 2007 The custom firmware "3.03 OE-A" was released by Dark AleX. It has the same features of 3.02 OE-B along with the ability to run compressed PSX games and support for custom manuals in PSX games. Later on 6 January 2007 3.03 OE-A' also known as 3.03 OE-A2 was released. A new feature in this release is the ability to change the CPU/Bus speed in UMD/ISO games.
+
+On 10 January 2007 A "3.03 OE-B" custom firmware was released by Dark AleX. This custom firmware required 3.03 OE-A/A' firmware to be installed first. A new feature in this release is the ability to play full screen (480 X 272) MP4-AVC videos.
+
+On 25 January 2007 Dark AleX released "3.03 OE-C" custom firmware. This was a major update and thus required a full install. Among the features are using WiFi at 333 MHz, maximum bit-rate limit of MP4-AVC videos is raised from 768 kbit/s to 16384 kbit/s (16 Mbit/s), ability to change the CPU/Bus speed of the XMB, faster cold-boot, as well as several other new features.
+
+===3.10 OE===
+On 4 February 2007 A "3.10 OE-A" custom firmware was released by Dark AleX, allowing screen brightness to the 4th level without having to connect the AC adapter along with the ability to run static ELF homebrew with the 3.10 kernel.
+
+On 6 February 2007 A "3.10 OE-A' / A2" custom firmware was released by Dark AleX, fixing a simple bug in the execution of PSP games including Metal Slug 6 and others. The bug was caused by the incorrect patching of a static ELF in some cases. This was only a minor update, however, and therefore was not needed by everyone running the custom firmware.
+
+===3.30 OE===
+3.30 OE-A was released on April 15, 2007 It offers all past features from other custom firmwares, such as all features (except LocationFree Player) built into the official 3.30, functionality as well as 1.50 features, such as ISO/CSO loading and homebrew support. A 3.30 OE-A' update was released on April 20, 2007 This release includes a fix to security bug that overwrites certain parts of the RAM and also reintroduces the auto-boot program feature
+
+===3.40 OE===
+3.40 OE was released on April 20, 2007 This release includes the same changes made in 3.30 OE-A' except it now uses the 3.40 firmware. It fixed a bug that caused data to be written to random addresses in the PSP's RAM. If the bug caused memory writes to certain kernel functions, the console could potentially be rendered unusable if those functions were accessed. Autoboot, which had been broken since 3.03 OE, was reimplemented. Improvements in the flasher were made to check that the correct DATA.DXAR file is used for an update, thus preventing people using incorrect firmware version data files from rendering their PSP units useless.
+
+===Increasing Edition versions===
+
+===1.62 IE Custom Firmware===
+In March 2007, user becus25 released 1.62 IE-A. The latest version is 1.62 IE-D. Like custom firmware 1.53, it is based on the 1.5 kernel. Earlier versions of 1.62 IE would often cause bricks when the flash was modified. But updates were soon released fixing the problem. Currently though, 1.62 IE is only compatible with TA-079 motherboards and will brick on TA-082 and later motherboards. Features are similar to other firmwares including recovery mode, autoboot, and flash access. becus25 has also modified the popular app by Booster, Devhook which allows firmwares to run from the memory stick, virtually removing the chance of bricking.
+
+===3.02 IE-A Custom Firmware===
+In July 2007, user becus25 released 3.02 IE-A which incorporated 3.02 OE with some improvements of IE. He later released an update which resolved certain bugs in the initial release.
+
+===3.40 IE Custom Firmware===
+In July 2007 becus25 released his modification of 3.40 OE which includes a new "recovery menu" to use along with the OE one, called 3.40 IE-A. Several days later, becus25 released 3.40 IE-A2, with less chance of bricking, and some bug fixes in the recovery menu. It was met with much negative feedback from the homebrew community, due to the fact that it was, essentially, useless. Because of this, as well as personal issues, becus25 quit making firmware and homebrew.
+
+===M33 versions===
+
+===3.51 M33===
+On July 14, 2007, Dark_AleX (under the pseudonym "Team M33", claiming to be a Russian hacking team) released a custom firmware called "3.51 M33". This custom firmware was, at the time, believed to be made by reverse engineering Dark AleX's custom firmwares, thus it includes all the original features of 3.XX-OE, but it runs 3.51 firmware, allowing users to play future games that will one day require 3.51 firmware.
+
+On July 18, 2007, Team M33 released an update called 3.51 M33-4. It added a new No-UMD ISO loading mode and added support for 1.50 plugin loading. It also included earlier bug fixes for ISO loading and WLAN. The next day, 3.51 M33-6 update was released. It added a new No-UMD ISO loading mode using the official ISO loader from Sony, bringing almost 100% No-UMD compatibility. To be compatible, the ISO/CSO in the memory stick has to have less than 56 characters. On July 21, 2007, 3.51 M33-7 was released, which included more bug fixes, mainly in the ISO-loading of various games, however also fixed brightness issues on TA-082/TA-086 motherboards when launching homebrew. A small WiFi patch was also included.
+
+===3.51 M33 Expansions and Patches===
+Several developers have released expansions for 3.51 M33 which feature bugfixes and added features. For example, one such expansion, 3.51 LE-A or "Light Edition" added support for dumping the BOOT.BIN file from UMDs and flash dumping.
+
+===3.52 M33===
+On July 25, 2007, Team M33 released an update to their custom firmware, dubbed 3.52 M33. This update now uses the 3.52 kernel and fixes a bug which prevented Go!Cam, GPS and sceKernelLoadExecVSH from working in GAME mode. It also improves No-UMD compatibility and allows official downloaded PSN titles to play properly, as these weren't supported by 3.51 M33 and some 3.XX OE custom firmwares.
+
+On July 30, 2007, Team M33 released the second edition of 3.52 M33, 3.52 M33-2. Changes are added to this Firmware, which includes; Wi-Fi can work properly now, Chinese is available in the language section, added "Format flash1 and restore settings" option under Advanced, speed option 20 and 100 are added under CPU Speed, PSP cannot be turned off or hibernate in USB mode. document.dat (game manual) can be read in PSX games (was not possible in the first version). The update has also fixed compatibility issues with IrShell (a popular homebrew program).
+
+On August 19, 2007, Team M33 released the third edition of 3.52 M33, 3.52 M33-3. Changes are added to this firmware, which includes: USB access to flash2 and flash3, added processor speeds 75 and 133, added vshmenu which can be used to dump UMDs or access other storage areas from recovery or by pressing menu on XMB, added support for UMD video ISOs, added support for popsloader 3.30. This update included a mechanism to cause the PSP to brick during updating if it detected the update had been modified, this was done in retaliation to the website ps3news rebranding the custom firmware releases as their own work. The website ps3news kept the bricking update on their website for more than 24 hours while censoring forum comments reporting bricked PSPs caused by the modified update.
+
+On August 21, 2007, Team M33 released the fourth edition of 3.52 M33, 3.52 M33-4. Changes are added to this firmware, which includes mainly bugfixes: Fixed the bug that caused CRC error when writing to flash USB in the XMB. The new speeds added in the third edition (75 MHz and 133 MHz) are actually accessible now via the vshmenu and core as they were (and still are) missing in the recovery menu.
+
+===3.60 M33===
+On September 10, 2007 Team M33 released custom firmware 3.60 M33 for the PSP Slim. It was released after the NAND of the PSP Slim was dumped. This was the first custom firmware that booted without using a 1.50 subset due the the new ability to boot a custom IPL.
+
+Due to incompatibilities with the new motherboard, 3.60 M33 does not contain a 1.50 kernel and thus cannot run homebrew written for 1.50. Currently it can only run homebrew made for the 3.60 kernel but Team M33 stated they would make it compatible with 2.xx kernel homebrew in the near future (Team n00bz later released eLoader 1.000 which could run most homebrew requiring the 1.50 kernel on the PSP Slim).
+
+3.60 M33 is installed by using a modified version of Pandora's Battery. Special files are written to the "magic" memory stick that is used in conjunction with the battery.
+
+===3.71 M33===
+On September 20, 2007, Team M33 announced that they would be taking "a break", due to the OE leak. The break didn't last long however, and Team M33 (who was revealed to be Dark_AleX along with a group of members) released 3.71 M33 on September 23, 2007 for the original PSP-1000 and the PSP Slim PSP-2000. Once again, 1.50 homebrew is incompatible on the slim, but a kernel patch has been released for the PSP-1000 allowing execution of 1.50 kernel mode homebrew. Also, due to kernel changes in the original firmware, many plugins made for previous firmwares are incompatible. A version 2 of both the 3.71 M33 and the 1.50 add-on were released on October 2, 2007. It fixed some bugs in the previous firmware. On November 8, 2007, Dark_AleX (Team M33) released version 3 of 3.71 again featuring various bug fixes along with an updater POPSloader to include POPS from FW3.71 and FW3.72. On December 12, 2007, Dark_Alex released update 4 for FW3.71 along with a new multi-disc popsloader.
+
+===3.80 M33===
+On January 14, 2008, Team M33 released the 3.80 M33 Custom Firmware . This update features a new network update feature that when enabled will check for M33 firmware updates. When the feature is disabled through the recovery menu, the network update feature operates as it normally does checking for Sony firmware updates. The update also included a "NID Resolver" to improve compatibility of code calling kernel mode functions by re-mapping the old kernel NIDs to the new kernel NIDs. Team M33 also released update 2 on the same day which fixes the scePowerGetClockFrequencyInt NID not being resolved properly. Update 2 additionally fixes a problem with the way PSX eboot icons are displayed if they are 80x80 pixels. a 1.50 Kernel update was also released.
+
+Update 3 was released on January 16, 2008; It fixed a synchronization issue that the plugins check code cause in PSN NP9660 original games. Additional libraries were added to the NID resolver and some internal changes required for the new version of the popsloader which was released on the same day. Update 4 was released on the same day to address a quick bugfix, galaxy.prx was updated because it was causing a problem with slow memory sticks.
+
+Update 5 was released on January 20, 2008; This update fixed an issue where custom CPU clock speed would not be set for games that restart using sceKernelLoadExec (e.g. Castlevania). Additionally an option was added to recovery to hide PIC0.PNG and PIC1.PNG from the XMB, this can improve speed when browsing the games list in XMB.
+
+===3.90 M33===
+3.90 M33 was released on January 31, 2008. This new firmware uses the 3.90 kernel and includes a bug fix for M33 NO UMD. The installer was also improved with the ability to download the 3.90.PBP file as returning a way for the user to bypass the battery check during updating. The 1.50 kernel add-on for PSP-1000 was also released the same day. An update for the M33 version was released on February 08, 2008.
+
+Update 2 was released on February 13, 2008. It involved improvements in plugins loading code which fixed some problems with problematic cards due to filesystem not getting mounted. Also rest of the regions were added to the recovery fake region. Changes were also made in the updater which allowed for stable and faster reading from memory stick. Update 2 also paved the way for the TimeMachine NAND boot by fixing the Pandora Battery IPL bug in the slim, which wouldn't load from NAND if a Pandora battery was inserted. So now, you can boot normally with a Pandora battery on both the fat and slim PSP.
+
+Update 3 Was released on March 30, 2008. This plugin did not include any major update but expands compatibility with the M33 NO-UMD Driver. PSP users with 3.80 M33 or above can install Update 3 by accessing Network Upgrade on their PSPs, Feature added in recent Firmwares . Official Changelog: March33 NO-UMD driver compatibility has increased to support games like Coded Arms, Patapon, Innocent Life: A Futuristic Harvest Moon, and several other titles. Also, when the date on the PSP is set to April 2, the PSP registers the date as March 33 and the waves in the background move faster. The nickname is displayed as "March 33" and the MAC Address is displayed as "33:33:33:33:33:33" under System Information. This was added to celebrate the one year anniversary of Team M33.
+
+===4.01 M33===
+4.01 M33 was released on June 28th, 2008. This new firmware allows the translation of the recovery menu, in addition to a camera-related bug fix. On June 29th, 2008, an update was released fixing various bugs. An experimental plug-in was also released by Dark Alex for the PSP Slim & Lite on July 2nd, 2008 which allowed unencrypted savestates.
+
+===HX versions===
+
+===3.72HX-1===
+On November 06, 2007, homebrew developer "_HellDashX_" released the 3.72HX-1 custom firmware. This custom firmware was made by reverse engineering Dark_AleX's 3.71 M33-2 and the adapting it to the 3.72 firmware. It contains all features from 3.71 M33-2 except the 1.50 kernel extension, which was released shortly after. Also a version 2 called 3.72HX-2 has now been released.
+
+===3.73HX-1===
+On November 30, 2007, "_HellDashX_" issued a statement that 3.73 HX-1 was created and released on December 12, 2007.
+
+This firmware will have access to the official PSP features and changes, as well the “custom” factor enabling homebrew, etc
+
+===Other custom firmwares===
+
+===1.53 Custom Firmware===
+On 19 February 2007 A custom firmware was released by Eiffel56. This firmware was called 1.53 to avoid confusion between the official 1.51 and 1.52 firmwares compared to this custom version. This version is built for firmware 1.50 loyalists as not every user wished to upgrade to the SE or OE firmwares. This firmware offered many features offered in the 1.50 Proof of Concept firmware by Dark AleX such as a limited recovery mode, autoboot option, custom PRX loading, launching 1.00 Homebrew eBoots, hiding corrupt data icons and starting ISO files from the XMB.
+
+===3.40* LE (Leaked Edition)===
+On August 08, 2007 Team Wildcard released a reverse engineered version to the OE Custom firmware source code. The firmware was released after it was leaked from Team Wildcard's servers. The firmware contains all the features of 3.40 OE but contains features such as a new recovery menu and in XMB recovery access. Many users complained, since it was not 100% complete, it contained many bugs and glitches. The vast majority of the bugs were addressed in subsequent patches to the original firmware, which also added features such as the automatic detection of which kernel should be used to run a program. The fact the firmware was leaked meant that Sony could look at the code the firmware hackers use and make it more difficult for them in the future.
+
+===1.50 UE===
+On 12 January 2008 DeathCradle made a Custom Firmware based on Dark_AleX's 1.50 Proof Of Concept, This Custom Firmware provided a new Recovery, with access to flash0, Flash1 & ms0 (Memory Stick) via USB. It also featured everything of Dark_AleX's 1.50 Proof Of Concept and was also made to take the building pressure off of Team M33. It also provided the use of 1.00 Eboots to run and the original 1.50 Eboots.
+
+===3.93 M33 Unofficial===
+Yellow_Rain released a "patch" to 3.90 M33-2 on March 21, 2008, which adds the features of 3.93 to 3.90 M33. However, there were some issues with Yellow_Rain using the M33 name.
+
+===GEN Firmware===
+
+===CFW 3.93===
+On April 26, 2008 an unknown developer released 3.93 CFW on pspgen.com. This CFW was made with permission from Dark_AleX and others. According to the readme, this CFW now uses the 3.93 kernel, and has added several features. These are the ability to access recovery from the XMB, the ability to make a Pandora Battery (convert/revert battery) from recovery, save savedata in its normal, unencrypted state, and the ability to hide the PSP Mac Address in the XMB. (Changing it to all 0's)
+
+Although with the approval of Dark_AleX and Math, a few bugs has arisen. These are minor bugs and do not affect the firmware in any way. Sometimes, the Hide Pic0 in Game Menu and the Hide Mac Address options does not always work. This would require a user to reset their devices in order for it to be fully functional. Also, the CXMB 3.1 plugin cannot work with the Hide Mac Address option from the Recovery-Vsh Menu as it will freeze the System sub-menus in the XMB.
+
+However, the firmware has been tested and 3.90 flash0 themes as well as CXMB are known to work properly. Also, the 3.90 IRShell patch can be successfully done enabling users to fully unlock the potential of IRShell.
+
+A day later on April 27, 2008, a 1.50 Kernel Addon was released.
+
+On May 3, 2008, an new Update (named Update 2) has been made available. Update 2 fixed a bug in the Sony's OSK where pressing SELECT while it was up would freeze the system. Also, Hellcat's Savegame Deemer was removed. However, it can still be used as an ordinary plugin.
+
+===3.95 GEN===
+3.95 GEN is a custom firmware developed by Miriam of PSP-GEN. 3.95 GEN was released on June 01, 2008 at 01:00 pm, (GMT + 1) after being delayed due to server issues. During the delay, Miriam managed to work out most bugs that had existed before the release. This included fixing the Phat's memory limitations, and enabling popsloader to work where it has not previously worked before... The newly added features to 3.95 GEN included vsh-recovery where the recovery menu can be bought up from the XMB. The new recovery menu uses the standard M33 recovery and adds more features such as Pandora Battery creation tools, the ability to hide the MAC Address in the XMB, USB to the UMD. Also, the configuration of Network Update can be changed to search for updates for either GEN firmwares, M33 firmwares, or Sony's official firmwares. Outside of the firmware, the ipl for Slims is patched so units can boot up with a Pandora Battery, as well as load TimeMachine. Popsloader and PSX emulation is fixed and works as long as a user uses the 'popsloader.prx' file included in the download.
+
+The use of the Sony updater is still present. However, the battery check, and IDStorage Key checks still exists. However, the ability to download the '395.PBP' from the Internet does not exist anymore.
+
+As nids has changed from 3.90/3.93 to 3.95, some plugins may or may not work. Also, the MS read times seemed to be addressed by either Sony or Miriam in this release, as the PSP can read data from the MS in the XMB faster than on 3.80/3.90, even with the 3.71 fatmsmod.prx patch included. Some homebrew such as irShell and NervOS cannot fully work.
+
+===3.95 GEN-2===
+On June 6, 2008, Miriam released 3.95 GEN-2. 3.95 GEN-2 included fixed some of the known bug fixes within the firmware. This update fixed the bug where the PSP will act bricked if the user tried to access the vshMenu when it was turned off from recovery. Also, homebrew compatibility on both the Phat and Slim were increased, and some homebrew such as the latest SNES emulator worked again. On top of that, Phat users were able to use popsloader again since the memory limitation has been addressed and fixed. However, some bugs such as the .at3 file not playing while selecting homebrew and PSP ISOs do not play while on PSX games they do.
+
+==Downgraders==
+
+===Downgrader to 1.00===
+In July 2006 a downgrader was released, allowing 1.50 users to downgrade their PSPs to 1.00. This was a major breakthrough as people believed it would lead to custom firmwares on 1.50, which could allow 2.71+ features with 1.00 EBOOT execution. Many people did not attempt the downgrade, due to decreased compatibility of running homebrew with the older firmware, compared to 1.50.
+
+Using the 1.50>1.00 downgrader on a PSP with a TA-082+ motherboard will brick the PSP.
+
+===2.00===
+The first downgrader created for the PSP was one that would allow users of the 2.00 firmware version to go back to 1.50 using a tiff exploit in the PSP's photo section. This works by changing the version number in the firmware to 1.00 tricking the 1.50 update to think the PSP has a lower firmware than it actually has.
+
+===2.01===
+On 9 September 2006, another way of downgrading firmware 2.01 was released. It functioned in the exact same way as the 2.00 downgrade (swapping index.dat from flash0 to the index.dat from the 1.00 firmware, tricking the PSP into launching the 1.50 update EBOOT) however, it uses a later TIFF exploit (as the one used to downgrade firmware 2.00 was patched in 2.01)
+
+===2.50/2.60===
+On July 1, 2006, a fully functioning 2.50/2.60 to 1.50 downgrader was released. If the PSP had the TA-082 or TA-086 PCB, the downgrader would not work, and would "brick" the PSP.
+
+===2.71===
+This was released on September 01, 2006 by Dark AleX. This downgrader used an exploit that took advantage of the libtiff bug in the PSP.
+
+===2.71 (TA-082)===
+This was released on 27 December 2006 by Dark AleX, harleyg and Mathieulh and is similar to the 2.71 downgrader. This downgrader allowed the installation of 1.50 on TA-082 motherboards with 2.71 already installed was released. Previously, this was impossible due to an incompatibility with some IDstorage keys, attempting to write it would brick the PSP.
+
+===2.80===
+The first 2.80 downgrader was released by PSP developer 0okm on 23 December 2006. Many people at first thought that this experimental downgrader would brick PSPs. This was incorrect as many people reported back with success.
+
+On 24 December 2006, a 2.80 easy downgrader was released by csfreakno1 which had far better instructions, in both German & English, its interface also had improvements with its ease of use. The downgrading files it used were the same as 0okm's, but it was put together in such a way to make it more user-friendly. As of this date, the latest version is 0.3 and it has to be run from xLoader. It has been confirmed as working. There are still some improvements needed as it will brick a PSP if it is run from eLoader! (An unofficial leak was found on 23rd December, but this only featured German instructions, but it was still the same downgrader, but with different languages)
+
+On 2 January 2007, a 2.80 -> 2.71 downgrader for TA-082/TA-086 was released by 0okm, allowing PSPs in 2.80 to downgrade to 2.71 then use the Dark AleX TA-082 downgrader to downgrade to 1.50 firmware.
+
+Later the NOOBZ team released a port of Dark AleX's HEN and generic downgrader for firmware 2.80 which was safer than the previous downgraders for 2.80. This downgrader also features TA-082 downgrading by detecting if the motherboard is a TA-082 and change the IDStorage keys if needed before flashing the firmware.
+
+===3.03===
+It had been one month since the 2.71 downgrader and the next expected downgrader was for 2.81, but to everyone's surprise N00bz came out with the 3.03 downgrader. It required an unpatched version (with 2.0 firmware on it) of Grand Theft Auto: Liberty City Stories. This allowed anybody who owned a PSP, at the time, to downgrade to 1.5 and access homebrew.
+
+This exploit, known as the "Goofy" exploit, was also used in the early 2.50/2.60 downgraders, which Sony never patched properly in 3.03. It worked because Sony only patched save slots 1-7 which the user could choose from the Load Game menu. The only thing NOOBZ had to do was move the "hacked" save data to the 8th slot, which was the auto-load slot that was used by the game on startup to automatically load the last saved game.
+
+===3.11===
+In 9 September 2007, Fanjita and the Noobz! team created a 3.11 downgrader, using the Lumines exploit. This downgrader was made for PSPs with patched IdStorage that were unable to upgrade to firmware 3.50.
+
+===3.50===
+On 26 June 2007, the Team released a downgrader using the Illuminati (Lumines) Exploit and an undisclosed kernel exploit for firmware 3.50 PSPs.
+
+All firmwares up to 3.50 have the ability to downgrade, either through upgrading and downgrading, or straight downgrading. The PSP 1007 has not yet been proven to downgrade. Currently using the 3.50 downgrader on PSP 1007 may brick the PSP.
+
+==Pandora's Battery==
+On August 22, 2007, Team C+D released the "Pandora's Battery" that can convert a spare Memory Stick Pro Duo and battery into a "Magic Memory Stick" and a "JigKick Battery". The Memory Stick and the JigKick battery couple is called "Pandora's Battery". The Memory Stick and battery can then be used to downgrade any PSP of any version or to recover from a brick. To convert the Memory Stick and battery another PSP which is able to run 1.50 homebrew is needed. The Memory Stick can also be converted without using a homebrew PSP by using a Pandora's battery program, such as Pandora Easy GUI. After the downgrade/unbrick service has been completed, the Memory Stick and battery can be restored for normal usage.
+
+A "JigKick Battery" is a battery with the first address in the EEPROM chip changed to 0xFFFFFFFF. This unlocks the service mode of the PSP and launches the IPL from the Memory Stick (instead of from the internal NAND). A "Magic Memory Stick" consists of a reverse-engineered IPL and a customized subset of an official firmware (usually version 1.50) stored on a Memory Stick Pro Duo. This downgrader can downgrade all firmware versions. The original version is incompatible with the PSP Slim & Lite due to the 1.50 IPL being incompatible with PSP Slim & Lite hardware. However, on September 28, 2007, a version that works on both the old style PSP and the Slim & Lite was released. The new debricker is called Despertar del Cementerio ("waking from the grave"), and is also known as the Universal Unbricker, which was developed by Dark_Alex. Instead of installing firmware version 1.50, it installs a custom firmware.
+
+The "JigKick" battery can also be created by lifting the fifth pin of the EEPROM on the battery's mainboard. This is somewhat dangerous because it disables the EEPROM entirely, and may have side effects such as overheating if pin 5 is shorted to other pins while desoldering. It can also prevent the "smart" features of the PSP's battery from reporting proper information, such as remaining battery life, charge level, and temperature.
+
+The battery that is included with the PSP Slim can also be converted into a "Pandora" battery by using the hardware modification method mentioned above.
+
+There is now a method developed by HellCat that will enable users of custom firmware above 3.71 M33 which does not automatically have the 1.50 firmware kernel to create a Pandora battery.
+
+Though Sony advocates against use of any homebrew, representatives have said that the Pandora's Battery will not physically harm the PSP in any manner, as this is the same method used by Sony when customers send in their bricked PSPs for repair.
+
+==Motherboards==
+
+TA-079 to TA-081
+These motherboards were included with launch and early shipments of PSPs.
+
+TA-082/086
+Before custom firmwares were brought into reality, firmware 1.50 was considered to be the best firmware available to run homebrew software. To combat this, Sony made a new motherboard for the PSP called TA-082 which, when downgrading below firmware 2.50 would result in a corrupted firmware and the PSP would become un-bootable (bricked).
+
+Downgrading TA-082/086
+On 27 December 2006, a TA-082 downgrader was released by Dark AleX, Mathieulh and harleyg allowing PSPs with 2.71 firmware and TA-082 or TA-086 motherboard to downgrade to 1.50. Downgraded units behave like any other non-TA-082s and after this process it is possible to upgrade to any firmware, custom or official. On 14 January 2007, Noobz released a version of the downgrader that worked for PSPs with 2.80 firmware.
+
+Problems with downgrading
+However, problems do exist as a side effect of the downgrade. In order to allow the motherboard accept the 1.50 IPL some keys in the motherboards IDStorage are corrupted. This has led to many problems in downgraded PSPs.
+
+These range from:
+
+Connection errors in AD-HOC. 
+Brightness issues. (Upon the initial boot up of a downgraded TA-082 PSP, users may be greeted by a blank screen. Pressing the brightness button will resolve this issue) 
+Battery issues. (If a PSP is shut off under 12% battery the PSP will not restart until the AC adapter is plugged in.) 
+One of the problems faced was the USBHOSTFS function of the PSP was corrupted after a TA-082 downgrade. The USBHOSTFS function is used in some homebrew programs and communication with the PS3. Also Using the NOOBZ 2.80 and 3.03 downgraders does not create this problem since they do not change the IDStorage keys associated with the USBHOSTFS function. Only the 2.71 downgrader corrupts the USBHOSTFS IDStorage keys.
+
+The official Sony updates 3.30+ now check for these corrupted keys, and will refuse to install if it finds them. Users on homebrew enabled PSPs can restore the keys and then upgrade to 3.30+, but those who have corrupt keys and have upgraded to firmwares 3.10 or 3.11 were previously stuck. They could not upgrade to any newer firmware but also could not use homebrew to change the keys or downgrade. However, the Noobz team have created a downgrader for these people, using the Illuminati exploit.[citation needed]
+
+Newer downgraders have been built with these issues in mind. The only problem that remains with the latest downgrader (3.50 "Illuminati" exploit) is the brightness issue.
+
+TA-085
+The currently released PSP Slim is known to use a TA-085 motherboard, with the recent release of the TA-085 v2 motherboard. The only extra security in this motherboard revision is the inability to write to the PSP battery's EEPROM, so a Pandora battery cannot be created on a TA-085 v2. However, a battery already with the Pandora EEPROM code can still be used, allowing regular custom firmware installation. No other abilities have been discovered yet.
+
+==Multi Firmware Module / Modchip==
+
+===Multi Firmware Module===
+Multi Firmware Module was announced on April 24, 2006. Multi Firmware Module contained a different PSP firmware to the one onboard the PSP itself and can be booted from, or copied to, the PSP's original NAND flash chip, unbricking the PSP. It was planned for release upon the acquisition of a suitable manufacturer, but it seems like it will never be released.
+
+===Undiluted Platinum===
+The PSP modchip ("Undiluted Platinum") was announced on May 28, 2006. It allows the user to run two separate firmwares, one on the PSP itself, and one on the modchip. It also allows the restoration of corrupted firmware ("unbricking"). However, this chip does not work with all PSP hardware, due to the lower voltage of newer, TA-082, PSP boards. The PSP Slim is also incompatible.
+
+Undiluted Platinum was released on June 26, 2006. However its installation required some very careful soldering, and many users did not wish to install this modchip. On July 23, 2006 the custom firmware Epsilon Bios was released, it required the Undiluted Platinum to be used.
+
+The day after Undiluted Platinum's release, a kernel exploit for 2.50 and 2.60 was revealed, aggravating many users who purchased the modchip just to downgrade from those versions.
+
+The Undiluted Platinum modchip has arguably been made irrelevant by the Pandora's battery, which offers similar unbricking functionality, and multi-firmware booting (through Dark_AleX's Time Machine) without the need for soldering.
+
+===PSP-Devolution===
+A new modchip called "PSP-Devolution" is in development state. It seems that it has similar features from the Undiluted Platinum chip, and it will be compatible with all motherboards (TA-079 to TA-086), also providing TA-082 recovery.
+
+A (TA-079 to TA-081) version is now available which runs on 3.3V and on June 6, 2007 a version for TA-082+ motherboards was made available which runs on 1.8V.
+
+PSP modchips have been made obsolete with the creation of Pandora's battery. Many modchip adopters bought their chips to unbrick or downgrade, both functions now available free.
+
+===ISO image loader===
+UMDs can be run from the Memory Stick Duo by utilizing a ripped ISO image.
+
+Three methods of loading ISOs are available: generic loaders, which trick the PSP into thinking the ISO is in fact a UMD in the PSP's drive; game-specific booters, which only allow a particular game to be run; and custom firmware versions since 3.02 OE-B allow the loading of ISOs requiring their respective versions and under with no UMD in the drive.
+
+Through homebrew, developers have also enabled the PSP to load modified versions of ISOs using specially developed programs. Both the DAX and CSO (Compressed ISO) formats are compressions of an ISO image. DAX files can be loaded with DAXZISO, while CSO files can be loaded with most custom firmwares, and DEVHOOK.[citation needed]
+
+On 1 July 2007, it was discovered that firmwares 3.50 and 3.51 contained an official ISO loader found in one of the firmware modules called "np9660.prx". The purpose of this ISO loader is for use with games downloaded from the PSN service. This has since been hacked by Team M33 to allow more PSP ISOs to be played without a UMD inserted.[citation needed]
+
+==Trojans / Brickers==
+On October 2, 2005, an alternative downgrader was released. The "downgrader" was actually a trojan that, if run on PSP, destroys the firmware and BIOS, resulting in the PSP becoming un-bootable. This was officially reported by Symantec as Trojan.PSPBrick. After the release, many PSP homebrew sites came to a screeching halt to check every bit of homebrew for the trojan, to ensure safety for their users. Normal operation resumed shortly thereafter.
+
+Any files that are based on the toc2rta TIFF exploit (including the EBOOT Loader and the MPH Downgrader) are now seen as trojans by anti-virus programs, even if they are perfectly legitimate.
+
+Despite this, the PSP's browser cannot be used by a third party to install viruses onto a PSP system. All viruses that currently exist for the PSP have to be installed by the user.
+
+===Trojan. PSPBrick.B===
+A PSP bricker (see 'Trojan. PSPBrick' above), known as 'SDL test' was circulating for a while. Its effects are the same as above, but is not detected by anti-virus programs. It is now of no threat.
+
+==Game compatibility==
+Some games requires firmware functions only present in 2.00+, and so will not run on lower firmwares. In February 2006, a loader was released, allowing games that required 2.00+ to be run on PSPs below 2.00. In June 2006, a firmware emulator was released, allowing games requiring up to version 2.50 to be run on firmware 1.50. Almost all games made for the PSP now require a firmware update. They require certain files known as PRX's that are in the PSP's flash memory to run. Some games do not require these PRX's and can be executed on lower firmwares by using a version changer. The more common method is to use custom firmware, which allows a more accurate gameplay.
+
+==Version changer==
+A utility was released circumventing the version number check. This utility tricked games by setting the firmware version to a high number (eg 9.99). The UMD would assume its version (usually 2.00+) was older, and so would not attempt to update.
+
+A different standpoint is taken with the "No Update UMD Starter", which instructs the PSP to ignore the update when booting a UMD, and to boot directly into the game.
+
+These methods do not work for games requiring 2.00+, as they depend on modules (.PRX files) included within the firmware in order to function.
+
+==Firmware loaders==
+It is possible to run games specifically for firmware versions 2.00 and above (such as GTA: Liberty City Stories) on previous firmware versions. This is done by using a firmware loader.
+
+The PSP has 9 drives, three of which are external drives, the other being partitions on the NAND:
+
+ms0 - Memory Stick 
+flash0 - Flash Memory (Contains all the firmware files) 
+flash1 - Flash Memory (Used to store the XMB settings, network configurations and the background image in 2.00 and above) 
+flash2 - Flash Memory In firmwares 3.00 and up, this contains the license key used to authorize downloaded content from the PlayStation Network to the PSN ID linked to the PSP. 
+flash3 - Flash Memory Currently unused and about 1 MiB in size although in custom firmwares it can be used along with flash2 to redirect firmware elements such as fonts. 
+flash4/flash5 - Rumored additional partitions on the NAND whose entries were discovered in a firmware file. Now believed to be intended as part of the PSP but later scrapped. 
+disc0 - UMD Drive 
+ipl - Initial Program Load 
+irda0 - Infrared Port (Not present in PSP 2000) 
+idstorage - Contains the IDStorage keys specific to the PSP hardware. Damage to the keys can result in homebrew and UMDs no longer running. Serious cases can permanently brick the psp. 
+Recently, the release of a homebrew program (Devhook) has enabled loading firmware versions 1.50 through 3.11 entirely. It can then load/play UMD games requiring that particular firmware, as well as use the built-in Internet Browser with Adobe Flash support, LocationFree, RSS feeds, ATRAC3/ATRAC3plus, WMA and AVC playback. More information may be found here.
+
+==Purpose Of Homebrewing==
+In principle homebrewing exploits can be used to allow programs other than those authorised by Sony to be run. In practice this rarely happens and there is no "unofficial" market in PSP software. Homebrewing, therefore, is more of an intellectual challenge than a practical source of new capability, from two perspectives:
+
+The "cat and mouse" game with Sony. 
+Learning about the internals of the PSP.
+
+==References==
+{{reflist}}
+
+[[Category:PlayStation Portable|Homebrew]]
+[[Category:Homebrew software]]
+[[Category:Video game cleanup]]
+
+[[ja:プレイステーション・ポータブルの自作ソフト]]
+[[zh:PlayStation Portable自製系統軟體]]
+

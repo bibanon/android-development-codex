@@ -1,0 +1,194 @@
+If you have a [[PSP/Models|Pandora Compatible PSP]], you can use it to unbrick or downgrade your PSP.
+
+== To do ==
+
+* Update Hellcat's Recovery Flasher for 6.60 ME or PRO
+* Update MMS creators to add 6.60 ME option
+* Sign the Open Source Pandora Battery Tool
+
+== Requirements ==
+
+* A Genuine Sony or Sandisk Memory Stick Duo (fakes might not work)
+**We recommend getting a cheap 512MB as a dedicated Magic Memory Stick
+
+== Create Magic Memory Stick (MMS) ==
+
+Most users will want to create a MMS that will install 6.60 CFW. However, most Pandora tools were designed for M33 CFW, and have not been updated, so we will need to create a 5.00 M33 MMS. 
+
+Choose one method below:
+
+=== RainsMMSMaker (5.00 M33-4) ===
+
+This is the latest CFW that is able to update directly to 6.60.
+
+# Download [http://pspslimhacks.com/rains-ultralite-mms-maker-for-500-m33-4/ Rains UltraLite MMS maker.]
+# Download the [http://mediafire.com/?hbavosj5935eij2 official 5.00 update] (or look for it on google).
+# Place the official firmware update file named EBOOT.PBP or 500.PBP in the same folder as the program. Otherwise, you will be asked for its location during make MMS.
+# Run the application and connect your psp or memory stick to the computer. 
+# Open the program on the computer.
+# Choose the option to '''format memory stick'''. Make sure you've made backups.
+# Select the drive letter of your Memory Stick.
+# Finally, click the '''MAKE MMS''' button.
+
+=== PSPTool ===
+
+This app requires a [[PSP/Install Custom Firmware|PSP with CFW installed]], which is very easy nowadays. Borrow one from a friend if your PSP is bricked.
+
+# Download [http://dl.qj.net/psp/homebrew-applications/psp-tool-v100.html PSP Tool].
+# Download the [http://mediafire.com/?hbavosj5935eij2 5.00 OFW update file].
+# Rename the EBOOT.PBP inside to 500.pbp
+# Copy the 5.00.pbp file to the root of memory stick and the PSP Tool app goes into the GAME folder on your ms
+# Run the app, under Memory stick options choose to create Magic Memory stick and then choose the option to install DC v8
+# After completion of mms creation, when the option comes to turn battery into pandora, choose no (we'll make it later)
+# then it will ask you to hold key to activate mms with pandora
+# Hold down L trigger till it says completed
+# Your mms is now ready
+
+== Create Pandora's Battery ==
+
+Only a few [[PSP/Models]] are able to create a Pandora's Battery. Check the table in the link; if your PSP is not on there, you will need to borrow a friend's PSP, or buy a prebuilt Pandora's Battery.
+
+=== Hellcat's Recovery Flasher R.4B ===
+
+A signed Pandora toolkit that runs on any PSP and any version, custom firmware or not.
+
+# Download [http://pspslimhacks.com/hellcats-recovery-flasher-v1-65-released/ Hellcat's Recovery Flasher.]
+# Run it from the PSP.
+# Select '''Create Pandora's Battery'''.
+
+=== 6.60 ME/LME Recovery Menu Jigkick ===
+
+6.60 ME and 5.50 GEN-D3 are both able to create a Pandora's Battery straight from the recovery menu.
+
+# Enter recovery mode.
+## In the XMB (main PSP menu), press Select, and choose the '''Enter Recovery''' option.
+## Alternatively, if you're running permanent ME, fully turn off the PSP, and hold the R trigger while turning on.
+# Go to Advanced -> Battery Config.
+# Select '''Make Jigkick Battery''' to create a Pandora's Battery.
+
+== Using the Pandora's Battery (Upgrade/Downgrade/Unbrick) ==
+
+Now we actually use the Pandora's Battery to unbrick, or downgrade your PSP.
+
+You can choose run 5.00 M33 temporarily to install the newer 6.60 CFW (recommended), or just install 5.00 M33.
+
+=== Boot Temporary Firmware to Install 6.60 CFW ===
+
+We will use the 5.00 M33 Magic Memory Stick (MMS) to boot a temporary firmware, where we can install other custom firmware.
+
+# Insert MMS, hold L trigger , insert pandora and choose '''TEST m33'''
+# Your psp will reboot and emulate 5.00 m33.
+{{:PSP/Install OFW 6.60}}
+# Install either PRO CFW or ME CFW permanently with cIPL.
+## {{PSP/PRO CFW#cIPL}}
+## {{PSP/ME CFW}}
+
+=== Install 5.00 M33 ===
+
+# Make sure that you have your Magic Memory Stick (MMS) (created above) and a pandora battery.
+# insert the MMS, hold L trigger and then insert the pandora battery.
+# now set the psp down on some surface so that the battery doesn't come off, if its loose.
+# your psp will now boot into service mode with the DC menu
+# choose the first option, 'install 5.00 m33-4'
+# wait for it to be done.
+# your psp is now unbricked
+
+== Restore the Pandora's Battery to Normal ==
+
+Here are ways of restoring the battery to normal.
+
+To prevent your PSP from entering Pandora mode, remove the battery, plug in your PSP to an AC Adapter and turn it on, and then reinsert the Pandora's Battery.
+
+=== ME/LME Recovery Menu Jigkick ===
+
+# Enter recovery mode.
+## In the XMB (main PSP menu), press Select, and choose the '''Enter Recovery''' option.
+## Alternatively, if you're running permanent ME, fully turn off the PSP, and hold the R trigger while turning on.
+# Go to Advanced -> Battery Config.
+# Select '''Make Normal Battery''' to restore your battery to normal.
+
+=== Open Source Pandora Battery Tool ===
+
+# Download the [http://filetrip.net/psp-downloads/homebrew/download-open-source-pandora-battery-tool-06-f7643.html Pandora Battery Tool.]
+# Copy the extracted folder into ms0:\PSP\GAME.
+# Run the Pandora Battery Tool from the PSP.
+# Press X to continue.
+# Select '''Convert to normal mode'''.
+# Select '''Quit now'''.
+# Your battery has returned to normal.
+
+== Sources ==
+
+* [http://www.pspmod.com/forums/psp-guides-tutorials/72941-ultimate-psp-guide.html PSPMod - The Ultimate PSP Guide]
+
+== Using Time Machine ==
+
+Time Machine is a unique program by Dark Alex designed to boot multiple versions of custom firmware from the memory stick. It's great for historians and oldies who want to stay on M33, but need to run a newer version for some games.
+
+This program only works with Pandora-compatible Fats and Slims, so check the table.
+
+This is the original set of firmwares supported by Dark AleX's Time machine:
+
+{|
+! Firmware Version		! Compatible Models !
+| 1.50				| Phat		|
+| 1.50 with 3.40 OE Addons	| Phat and Slim |
+| 3.40 OE-A			| Phat		|
+| 3.60 M33			| Slim		|
+|}
+
+To install the newer M33 firmwares in Time Machine, we will have to use Despretar del Cementerio.
+
+{|
+! Firmware Version		! Compatible Models ! DC Version !
+| 4.01 M33			| Phat and Slim | DCv7 |
+| 5.00 M33			| Phat and Slim | DCv8 |
+|}
+
+In addition, neur0n has made a Time Machine addon that installs the newest 6.60 ME firmware, completing the circle.
+
+{|
+! Firmware Version		! Compatible Models ! DC Version !
+| 6.60 ME			| Phat and Slim	| DCv9 (neur0n)	|
+|}
+
+== Hellcat's Recovery Flasher ==
+
+Hellcat's Recovery Flasher is an alternative to the Pandora's Battery, allowing users to downgrade and upgrade easily, perhaps to jump to 1.50 OFW and back. The program is signed to run on all PSPs, and there is a 1.50 version is included.
+
+Your PSP must support cIPL flashing to use this program.
+
+=== Setup ===
+
+Download these files:
+
+* [http://pspslimhacks.com/hellcats-recovery-flasher-v1-65-released/ Hellcat's Recovery Flasher v1.65]
+
+=== For 3.71 m33 to 6.60 ME ===
+
+# extract the "HELLCATS" archive and copy only the RECOVERY folder to the GAME folder on your mem card
+# copy the 5.00 pbp file to the recovery folder
+# now run it from XMB and select the option "To install cfw of above selected" which should be 5.00 m33-6
+# finally select "reset all defaults" and then it will flash your psp
+
+=== 1.50 OFW ===
+
+# extract the Hellcats archive
+# For 1.5 ofw systems, open the 1.5 firmware folder
+# copy the 2 sub-folders "%__SCE__rflash" and" __SCE__rflash" to your GAME folder
+# copy and paste the 500.pbp file into the root of your memory stick
+
+=== 2.71 SE - 3.10 OE or 3.51 M33 ===
+
+# Use the same instructions as 1.50 OFW, but put the 2 folders in the GAME150 folder, NOT GAME.
+
+=== Repair Semi-Brick ===
+
+If your PSP Fat is merely semi-bricked (you can access the recovery menu), you can just use this app rather than a Pandora's Battery.
+
+# Holding R trigger , boot the psp into Recovery Menu
+# Select option to Toggle USB (USB device must be set to memory stick)
+# Copy hellcats to your psp according to which firmware you want as mentioned above
+# Exit usb
+# Now Select the 3rd option "Run program at PSP>GAME>RECOVERY>EBOOT.PBP"
+# choose which firmware you want to flash and wait for it to be done
