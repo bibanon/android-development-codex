@@ -1,5 +1,9 @@
 # DOSBox on PSP
 
+## Create Windows 95 image
+
+[Google Docs - Installing Windows 95 on DOSBox 0.74](https://docs.google.com/document/d/1hvgFvAYjPG93h-Avun3sprvZX2GfkRhl4YJBT15FTx0/edit)
+
 ## Instructable
 
 [Instructables - Run Windows 3.1,95 on a PSP](http://www.instructables.com/id/Run-Windows-3195-On-a-PSP/)
@@ -39,3 +43,7 @@ A small team of hackers has started an initiative to port WinXP to PSP.
 
 * [Google Sites - WinXP PSP Project](https://sites.google.com/site/winxppspproject/)
 * [DJKman Forum - Windows XP PSP](http://web.archive.org/web/20080722192725/http://djkman.freesmfhosting.com/index.php/board,21.0.html)
+
+## Internet (computer only)
+
+* [Internet drivers on Win95 DOSBox](http://home.arcor.de/h-a-l-9000/ne2kstuff/db_ne2000.html)
