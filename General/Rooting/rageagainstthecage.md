@@ -50,6 +50,7 @@ Finally, we go into the Android system and modify the permissions so the program
     chmod 4755 su
     chmod 4755 busybox
     chmod 4755 sqlite3
+    exit
     adb reboot
     
 After all that, you are now rooted!
