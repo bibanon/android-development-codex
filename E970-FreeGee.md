@@ -1,4 +1,4 @@
-FreeGee is app that will automatically install custom recovery and unlock the bootloader. There is no known manual, computer based method for stock Jelly Bean.
+FreeGee is an app that will automatically install custom recovery and unlock the bootloader. There is no known manual, computer based method for stock Jelly Bean.
 
 1. Install LG USB Drivers
 2. Enable USB Debugging and plug in phone
