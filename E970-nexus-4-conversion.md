@@ -81,6 +81,9 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 
 This conversion is fully reversible, since flashing a stock AT&T/LG ROM through LGNPST will restore the original partition table.
 
+* run fastboot -w before beginning, to conduct a factory reset (otherwise LGNPST will spit out [an unhelpful "encryption error"](http://forum.xda-developers.com/showpost.php?p=40178202&postcount=365) that demands a factory reset)
+* Then start flashing
+
 ### Sources
 
 * [XDA-Developers: How to Convert LGOG E970 into a Nexus 4](http://forum.xda-developers.com/showthread.php?t=2099784)
