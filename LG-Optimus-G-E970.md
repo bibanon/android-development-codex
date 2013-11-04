@@ -4,6 +4,14 @@ I was about to buy another Nexus 4, but I discovered that the AT&T LG Optimus G 
 
 In this guide, you too can turn an LGOG into a Nexus 4 with LTE and an SDCard slot.
 
+## Instructions
+
+* [[E970 SIM Unlock]] - You will need to be on the stock ROM to unlock your LG Optimus G, so do that first.
+* [[E970 FreeGee]] - The FreeGee app roots and installs custom recovery to your LGOG in a full package. (oddly, there is no known manual rooting method...)
+* [[E970 Porting Nexus 4 ROMs]] - The best way to run Nexus 4 Custom ROMs (if the more labor intensive method) is to port them yourself.
+* [[E970 Nexus 4 Conversion]] - Alternatively, you can install a Nexus 4 partition scheme onto your LGOG, effectively transforming it into a Nexus 4. This allows you to receive Google's OTA updates, and removes one step to installing Nexus 4 ROMs.
+* [[E970 Miscellaneous Mods]]
+
 ## Comparison to Nexus 4
 
 These comparisons are all about hardware, rather than software, since the LG Optimus G can easily be reflashed into a Nexus 4.
