@@ -1,5 +1,3 @@
-## Conversion into a Nexus 4
-
 This mod completely converts your LG Optimus G (AT&T E970 Only) into a Nexus 4. After the conversion, any mod or custom ROM that can be installed to the Nexus 4 will work on your LGOG, including the following:
 
 * **Stock Nexus 4 ROM** - The stock Nexus 4 ROM can recieve OTA (Over-the-air) system updates from Google, giving you the very latest Android version.
