@@ -20,3 +20,5 @@ The Nexus 4 and hybrid radios tend to be a better choice for T-Mobile users, sin
 If you're not using a LGOG-built custom ROM, you will need this.
 
 Go to Settings, Wireless & Networks More, Mobile networks, and change your network mode to “LTE /GSM/WCDMA” (if you don’t see that option, go to your dialer and key in *#*#4636#*#*, tap WCDMA under “Set preferred network type”, then select “LTE/GSM/CDMA auto (PRL)”).
+
+[Source](http://pocketnow.com/2013/08/02/get-lte-on-your-nexus-4)
