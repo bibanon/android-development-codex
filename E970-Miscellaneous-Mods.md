@@ -45,7 +45,8 @@ Some people don't like the physical capacitive buttons at all, or might prefer t
         #key 172   HOME	 		VIRTUAL
         #key 139   MENU			VIRTUAL
 
-5. Reverse these steps if you ever want to change back. These changes will be lost upon update or flashing a new custom ROM, but just do this process again.
+5. To disable the capacitive button lights, go to `settings>display>front key light` and disable it.
+6. Reverse these steps if you ever want to change back. These changes will be lost upon update or flashing a new custom ROM, but just do this process again.
 
 ### Symlink Internal OBB Folder to Gamedata on External SDCard
 
