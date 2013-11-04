@@ -6,7 +6,7 @@ This mod completely converts your LG Optimus G (AT&T E970 Only) into a Nexus 4. 
 * **MultiROM** - Allows you to dual-boot (or triple boot or whatnot) Android ROMs, Ubuntu Touch, Firefox OS, etc.
 * **Any other modification or zip compatible with the Nexus 4**
 
-### Warning
+## Warning
 
 There are many different variants of the Optimus G (E973, E975, etc), but **only the AT&T (E970) variant** uses the exact same hardware as the Nexus 4. **Do not use this conversion with any other variant**, you will brick your phone.
 
@@ -36,6 +36,12 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 * **[Found]** [AT&T LGOG Restore `.tot` in LGNPST](http://forum.xda-developers.com/showthread.php?t=1984545)
 * SDCard mod for MultiROM (create it)
 * Test results: what configuration is best, radios, instability, issues, etc. Check the XDA threads for info
+
+## Pages
+
+* [[E970 N4 Conversion Procedure]] - A quick procedure outline, due to the complexity and lack of documentation of this method.
+* [[E970 Conversion Fixes]] - These fixes need to be created and installed to make certain features work. 
+* [[E970 Restore to Stock]] - If the conversion is causing you issues, you can always reflash stock AT&T firmware to transform it back to an LGOG.
 
 ### Procedure Outline
 
