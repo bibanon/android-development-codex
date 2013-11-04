@@ -18,7 +18,7 @@ This is a safer and better alternative to [[a full transformation into a Nexus 4
 7. Find a working `boot.img` (custom kernel) to replace it. Some good examples are [dvhexer's CM10.1 Alternate for 4.2.2 ROMs](http://d-h.st/q7J), or his [CM10.2 Alternate for 4.3 ROMs](http://d-h.st/78w).
 8. Open the `framework-res.apk` from the ROM you want to port using 7-zip.
 9. Drag `storage_list.xml` (from the `N4_Port_Package.zip`) into the folder `res\xml`, overwriting the original.
-  * NOTE: *After flashing, the external SD header in `SETTINGS>>STORAGE` may show up as a random string (invalid SIM, Issued by, etc), if this happens for you, you'll have to decompile framework-res.apk from the ROM you wish to port & manually add the External SD lines in storage_list.xml and then recompile. I will touch on this later tonight & update this guide.*
+  > NOTE: *After flashing, the external SD header in `SETTINGS>>STORAGE` may show up as a random string (invalid SIM, Issued by, etc). if this happens for you, you'll have to decompile `framework-res.apk` from the ROM you wish to port & manually add the External SD lines in `storage_list.xml` and then recompile. (FIXME: Needs explanation)*
 10. (Optional, but recommended) Open `build.prop` in the ROM your're trying to port and change the device values to match your E970. But you could of course keep it as a Nexus 4 (mako) to fool the Play Store.
   * If you're stumped, use a `build.prop` [from a ROM made for the E970](http://forum.xda-developers.com/forumdisplay.php?f=1925) for reference.
 
