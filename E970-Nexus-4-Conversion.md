@@ -16,30 +16,9 @@ Generally, if your phone doesn't run out of power or get disconnected during the
 
 And before embarking on this difficult journey, you should first check out the [LGOG Android Development forums on XDA](http://forum.xda-developers.com/forumdisplay.php?f=1921) to see if the Custom ROMs there are good enough for you. Most of them are ported from the N4 anyway.
 
-### What to Find
-
-This method needs a ton of rewriting, clarification, and documentation, especially with dead links galore.
-
-* **[Found]** - [Regain all 16GB of space](http://forum.xda-developers.com/showthread.php?t=2160124)
-* **[Found]** - [Generic fixes zip file (lte, sdcard, nfc, etc)](http://forum.xda-developers.com/showthread.php?t=2117576)
-    * SDCard fix
-    * Volume keyfix (reversal)
-    * NFC fix (check if the separate file is equivalent, probably is
-* AT&T Radio for LTE (and find out which radio is best and most stable)
-* Capacitive button fix
-
----
-
-* [LGNPST + Drivers](http://pastebin.com/g8hXBaaA)
-* N4 files - (Stock ROM Google, Custom Recovery, SuperSu)
-* LGOG convert to N4 file LGNPST
-* **[Found]** [AT&T LGOG Restore `.tot` in LGNPST](http://forum.xda-developers.com/showthread.php?t=1984545)
-* SDCard mod for MultiROM (create it)
-* Test results: what configuration is best, radios, instability, issues, etc. Check the XDA threads for info
-
 ## Pages
 
-* [[E970 N4 Conversion Procedure]] - A quick procedure outline, due to the complexity and lack of documentation of this method.
+* [[E970 N4 Conversion Procedure]] - A quick procedure outline designed to help our guide writers along, due to the complexity and lack of documentation of this method.
 * [[E970 Conversion Fixes]] - These fixes need to be created and installed to make certain features work. 
 * [[E970 Restore to Stock]] - If the conversion is causing you issues, you can always reflash stock AT&T firmware to transform it back to an LGOG.
 
