@@ -1,8 +1,6 @@
-## Comparison to Nexus 4
-
 These comparisons are all about hardware, rather than software, since the LG Optimus G can easily be reflashed into a Nexus 4.
 
-### Benefits
+### Hardware Benefits
 
 * The LG Optimus G has an SDCard slot, in conjunction with the existing 16GB of onboard memory. This was the killer function for me.
 * The slot holding the SDCard and MicroSIM is easy to open with a fingernail. The Nexus 4 requires a special tool to take out the MicroSIM.
@@ -14,7 +12,7 @@ These comparisons are all about hardware, rather than software, since the LG Opt
 * Although this is just a software thing, the screen on the Optimus G looks better; but only because the software is calibrated better. For some reason, the Nexus 4's software has no color calibration of any kind. 
   * For Nexus 4 users, or Optimus G converters, don't fret; Franco's kernel offers color calibration, and Paranoid Android does it automatically with it's Halfbreed colors.
 
-### Drawbacks
+### Hardware Drawbacks
 
 * Transforming the LGOG into a Nexus 4 is a "some assembly required" process, that we ourselves are struggling to understand. Not everything may work as expected.
 * Unlike the Nexus 4's classic and comfy curves, the LG Optimus G instead has boxy rectangular corners, which jab into your wrist. Maybe you just have to hold it a certain way, but Google's design is far more comfortable.
