@@ -1,5 +1,3 @@
-## Miscellaneous Mods
-
 ### Symlink the SDCard to a folder on the Internal Storage
 
 Because apps almost always save to the internal storage, and generally don't see the other SDCard; and for greater accessibility in general; it's a good idea to symlink the sdcard to a folder on the Internal Storage, for easy access by you and any app.
