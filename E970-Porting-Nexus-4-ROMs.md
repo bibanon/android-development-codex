@@ -4,7 +4,7 @@ This is a safer and better alternative to a full transformation into a Nexus 4, 
 
 ## Nexus 4 ROMs to LGOG E970
 
-[Source: XDA Developers - defcondev's Guide to porting Nexus 4 ROMs to LGOG E970]
+[**Source:** XDA Developers - defcondev's Guide to porting Nexus 4 ROMs to LGOG E970](http://forum.xda-developers.com/showthread.php?t=2442593)
 
 1. We recommend using a decent text editor, such as [Notepad++](http://notepad-plus-plus.org/download/v6.5.1.html) to edit these text files. It will save you a lot of frustration. Download and install that first.
 2. Start by downloading the ROM zip file you want to port. Don't decompress the ZIP, as then you'll have to re-sign it before you can flash.
