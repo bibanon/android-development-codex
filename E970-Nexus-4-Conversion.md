@@ -14,7 +14,7 @@ This mod works by using LGNPST to replace the stock LGOG partition scheme with o
 
 Generally, if your phone doesn't run out of power or get disconnected during the process, things will be okay, and afterwards, the modification is completely reversible using LGNPST. However, **you are ultimately responsible for anything that happens to your device.**
 
-And before embarking on this difficult journey, you should first check out the [LGOG Android Development forums on XDA](http://forum.xda-developers.com/forumdisplay.php?f=1921) to see if the Custom ROMs there are good enough for you. Most of them are ported from the N4 anyway.
+And before embarking on this difficult journey, you should first check out the [LGOG Android Development forums on XDA](http://forum.xda-developers.com/forumdisplay.php?f=1921) to see if the Custom ROMs there are good enough for you. Most of them are ported from the N4 anyway. It might even be [[easier to make a port yourself.|E970 Porting Nexus 4 ROMs]]
 
 ## Pages
 
