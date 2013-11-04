@@ -47,10 +47,6 @@ Some people don't like the physical capacitive buttons at all, or might prefer t
 
 5. Reverse these steps if you ever want to change back. These changes will be lost upon update or flashing a new custom ROM, but just do this process again.
 
-### Symlink the SDCard to a folder on the Internal Storage
-
-Because apps almost always save to the internal storage, and generally don't see the other SDCard; and for greater accessibility in general; it's a good idea to symlink the sdcard to a folder on the Internal Storage, for easy access by you and any app.
-
 ### Symlink Internal OBB Folder to Gamedata on External SDCard
 
 [OBB to SD](http://forum.xda-developers.com/showthread.php?t=2056662)
