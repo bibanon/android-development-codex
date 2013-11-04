@@ -1,6 +1,8 @@
 After getting a Nexus 4, my brother needed a more powerful smartphone, so I decided to pass it down to him, and shop for a new one. $300 unlocked was my maximum price, so that ruled out pretty much all the phones I wanted (SGS4 GPE, HTC One GPE, Sony Xperia Z).
 
-I was about to buy another Nexus 4, but I discovered that the AT&T LG Optimus G E970 had exactly the same hardware, but added an SDCard slot and LTE support. It could even be reflashed to accept Nexus 4 ROMs. So, I bought one in great condition for only $250, and a SIM unlock cost $10.
+I was about to buy another Nexus 4, but I discovered that the AT&T LG Optimus G E970 had exactly the same hardware, but added an SDCard slot and LTE support. It could even be reflashed to accept Nexus 4 ROMs. 
+
+Best of all, [it could be found in mint condition on Swappa for only $200](http://swappa.com/buy/lg-optimus-g-att), far less than the more popular Nexus 4. The SIM unlock for T-Mobile cost just $10.
 
 In this guide, you too can turn an LGOG into a Nexus 4 with LTE and an SDCard slot.
 
