@@ -1,3 +1,16 @@
+### Better Camera/Video Quality
+
+[Source: XDA-Developers- _Epic's Camera Mod](http://forum.xda-developers.com/showthread.php?t=2073013)
+
+This is based on a mod for the Nexus 4, which increases camera quality by tweaking a few settings.
+
+1. Download the mod [from this thread](http://forum.xda-developers.com/showthread.php?t=2073013) and put it on the root of your memory
+2. Reboot into recovery
+3. Clear Cache/Dalvik Cache (Just to be safe...)
+4. Install Camera Mod
+5. Clear Cache/Dalvik Cache (Just to be safe...)
+6. Reboot, and the camera mod will be installed.
+
 ### Changing Menu button into a Recent Apps button
 
 The Menu button is a dated leftover from an older time, and is strongly discouraged by Google. Multitasking demands the availability of a Recent Apps button at all times, and holding the home button can get to be annoying.
