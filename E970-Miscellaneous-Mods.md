@@ -8,8 +8,7 @@ This is based on a mod for the Nexus 4, which increases camera quality by tweaki
 2. Reboot into recovery
 3. Clear Cache/Dalvik Cache (Just to be safe...)
 4. Install Camera Mod
-5. Clear Cache/Dalvik Cache (Just to be safe...)
-6. Reboot, and the camera mod will be installed.
+5. Reboot, and the camera mod will be installed.
 
 ### Changing Menu button into a Recent Apps button
 
