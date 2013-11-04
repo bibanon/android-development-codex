@@ -43,13 +43,6 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 * [[E970 Conversion Fixes]] - These fixes need to be created and installed to make certain features work. 
 * [[E970 Restore to Stock]] - If the conversion is causing you issues, you can always reflash stock AT&T firmware to transform it back to an LGOG.
 
-### Restore to Stock AT&T/LG Firmware
-
-This conversion is fully reversible, since flashing a stock AT&T/LG ROM through LGNPST will restore the original partition table.
-
-* run fastboot -w before beginning, to conduct a factory reset (otherwise LGNPST will spit out [an unhelpful "encryption error"](http://forum.xda-developers.com/showpost.php?p=40178202&postcount=365) that demands a factory reset)
-* Then start flashing
-
 ### Sources
 
 * [XDA-Developers: How to Convert LGOG E970 into a Nexus 4](http://forum.xda-developers.com/showthread.php?t=2099784)
@@ -59,34 +52,3 @@ This conversion is fully reversible, since flashing a stock AT&T/LG ROM through 
 ---
 
 * [XDA-Developers: Share your Nexus 4 Conversion Experience](http://forum.xda-developers.com/showthread.php?t=2160124)
-
-### Install Fixes
-
-Unlike the Nexus 4, you will need to do one extra step after installing any ROM: 
-
-Install a special zip file (using the custom recovery) to fix the following:
-
-* LTE & GPS(JB AT&T modem)(4.2.2)
-* Volume keys
-* Internet APNs(AT&T)
-* SD card fix (stock 4.2.1 & 4.2.2 based roms only for now)
-* NFC(Might or might not work)
-
-[Flash Fixes zip file](http://forum.xda-developers.com/showthread.php?t=2117576)
-
-(we need to figure out how this thing works...)
-
-#### Customize the Fixes zip file
-
-Each custom ROM variant uses a unique `framework-res.apk` file that cannot be used in other variants, so we cannot make a universal fix. 
-
-However, you can modify the fixes file to work with any other ROM in less than 1 minute. (We should really create a script to do this automatically, though... Maybe a zip.js app, or integration with Android auto-patcher?) Download the fix zip file and follow these instructions:
-
-1. Download and install [7zip](http://www.7-zip.org/).
-2. Get *the zip file of your current custom ROM*, and view the files inside.
-2. Extract the `framework-res.apk` file from your custom ROM's zip file. It is found under `framework/`.
-3. Right-click `framework-res.apk`, go to the 7zip menu, and select **Open archive**.
-4. A new window will open. Browse to `res/xml/` and copy [this modified `storage_list.xml`](https://dl.dropbox.com/u/35009953/storage_list.xml) into it (to download, click the link, right-click save-as).
-5. It will ask to to overwrite, click **Yes**.
-6. Replace the `framework-res.apk` in **the fixes zip file** (under the folder `framework/`) with your modified one.
-7. You can now flash the modified fix to your phone.
