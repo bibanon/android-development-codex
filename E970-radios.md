@@ -1,4 +1,5 @@
-[XDA Radios Thread](http://forum.xda-developers.com/showthread.php?t=2270319)
+* [XDA Radios Thread](http://forum.xda-developers.com/showthread.php?t=2270319)
+* [Nexus 4 Radios Thread](http://forum.xda-developers.com/showthread.php?t=2087227)
 
 ### AT&T Users
 
