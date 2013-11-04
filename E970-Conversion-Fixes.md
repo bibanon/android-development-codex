@@ -24,3 +24,8 @@ However, you can modify the fixes file to work with any other ROM in less than 1
 5. It will ask to to overwrite, click **Yes**.
 6. Replace the `framework-res.apk` in **the fixes zip file** (under the folder `framework/`) with your modified one.
 7. You can now flash the modified fix to your phone.
+
+### Sources
+
+* [XDA Developers: N4 Conversion Fix](http://forum.xda-developers.com/showthread.php?t=2117576)
+* [XDA Developers: List of Premade N4 Conversion Fixes](http://forum.xda-developers.com/showthread.php?t=2169485)
