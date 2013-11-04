@@ -2,7 +2,7 @@
 
 [Source: XDA-Developers- _Epic's Camera Mod](http://forum.xda-developers.com/showthread.php?t=2073013)
 
-This is based on a mod for the Nexus 4, which increases camera quality by tweaking a few settings.
+This is based on a mod for the Nexus 4, which increases camera quality by tweaking a few settings. Note that these mods will also increase the file size of these images and videos.
 
 1. Download the mod [from this thread](http://forum.xda-developers.com/showthread.php?t=2073013) and put it on the root of your memory
 2. Reboot into recovery
