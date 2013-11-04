@@ -1,6 +1,6 @@
 Because the hardware of the Optimus G E970 is almost identical to the Nexus 4, ROMs from the Nexus 4's massive ROM development scene can be easily ported over with few modifications onto the Optimus G.
 
-This is a safer and better alternative to [[a full transformation into a Nexus 4|]], since you do not have to go through the trouble of flashing with LGNPST and finding out which fixes files to use.
+This is a safer and better alternative to [[a full transformation into a Nexus 4|E970 Nexus 4 Conversion]], since you do not have to go through the trouble of flashing with LGNPST and finding out which fixes files to use.
 
 ## Nexus 4 ROMs to LGOG E970
 
