@@ -10,6 +10,10 @@ This is based on a mod for the Nexus 4, which increases camera quality by tweaki
 4. Install Camera Mod
 5. Reboot, and the camera mod will be installed.
 
+### SlimPort
+
+Slimport adapters make HDMI output possible on thr LGOG and the Nexus 4. While genuine Slimport adapters go for around $30-40, you can easily find some good ones on eBay for [just $15.](http://www.ebay.com/itm/200960770894)
+
 ### Changing Menu button into a Recent Apps button
 
 The Menu button is a dated leftover from an older time, and is strongly discouraged by Google. Multitasking demands the availability of a Recent Apps button at all times, and holding the home button can get to be annoying.
