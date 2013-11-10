@@ -22,6 +22,8 @@ To return to normal after you're done, type this command: (or you can just resta
 
         wm size reset
 
+[Source](
+
 ### Changing Menu button into a Recent Apps button
 
 The Menu button is a dated leftover from an older time, and is strongly discouraged by Google. Multitasking demands the availability of a Recent Apps button at all times, and holding the home button can get to be annoying.
