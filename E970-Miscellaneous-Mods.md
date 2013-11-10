@@ -14,6 +14,14 @@ This is based on a mod for the Nexus 4, which increases camera quality by tweaki
 
 Slimport adapters make HDMI output possible on thr LGOG and the Nexus 4. While genuine Slimport adapters go for around $30-40, you can easily find some good ones on eBay for [just $15.](http://www.ebay.com/itm/200960770894)
 
+When you first plug the slimport in, though, you will only get a clone of your phone screen with the same small resolution. To get true upscaled 1080p, you need to be rooted, and type this command in a terminal emulator:
+
+        wm size 1080x1920
+
+To return to normal after you're done, type this command: (or you can just restart your phone)
+
+        wm size reset
+
 ### Changing Menu button into a Recent Apps button
 
 The Menu button is a dated leftover from an older time, and is strongly discouraged by Google. Multitasking demands the availability of a Recent Apps button at all times, and holding the home button can get to be annoying.
