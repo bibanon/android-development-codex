@@ -12,6 +12,10 @@ If you don't want to wait forever to download the OTA update, you have to use LG
 
 [Pastebin - LGNPST Installation and Usage Guide](http://pastebin.com/83yf2ZcA)
 
+(if the above doesn't work, use the below)
+
+[Pastebin - Manual Install LGNPST](http://pastebin.com/Z2i7E1AN)
+
 ### Send phone into Download Mode
 
 [Pastebin - Send phone into Download Mode](http://pastebin.com/NxqEPcpL)
