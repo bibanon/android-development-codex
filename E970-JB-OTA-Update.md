@@ -8,6 +8,19 @@ You can go to Settings->General->About Phone->Software Updates on your phone to 
 
 If you don't want to wait forever to download the OTA update, you have to use LGNPST to flash the OTA.
 
+### Install LGNPST
+
+[Pastebin - LGNPST Installation and Usage Guide](http://pastebin.com/83yf2ZcA)
+
+### Send phone into Download Mode
+
+[Pastebin - Send phone into Download Mode](http://pastebin.com/NxqEPcpL)
+
+### Install Stock Jellybean 4.1.2 OTA
+
+[XDA-Developers - 4.1.2 JB OTA Update LGNPST ZIP](http://forum.xda-developers.com/showthread.php?t=2219953)
+
+## Sources
+
 * [XDA-Developers - E970 TeenyBins](http://forum.xda-developers.com/showthread.php?t=2230994)
 * [Pastebin - LGNPST Installation and Usage Guide](http://pastebin.com/83yf2ZcA)
-* [XDA-Developers - 4.1.2 JB OTA Update LGNPST Flashable ZIP](http://forum.xda-developers.com/showthread.php?t=2219953)
