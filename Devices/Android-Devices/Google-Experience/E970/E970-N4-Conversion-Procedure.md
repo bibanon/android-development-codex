@@ -37,9 +37,15 @@ This method needs a ton of rewriting, clarification, and documentation, especial
  + Under the DLL file selection there should be a BIN FILE selector
  + Choose the bin file you renamed earlier
  + Start the flashing procces
- [LGNPST Nexus 4 Conversion (.tot file)](http://www.androidfilehost.com/?fid=9390248398092765463)
+ + Wait until it is at 85%
+ + An error message should pop up saying that the Phone Disconnected
+ + It should start booting 
+ + If it doesn't boot put your phone into fastboot mode(Hold the Volume up button + The Power button ) and get fastboot 
+ + Type fastboot -w into the command prompt
+ + Once your done wait for it to restart
+ + [SOURCE: LGNPST Nexus 4 Conversion (.tot file)](http://www.androidfilehost.com/?fid=9390248398092765463)
 ## Procedure Outline
-
+l
 ### Core Procedure
 
 * Backup all internal storage, and TWRP/CWM if necessary
