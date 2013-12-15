@@ -21,7 +21,8 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 
 ## Procedure
 
-###
+### Flash a Nexus 4 Partition Table with LGNPST
+
  + Backup all important files
  + Install LGNPST(if you dont have it already)
  + Extract the zip file
@@ -43,9 +44,28 @@ This method needs a ton of rewriting, clarification, and documentation, especial
  + If it doesn't boot put your phone into fastboot mode(Hold the Volume up button + The Power button ) and get fastboot 
  + Type fastboot -w into the command prompt
  + Once your done wait for it to restart
- + [SOURCE: LGNPST Nexus 4 Conversion (.tot file)](http://www.androidfilehost.com/?fid=9390248398092765463)
+
+#### Sources
+
+* [XDA-Developers - LGNPST Nexus 4 Conversion (.tot file)](http://www.androidfilehost.com/?fid=9390248398092765463)
+
+### Install External SDCard Support
+
+(only known to work well on 4.2)
+
+* [XDA-Developers - ROM Fixes](http://forum.xda-developers.com/showthread.php?t=2117576)
+
+### Increase 8GB to 16GB Storage
+
+The partition table we flashed was made for the 8GB Nexus 4, since we wanted to stay on the safe side. To reclaim that lost space, we have to expand the partitions to fill the rest of the free space on the internal storage.
+
+[XDA-Developers - Increase Storage](http://forum.xda-developers.com/showthread.php?t=2160124)
+
+#### Sources
+
+* [XDA-Developers - Nexus 4 Conversion 8GB to 16GB](http://forum.xda-developers.com/showthread.php?t=2160124)
 ## Procedure Outline
-l
+
 ### Core Procedure
 
 * Backup all internal storage, and TWRP/CWM if necessary
