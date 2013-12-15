@@ -59,7 +59,34 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 
 The partition table we flashed was made for the 8GB Nexus 4, since we wanted to stay on the safe side. To reclaim that lost space, we have to expand the partitions to fill the rest of the free space on the internal storage.
 
-[XDA-Developers - Increase Storage](http://forum.xda-developers.com/showthread.php?t=2160124)
+#### Files Needed
+
+* [Modified DD](http://d-h.st/cFA)
+* [16G Primary GPT](http://d-h.st/yUQ)
+* [16G Secondary GPT](http://d-h.st/0dH)
+
+#### Directions
+
+1. Get all the required files above and adb/fastboot if you don't already
+2. Get a microSD card and put the downloaded files in it
+3. Get Sk8's CWMTouch Recovery [here](http://d-h.st/QAx). This has SDCard support
+4. Flash the recovery
+5. Boot into the recovery
+6. Backup your files on your sdcard
+7. Connect your phone to your computer and type 
+    adb shell
+8. Once in shell type(REMOVE THE #)
+    # cp /external_sd/dd / 
+    # chmod 755 /dd
+9. Backup your existing partitions(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
+    # /dd if=/dev/block/mmcblk0 of=/external_sd/pgpt8G.img bs=512 count=34
+    # /dd if=/dev/block/mmcblk0 of=/external_sd/sgpt8G.img bs=512 skip=30777311
+10. 
+
+
+#### Sources
+
+[XDA-Developers - Increase Storage on N4 Conversion](http://forum.xda-developers.com/showthread.php?t=2160124)
 
 #### Sources
 
