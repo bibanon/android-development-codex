@@ -74,59 +74,112 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
 5. Boot into the recovery
 6. Backup your files on your sdcard
 7. Connect your phone to your computer and type 
-    adb shell
+        adb shell
 8. Once in shell type(REMOVE THE #)
-    # cp /external_sd/dd / 
-    # chmod 755 /dd
+        # cp /external_sd/dd / 
+        # chmod 755 /dd
 9. Backup your existing partitions(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
-    # /dd if=/dev/block/mmcblk0 of=/external_sd/pgpt8G.img bs=512 count=34
-    # /dd if=/dev/block/mmcblk0 of=/external_sd/sgpt8G.img bs=512 skip=30777311
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/pgpt8G.img bs=512 count=34
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/sgpt8G.img bs=512 skip=30777311
 10. Move content of DDR and grow partitions to their new locations(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
-    # /dd if=/dev/block/mmcblk0 of=/external_sd/DDR bs=512 skip=15267840 count=2015
-    # /dd if=/external_sd/DDR of=/dev/block/mmcblk0 bs=512 seek=30775296 conv=notrunc
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/DDR bs=512 skip=15267840 count=2015
+        # /dd if=/external_sd/DDR of=/de7. Connect your phone to your computer and type 
+        adb shell
+8. Once in shell type(REMOVE THE #)
+        # cp /external_sd/dd / 
+        # chmod 755 /dd
+9. Backup your existing partitions(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/pgpt8G.img bs=512 count=34
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/sgpt8G.img bs=512 skip=30777311
+10. Move content of DDR and grow partitions to their new locations(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
+        # /dd if=/dev/block/mmcblk0 of=/external_sd/DDR bs=512 skip=15267840 count=2015
+        # /dd if=/external_sd/DDR of=/dev/block/mmcblk0 bs=512 seek=30775296 conv=notrunc
 11. Install new partition tables
-    # /dd if=/external_sd/sgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc
-    # /dd if=/external_sd/pgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
+        # /dd if=/external_sd/sgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc
+        # /dd if=/external_sd/pgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
 12. Type
-    parted /dev/block/mmcblk0
+        parted /dev/block/mmcblk0
 13. Parted should start up and show you this:
-    GNU Parted 1.8.8.1.179-aef3
-    Using /dev/block/mmcblk0
-    Welcome to GNU Parted! Type 'help' to view a list of commands.
-    (parted)
+         GNU Parted 1.8.8.1.179-aef3
+         Using /dev/block/mmcblk0
+         Welcome to GNU Parted! Type 'help' to view a list of commands.
+         (parted)
 14. Type "p" (without both "s) and press enter
 15. It might take a few seconds but you should see
-    Model: MMC 016G92 (sd/mmc)
-    Disk /dev/block/mmcblk0: 15.8GB
-    Sector size (logical/physical): 512B/512B
-    Partition Table: gpt
-    
-    Number  Start   End     Size    File system  Name      Flags
-     1      524kB   67.6MB  67.1MB  fat16        modem
-     2      67.6MB  68.2MB  524kB                sbl1
-     3      68.2MB  68.7MB  524kB                sbl2
-     4      68.7MB  70.8MB  2097kB               sbl3
-     5      70.8MB  71.3MB  524kB                tz
-     6      71.3MB  94.4MB  23.1MB               boot
-     7      94.4MB  117MB   23.1MB               recovery
-     8      117MB   118MB   799kB                m9kefs1
-     9      118MB   119MB   799kB                m9kefs2
-    10      119MB   120MB   799kB                m9kefs3
-    11      120MB   121MB   524kB                rpm
-    12      121MB   121MB   524kB                aboot
-    13      121MB   122MB   524kB                sbl2b
-    14      122MB   124MB   2097kB               sbl3b
-    15      124MB   124MB   524kB                abootb
-    16      124MB   125MB   524kB                rpmb
-    17      125MB   125MB   524kB                tzb
-    18      125MB   126MB   524kB                metadata
-    19      126MB   143MB   16.8MB               misc
-    20      143MB   159MB   16.8MB  ext4         persist
-    21      159MB   1040MB  881MB   ext4         system
-    22      1040MB  1627MB  587MB   ext4         cache
-    23      1627MB  15.8GB  14.1GB  ext4         userdata
-    24      15.8GB  15.8GB  524kB                DDR
-    25      15.8GB  15.8GB  507kB                grow
+          Model: MMC 016G92 (sd/mmc)
+          Disk /dev/block/mmcblk0: 15.8GB
+          Sector size (logical/physical): 512B/512B
+          Partition Table: gpt
+          
+          Number  Start   End     Size    File system  Name      Flags
+          1      524kB   67.6MB  67.1MB  fat16        modem
+          2      67.6MB  68.2MB  524kB                sbl1
+          3      68.2MB  68.7MB  524kB                sbl2
+          4      68.7MB  70.8MB  2097kB               sbl3
+          5      70.8MB  71.3MB  524kB                tz
+          6      71.3MB  94.4MB  23.1MB               boot
+          7      94.4MB  117MB   23.1MB               recovery
+          8      117MB   118MB   799kB                m9kefs1
+          9      118MB   119MB   799kB                m9kefs2
+          10      119MB   120MB   799kB                m9kefs3
+          11      120MB   121MB   524kB                rpm
+          12      121MB   121MB   524kB                aboot
+          13      121MB   122MB   524kB                sbl2b
+          14      122MB   124MB   2097kB               sbl3b
+          15      124MB   124MB   524kB                abootb
+          16      124MB   125MB   524kB                rpmb
+          17      125MB   125MB   524kB                tzb
+          18      125MB   126MB   524kB                metadata
+          19      126MB   143MB   16.8MB               misc
+          20      143MB   159MB   16.8MB  ext4         persist
+          21      159MB   1040MB  881MB   ext4         system
+          22      1040MB  1627MB  587MB   ext4         cache
+          23      1627MB  15.8GB  14.1GB  ext4         userdata
+          24      15.8GB  15.8GB  524kB                DDR
+          25      15.8GB  15.8GB  507kB                growv/block/mmcblk0 bs=512 seek=30775296 conv=notrunc
+11. Install new partition tables
+        # /dd if=/external_sd/sgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc
+        # /dd if=/external_sd/pgpt16G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
+12. Type
+        parted /dev/block/mmcblk0
+13. Parted should start up and show you this:
+         GNU Parted 1.8.8.1.179-aef3
+         Using /dev/block/mmcblk0
+         Welcome to GNU Parted! Type 'help' to view a list of commands.
+         (parted)
+14. Type "p" (without both "s) and press enter
+15. It might take a few seconds but you should see
+          Model: MMC 016G92 (sd/mmc)
+          Disk /dev/block/mmcblk0: 15.8GB
+          Sector size (logical/physical): 512B/512B
+          Partition Table: gpt
+          
+          Number  Start   End     Size    File system  Name      Flags
+          1      524kB   67.6MB  67.1MB  fat16        modem
+          2      67.6MB  68.2MB  524kB                sbl1
+          3      68.2MB  68.7MB  524kB                sbl2
+          4      68.7MB  70.8MB  2097kB               sbl3
+          5      70.8MB  71.3MB  524kB                tz
+          6      71.3MB  94.4MB  23.1MB               boot
+          7      94.4MB  117MB   23.1MB               recovery
+          8      117MB   118MB   799kB                m9kefs1
+          9      118MB   119MB   799kB                m9kefs2
+          10      119MB   120MB   799kB                m9kefs3
+          11      120MB   121MB   524kB                rpm
+          12      121MB   121MB   524kB                aboot
+          13      121MB   122MB   524kB                sbl2b
+          14      122MB   124MB   2097kB               sbl3b
+          15      124MB   124MB   524kB                abootb
+          16      124MB   125MB   524kB                rpmb
+          17      125MB   125MB   524kB                tzb
+          18      125MB   126MB   524kB                metadata
+          19      126MB   143MB   16.8MB               misc
+          20      143MB   159MB   16.8MB  ext4         persist
+          21      159MB   1040MB  881MB   ext4         system
+          22      1040MB  1627MB  587MB   ext4         cache
+          23      1627MB  15.8GB  14.1GB  ext4         userdata
+          24      15.8GB  15.8GB  524kB                DDR
+          25      15.8GB  15.8GB  507kB                grow
     
 
 #### Sources
