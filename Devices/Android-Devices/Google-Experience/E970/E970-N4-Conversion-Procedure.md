@@ -124,7 +124,7 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
          (parted)
 
 14. Type "p" (without both "s) and press enter
-15. It might take a few seconds but you should see
+15. It might take a few seconds but you should see (if you see a major difference then skip down to the end and look at the bullet point) 
 
           Model: MMC 016G92 (sd/mmc)
           Disk /dev/block/mmcblk0: 15.8GB
@@ -157,7 +157,23 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
           23      1627MB  15.8GB  14.1GB  ext4         userdata
           24      15.8GB  15.8GB  524kB                DDR
           25      15.8GB  15.8GB  507kB                grow
-    
+
+16. Reboot your phone into the bootloader(type the command below and then immediately press the Volume Down button,if that doesn't work press the Volume Up button instead) 
+
+          # reboot
+
+17. Now you need to factory reset
+
+    fastboot erase userdata
+    fastboot -w
+
+18. Now press the power button and it should start booting!
+
+* In case parted reported an error, put the old 8G partition tables back. This should not happen but it may happen
+
+    # /dd if=/external_sd/sgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc  
+    # /dd if=/external_sd/pgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
+
 
 #### Sources
 
