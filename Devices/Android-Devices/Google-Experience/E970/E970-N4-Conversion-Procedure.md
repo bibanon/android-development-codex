@@ -77,7 +77,7 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
  
         adb shell
 
-8. Once in shell type(REMOVE THE #)
+8. Once in shell, type(REMOVE THE #)
 
         # cp /external_sd/dd / 
         # chmod 755 /dd
