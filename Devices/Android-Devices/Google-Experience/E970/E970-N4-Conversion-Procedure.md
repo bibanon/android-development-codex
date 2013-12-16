@@ -166,6 +166,12 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
 #### Sources
 
 * [XDA-Developers - Nexus 4 Conversion 8GB to 16GB](http://forum.xda-developers.com/showthread.php?t=2160124)
+
+## Fixes zip file
+
+* [Universal Fixes Zip file](http://dl.dropbox.com/u/35009953/n4fixanyrom.zip) - Can be used on any ROM to fix the volume buttons, enable LTE, and flash an AT&T radio.
+* SDCard Fixes
+
 ## Procedure Outline
 
 ### Core Procedure
