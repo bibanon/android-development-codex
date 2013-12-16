@@ -90,22 +90,6 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
 10. Move content of DDR and grow partitions to their new locations(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
 
         # /dd if=/dev/block/mmcblk0 of=/external_sd/DDR bs=512 skip=15267840 count=2015
-        # /dd if=/external_sd/DDR of=/de7. Connect your phone to your computer and type 
-        adb shell
-
-8. Once in shell type(REMOVE THE #)
-
-        # cp /external_sd/dd / 
-        # chmod 755 /dd
-
-9. Backup your existing partitions(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
-
-        # /dd if=/dev/block/mmcblk0 of=/external_sd/pgpt8G.img bs=512 count=34
-        # /dd if=/dev/block/mmcblk0 of=/external_sd/sgpt8G.img bs=512 skip=30777311
-
-10. Move content of DDR and grow partitions to their new locations(REMOVE THE # AND MAKE SURE YOU TYPE / BEFORE dd)
-
-        # /dd if=/dev/block/mmcblk0 of=/external_sd/DDR bs=512 skip=15267840 count=2015
         # /dd if=/external_sd/DDR of=/dev/block/mmcblk0 bs=512 seek=30775296 conv=notrunc
 
 11. Install new partition tables
