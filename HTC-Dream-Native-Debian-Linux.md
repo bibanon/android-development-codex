@@ -1,4 +1,4 @@
-This guide was mostly organized by [Novaspirit](http://novaspirit.com/blog/?p=6), based on notes from [XDA-Developers.](http://forum.xda-developers.com/showthread.php?t=497280&highlight=native+debian&page=2)
+This guide was mostly organized by [Novaspirit](http://novaspirit.com/blog/?p=6), refined on [the Debian Wiki](https://wiki.debian.org/HowtoDebianInAndroid), and based on notes from [XDA-Developers.](http://forum.xda-developers.com/showthread.php?t=497280&highlight=native+debian&page=2)
 
 This guide will create a dual-boot Linux and Android system. The phone will boot normally into Android; just hold home+power when turning on to enter Debian Linux.
 
