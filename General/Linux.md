@@ -2,7 +2,15 @@ While Android is open-source and uses the Linux kernel at it's core, it is not a
 
 This makes Android incompatible with actual Linux applications, and vice versa (though it is possible to port the Dalvik Machine there...)
 
-Therefore, some developers are taking up the effort to bring true GNU/Linux distros to Android devices.
+Therefore, some developers are taking up the effort to bring true GNU/Linux distros to certain Android devices.
+
+## Device List
+
+* [[TI-Nspire]] - Believe it or not, but the TI-Nspire has better native Linux support than most Androids. And a full keyboard and touchpad. Though it is a buildroot version.
+* [[HTC Dream/T-Mobile G1|HTC Dream]] - The very first Android device released, and the last to be released with a complete keyboard with number keys. The keyboard, the low price, and an obsolete build of Android 1.6, the G1 is a tantalizing target for porting Linux.
+* [[Motorola Droid]] - A port was made, but not completed.
+* HTC Desire Z/G2 - No ports yet...
+* [[Motorola Photon 4G LTE]] - The last competent Android phone with a full keyboard.
 
 ## Chrooted GNU/Linux
 
