@@ -221,6 +221,15 @@ We have to forward your PC's internet connection to your G1. Type these commands
     echo 1 > /proc/sys/net/ipv4/ip_forward
     iptables -D POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE
 
+(not tested) Alternatively, use these commands: (recommended by Jorge Peñalba)
+
+     ifconfig usb0 192.168.0.200/26\
+     iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE\
+     echo 1 \> /proc/sys/net/ipv4/ip\_forward\
+     ssh 192.168.0.202 -l root\
+     iptables -D POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE\
+     echo 0 \> /proc/sys/net/ipv4/ip\_forward
+
 ### SSH into the G1
 
 Use this command to SSH into the G1's command line, so you can send commands to it from your computer. Log into your phone with the same username and password you set before.
