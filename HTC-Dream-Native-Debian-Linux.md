@@ -1,11 +1,10 @@
 This guide was mostly organized by [Novaspirit](http://novaspirit.com/blog/?p=6), based on notes from [XDA-Developers.](http://forum.xda-developers.com/showthread.php?t=497280&highlight=native+debian&page=2)
 
-keep in mind this a dual boot! option so you can still get into your
-normal android then / boot into debian after restart.
+This guide will create a dual-boot Linux and Android system. The phone will boot normally into Android; just hold home+power when turning on to enter Debian Linux.
 
 ### Working / Not Working
 
-#### Working
+**Working**
 
 -   Phone can boot!
 -   SDCard reader/writer
@@ -18,7 +17,7 @@ normal android then / boot into debian after restart.
 -   Phone Call : I am able to answer an incomming call from console!
 -   Unlock SIM Card and register on Network
 
-#### Working with bugs
+**Working with bugs**
 
 - **Trackball** - No event on click with ball - must click and move ball slightly
 - **TouchScreen** (MonoTouch) - I can use it in console FBDEV, but with Xorg, the calibration doesn’t
@@ -27,11 +26,11 @@ work - calibration is very difficult but doable
 -   **Xorg with my Kernel** - The phone crashes (freeze) when you leave Xorg  found this only happens
 sometimes not all
 
-#### Not working
+**Not working**
 
 -   WiFi card is detected, but crashes when doing “ifconfig wlan0 up”.
 
-#### Not tested
+**Not tested**
 
 -   GPS
 -   Accelerometers/Compas
@@ -45,73 +44,75 @@ sometimes not all
 
 ### HOWTO
 
-For this tutorial I have an HTC Dream with Android WITH EXT2/3 SUPPORT
-and 8GB SDCard, I use it with :
+You will need: 
 
-You must have HARD SPL and fastboot
+* A laptop with Debian-based Linux (Ubuntu, Debian, Linux Mint, etc.)
+  * Just run it off a [live CD](http://www.ubuntu.com)
+* An HTC Dream/G1 or MyTouch 3G
+* 8GB or larger SDCard
+  * 4GB for Linux, 4GB for Android
+* An Android 1.6 or higher Custom ROM that supports EXT2/3
+  * only a few older Android versions lack it.
+* USB Debugging Enabled
+* HardSPL and Engineering SPL
+  * gives you `fastboot` support
+* ADB and Fastboot
+  * The easiest way to install them is to use [Minimal ADB](http://forum.xda-developers.com/showthread.php?t=2317790).
 
-My configuration :
+### Partitioning the SDCard
 
-HTC Dream Orange (SIM locker or not is not a problem, tested) with 8GB
-SDCARD:
+> It's possible to use Android itself to partition it, but that's another guide...
 
--   2 GB FAT32 for Android
--   2 GB EXT3 for app2sd
--   4 GB EXT3 for my real Debian
-
-Android 1.6(or higher) rooted.
-
-PC HOST : Linux.
-
-I have windows also but i mainly did everything on Linux cause it’s
-eaiser!
-
-### Create Partition Table
-
-you can use your phone for this but that will be another guide.
-
-I use ubuntu 10.04 when i perform this. you can download a copy at
-[ubuntu](http://www.ubuntu.com "ubuntu") and use the live cd.
-
-obtain gparted! by using the command
+obtain `gparted` using:
 
     sudo apt-get install gparted
 
 select your sdcard and select it on the top right menu
 
-3 partitions are needed
+You will need three partitions:
 
 -   fat32 (android)
 -   ext3 (android apps and stuff if you got app2sd)
 -   ext3 (debian)
 
-### Installing the base of Debian
+For example, an 8GB SDCard would be partitioned like this:
 
-Don’t remove your SD card just yet from your Linux PC. there’s still
-work that needed to be done
+-   2 GB FAT32 for Android
+-   2 GB EXT3 for app2sd
+-   4 GB EXT3 for my real Debian
 
-goto your terminal and type:
+After creating the partitions, make sure to record their names, found in `gparted`'s top-right corner (ex. `/dev/sdb1`, `/dev/sdc6`). 
 
-    mount /dev/sdb2 /mnt
-    debootstrap --verbose --arch armel --foreign lenny /mnt http://ftp.debian.org/debian
-    sync
-    umount /mnt
+Keep your SDCard plugged in.
 
-sb2 being the SDcard location (in gparted top right corner would tell
-you)
+### Generate the Debian Root Filesystem with `debootstrap`
 
-when that’s all done you would now need to reboot into your phone and we
-can now finish the base install from there. those of you who we used to
-“adb shell” go ahead and use it will be easer to type with.
+We will use `debootstrap` to install all the necessary system packages to an image, which you will flash onto the G1.
 
-mounting the debian partition:
+   mkdir debdroid
+   sudo /usr/sbin/debootstrap --foreign --arch armel squeeze debdroid/ http://http.debian.net/debian
 
+### Copy `debootstrap` to the SDCard
+
+We now need to copy the system image to the G1. Change `/dev/sdb3` to the EXT3 partition for Debian on your SDCard (The names were previously obtained from GParted).
+
+   mount /dev/sdb3 /mnt/memory   # change correct device
+   sudo cp -pfr debdroid/* /mnt/memory/
+   umount /mnt/memory
+
+### `debootstrap` Second Stage
+
+Now reboot into your G1, and connect it to the computer to begin the second phase of installation. Make sure **USB Debugging** is enabled, and your phone is recognized by ADB.
+
+Mount the debian EXT3 partition:
+
+    adb shell
     mkdir /data/mnt
     mount -t ext3 /dev/block/mmcblk0p3 /data/mnt
 
-now your debian partition should be mounted to file system at /data/mnt
+Now your debian partition should be mounted to file system at `/data/mnt`
 
-next step is to type this into the android term:
+Next, we will chroot into the debian partition to start the second stage of installation. This will take about 25 minutes, so be patient and keep your phone charged. Remember, silence is golden.
 
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
     export TERM=linux
@@ -121,22 +122,15 @@ next step is to type this into the android term:
     umount /data/mnt
     rmdir /data/mnt
 
-if any error occurs it’s cause something is not typed in correctly
-(trust me i did it few times)
+### Set the SSH service to start on boot
 
-now sit back and let it’s do it’s thing (takes i believe about 25 min or
-so) and remember to keep this on the charger!
+We will need an SSH service running on the G1 for internet tethering from the PC. We have to install all the necessary packages, and edit configuration files to start SSH on boot.
 
-in the mean time. if you don’t have the android sdk for fastboot later
-get it now
-([http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html))
+Insert the sdcard back into your Linux PC and run these commands: 
 
-### SSH on boot
+(replace `/dev/sdb2` with the name of your debian EXT3 partition)
 
-this is a really important still i believe. without this i wouldn’t have
-gotten so far but its optional!
-
-now insert the card back into the linux PC and type this in the terminal
+(the package links will have to be updated for squeeze)
 
     mount /dev/sdb2 /mnt
     cd /mnt/tmp
@@ -171,11 +165,14 @@ now insert the card back into the linux PC and type this in the terminal
     cd
     umount /mnt
 
-this will acutally download all the files needed and write the config
-files for the ssh for boot
+Afterwards, put the sdcard back into the G1, and plug it into the computer. 
 
-now transfer the sd card back into the phone and in terminal type
+this will install the deb files we have dowloaded earlier again this
+will take some time. 
 
+Run these commands on the computer:
+
+    adb shell
     mkdir /data/mnt
     mount -t ext3 /dev/block/mmcblk0p3 /data/mnt
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
@@ -192,22 +189,13 @@ now transfer the sd card back into the phone and in terminal type
     umount /mnt
     rmdir /data/mnt
 
-this will install the deb files we have dowloaded earlier again this
-will take some time. while you wait you can come up with a new password
-for your debian system. i kept it simple like “s” (note: keyboard isn’t
-working very well 1st time booting so that’s why i kept it simple)
-
-### Test boot and ssh!
+### Boot Linux
 
 almost there few more steps and we should be done!
 
-now you need fastboot for this! so if you havn’t got so earlier get it
-now! [http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html)
+Plug in your G1 and type this command in your Linux PC:
 
-powerdown the phone and boot it up with **power+camera** or if your in
-your terminal type
-
-    reboot bootloader
+    adb reboot bootloader
 
 this next code is for you Linux PC, this will download the kernel and
 boot it
@@ -217,41 +205,44 @@ boot it
 
 NOW your phone should be booted into Debian
 
-username: root
+### Create a Username and Password
 
-password:whateveryoumadebefore
+As a security feature, nothing will be displayed while you type your password.
 
-once everything is booted and awaiting login you can actually SSH into
-phone and start playing around.  but before that i
-would basically forward your internet to your phone so your phone can go
-online with SSH.
+    username: root
+    password: <the password that you want>
+
+### Tether your G1's internet connection to the PC
+
+We have to forward your PC's internet connection to your G1. Type these commands in the computer:
 
     ifconfig usb0 192.168.0.200/26
     iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE
     echo 1 > /proc/sys/net/ipv4/ip_forward
     iptables -D POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE
+
+### SSH into the G1
+
+Use this command to SSH into the G1's command line, so you can send commands to it from your computer. Log into your phone with the same username and password you set before.
+
     ssh 192.168.0.202
 
-once connected to the phone and feeding internet I went ahead and
-updated the sources
+While you're SSH'ed into the G1, add the necessary repositories and update the system:
 
-    echo "deb http://ftp.debian.org/debian/ lenny main non-free contrib" >> /etc/apt/sources.list
-    echo "deb-src http://ftp.debian.org/debian/ lenny main non-free contrib" >> /etc/apt/sources.list
-    echo "deb http://security.debian.org/ lenny/updates main contrib non-free" >> /etc/apt/sources.list
-    echo "deb-src http://security.debian.org/ lenny/updates main contrib non-free" >> /etc/apt/sources.list
-    echo "deb http://volatile.debian.org/debian-volatile lenny/volatile main contrib non-free" >> /etc/apt/sources.list
-    echo "deb-src http://volatile.debian.org/debian-volatile lenny/volatile main contrib non-free" >> /etc/apt/sources.list
+    echo "deb http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
+    echo "deb-src http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
+    echo "deb http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
+    echo "deb-src http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
+    echo "deb http://volatile.debian.org/debian-volatile squeeze/volatile main contrib non-free" >> /etc/apt/sources.list
+    echo "deb-src http://volatile.debian.org/debian-volatile squeeze/volatile main contrib non-free" >> /etc/apt/sources.list
     apt-get update
     apt-get install bzip2 build-essential
 
-amost done!
+### Enable Dual Boot (optional)
 
-### Dual Boot Installation
+We will create a custom kernel for the phone to dual-boot between Android and Linux. This way, you will be able to hold **power+home** to boot Linux.
 
-now we gotta make the kernel for the phone to dual boot with holding
-**power+home**.
-
-in the SSH with the phone type
+Use your computer to SSH into the G1 and run these commands:
 
     cd /usr/src
     wget http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Outils/mkboot.tar.bz2
@@ -272,9 +263,6 @@ in the SSH with the phone type
     mkdir /dev/mtd
     cd /dev/ && for i in `ls -w1 mtd?`;do ln -s /dev/$i /dev/mtd/$i; done && cd - || cd -
     flash_image recovery Recovery-boot.img
-
-Finally! everything is installed and ready to go with your native
-debian.
 
 -   Normal boot will get you into Android
 -   Holding home and power will boot into debian
