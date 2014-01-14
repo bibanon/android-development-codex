@@ -221,7 +221,7 @@ We have to forward your PC's internet connection to your G1. Type these commands
     echo 1 > /proc/sys/net/ipv4/ip_forward
     iptables -D POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE
 
-(not tested) Alternatively, use these commands: (recommended by Jorge Peñalba)
+(not tested) Alternatively, use these commands: (recommended by [Jorge Peñalba](http://novaspirit.com/blog/?p=6&replytocom=31322))
 
      ifconfig usb0 192.168.0.200/26\
      iptables -A POSTROUTING -t nat -s 192.168.0.0/24 -j MASQUERADE\
