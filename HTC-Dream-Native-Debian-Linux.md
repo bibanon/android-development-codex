@@ -1,11 +1,11 @@
-\*Disclaimer! not my fault if your phone bricks!\*
-
 This guide was mostly organized by [Novaspirit](http://novaspirit.com/blog/?p=6), based on notes from [XDA-Developers.](http://forum.xda-developers.com/showthread.php?t=497280&highlight=native+debian&page=2)
 
 keep in mind this a dual boot! option so you can still get into your
 normal android then / boot into debian after restart.
 
-### Working
+### Working / Not Working
+
+#### Working
 
 -   Phone can boot!
 -   SDCard reader/writer
@@ -18,32 +18,20 @@ normal android then / boot into debian after restart.
 -   Phone Call : I am able to answer an incomming call from console!
 -   Unlock SIM Card and register on Network
 
-### Working with bugs
+#### Working with bugs
 
--   Trackball
-
-No event on click with ball - must click and move ball slightly
-
--   TouchScreen (MonoTouch)
-
-I can use it in console FBDEV, but with Xorg, the calibration doesn’t
+- **Trackball** - No event on click with ball - must click and move ball slightly
+- **TouchScreen** (MonoTouch) - I can use it in console FBDEV, but with Xorg, the calibration doesn’t
 work - calibration is very difficult but doable
-
--   ALSA
-
-Sound is low, when phone works, sound is very low, and alsamixer, for
-select OutPut has device bugs.
-
--   Xorg with my Kernel
-
-The phone crashes (freeze) when you leave Xorg  found this only happens
+- **ALSA** - Sound is low, when phone works, sound is very low, and alsamixer, for select OutPut has device bugs.
+-   **Xorg with my Kernel** - The phone crashes (freeze) when you leave Xorg  found this only happens
 sometimes not all
 
-### Not working
+#### Not working
 
 -   WiFi card is detected, but crashes when doing “ifconfig wlan0 up”.
 
-### Not tested
+#### Not tested
 
 -   GPS
 -   Accelerometers/Compas
@@ -55,7 +43,7 @@ sometimes not all
 -   Camera
 -   TouchScreen (MultiTouch)
 
-**HOWTO**
+### HOWTO
 
 For this tutorial I have an HTC Dream with Android WITH EXT2/3 SUPPORT
 and 8GB SDCard, I use it with :
@@ -78,7 +66,7 @@ PC HOST : Linux.
 I have windows also but i mainly did everything on Linux cause it’s
 eaiser!
 
-**Create Partition table**
+### Create Partition Table
 
 you can use your phone for this but that will be another guide.
 
@@ -97,7 +85,7 @@ select your sdcard and select it on the top right menu
 -   ext3 (android apps and stuff if you got app2sd)
 -   ext3 (debian)
 
-**Installing the base of Debian**
+### Installing the base of Debian
 
 Don’t remove your SD card just yet from your Linux PC. there’s still
 work that needed to be done
@@ -143,7 +131,7 @@ in the mean time. if you don’t have the android sdk for fastboot later
 get it now
 ([http://developer.android.com/sdk/index.html](http://developer.android.com/sdk/index.html))
 
-**SSH on boot**
+### SSH on boot
 
 this is a really important still i believe. without this i wouldn’t have
 gotten so far but its optional!
@@ -209,7 +197,7 @@ will take some time. while you wait you can come up with a new password
 for your debian system. i kept it simple like “s” (note: keyboard isn’t
 working very well 1st time booting so that’s why i kept it simple)
 
-**Test boot and ssh!**
+### Test boot and ssh!
 
 almost there few more steps and we should be done!
 
@@ -258,7 +246,7 @@ updated the sources
 
 amost done!
 
-**Dual Boot Installation**
+### Dual Boot Installation
 
 now we gotta make the kernel for the phone to dual boot with holding
 **power+home**.
