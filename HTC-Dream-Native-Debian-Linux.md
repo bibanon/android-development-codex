@@ -89,8 +89,8 @@ Keep your SDCard plugged in.
 
 We will use `debootstrap` to install all the necessary system packages to an image, which you will flash onto the G1.
 
-   mkdir debdroid
-   sudo /usr/sbin/debootstrap --foreign --arch armel squeeze debdroid/ http://http.debian.net/debian
+     mkdir debdroid
+     sudo /usr/sbin/debootstrap --foreign --arch armel squeeze debdroid/ http://http.debian.net/debian
 
 ### Copy `debootstrap` to the SDCard
 
