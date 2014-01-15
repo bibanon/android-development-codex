@@ -96,9 +96,9 @@ We will use `debootstrap` to install all the necessary system packages to an ima
 
 We now need to copy the system image to the G1. Change `/dev/sdb3` to the EXT3 partition for Debian on your SDCard (The names were previously obtained from GParted).
 
-   mount /dev/sdb3 /mnt/memory   # change correct device
-   sudo cp -pfr debdroid/* /mnt/memory/
-   umount /mnt/memory
+     mount /dev/sdb3 /mnt/memory   # change correct device
+     sudo cp -pfr debdroid/* /mnt/memory/
+     umount /mnt/memory
 
 ### `debootstrap` Second Stage
 
