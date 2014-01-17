@@ -36,6 +36,11 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
   - **Stance:** Anti-Developer
 * [[Motorola Droid 2 Global]] (R2D2)
   
+### Samsung
+
+* [[Galaxy Exhilarate|i577]] - Similar to the Galaxy S2
+* [[Galaxy 5|i5500]] - Made before the Galaxy S, started with Eclair.
+
 ### Other
 
 * [[Amazon Kindle Fire]] (KF) - **Status:** Under Construction
