@@ -155,8 +155,8 @@ The partition table we flashed was made for the 8GB Nexus 4, since we wanted to 
 
 * In case parted reported an error, put the old 8G partition tables back. This should not happen but it may happen
 
-    # /dd if=/external_sd/sgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc  
-    # /dd if=/external_sd/pgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
+     /dd if=/external_sd/sgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=30777311 conv=notrunc  
+     /dd if=/external_sd/pgpt8G.img of=/dev/block/mmcblk0 bs=512 seek=0 conv=notrunc
 
 
 #### Sources
