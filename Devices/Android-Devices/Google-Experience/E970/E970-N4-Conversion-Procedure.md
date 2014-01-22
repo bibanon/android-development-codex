@@ -23,27 +23,27 @@ This method needs a ton of rewriting, clarification, and documentation, especial
 
 ### Flash a Nexus 4 Partition Table with LGNPST
 
- + Backup all important files
- + Install LGNPST(if you dont have it already)
- + Extract the zip file
- + There should be a file with a file extension(.tot)
- + Change the file extension to a .bin
- + Start LGNPST
- + Put your phone into download mode (Turn it off and press the Volume Up + Volume Down buttons, a picture will pop up saying that the phone is in download mode)
- + Plug your phone into your computer(Make sure you are using the usb cable that came with the phone)
- + Wait until your phone is recognized by the computer
- + Open LGNPST
- + Next to the picture of a phone with "Emergency" on it there should be a place where you select the DLL file
- + Click on it and select the one that says LG_E970(If you don't see it choose LG_LS970)
- + Under the DLL file selection there should be a BIN FILE selector
- + Choose the bin file you renamed earlier
- + Start the flashing procces
- + Wait until it is at 85%
- + An error message should pop up saying that the Phone Disconnected
- + It should start booting 
- + If it doesn't boot put your phone into fastboot mode(Hold the Volume up button + The Power button ) and get fastboot 
- + Type fastboot -w into the command prompt
- + Once your done wait for it to restart
+ 1. Backup all important files
+ 2. Install LGNPST(if you dont have it already)
+ 3. Extract the zip file
+ 4. There should be a file with a file extension(.tot)
+ 5. Change the file extension to a .bin
+ 6. Start LGNPST
+ 7. Put your phone into download mode (Turn it off and press the Volume Up + Volume Down buttons, a picture will pop up saying that the phone is in download mode)
+ 8. Plug your phone into your computer(Make sure you are using the usb cable that came with the phone)
+ 9. Wait until your phone is recognized by the computer
+ 10. Open LGNPST
+ 11. Next to the picture of a phone with "Emergency" on it there should be a place where you select the DLL file
+ 12. Click on it and select the one that says LG_E970(If you don't see it choose LG_LS970)
+ 13. Under the DLL file selection there should be a BIN FILE selector
+ 14. Choose the bin file you renamed earlier
+ 15. Start the flashing procces
+ 16. Wait until it is at 85%
+ 17. An error message should pop up saying that the Phone Disconnected
+ 18. It should start booting 
+ 19. If it doesn't boot put your phone into fastboot mode(Hold the Volume up button + The Power button ) and get fastboot 
+ 20. Type fastboot -w into the command prompt
+ 21. Once your done wait for it to restart
 
 #### Sources
 
