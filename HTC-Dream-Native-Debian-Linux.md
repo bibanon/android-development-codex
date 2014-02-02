@@ -211,7 +211,7 @@ Type this command in the same chroot at your computer:
     apt-get install openssh-server openssh-client libkrb53 openssh-blacklist libedit2 udev libvolume-id0 libkeyutils1 
     /etc/init.d/ssh stop
 
-> **Note:** During installation, the G1 might restart unexpectedly. Simply enter the chroot again (see previous section)
+> **Note:** During installation, the G1 might restart unexpectedly. Simply enter the chroot again (see previous section).
 
 #### Create a Root user password and exit the Chroot
 
@@ -219,7 +219,9 @@ We will want to create a root user password.
 
     passwd
 
-Type in the password you want to use. As a security measure, text will not appear onscreen, so just keep typing and press enter when you've put it in.
+Type in the password you want to use (make sure that you only use numbers and letters! special characters cannot be easily entered). 
+
+As a security measure, text will not appear onscreen, so just keep typing and press enter when you've put it in.
 
 #### Exit the Chroot
 
