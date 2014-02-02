@@ -81,7 +81,9 @@ For example, an 8GB SDCard would be partitioned like this:
 -   2 GB EXT3 for app2sd
 -   4 GB EXT3 for my real Debian
 
-After creating the partitions, make sure to record their names, found in `gparted`'s top-right corner (ex. `/dev/sdb1`, `/dev/sdc6`). 
+After creating the partitions, make sure to record the names, found in `gparted`'s top-right corner (ex. `/dev/sdb1`, `/dev/sdc6`). 
+
+The G1 will see those partitions with names: `/dev/mmcblk0p3` or whatnot. Just add the last number of the `/dev/sdb1` name, replacing that `3`.
 
 Keep your SDCard plugged in.
 
