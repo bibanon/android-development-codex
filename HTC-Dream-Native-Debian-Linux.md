@@ -112,7 +112,7 @@ Mount the debian EXT3 partition:
 
 Now your debian partition should be mounted to file system at `/data/mnt`
 
-Next, we will chroot into the debian partition to start the second stage of installation. This will take about 25 minutes, so be patient and keep your phone charged. Remember, silence is golden.
+Next, we will chroot into the debian partition to start the second stage of installation. This will take about 25 minutes, so be patient and keep your phone charged.
 
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
     export TERM=linux
@@ -124,7 +124,7 @@ Next, we will chroot into the debian partition to start the second stage of inst
 
 ### Set the SSH service to start on boot
 
-We will need an SSH service running on the G1 for internet tethering from the PC. We have to install all the necessary packages, and edit configuration files to start SSH on boot.
+We will need an SSH service running on the G1 for internet tethering from the PC. We have to install Galoula's SSH modules, and edit configuration files to start SSH on boot.
 
 Insert the sdcard back into your Linux PC and run these commands: 
 
@@ -135,14 +135,6 @@ Insert the sdcard back into your Linux PC and run these commands:
     mount /dev/sdb2 /mnt
     cd /mnt/tmp
     wget http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Debian/2.6.32_GALOULA-001/Modules-2.6.32_GALOULA-001.tar.bz2
-    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-server_5.5p1-6+squeeze4_armel.deb
-    wget http://security.debian.org/debian-security/pool/updates/main/k/krb5/libkrb53_1.8.3+dfsg-4squeeze7_all.deb
-    wget http://ftp.debian.org/debian/pool/main/o/openssh-blacklist/openssh-blacklist_0.4.1_all.deb
-    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-client_5.5p1-6+squeeze4_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.5.6-1_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/libe/libedit/libedit2_2.11-20080614-5_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/u/udev/udev_164-3_armel.deb
-    wget http://archive.debian.org/debian-archive/debian-security/pool/updates/main/u/udev/libvolume-id0_0.125-7+lenny1_armel.deb
     tar -jxvf Modules-2.6.32_GALOULA-001.tar.bz2 -C ..
     echo g_ether >> ../etc/modules
     echo "auto lo" >> ../etc/network/interfaces
@@ -165,12 +157,17 @@ Insert the sdcard back into your Linux PC and run these commands:
     cd
     umount /mnt
 
-Afterwards, put the sdcard back into the G1, and plug it into the computer. 
+Later on, we will also install the SSH packages on the phone itself.
 
-this will install the deb files we have downloaded earlier again this
-will take some time. 
+Now insert the sdcard back into the G1, and plug the G1 into the computer. 
 
-Run these commands on the computer:
+### Set up Repositories
+
+Make sure your Android G1 has a WiFi internet connection and USB Debugging enabled. Also, disable WiFi sleep, which will cause download issues. `Settings->Wifi->Menu Button->Advanced->Wifi Sleep Policy->Never sleep when plugged in`
+
+This will install the necessary Debian repositories and some basic packages to the G1.
+
+First, enter a chroot on the G1:
 
     adb shell
     mkdir /data/mnt
@@ -180,9 +177,29 @@ Run these commands on the computer:
     export HOME=/root
     export USER=root
     chroot /data/mnt /bin/bash
-    cd /tmp
-    dpkg -i *.deb
+
+Type the commands below to add squeeze package repositories:
+
+    echo "deb http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
+    echo "deb-src http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
+    echo "deb http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
+    echo "deb-src http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
+    echo "deb http://ftp.debian.org/debian squeeze-updates main contrib non-free" >> /etc/apt/sources.list
+    echo "deb-src http://ftp.debian.org/debian squeeze-updates main contrib non-free" >> /etc/apt/sources.list
+    apt-get update
+    apt-get install bzip2 build-essential
+
+### Install SSH
+
+Finally, we can install the openssh packages  An SSH server allows you to access a USB connected phone from your computer, so you can pump in terminal commands using copy and paste.
+
+    apt-get install openssh-server openssh-client libkrb53 openssh-blacklist libedit2 udev libvolume-id0 libkeyutils1 
     /etc/init.d/ssh stop
+
+### Create a Root user password and exit the Chroot
+
+We will want to create a root user password. After doing that, you can exit the chroot.
+
     passwd
     sync
     exit
@@ -191,19 +208,16 @@ Run these commands on the computer:
 
 ### Boot Linux
 
-almost there few more steps and we should be done!
-
-Plug in your G1 and type this command in your Linux PC:
+Put the sdcard back into your G1, Plug in your G1 to the PC, and type this command to enter `fastboot` mode:
 
     adb reboot bootloader
 
-this next code is for you Linux PC, this will download the kernel and
-boot it
+Type this command on your Linux PC to download and boot the kernel.
 
     wget http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Debian/2.6.32_GALOULA-001/zImage
     fastboot -c "console=tty0 no_console_suspend=1 root=/dev/mmcblk0p3 rootdelay=2 fbcon=rotate:1" boot ./zImage
 
-NOW your phone should be booted into Debian
+Your phone will now boot into Debian.
 
 ### Create a Username and Password
 
@@ -235,17 +249,6 @@ We have to forward your PC's internet connection to your G1. Type these commands
 Use this command to SSH into the G1's command line, so you can send commands to it from your computer. Log into your phone with the same username and password you set before.
 
     ssh 192.168.0.202
-
-While you're SSH'ed into the G1, add the necessary repositories and update the system:
-
-    echo "deb http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
-    echo "deb-src http://ftp.debian.org/debian/ squeeze main non-free contrib" >> /etc/apt/sources.list
-    echo "deb http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
-    echo "deb-src http://security.debian.org/ squeeze/updates main contrib non-free" >> /etc/apt/sources.list
-    echo "deb http://volatile.debian.org/debian-volatile squeeze/volatile main contrib non-free" >> /etc/apt/sources.list
-    echo "deb-src http://volatile.debian.org/debian-volatile squeeze/volatile main contrib non-free" >> /etc/apt/sources.list
-    apt-get update
-    apt-get install bzip2 build-essential
 
 ### Enable Dual Boot (optional)
 
