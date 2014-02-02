@@ -163,7 +163,10 @@ Now insert the sdcard back into the G1, and plug the G1 into the computer.
 
 ### Set up Repositories
 
-Make sure your Android G1 has a WiFi internet connection and USB Debugging enabled. Also, disable WiFi sleep, which will cause download issues. `Settings->Wifi->Menu Button->Advanced->Wifi Sleep Policy->Never sleep when plugged in`
+Make sure your Android G1 has a WiFi internet connection and USB Debugging enabled.
+
+* Set your phone to Stay Awake, so the phone will not suddenly cut off your wifi connection. `Settings->Application->Development->Stay Awake`
+* Disable WiFi sleep, which will cause download issues. `Settings->Wifi->Menu Button->Advanced->Wifi Sleep Policy->Never sleep when plugged in`
 
 This will install the necessary Debian repositories and some basic packages to the G1.
 
