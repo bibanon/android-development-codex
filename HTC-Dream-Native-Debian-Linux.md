@@ -161,7 +161,7 @@ Later on, we will also install the SSH packages on the phone itself.
 
 Now insert the sdcard back into the G1, and plug the G1 into the computer. 
 
-### Set up Repositories
+### Set up Repositories with a chroot
 
 Make sure your Android G1 has a WiFi internet connection and USB Debugging enabled.
 
@@ -170,7 +170,7 @@ Make sure your Android G1 has a WiFi internet connection and USB Debugging enabl
 
 This will install the necessary Debian repositories and some basic packages to the G1.
 
-First, enter a chroot on the G1:
+First, enter a chroot on the G1 from your PC, using these commands:
 
     adb shell
     mkdir /data/mnt
@@ -194,7 +194,9 @@ Type the commands below to add squeeze package repositories:
 
 ### Install SSH
 
-Finally, we can install the openssh packages  An SSH server allows you to access a USB connected phone from your computer, so you can pump in terminal commands using copy and paste.
+Finally, we can install the openssh packages. An SSH server allows you to access a USB connected phone from your computer, so you can pump in terminal commands using copy and paste.
+
+Type this command in the same chroot at your computer:
 
     apt-get install openssh-server openssh-client libkrb53 openssh-blacklist libedit2 udev libvolume-id0 libkeyutils1 
     /etc/init.d/ssh stop
