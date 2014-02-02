@@ -135,14 +135,14 @@ Insert the sdcard back into your Linux PC and run these commands:
     mount /dev/sdb2 /mnt
     cd /mnt/tmp
     wget http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Debian/2.6.32_GALOULA-001/Modules-2.6.32_GALOULA-001.tar.bz2
-    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-server_5.1p1-5_armel.deb
-    wget http://security.debian.org/debian-security/pool/updates/main/k/krb5/libkrb53_1.6.dfsg.4~beta1-5lenny4_armel.deb
+    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-server_5.5p1-6+squeeze4_armel.deb
+    wget http://security.debian.org/debian-security/pool/updates/main/k/krb5/libkrb53_1.8.3+dfsg-4squeeze7_all.deb
     wget http://ftp.debian.org/debian/pool/main/o/openssh-blacklist/openssh-blacklist_0.4.1_all.deb
-    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-client_5.1p1-5_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.2-9_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/libe/libedit/libedit2_2.11~20080614-1_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/u/udev/udev_0.125-7+lenny3_armel.deb
-    wget http://ftp.debian.org/debian/pool/main/u/udev/libvolume-id0_0.125-7+lenny3_armel.deb
+    wget http://ftp.debian.org/debian/pool/main/o/openssh/openssh-client_5.5p1-6+squeeze4_armel.deb
+    wget http://ftp.debian.org/debian/pool/main/k/keyutils/libkeyutils1_1.5.6-1_armel.deb
+    wget http://ftp.debian.org/debian/pool/main/libe/libedit/libedit2_2.11-20080614-5_armel.deb
+    wget http://ftp.debian.org/debian/pool/main/u/udev/udev_164-3_armel.deb
+    wget http://archive.debian.org/debian-archive/debian-security/pool/updates/main/u/udev/libvolume-id0_0.125-7+lenny1_armel.deb
     tar -jxvf Modules-2.6.32_GALOULA-001.tar.bz2 -C ..
     echo g_ether >> ../etc/modules
     echo "auto lo" >> ../etc/network/interfaces
@@ -167,7 +167,7 @@ Insert the sdcard back into your Linux PC and run these commands:
 
 Afterwards, put the sdcard back into the G1, and plug it into the computer. 
 
-this will install the deb files we have dowloaded earlier again this
+this will install the deb files we have downloaded earlier again this
 will take some time. 
 
 Run these commands on the computer:
