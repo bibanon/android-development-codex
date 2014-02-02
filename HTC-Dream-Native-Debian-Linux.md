@@ -176,11 +176,14 @@ Make sure your Android G1 has a WiFi internet connection and USB Debugging enabl
 
 #### Enter the chroot
 
-First, enter a chroot on the G1 from your PC, using these commands:
+First, mount the Debian partition on the G1 from your PC, using these commands:
 
     adb shell
     mkdir /data/mnt
     mount -t ext3 /dev/block/mmcblk0p3 /data/mnt
+
+Then, enter the chroot:
+
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:$PATH
     export TERM=linux
     export HOME=/root
@@ -246,12 +249,12 @@ Type this command on your Linux PC to download and boot the kernel.
 
 Your phone will now boot into Debian.
 
-### Create a Username and Password
+### Type in the Username and Password
 
 As a security feature, nothing will be displayed while you type your password.
 
     username: root
-    password: <the password that you want>
+    password: <the password that you created>
 
 ### Tether your G1's internet connection to the PC
 
