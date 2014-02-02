@@ -226,9 +226,10 @@ Type in the password you want to use. As a security measure, text will not appea
 We're all done, so you can exit the chroot.
 
     sync
-    exit
+    exit                # exits the chroot
     umount /mnt
     rmdir /data/mnt
+    exit                # exits `adb shell`
 
 ### Boot Linux
 
