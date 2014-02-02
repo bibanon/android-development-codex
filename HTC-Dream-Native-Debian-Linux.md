@@ -1,5 +1,7 @@
 This guide was mostly organized by [Novaspirit](http://novaspirit.com/blog/?p=6), refined on [the Debian Wiki](https://wiki.debian.org/HowtoDebianInAndroid), and based on notes from [XDA-Developers.](http://forum.xda-developers.com/showthread.php?t=497280&highlight=native+debian&page=2)
 
+Here, we've fixed some glaring errors and updated it for Debian squeeze.
+
 This guide will create a dual-boot Linux and Android system. The phone will boot normally into Android; just hold home+power when turning on to enter Debian Linux.
 
 ### Working / Not Working
@@ -172,7 +174,7 @@ Make sure your Android G1 has a WiFi internet connection and USB Debugging enabl
 * Set your phone to Stay Awake, so the phone will not suddenly cut off your wifi connection. `Settings->Application->Development->Stay Awake`
 * Disable WiFi sleep, which will cause download issues. `Settings->Wifi->Menu Button->Advanced->Wifi Sleep Policy->Never sleep when plugged in`
 
-### Enter the chroot
+#### Enter the chroot
 
 First, enter a chroot on the G1 from your PC, using these commands:
 
@@ -200,7 +202,7 @@ Type the commands below to add squeeze package repositories:
     apt-get update
     apt-get install bzip2 build-essential
 
-### Install SSH
+#### Install SSH
 
 Finally, we can install the openssh packages. An SSH server allows you to access a USB connected phone from your computer, so you can pump in terminal commands using copy and paste.
 
@@ -211,11 +213,18 @@ Type this command in the same chroot at your computer:
 
 > **Note:** During installation, the G1 might restart unexpectedly. Simply enter the chroot again (see previous section)
 
-### Create a Root user password and exit the Chroot
+#### Create a Root user password and exit the Chroot
 
-We will want to create a root user password. After doing that, you can exit the chroot.
+We will want to create a root user password.
 
     passwd
+
+Type in the password you want to use. As a security measure, text will not appear onscreen, so just keep typing and press enter when you've put it in.
+
+#### Exit the Chroot
+
+We're all done, so you can exit the chroot.
+
     sync
     exit
     umount /mnt
