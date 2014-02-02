@@ -161,14 +161,16 @@ Later on, we will also install the SSH packages on the phone itself.
 
 Now insert the sdcard back into the G1, and plug the G1 into the computer. 
 
-### Set up Repositories with a chroot
+### Chroot Setup
+
+> **Note:** Don't worry; we are still installing Native Debian Linux. We are only temporarily using a chroot for greater convenience when pumping in commands.
 
 Make sure your Android G1 has a WiFi internet connection and USB Debugging enabled.
 
 * Set your phone to Stay Awake, so the phone will not suddenly cut off your wifi connection. `Settings->Application->Development->Stay Awake`
 * Disable WiFi sleep, which will cause download issues. `Settings->Wifi->Menu Button->Advanced->Wifi Sleep Policy->Never sleep when plugged in`
 
-This will install the necessary Debian repositories and some basic packages to the G1.
+### Enter the chroot
 
 First, enter a chroot on the G1 from your PC, using these commands:
 
@@ -180,6 +182,10 @@ First, enter a chroot on the G1 from your PC, using these commands:
     export HOME=/root
     export USER=root
     chroot /data/mnt /bin/bash
+
+#### Set up Squeeze Package Repositories
+
+This will install the necessary Debian repositories and some basic packages to the G1.
 
 Type the commands below to add squeeze package repositories:
 
@@ -200,6 +206,8 @@ Type this command in the same chroot at your computer:
 
     apt-get install openssh-server openssh-client libkrb53 openssh-blacklist libedit2 udev libvolume-id0 libkeyutils1 
     /etc/init.d/ssh stop
+
+> **Note:** During installation, the G1 might restart unexpectedly. Simply enter the chroot again (see previous section)
 
 ### Create a Root user password and exit the Chroot
 
