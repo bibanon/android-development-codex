@@ -1,4 +1,8 @@
-## Sections 
+<img src="http://i.imgur.com/KaOsgph.png" alt="BA Logo" height="200" width="200"> 
+
+[**Bibliotheca Anonoma**](https://github.com/bibanon/bibanon/wiki)
+
+## Introduction
 
 * [[Introduction]] - A quick intro to the rationale and ideals of this guide, and smartphone modding in general.
 * [[General Setup]] - Learn how to install and run the tools you need to succeed.
