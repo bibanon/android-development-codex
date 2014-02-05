@@ -1,4 +1,4 @@
-The Android Development Codex is a community-built, comprehensive guidebook to all aspects of Android modding, customized for the phones that make it up. 
+The **Android Development Codex** is a community-built, comprehensive guidebook to all aspects of Android modding, customized for the phones that make it up. 
 
 It aims to reform the XDA Wiki and consolidate all the information from the forums into one single, easy to read, and up-to-date guide for customized to every Android device. 
 
