@@ -1,4 +1,4 @@
-<img src="http://i.imgur.com/KaOsgph.png" alt="BA Logo" height="200" width="200"> 
+<img src="http://i.imgur.com/UkgBKok.png" alt="BA Logo" height="200" width="200"> 
 
 [**Bibliotheca Anonoma**](https://github.com/bibanon/bibanon/wiki)
 
