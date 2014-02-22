@@ -1,5 +1,7 @@
 A high priority for liquidation, especially since it is the first Android phone, and the downloads are suffering from severe link rot.
 
+The last update for the HTC Dream (original keyboard) is Android 1.6. The recommended Android version is Android 2.2.
+
 ## Basic Guide
 
 * Root and install an Engineering HBOOT (for S-OFF and fastboot support)
