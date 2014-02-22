@@ -308,3 +308,67 @@ Use your computer to SSH into the G1 and run these commands:
 
 -   Normal boot will get you into Android
 -   Holding home and power will boot into debian
+
+## Galoula's Netinstall
+
+How to Install Ubuntu with Ubuntu-Install.img ?
+
+Download [Ubuntu-Install.img](http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Ubuntu/Ubuntu-Install.img) on your Linux-PC.
+
+Turn off your HTC G1.
+
+Turn On HTC G1 in FastBosst mode : Power on with hold the camera button, if it's OK, you can see 3 Android on Skateboards.
+
+In this screen press Back.
+
+Connect USB cable betweek PC and G1.
+
+On your Linux PC type this command : "fastboot boot Ubuntu-Install.img" without quotes.
+
+If the G1 don't start, press the back button on G1.
+
+The G1 start the Ubuntu Installer.
+
+Warning ! My image is set for a French G1 keymap.
+
+The special keys are :
+* Up : End
+* Down : Back
+* Left : Home
+* Right : Call
+* Escape : menu (on keyboard)
+* Tab : Right alt with Q.
+* Control : Search Button
+
+For get networking works : This kernel use USB-NET.
+
+### To configure IT :
+
+On the Linux PC :
+
+	sudo ifconfig usb0 192.168.0.200 netmask 255.255.255.0 up
+	iptables -A POSTROUTING -t nat -j MASQUERADE -s 192.168.0.0/24
+	sysctl -w net.ipv4.ip_forward=1
+
+### On the G1 :
+
+When the installer tell you for Networking Configuration, chose usb0
+
+You can cancel the DHCP discover.
+
+Type this settings :
+
+	IP Address : 192.168.0.202
+	NetMask : 255.255.255.0
+	GateWay : 192.168.0.200
+	DNS : Your DNS
+
+The setup tell you because it can't download "kernel modules", chose continue, my kernel can read the SDCARD for the installation, but it can't read internal partition for more secure.
+
+The setup can tell you a warning because the kernel can't be installed, please continue (and ignore it) because, Ubuntu-Rescue.img contain the appropriate kernel.
+
+Actualy, the file is : [boot-recovery.img](http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Ubuntu/boot-recovery.img)
+
+Now, you can setup your Ubuntu !
+
+* [Galoula's Netinstall images](http://www.galoula.net/fr/Tutoriels/HTC-DREAM-G1/FTP/Native_Ubuntu/Readme.txt)
