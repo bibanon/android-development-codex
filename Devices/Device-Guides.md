@@ -23,6 +23,8 @@ Policy missteps have dropped HTC from a ROM developer's dream to a whimpering un
 
 Incidentally, the name of XDA-Developers comes from HTC's O2 XDA Windows Mobile smartphones.
 
+* [[HTC One X Evita]] - The Qualcomm Dual-Core variant of the HOX, sold only in North America by AT&T, Rogers, and Telus. 
+* [[HTC One X]] - The Quad-core Nvidia Tegra 3 variant of the HOX, sold internationally outside of North America.
 * [[HTC HD2]] (HD2) - **Status:** Nearly Complete
 * [[HTC Droid Incredible]] (DINC) - **Status:** Complete
 * [[HTC Desire Z/T-Mobile G2|HTC Desire Z]] (G2) - **Status:**
