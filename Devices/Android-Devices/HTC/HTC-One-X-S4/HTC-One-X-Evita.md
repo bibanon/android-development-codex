@@ -19,7 +19,7 @@ Follow these guides in order if you have an AT&T HTC One X.
 * [[Evita Recovery]] - TWRP is strongly recommended, as CWM is not officially supported. DON'T USE ROM MANAGER. It may brick your device, because it uses the international HTC One X CWM.
 * [[Evita Custom ROMs]] - Since the HTC One X Evita does not have a safe method of gaining S-OFF, you will have to flash `boot.img` every time you want to install a new ROM.
 
-* [[Evita S-OFF]] (Work in Progress) - Devs are cooking up methods of gaining S-OFF on, but nothing safe has been made yet. 
+* [[Evita S-OFF]] - The Rumrunner exploit gives us S-OFF on the latest OTAs.
   * When HTCDev unlock is used, the phone remains S-ON, which prevents recoveries from writing to the boot partition. This requires an inconvenient kernel reflash from a computer whenever a new custom ROM is installed.
 
 ### Rogers Root/Unlock/Recovery
