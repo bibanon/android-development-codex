@@ -6,6 +6,43 @@ Make sure to find a guide for the right version number (check in **Settings->Abo
 * Latest Rogers Version: Unknown
 * Latest Telstra One XL Version: Unknown
 
+## AT&T 3.18
+*[Download the files here](http://forum.xda-developers.com/attachment.php?attachmentid=1973170&d=1368918573)
+
+* Step One: Download and extract the file
+* Step Two: Get the Htc Drivers(Windows)
+* Step Three: Get adb and fastboot(if you dont have it)
+* Step Four: Do all the commands listed below
+
+    adb push oneXchopper /data/local/tmp/xpwn
+    adb push busybox /data/local/tmp/busybox
+    adb push ownage /data/local/tmp/phase1.sh
+    adb shell chmod 755 /data/local/tmp/xpwn /data/local/tmp/busybox
+    adb shell 
+          (within ADB shell)
+          ln -s /data/local/tmp/busybox /data/local/tmp/sed
+          /data/local/tmp/xpwn
+    
+    You will see this: 
+    [+] This may take a few minutes.
+    [+] Success!
+    2+0 records in
+    2+0 records out
+    1024 bytes transferred in 0.001 secs (1024000 bytes/sec)
+    2+0 records in
+    2+0 records out
+    1024 bytes transferred in 0.001 secs (1024000 bytes/sec)
+    2+0 records in
+    2+0 records out
+    1024 bytes transferred in 0.008 secs (128000 bytes/sec)
+    
+    exit (will exit from shell)
+
+    adb reboot bootloader
+* Step Five: Get an unlock code from HTCdev.com
+
+*[Link](http://forum.xda-developers.com/showthread.php?t=2285086)
+
 ## AT&T 2.20 X-Factor
 
 In build 2.20: full S-ON is now in effect, which NAND-locks the storage. In other words, you need to unlock the bootloader to gain permanent root.
