@@ -1,0 +1,1 @@
+[Rumrunner](http://forum.xda-developers.com/showthread.php?t=2540232) - Works on all Evita Models: HTC One XL, Telus X, and AT&T X.
