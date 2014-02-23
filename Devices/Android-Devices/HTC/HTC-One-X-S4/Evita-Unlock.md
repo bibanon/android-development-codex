@@ -40,9 +40,9 @@ Make sure to find a guide for the right version number (check in **Settings->Abo
     
         adb reboot bootloader
 
-* Step Five: Get an unlock code from HTCdev.com
+* Step Five: Get an unlock code from [HTCdev.com](http://www.htcdev.com/)
 
-* [Link](http://forum.xda-developers.com/showthread.php?t=2285086)
+* (http://forum.xda-developers.com/showthread.php?t=2285086)
 
 ## AT&T 2.20 X-Factor
 
