@@ -41,6 +41,7 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
 ### Samsung
 
 * [[Galaxy Exhilarate|i577]] - Similar to the Galaxy S2
+* [[Verizon Galaxy S3|SCH-I535]] (Verizon Galaxy S3) -
 * [[Galaxy 5|i5500]] - Made before the Galaxy S, started with Eclair.
 
 ### Other
