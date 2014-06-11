@@ -4,6 +4,8 @@
 
 ## Version 4.1.2
 
+* Nothing here yet
+
 ## Version 4.3(I535VRUCML1)
 
 This update will **Forever** lock your bootloader. DO NOT install this update at all if you haven't already.
@@ -12,7 +14,7 @@ This update will **Forever** lock your bootloader. DO NOT install this update at
 
 * This is only for phones that are on NC1
 
-1. Get ODIN 3.09
+1. Get ODIN 3.09 and get usb drives if you don't have them already
 2. Download the Firmware(ML1) 
 3. Now, put the Verizon Galaxy S3 SCH-I535  in Download Mode by pressing and holding down the Home & Volume Down button together while pressing the Power button. Then press Volume Up button to accept the warning and enter Download Mode.
 4. Now run Odin3 v3.09.exe (see Step 3) as an **Admin**
