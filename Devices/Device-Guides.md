@@ -48,7 +48,7 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
 
 * [[Amazon Kindle Fire]] (KF) - **Status:** Under Construction
 * [[Nook Color]] (NC) - **Status:**
-
+* [[Nook Simple Touch Glowlight]] (NSTG) - Under Construction
 ## Windows Mobile 6
 
 XDA was originally named for the HTC Windows Mobile Phones, one line of which was known as the Xda. The modding community on this system made XDA the massive conglomerate it is today.
