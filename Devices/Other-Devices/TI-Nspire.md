@@ -18,7 +18,7 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 
 ## Ndless (OS 3.2.3 - 3.1)
 
-* [[Ndless 3.1|Nspire Ndless 3.1]] - Ndless 3.1 is the legacy version of Ndless. It is meant for OS 3.2.3 and lower.
+* [[Ndless 3.1|Nspire Ndless]] - Ndless 3.1 is the legacy version of Ndless. It is meant for OS 3.2.3 and lower.
 * [[Nlaunch CX 3.2/3.1]] - The legacy version of Nlaunch, for dual-booting 3.2 and 3.1.
   * [[NLaunch 3.2/3.1 |Nspire Nlaunch]] - NLaunch for the black and white Touchpad and Clickpad versions.
 
