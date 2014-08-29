@@ -1,5 +1,3 @@
-## PTTCopier
-
 This is the forbidden fruit of TI-Nspire development. The holy grail of the thoughtless cheat and the bane of the dev community. So bad that it was nicknamed "Nspire Community Killer". It's name is PTTKiller.
 
 **Push-to-Test** (PTT) is the TI-Nspire's equivalent of a memory clear on traditional graphing calculators. It also locks some advanced functions and makes documents inaccessible. An LED light tells educators that PTT is activated. It can only be turned off with another Nspire or a computer.
@@ -22,3 +20,13 @@ Oddly, functions in libraries don't work, whether PTTCopier is used or not. The 
 ### Extending
 
 Of course, this is a bit basic. We do need some sort of GUI.
+
+### Implementations of PTTKiller
+
+These are historic programs and downloads are not shared anywhere.
+
+* **PTTCopier** - This application defeats Push-to-Test by making available any files from a `ptt` folder under My Documents when PTT is enabled. 
+    * Originally created by RobbeP.
+    * One flaw is that files designed to be compatible with the MyLib folder have all their functions disabled once one of those filled have been opened. However, regular documents without such features work without issues.
+    * Another thing to note is that PTTCopier does not actually kill PTT, it only makes files available. Thus, calculator functions disabled by your teacher will not be enabled until PTT is turned off.
+* **Hidemanager**
