@@ -102,20 +102,20 @@ To go back to OS v3.1 + Ndless, just repeat the same steps.
 
 (needs elaboration)
 
-## Using CAS on non-CAS systems
+### CAS Firmware on Non-CAS Calculators
 
-nLaunch bypasses all known protections made by TI, such as the following:
+> **Warning:** We do not sanction nor recommend the abuse of nLaunch to bypass test restrictions on CAS calculators. We warn you that some testing organizations will check for and reprimand violators, [such as in Portugal.](http://tiplanet.org/forum/viewtopic.php?t=12227)
+
+Since CAS calculators are physically the same as non-CAS calculators, we can use nLaunch to bypass model checking and install CAS firmware on the cheaper, non-CAS calculators. nLaunch bypasses all known protections made by TI, such as the following:
 
 * either a development or production OS (the RSA signature is ignored)
 * accordingly, any modified official OS
 * either a CAS or non-CAS OS (bits indicating the type of model are ignored)
 * an OS whose version number is earlier than the minimum version normally installable, written before the beginning of the NAND filesystem (the anti-downgrade protection is ignored) 
 
-Therefore, installing a CAS OS on a non-CAS TI-Nspire is possible. 
+It was an unintended and undocumented side effect of the power of nLaunch, and took quite a bit of innovation and risk-taking to produce, putting it far beyond the layman's ability.  
 
-(However, we ask that you refrain from using this ability to circumvent restrictions on CAS calculators.)
-
-If you are a concerned educator, simply use the Nspire crib to update all your student's Nspires before a test, which will remove Ndless, nLaunch, and any custom OSes, returning them to their original state. And don't worry about your crafty students; OS 3.1 and Ndless can be easily reinstalled at home after the test.
+Nevertheless, TI was forced to release OS 3.2.4 to disable both Ndless and nLaunch in response. If you are a concerned educator, simply use the Nspire crib to update all your student's Nspires before a test, which will remove Ndless, nLaunch, and any custom OSes, returning them to their original state.
 
 ## Sources
 
