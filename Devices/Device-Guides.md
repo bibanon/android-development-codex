@@ -57,3 +57,7 @@ XDA was originally named for the HTC Windows Mobile Phones, one line of which wa
 Unfortunately, the old forums that made XDA popular are beginning to fade away and collapse into link rot. Here, we attempt to salvage and liquidate the great work of XDA of the past, for the benefit of the future.
 
 * [[HTC Herald]] (WING) - **Status:** Complete, ROMs undergoing liquidation
+
+## Non-Android
+
+* [[TI-Nspire]]
