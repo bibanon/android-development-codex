@@ -17,7 +17,7 @@ What a PTTKiller would do is copy a folder from normal documents to the exammode
     // Moves the "ptt" folder to beat PTT
     rename("/documents/ptt", "/exammode/usr/ptt");
 
-Oddly, functions in libraries don't work, whether PTTCopier is used or not. The first library will have functions working normally, but after that one is closed, no other library will have usable functions. However, all other programs and documents are unaffected.
+Oddly, functions in libraries don't work, whether PTTCopier is used or not. The first library opened will have functions working normally, but after that one is closed, no other library will have usable functions. However, all other programs and documents are unaffected.
 
 ### Extending
 
