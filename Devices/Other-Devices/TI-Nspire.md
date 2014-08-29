@@ -12,18 +12,24 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 
 > **Note:** _Your calculator must be at firmware version 3.6 or less to install Ndless 3.1._
 
-* [[Nspire Ndless 3.6]] - Ndless enables allows custom apps to be run on the TI-Nspire using traditional programming languages, like any decent computer. Ndless 3.6 is the latest version, for OS 3.6 and lower. (OS 3.9 is not supported or downgradable yet)
-  * [[Nspire Ndless 3.1|Nspire Ndless]] - Ndless 3.1 is the legacy version of Ndless. It is meant for OS 3.2.3 and lower.
-* [[Nspire Ndless SDK]] - Ndless also provides a nice SDK for developers to work in, packing a nice emulator to boot.
+* [[Ndless 3.6|Nspire Ndless 3.6]] - Ndless enables allows custom apps to be run on the TI-Nspire using traditional programming languages, like any decent computer. Ndless 3.6 is the latest version, for OS 3.6 and lower. (OS 3.9 is not supported or downgradable yet)
+  * [[Ndless 3.1|Nspire Ndless 3.1]] - Ndless 3.1 is the legacy version of Ndless. It is meant for OS 3.2.3 and lower.
+* [Ndless SDK](http://ndless.me/) - Ndless also provides a nice SDK for developers to work in, packing a nice emulator to boot.
 * [[Nspire Linux]] - A small build of embedded ARM Linux created with Buildroot. Works quite nicely, though apps have to be cross-compiled with buildroot.
 
 ## Haxx
 
-* [[Nspire Nlaunch]] - (original Nspires only) Dual-boot your Nspire into both OS 3.1 and 3.2 with this exploit. It bypasses all known OS protections on the Nspire. 
+### TI-Nspire CX (Color screen)
+
+* [[Nlaunch CX 3.6/3.1]] - Dual-boot your Nspire into both OS 3.6 and 3.1 with this OS switcher. It bypasses all known OS protections on the Nspire. 
+  * [[Nlaunch CX 3.2/3.1]] - The legacy version of Nlaunch, for dual-booting 3.2 and 3.1.
+
+### TI-Nspire (non color screen)
+
+* [[NLaunch 3.6/3.1]] - Dual-boot your Nspire into both OS 3.6 and 3.1 with this OS switcher. It bypasses all known OS protections on the Nspire. 
+  * [[NLaunch 3.2/3.1 |Nspire Nlaunch]] - The legacy version of Nlaunch, for dual-booting 3.2 and 3.1.
 * [[PTTKiller]] - No programs here. Just a description of an exploit to defeat Press-to-Test, and instructions for educators to prevent students from using the exploit.
 
 ## Programs
-
-
 
 ## Sources
