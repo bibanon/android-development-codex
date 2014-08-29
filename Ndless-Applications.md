@@ -1,5 +1,4 @@
-Ndless Applications
---------------------
+### Legend
 
 * (CX) - Best on CX.
 * [CX] - CX models only.
