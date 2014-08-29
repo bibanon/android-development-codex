@@ -1,7 +1,3 @@
-## nLaunch
-
-OSLauncher allows any firmware to run on some models of the Nspire. This opens the door for a native replacement firmware; a side effect is that it is possible to install a CAS version.
-
 ## PTTCopier
 
 This is the forbidden fruit of TI-Nspire development. The holy grail of the thoughtless cheat and the bane of the dev community. So bad that it was nicknamed "Nspire Community Killer". It's name is PTTKiller.
