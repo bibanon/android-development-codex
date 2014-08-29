@@ -1,7 +1,3 @@
-# Dirty Hax
-
-Here are a few 
-
 ## nLaunch
 
 OSLauncher allows any firmware to run on some models of the Nspire. This opens the door for a native replacement firmware; a side effect is that it is possible to install a CAS version.
