@@ -4,9 +4,11 @@ Ndless is a system that allows the use of C or assembly programs on the Nspire, 
 
 If you don't already have the software that came with your Nspire, download and install the [TI-Nspire Computer Link](http://education.ti.com/en/us/products/computer_software/connectivity-software/ti-nspire-computer-link-software/features/features-summary) for free from TI.
 
-## If using OS 3.2
+## If using OS 3.2.3 and lower
 
-Unfortunately, Ndless does not work on OS 3.2. 
+> **Note:** OS 3.2.4 cannot be downgraded using this method.
+
+Unfortunately, Ndless does not work on OS 3.2.x. 
 
 On the other hand, we can just downgrade to OS 3.1 to get Ndless. TI did not restrict downgrades to 3.1 for some unknown reason. We hypothesize that it was an escape route in case of bugs.
 
