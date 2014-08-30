@@ -33,4 +33,8 @@ This guide works with both the original TI-Nspire and the improved CX version. J
 * [[Nspire Linux]] - A small build of embedded ARM Linux created with Buildroot. Works quite nicely, though apps have to be cross-compiled with buildroot.
 * [[PTTKiller]] - A description of an exploit to defeat Press-to-Test, and instructions for educators to prevent students from using the exploit. No programs offered here.
 
+## Models
+
+* [[Nspire Prototypes]] - Often on eBay, some dishonest sellers will ship out "Not for sale" prototype units. These are problematic because they cannot be updated to other OS versions. Here are a few links about Critor's research on converting them into Production units.
+
 ## Sources
