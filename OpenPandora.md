@@ -6,6 +6,12 @@ Unfortunately, the multitouch, keyboardless iPhone and Android, battle-hardened 
 
 Perhaps the OpenPandora will remain a relic of an older time; when most users programmed their computers, and were not programmed by them. However, for those who still subscribe to this dying ideology, the Dragonbox Pyra has the same Pandora case and unique keyboard/button/joystick layout, but also a TI OMAP 5 processor running a full blown Linux operating system.
 
+## Guides
+
+(will add later)
+
+## Recommended Apps
+
 ## OpenPandora Alternatives
 
 The OpenPandora is unmatched in vintage home computer emulation, thanks to it's unique features of resistive touchscreen, dual joysticks, and full keyboard.
