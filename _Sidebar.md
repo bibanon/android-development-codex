@@ -4,6 +4,8 @@
 
 ## Android Development Codex
 
+**Note:** This project has been moved to [the BASLQC Wiki.](https://github.com/baslqc/baslqc/wiki)
+
 ### Introduction
 
 * [[Introduction]] - A quick intro to the rationale and ideals of this guide, and smartphone modding in general.
