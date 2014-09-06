@@ -1,4 +1,4 @@
-> **Note:** _This wiki is the progress of migration to the BASLQC repository._
+> **Notice:** This project has been renamed and moved to [the BASLQC Wiki.](https://github.com/baslqc/baslqc/wiki) Please make all edits there; this repository is left only for legacy compatibility.
 
 The **Android Development Codex** is a community-built, comprehensive guidebook to all aspects of Android modding, customized for the phones that make it up. 
 
