@@ -12,6 +12,8 @@ Perhaps the OpenPandora will remain a relic of an older time; when most users pr
 
 ## Recommended Apps
 
+## Emulators
+
 ## OpenPandora Alternatives
 
 The OpenPandora is unmatched in vintage home computer emulation, thanks to it's unique features of resistive touchscreen, dual joysticks, and full keyboard.
