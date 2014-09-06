@@ -302,11 +302,11 @@ Some ROMs might not include Google Applications out of the box (such as Google P
 
 ### KitKat 4.4
 
-* [Github - tako0910's CyanogenMod 11 for HTL21](https://github.com/tako0910/release/wiki/HTL21_CyanogenMod11) - Works very, very nicely; owing to the fact that the same Qualcomm chipset is also used on the Nexus 4. You can also use tako0910's automatic converter script to convert any Cyanogenmod based ROM from the DROID DNA to work on the HTC J Butterfly.
 * [HTCSoku - Android 4.4.2 with Sense 6](http://htcsoku.info/htcsokudev-news/sense6-rom-for-au/)
   * [Japanese AU KDDI Edition](https://drive.google.com/uc?id=0B3J-Lafyq1LebEdOZlkyS3FWY1k&export=download)
   * [Global GSM Optimized Edition](https://drive.google.com/uc?id=0B3J-Lafyq1LeaC1YSFkzRlZJdkk&export=download)
-  * Generally works well, except for NFC. Some users have reported WiFi issues from time to time, so if that happens, use a different ROM.
+  * Quite stable, and gives you all the features of an M8; the only flaw is that NFC doesn't work.
+* [Github - tako0910's CyanogenMod 11 for HTL21](https://github.com/tako0910/release/wiki/HTL21_CyanogenMod11) - Works very, very nicely; owing to the fact that the same Qualcomm chipset is also used on the Nexus 4. You can also use tako0910's automatic converter script to convert any Cyanogenmod based ROM from the DROID DNA to work on the HTC J Butterfly.
 * [XDA-Developers - vroad: Android 4.4 with Sense 5.5](http://forum.xda-developers.com/showthread.php?t=2648169)
 
 ### Jellybean 4.3
