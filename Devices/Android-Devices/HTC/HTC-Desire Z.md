@@ -242,11 +242,31 @@ http://forum.xda-developers.com/showthread.php?t=1453066
       
 ## Flash Desire Z HBOOT on G1
 
-Some ROMs, such as Sense ROMs require the use of the Desire Z HBOOT. This HBOOT allows extra space to be used for the system, and does not change any functionality. It is recommended to flash this HBOOT to use the 
+Some ROMs, such as ICS/JB, or Sense ROMs require the use of the Desire Z HBOOT. This HBOOT allows extra space to be used for the system, and does not change any functionality. 
 
-Otherwise, ROMs requiring the Desire Z ROM will not boot when flashed.
+It is strongly recommended to flash this HBOOT, even if you do not plan to install Sense ROMs; the extra space can be very useful. Otherwise, ROMs requiring the Desire Z ROM will not boot when flashed.
 
-(needs guide)
+1. Download and unzip the [Desire Z HBOOT from the Cyanogenmod Wiki.](http://cmw.cmfs.me/vision/hboot/vision.hboot-0.84.2000.zip)
+2. Make sure that `PC10IMG.zip` has been removed from the SDCard.
+3. Reboot your phone to fastboot mode with the command:
+
+    adb reboot-bootloader
+    
+4. Flash the hboot using fastboot.
+
+    fastboot flash hboot hboot-eng.img
+    
+5. Reboot back into bootloader mode when you're done.
+
+    fastboot reboot-bootloader
+    
+6. Your bootloader should now display `HBOOT-0.84.2000` at the top. 
+7. From the bootloader, use the volume keys and power button to select the  `BOOTLOADER` option, and then select the `RECOVERY` option.
+8. Enter Clockworkmod's **Mounts and Storage** menu and format all partitions except for the `/sdcard`.
+9. After that, you will need to flash a new ROM of your choice for the phone to work again. Put your recovery into USB Mass Storage mode to load one in, and then install it.
+    
+* [XDA Developers - Flash Desire Z HBOOT with fastboot](http://forum.xda-developers.com/showthread.php?p=27796375)
+* [Virtuous ROM - Migrating to Desire Z HBOOT](http://www.virtuousrom.com/2011/06/t-mobile-g2-users-migrating-to-desirez.html)
 
 ## Buttons
 
