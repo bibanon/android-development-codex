@@ -278,19 +278,26 @@ The SIM can only be unlocked on the stock ROM, so taking this step is strongly r
 
 ## Custom Recovery
 
-A custom recovery is used to install ROMs, which are packed into ZIP files.
+A custom recovery is used to install ROMs, which are packed into ZIP files. There are two choices, ClockworkMod and TWRP.
 
-The best custom recovery to use is TWRP 2.7 by Japanese developer tako0910, which has the best support for the latest Android 4.4 ROMs.
+If you want to install HTCSoku/tako0910's Android 4.4 ROMs (which we consider to be the best), you need to install tako0910's TWRP 2.7.
 
-1. Download [TWRP 2.7 - 20140323 - By Tako0910](http://www.androidfilehost.com/?fid=23329332407581148)
-2. 
-3. Open a terminal and use the following command to flash the image (filename may vary):
+> **Note:** tako0910's TWRP recovery has a bug that causes it to reboot whenever you try to wipe `/data`, making it impossible to factory reset or make nandroid backups. Once you've installed one of tako0910's ROMs and SuperSU, we recommend that you switch back to ClockworkMod and make a nandroid backup there.
 
-    fastboot flash recovery openrecovery-twrp-2.7.0.1-dlxj.img
+1. Download and extract [TWRP 2.7 - 20140323 - By Tako0910](http://www.androidfilehost.com/?fid=23329332407581148), or [ClockworkMod Touch 6.0.3.1](http://www.softmazing.com/2_data/recovery-clockwork-6.0.3.1-dlxj.img)
+2. Turn off the phone completely. 
+3. Hold **Power** and **Volume Down** to enter bootloader mode. Select **FASTBOOT**. 
+4. Open a terminal and use the following command to flash the image (filename may vary):
 
-4. Reboot the device.
+    sudo fastboot flash recovery openrecovery-twrp-2.7.0.1-dlxj.img
+
+5. Reboot the device.
 
 After installation, follow these steps to enter custom recovery from the bootloader.
+
+1. Turn off the phone completely. 
+2. Hold **Power** and **Volume Down** to enter bootloader mode. Select **RECOVERY**. 
+3. The phone will enter Recovery Mode.
 
 ## Custom ROMs
 
@@ -301,6 +308,8 @@ Custom ROMs are also vital for international GSM users, since many enable the fu
 Some ROMs might not include Google Applications out of the box (such as Google Play App Store). Usually, the google apps (gapps) are provided by the developer in a seperate flashable zip, so check their threads.
 
 ### KitKat 4.4
+
+> **Note:** All of HTCSoku/tako0910's ROMs require you to use TWRP recovery to install them; they will not install on ClockworkMod for some reason.
 
 * [HTCSoku - Android 4.4.2 with Sense 6](http://htcsoku.info/htcsokudev-news/sense6-rom-for-au/)
   * [Japanese AU KDDI Edition](https://drive.google.com/uc?id=0B3J-Lafyq1LebEdOZlkyS3FWY1k&export=download)
