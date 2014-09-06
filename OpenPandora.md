@@ -2,7 +2,7 @@ The OpenPandora was one of the last of a dying breed of amazing products; the Po
 
 The OpenPandora, with it's D-Pad, four buttons and analog sticks, also married the Pocket PC with the open-source (emulation) gaming handheld, such as the Sony PSP, the GP32X, and the Dingoo.
 
-Unfortunately, the multitouch, keyboardless iPhone and Android, battle-hardened by a tech arms race, easily outpaced the power of the OpenPandora; if not it's unique abilities. iOS and Android are nothing like real PC operating systems, and lack a keyboard or onboard programming environment. They are geared to an era where man consumes, and rarely produces.
+Unfortunately, the multitouch iPhone and Android, battle-hardened by a massive tech arms race, easily outpaced the power of the OpenPandora; if not it's unique abilities. iOS and Android are nothing like real PC operating systems, and lack a keyboard or onboard programming environment. They are geared to an era where man consumes, and rarely produces.
 
 Perhaps the OpenPandora will remain a relic of an older time; when most users programmed their computers, and were not programmed by them. However, for those who still subscribe to this dying ideology, the Dragonbox Pyra has the same Pandora case and unique keyboard/button/joystick layout, but also a TI OMAP 5 processor running a full blown Linux operating system.
 
