@@ -1,3 +1,5 @@
+> **Notice:** This wiki has migrated to the [BASLQC Wiki](https://github.com/BASLQC/BASLQC/wiki), and is left only for legacy purposes.
+
 <img src="http://i.imgur.com/UkgBKok.png" alt="BA Logo" height="200" width="200"> 
 
 [**Bibliotheca Anonoma**](https://github.com/bibanon/bibanon/wiki)
