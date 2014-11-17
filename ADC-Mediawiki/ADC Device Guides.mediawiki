@@ -9,7 +9,7 @@ From here, find the name of your device, click the appropriate guide, and get it
 === Google Experience ===
 
 * [[Asus Nexus 7]] (N7) - '''Status:''' Complete
-* [[Nexus 4]] (N4) - D'''Status:''' - Under Construction
+* [[Nexus Devices]] (N4) - '''Status:''' Complete
 * [[Motorola Droid]] (OGDR) - '''Status:''' Under Construction
 * [[HTC Dream/T-Mobile G1]] (G1) - '''Status:''' Needs restructuring
 
