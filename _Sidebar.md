@@ -2,8 +2,6 @@
 
 [**Bibliotheca Anonoma**](https://github.com/bibanon/bibanon/wiki)
 
-> **Notice:** This wiki has migrated to the [BASLQC Wiki](https://github.com/BASLQC/BASLQC/wiki), and is left only for legacy purposes.
-
 ## Android Development Codex
 
 **Note:** This project has been moved to [the BASLQC Wiki.](https://github.com/baslqc/baslqc/wiki) Please make all edits there.
