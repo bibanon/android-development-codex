@@ -11,7 +11,7 @@ From here, find the name of your device, click the appropriate guide, and get it
 * [[Asus Nexus 7]] (N7 2012) - '''Status:''' Complete
 * [[LG Nexus 4]] (N4) - '''Status:''' Complete
 * [[Motorola Droid]] (OGDR) - '''Status:''' Under Construction
-* [[HTC Dream/T-Mobile G1]] (G1) - '''Status:''' Needs restructuring
+* [[HTC Dream]] (G1) - '''Status:''' Needs restructuring
 
 === Motorola ===
 
