@@ -43,6 +43,10 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
 * [[Verizon Galaxy S3|SCH-I535]] (Verizon Galaxy S3) -
 * [[Galaxy 5|i5500]] - Made before the Galaxy S, started with Eclair.
 
+### OnePlus
+
+* [[One|A0001]] - The 2014 flagship killer
+
 ### Other
 
 * [[Amazon Kindle Fire]] (KF) - **Status:** Under Construction
