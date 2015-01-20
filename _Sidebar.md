@@ -4,7 +4,7 @@
 
 ## Android Development Codex
 
-**Note:** This project has been moved to [the BASLQC Wiki.](https://github.com/baslqc/baslqc/wiki) Please make all edits there.
+**Note:** All non-Android projects have moved to [the BASLQC Wiki.](https://github.com/baslqc/baslqc/wiki)
 
 ### Introduction
 
