@@ -8,12 +8,12 @@
   *  If you do NOT see Developer Options in Settings, go to Settings/About Phone, scroll down to the bottom, and tap on the Build Number section 7 times. A pop-up should show telling you that you are "now a developer."
 
 2. Turn your phone off. Then enter fastboot mode by pressing the _Volume up + Power_ buttons at the same time.
-3. Plug your phone into your computer and using fastboot type: 
+3. Plug your phone into your computer and in the terminal window type: 
 `fastboot devices`
 
-* You should see your device listed with its serial number; if you don't you probably didn't set up drivers correctly. 
+* You should see your device listed with its **serial number**; if you don't, you probably didn't set up your drivers correctly. 
 
-4. If you see your device listed you can continue to Unlocking
+4. If you see your device listed you can continue
 
 #### Unlocking 
 * **THIS STEP WILL WIPE EVERYTHING OFF YOUR PHONE, INCLUDING THE INTERNAL SDCARD**
