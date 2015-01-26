@@ -1,6 +1,6 @@
 ## Unlocking
 
-* Notice: You need to have adb and fastboot configured before continuing.
+* **Note**: You need to have adb and fastboot configured before continuing.
 
 #### Preparation
 1. Turn on USB Debugging Settings/Developer Options/USB Debugging if it isn't already enabled.
