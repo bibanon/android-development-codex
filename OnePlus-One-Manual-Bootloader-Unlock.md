@@ -16,7 +16,8 @@
 4. If you see your device listed you can continue to Unlocking
 
 #### Unlocking 
-1. Type `fastboot oem unlock` **THIS STEP WILL WIPE EVERYTHING OFF YOUR PHONE, INCLUDING THE INTERNAL SDCARD**
+* **THIS STEP WILL WIPE EVERYTHING OFF YOUR PHONE, INCLUDING THE INTERNAL SDCARD**
+1. Type `fastboot oem unlock` 
 2. You can now reboot with the following command: `fastboot reboot`
 3. At this point you should disable CM Recovery Protection
 > On your phone go to Settings > Developer options. Then disable the 'Update recovery with system updates' option.
