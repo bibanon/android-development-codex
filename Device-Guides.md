@@ -45,7 +45,7 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
 
 ### OnePlus
 
-* [[One|A0001]] - The 2014 flagship killer
+* [[One|A0001]] - The 2014 flagship killer (**Under Construction**)
 
 ### Other
 
