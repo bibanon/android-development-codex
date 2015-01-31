@@ -23,7 +23,7 @@
 
 * **Notice**: You need adb and fastboot installed for this to work
 
-1. Download the latest version of SuperSu [here](http://download.chainfire.eu/supersu)
+1. Download the latest version of SuperSu [here](http://download.chainfire.eu/supersu) onto your phone
 2. In your command line, type `adb reboot recovery`
-3. Your device should now be in recovery.
-4. 
+3. Your device should now be in TWRP recovery.
+4. Click "Install"
