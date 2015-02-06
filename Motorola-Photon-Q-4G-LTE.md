@@ -10,6 +10,8 @@ You can find one of these for just $50 on eBay, and a SIM card modification is a
 
 This is one of the first Motorola phones that had an unlockable, unencrypted bootloader. It's pretty easy to do, and after that you can install ClockworkMod or TWRP without a sweat.
 
+* [Motorola Photon 4G LTE Bootloader Unlock](https://motorola-global-portal.custhelp.com/app/standalone/bootloader/unlock-your-device-a)
+
 > **Note:** If you entered the unlock key incorrectly, you will get an error: _"Your device does not quality for bootloader unlock"._ Don't panic, this is just the default response for invalid codes. You should check that the unlock code is all on one line with no extra spaces, and try again.
 
 ## Installing Custom Recovery and SuperSU
