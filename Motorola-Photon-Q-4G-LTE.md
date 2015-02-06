@@ -23,6 +23,10 @@ After unlocking, it's pretty easy to install TWRP and root the phone. Just fastb
 
 To enter recovery after flashing, completely turn off the phone, and hold the Volume Up and Power buttons together.
 
+## Other Mods
+
+* [XDA-Developers - Remapping Keys on Hardware Keyboard](http://forum.xda-developers.com/photon-q-4g-lte/general/remapping-keys-hardware-keyboard-t2940957)
+
 ## Custom ROMs
 
 Unfortunately, age has not treated this phone all that well, due to proprietary device drivers that have to be bitbanged to support newer kernels. Kitkat ROMs seem to be struggling to hang on, especially after Motorola cancelled the Kitkat update. But CM12 is in progress, at least as soon as the HW decoding is ready.
