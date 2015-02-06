@@ -32,6 +32,7 @@ Incidentally, the name of XDA-Developers comes from HTC's O2 XDA Windows Mobile 
 
 Motorola Mobility is an old company that manages to create fleeting best sellers. Was taken over outright by Google, which heavily reformed the team before it was sold off to Lenovo.
 
+* [[Motorola Photon Q 4G LTE]] - The best Android phone with a keyboard. Unfortunately, it is also the last Android phone with a keyboard, as Samsung mopped the floor with it. Not related to the terrible, similarly named Photon Q.
 * [[Motorola Droid 2]] (D2)
   - **Guide Status:** Under Construction
   - **Stance:** Anti-Developer
