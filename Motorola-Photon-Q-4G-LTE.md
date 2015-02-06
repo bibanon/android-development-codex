@@ -20,7 +20,7 @@ After unlocking, it's pretty easy to install a custom recovery and root the phon
 
 While you can always use TWRP, you might want to try out OpenRecovery, which is capable of using the nice QWERTY Keyboard on the Photon Q 4G LTE.
 
-* [OpenRecovery for Photon Q 4G LTE](http://forum.xda-developers.com/showthread.php?t=2211579)
+* [OpenRecovery for Photon Q 4G LTE](http://forum.xda-developers.com/showthread.php?t=2211579) - [Download Link](https://www.dropbox.com/s/9e8zj679wlupcvm/open_recovery_209_25_11_2013.img)
 * [TWRP for Motorola Photon Q 4G LTE](https://goo.im/devs/OpenRecovery/asanti/) - Download the latest version from here.
 * [SuperSU](http://download.chainfire.eu/695/SuperSU/UPDATE-SuperSU-v2.45.zip)
 
