@@ -37,6 +37,7 @@ Unfortunately, age has not treated this phone all that well, due to proprietary 
 * [CM 10.2](http://forum.xda-developers.com/showthread.php?t=2386684) remains the most stable ROM on this phone as of 2015-01-05.
 * [CM 11](http://forum.xda-developers.com/photon-q-4g-lte/orig-development/cyanogenmod-11-0-photon-q-t2838299) - Best Kitkat ROM for now.
 * [CM 12](http://forum.xda-developers.com/showpost.php?p=58312639&postcount=112)
+* [ROM Reviews](http://forum.xda-developers.com/photon-q-4g-lte/general/roms-photon-q-t2812001)
 
 ### Making it work with KitKat
 
