@@ -10,6 +10,7 @@ The ideal system for a Linux Pocket PC should have a hardware keyboard. This is 
 
 * [[TI-Nspire]] - Believe it or not, but the TI-Nspire has better native Linux support than most Androids. And a full keyboard and touchpad. Though it is a buildroot version.
 * [[ASUS Nexus 7]] - This was the first tablet to run full blown Linux. Unfortunately, Ubuntu abandoned the concept.
+* [Transformer TF700](http://forum.xda-developers.com/showthread.php?t=2014759) - A Native Linux build for this tablet. Unfortunately, it was abandoned. 
 * [[HTC Dream/T-Mobile G1|HTC Dream]] - The very first Android device released, and the last to be released with a complete keyboard with number keys. The keyboard, the low price, and an obsolete build of Android 1.6, all make the G1 a tantalizing target for porting Linux.
 * [[Motorola Droid]] - A port was made, but the procedure was not really well described. But it is a tantalizing platform, at least as an N900 alternative.
 * [[SPH-D900]] - Galaxy S with a keyboard. This is a really good candidate, as many of the drivers are supported by Replicant.
