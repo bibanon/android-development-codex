@@ -15,7 +15,7 @@
 5. Type `fastboot flash recovery filename.img`
    * Change "filename" to the name of the recovery image file.
 6. Now reboot your device.
-7. Your device is now ready to flash Superuser
+7. Your device is now ready to flash root
 
 ## Rooting
 
