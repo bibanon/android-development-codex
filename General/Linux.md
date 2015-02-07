@@ -9,7 +9,7 @@ Therefore, some developers are taking up the effort to bring true GNU/Linux dist
 The ideal system for a Linux Pocket PC should have a hardware keyboard. This is essential to running commands in the terminal (touch keyboards really suck at this).
 
 * [[TI-Nspire]] - Believe it or not, but the TI-Nspire has better native Linux support than most Androids. And a full keyboard and touchpad. Though it is a buildroot version.
-* [WING Linux](http://sourceforge.net/projects/wing-linux/) - Linux for early HTC Windows Mobile 6 devices.
+* [WING Linux](http://sourceforge.net/projects/wing-linux/) - Linux for early HTC Windows Mobile 6 devices. [XDA](http://forum.xda-developers.com/showthread.php?t=628917)
 * [[ASUS Nexus 7]] - This was the first tablet to run full blown Linux. Unfortunately, Ubuntu abandoned the concept.
 * [Transformer TF700](http://forum.xda-developers.com/showthread.php?t=2014759) - A Native Linux build for this tablet. Unfortunately, it was abandoned. 
 * [Eee Pad](http://forum.xda-developers.com/showthread.php?t=1537566) - Gives a very interesting insight into how the process of installing a Linux image works.
