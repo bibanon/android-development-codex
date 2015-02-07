@@ -38,6 +38,7 @@ The modding community is still budding, but we have chosen it as the pilot devic
 
 * [[Nexus Rooting Intro]] - An introduction to rooting the Nexus devices
 * [[Nexus Drivers]] - Set up your device to work with ADB.
+* [[Adb Backup]] -Backup your device before bootloader unlocking
 * [[Nexus Toolkits]] - The easy, one-click root. Great for noobs who want to get it done quickly and easily.
 * [[Nexus Manual Method]] - While one-click root/unlock programs exist and are *perfectly safe to use*, take advantage of the great opportunity to understand more by using the manual method; few other devices are as straightforward or forgiving.
 * [[Nexus Restore]] - Got any problems, or need to send your device back for repair? Just restore it to stock.
