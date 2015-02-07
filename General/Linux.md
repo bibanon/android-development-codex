@@ -6,17 +6,25 @@ Therefore, some developers are taking up the effort to bring true GNU/Linux dist
 
 ## Device List
 
+The ideal system for a Linux Pocket PC should have a hardware keyboard. This is essential to running commands in the terminal (touch keyboards really suck at this).
+
 * [[TI-Nspire]] - Believe it or not, but the TI-Nspire has better native Linux support than most Androids. And a full keyboard and touchpad. Though it is a buildroot version.
 * [[HTC Dream/T-Mobile G1|HTC Dream]] - The very first Android device released, and the last to be released with a complete keyboard with number keys. The keyboard, the low price, and an obsolete build of Android 1.6, all make the G1 a tantalizing target for porting Linux.
 * [[Motorola Droid]] - A port was made, but the procedure was not really well described. But it is a tantalizing platform, at least as an N900 alternative.
 * [[SPH-D900]] - Galaxy S with a keyboard. This is a really good candidate, as many of the drivers are supported by Replicant.
-* [[Motorola Photon 4G LTE]] - The last competent Android phone with a full keyboard.
+* [[Motorola Photon Q 4G LTE]] - The last competent Android phone with a full keyboard.
 
 ## Chrooted GNU/Linux
 
 All rooted Android devices can run full GNU/Linux in a chroot. This is best if you only need Linux command line apps, or have s powerful phone.
 
 Since Android does not use the X Server, chrooted Linux applications can only be used through a VNC app. This increases overhead, with Android and a VNC server running in the background and restricts Linux's full power.
+
+### Full Linux Integration into Android
+
+This is a unique chroot method that transforms Debian into the host, and Android as the client. Very weird, and don't expect to be able to update your Android phone easily after this. But it's pretty cool.
+
+[Whiteboard.ping.se - Matrix Method of Debian Integration](http://whiteboard.ping.se/Android/Debian)
 
 ## Optware
 
