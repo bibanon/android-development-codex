@@ -24,7 +24,8 @@ Since Android does not use the X Server, chrooted Linux applications can only be
 
 This is a unique chroot method that transforms Debian into the host, and Android as the client. Very weird, and don't expect to be able to update your Android phone easily after this. But it's pretty cool.
 
-[Whiteboard.ping.se - Matrix Method of Debian Integration](http://whiteboard.ping.se/Android/Debian)
+* [Whiteboard.ping.se - Matrix Method of Debian Integration](http://whiteboard.ping.se/Android/Debian)
+* [XDA-Developers - Matrix Method of Debian Integration](http://forum.xda-developers.com/showthread.php?t=1780378)
 
 ## Optware
 
