@@ -24,7 +24,7 @@ The modding community is still budding, but we have chosen it as the pilot devic
 
 ## Introduction
 
-* [[Ordering a Nexus 4|N4 Ordering]] - The first step in enjoying a Nexus 4 is getting it in your hands. At the moment, this is the most difficult thing you will ever do with this device.
+* [[Ordering a Nexus 4|N4 Ordering]] - The first step in enjoying a Nexus 4 is getting it in your hands. This was the guide for buying the Nexus 4 on the Google Play store
 * [[N4 Checklist]] - Once you get your Nexus 4, see this checklist to single out common issues.
 
 ## Miscellaneous
