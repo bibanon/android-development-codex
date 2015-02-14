@@ -55,7 +55,7 @@ Follow these steps from start to finish to start your journey into the magic of 
 
 The HD2's unique bootloaders are the secret to the HD2's abilities. Choose the one you prefer.
 
-* [[MAGLDR|HD2 MAGLDR]] - If you want Windows Phone 7, Android, or even both, use this bootloader.
+* [[HD2 MAGLDR]] - If you want Windows Phone 7, Android, or even both, use this bootloader.
 * [[cLK|HD2 cLK]] - If you want your HD2 to work just like an Android phone from the inside out (ADB, fastboot, HBOOT), get this bootloader.
 * [[Restore Windows Mobile 6|HD2 Restore WM6]] - Need to go back to stock for some reason? Here's the guide for you.
 * [[HaRET]] - If you want to keep Windows Mobile 6 and have Android too, use HaRET, a program that runs Android from the SDCard. There is some work on moving it to WP7.

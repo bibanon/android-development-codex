@@ -65,6 +65,16 @@ Though no longer maintained, it's still a great system by itself.
 
 ## Extra Modifications
 
+### Native Linux on the Motorola Droid
+
+Since the Motorola Droid has a keyboard, has an unlocked bootloader, and shares a similar CPU with the Nokia N900 and OpenPandora (but is many times cheaper at $30), running Native Linux on it is a tantalizing prospect.
+
+Although it might seem crazy to try and use a desktop mouse on a touchscreen, it's actually pretty easy once you set up relative input, where the touchscreen is not absolute, but a touchpad. The KEGS Apple ][GS emulator for Android is a good example. So no more resistive touchscreens, please.
+
+* [XDA-Developers - gTan64's Native Linux on Droid](http://forum.xda-developers.com/showthread.php?t=1318330)
+  * [XDA-Developers - Complete Native Linux on Droid Installation Process](http://forum.xda-developers.com/showpost.php?p=33684415&postcount=24)
+* [XDA-Developers - Kernel Modifications for Native Linux](http://forum.xda-developers.com/showthread.php?t=1086302)
+
 ## Modding History
 
 The Motorola Droid was the most popular device among Android devs for a while. Unfortunately, Motorola put the rest of the 

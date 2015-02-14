@@ -19,8 +19,6 @@ These are Android devices that Google supported, designed, or otherwise used as 
 
 HTC is a young Taoyuan, Taiwan based smartphone company that started out as a no-name brand designing the first Pocket PCs. HTC later became one of the hottest brands for creating the first and the best Android smartphones, at least for a while.
 
-Policy missteps have dropped HTC from a ROM developer's dream to a whimpering underdog.
-
 Incidentally, the name of XDA-Developers comes from HTC's O2 XDA Windows Mobile smartphones.
 
 * [[HTC J Butterfly]] - The Japanese variant of the HTC Butterfly/Droid DNA. It is one of the rare phones from this era that includes an SDCard slot by default.
@@ -32,8 +30,9 @@ Incidentally, the name of XDA-Developers comes from HTC's O2 XDA Windows Mobile 
 
 ### Motorola
 
-Motorola Mobility is an old company that manages to create fleeting best sellers, with a long period of bad policy between each one. Currently infamous for clamping down on development on their phones. Was taken over outright by Google, but it remains to be seen whether the golden oldie will get with the times.
+Motorola Mobility is an old company that manages to create fleeting best sellers. Was taken over outright by Google, which heavily reformed the team before it was sold off to Lenovo.
 
+* [[Motorola Photon Q 4G LTE]] - The best Android phone with a keyboard. Unfortunately, it is also the last Android phone with a keyboard, as Samsung mopped the floor with it. Not related to the terrible, similarly named Photon Q.
 * [[Motorola Droid 2]] (D2)
   - **Guide Status:** Under Construction
   - **Stance:** Anti-Developer
@@ -44,6 +43,10 @@ Motorola Mobility is an old company that manages to create fleeting best sellers
 * [[Galaxy Exhilarate|i577]] - Similar to the Galaxy S2
 * [[Verizon Galaxy S3|SCH-I535]] (Verizon Galaxy S3) -
 * [[Galaxy 5|i5500]] - Made before the Galaxy S, started with Eclair.
+
+### OnePlus
+
+* [[One|A0001]] - The 2014 flagship killer (**Under Construction**)
 
 ### Other
 

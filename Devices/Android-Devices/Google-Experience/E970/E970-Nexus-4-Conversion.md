@@ -1,3 +1,5 @@
+> **Warning:** _This method is no longer necessary, since Nexus 4 ROMs can easily be converted into LGOG ROMs. LGNPST is an extremely dangerous, low-level tool, and the only solution is JTAG if you brick your phone._  
+
 This mod completely converts your LG Optimus G (AT&T E970 Only) into a Nexus 4. After the conversion, any mod or custom ROM that can be installed to the Nexus 4 will work on your LGOG, including the following:
 
 * **Stock Nexus 4 ROM** - The stock Nexus 4 ROM can recieve OTA (Over-the-air) system updates from Google, giving you the very latest Android version.
